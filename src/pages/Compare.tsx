@@ -1,0 +1,65 @@
+import { useMemo, useState } from 'react';
+import './AudienceCompare.css';
+import { ArrowLeftRight, ArrowUpRight, Download, FileQuestion, Globe2 } from 'lucide-react';
+import { useApp } from '../lib/store';
+import { downloadCsv, formatDate, safeUrl } from '../lib/utils';
+import { compareSurveys } from '../lib/surveys';
+import { compareGeo } from '../lib/comparisons';
+import type { ComparisonDimension } from '../lib/surveys';
+import type { Observation } from '../types';
+
+const countryNames:Record<string,string>={JP:'日本',US:'アメリカ',KR:'韓国',GB:'イギリス',FR:'フランス',DE:'ドイツ',AU:'オーストラリア',CA:'カナダ',IN:'インド',BR:'ブラジル'};
+const earliest=(rows:Observation[])=>rows.map(o=>o.observedAt).filter(d=>Number.isFinite(Date.parse(d))).sort()[0]||null;
+const regionLabel=(meaning:string)=>meaning==='publisher-country'?'報道機関の所在国':meaning==='search-market'?'検索対象市場':'地域不明';
+
+export default function Compare(){
+  const {dataset,local,selectTopic,navigate}=useApp();
+  const [mode,setMode]=useState<ComparisonDimension>('country');const [left,setLeft]=useState('JP');const [right,setRight]=useState('US');
+  const [source,setSource]=useState('all');const [start,setStart]=useState('');const [end,setEnd]=useState('');
+  const [geoTopic,setGeoTopic]=useState('');
+  const [show,setShow]=useState<'all'|'shared'|'left'|'right'>('all');
+  const countryCodes=[...new Set([...Object.keys(countryNames),...dataset.observations.map(o=>o.regionCode).filter((r):r is string=>r!==null),...local.audienceEvidence.map(e=>e.regionCode),...dataset.geoObservations.map(e=>e.regionCode)])];
+  const choices = mode==='country'?countryCodes:mode==='age'?[...new Set(['20-29','40-49',...local.audienceEvidence.map(e=>e.age)])]:[...new Set(['学生','社会人',...local.audienceEvidence.map(e=>e.segment)])];
+  const name=(v:string)=>mode==='country'?(countryNames[v]||v):v;
+  const observations=useMemo(()=>dataset.observations.filter(o=>(source==='all'||o.source===source)&&(!start||o.observedAt>=start)&&(!end||o.observedAt.slice(0,10)<=end)),[dataset,source,start,end]);
+  const groups=useMemo(()=>dataset.topics.map(t=>{
+    const a=observations.filter(o=>o.topicId===t.id&&o.regionCode===left);const b=observations.filter(o=>o.topicId===t.id&&o.regionCode===right);
+    return {topic:t,a,b,shared:a.length>0&&b.length>0};
+  }).filter(g=>left!==right&&(g.a.length||g.b.length)),[dataset,observations,left,right]);
+  const filtered=groups.filter(g=>show==='all'||show==='shared'&&g.shared||show==='left'&&g.a.length&&!g.b.length||show==='right'&&g.b.length&&!g.a.length);
+  const geoTopics=dataset.topics.filter(t=>dataset.geoObservations.some(g=>g.topicId===t.id));
+  const activeGeoTopic=geoTopics.find(t=>t.id===geoTopic)||geoTopics[0];
+  const geoRows=dataset.geoObservations.filter(g=>g.topicId===activeGeoTopic?.id&&(!start||g.date>=start)&&(!end||g.date.slice(0,10)<=end));
+  const geoPairs=geoRows.filter(g=>g.regionCode===left).flatMap(a=>geoRows.filter(b=>b.regionCode===right&&b.date===a.date&&b.layer===a.layer).map(b=>({a,b,result:compareGeo(a,b)}))).slice(-24);
+  const matchingEvidence=(side:string)=>local.audienceEvidence.filter(e=>(mode==='country'?e.regionCode===side:mode==='age'?e.age===side:e.segment===side)&&(!start||e.surveyDate>=start)&&(!end||e.surveyDate<=end));
+  const aEvidence=matchingEvidence(left),bEvidence=matchingEvidence(right);
+  const surveyPairs=(left===right?[]:aEvidence).flatMap(a=>bEvidence.filter(b=>b.question===a.question||b.comparabilityKey===a.comparabilityKey).map(b=>({a,b,result:compareSurveys(a,b,mode)}))).slice(0,30);
+  const modeChange=(value:ComparisonDimension)=>{setMode(value);setLeft(value==='country'?'JP':value==='age'?'20-29':'学生');setRight(value==='country'?'US':value==='age'?'40-49':'社会人');};
+  const exportComparison=()=>downloadCsv('culture-radar-comparison.csv',[
+    ['topic','group_a','group_b','a_observation_count','b_observation_count','source','first_observed_a','first_observed_b','metric_definition','source_urls'],
+    ...filtered.map(g=>[g.topic.title,left,right,g.a.length,g.b.length,source,earliest(g.a)||'',earliest(g.b)||'','観測レコード件数。人気・人口普及率ではない',[...new Set([...g.a,...g.b].map(o=>o.sourceUrl))].join(' | ')])
+  ]);
+  return <div className="compare-page">
+    <div className="page-header"><div><div className="eyebrow">CROSS-CULTURAL LENS</div><h1>違いの向こうに、発見がある。</h1><p className="muted">同じものさしで比べられる範囲を確認し、共通する話題と、それぞれの文脈を探る。</p></div><ArrowLeftRight size={30}/></div>
+    <section className="panel"><div className="section-heading"><h2>比較の条件</h2><span className="badge">総合人気スコアなし</span></div><div className="form-grid">
+      <label>比較する軸<select className="field" value={mode} onChange={e=>modeChange(e.target.value as ComparisonDimension)}><option value="country">国・地域</option><option value="age">年代</option><option value="segment">生活者セグメント</option></select></label>
+      <label>比較 A<select className="field" value={left} onChange={e=>setLeft(e.target.value)}>{choices.map(v=><option key={v} value={v}>{name(v)}</option>)}</select></label>
+      <label>比較 B<select className="field" value={right} onChange={e=>setRight(e.target.value)}>{choices.map(v=><option key={v} value={v}>{name(v)}</option>)}</select></label>
+      <label>話題の情報源<select className="field" value={source} onChange={e=>setSource(e.target.value)}><option value="all">すべて（件数の合成評価はしません）</option>{dataset.sources.map(s=><option key={s.id} value={s.id}>{s.name}</option>)}</select></label>
+      <label>観測・調査期間：開始<input className="field" type="date" value={start} onChange={e=>setStart(e.target.value)}/></label>
+      <label>観測・調査期間：終了<input className="field" type="date" value={end} onChange={e=>setEnd(e.target.value)}/></label>
+    </div>{left===right&&<p className="notice" role="alert">異なる2つの対象を選択してください。</p>}{start&&end&&start>end&&<p className="notice" role="alert">開始日は終了日以前に設定してください。</p>}</section>
+    {mode==='country'?<>
+      <div className="compare-stats"><button className={`panel ${show==='shared'?'selected':''}`} onClick={()=>setShow('shared')}><span className="eyebrow">共通して観測</span><strong>{groups.filter(g=>g.shared).length}</strong><span>両国で観測された話題</span></button><button className={`panel ${show==='left'?'selected':''}`} onClick={()=>setShow('left')}><span className="eyebrow">{name(left)} のみ</span><strong>{groups.filter(g=>g.a.length&&!g.b.length).length}</strong><span>保存された観測の範囲内</span></button><button className={`panel ${show==='right'?'selected':''}`} onClick={()=>setShow('right')}><span className="eyebrow">{name(right)} のみ</span><strong>{groups.filter(g=>g.b.length&&!g.a.length).length}</strong><span>保存された観測の範囲内</span></button></div>
+      <section><div className="section-heading"><h2><Globe2 size={18}/> 話題の共通点と違い</h2><div className="button-row"><button className="button" onClick={()=>setShow('all')}>すべて</button><button className="button" disabled={!filtered.length} onClick={exportComparison}><Download size={15}/> CSV</button></div></div><p className="muted">件数はデータ収集範囲内のレコード数です。「その国だけの話題」「その国で人気」を意味しません。ニュースは報道機関の所在国、検索トレンドは対象市場を示します。国不明のSNS投稿は地域に割り当てません。</p>
+      {!filtered.length?<div className="panel empty-state"><FileQuestion size={34}/><h3>比較できる地域観測がありません</h3><p>異なる条件を選ぶか、SPREAD MAP で地域データを取り込んでください。取得失敗をゼロや不人気として扱いません。</p><button className="button" onClick={()=>navigate('map')}>SPREAD MAP へ <ArrowUpRight size={14}/></button></div>:<div className="table-wrap panel"><table><thead><tr><th>話題</th><th>{name(left)}</th><th>{name(right)}</th><th>比較上の注意</th><th>原典</th></tr></thead><tbody>{filtered.map(g=><tr key={g.topic.id}><td><button className="text-button" onClick={()=>{selectTopic(g.topic.id);navigate('insight');}}>{g.topic.title}</button><small>{g.topic.category}</small></td><td>{g.a.length?`${g.a.length}件 観測`:'データなし'}<small>{g.a[0]?regionLabel(g.a[0].regionMeaning):'未観測は不人気を意味しません'}</small></td><td>{g.b.length?`${g.b.length}件 観測`:'データなし'}<small>{g.b[0]?regionLabel(g.b[0].regionMeaning):'未観測は不人気を意味しません'}</small></td><td><span className="badge">人気の大小は比較しません</span></td><td>{[...new Map([...g.a,...g.b].map(o=>[o.sourceUrl,o])).values()].slice(0,3).map(o=><a key={o.id} className="source-link" href={safeUrl(o.sourceUrl)} target="_blank" rel="noopener noreferrer">{dataset.sources.find(s=>s.id===o.source)?.name||o.source} <ArrowUpRight size={12}/></a>)}</td></tr>)}</tbody></table></div>}</section>
+      <section className="panel"><div className="section-heading"><h2>検索関心・報道の地域比較</h2><span className="badge">同じ定義のデータのみ</span></div><label>比較するトピック<select className="field" value={activeGeoTopic?.id||''} onChange={e=>setGeoTopic(e.target.value)}>{!geoTopics.length&&<option value="">地域データなし</option>}{geoTopics.map(t=><option value={t.id} key={t.id}>{t.title}</option>)}</select></label><p className="muted">Google Trends の指数は絶対検索数ではありません。同じエクスポート・期間・比較条件の地域のみ、記述的な差を表示します。独立した時系列や正規化範囲が未確認のアーカイブは、値の大小を比較しません。</p>{!geoPairs.length?<p className="notice">同じトピック・観測時点に対応する両地域のデータがありません。SPREAD MAP から地域CSVを取り込めます。</p>:<div className="table-wrap"><table><thead><tr><th>観測時点</th><th>{name(left)}</th><th>{name(right)}</th><th>比較結果</th><th>原典・取得</th></tr></thead><tbody>{geoPairs.map(({a,b,result})=><tr key={`${a.id}-${b.id}`}><td>{a.date.slice(0,10)}<small>{a.layer==='search-interest'?'検索関心':'報道機関の所在国'}</small></td><td>{a.value} {a.unit}</td><td>{b.value} {b.unit}</td><td>{result.comparable?<>A − B = {result.difference?.toFixed(2)} {a.unit}<small>この抽出・集計範囲内。人口普及率ではありません。</small></>:<><span className="badge">値の比較不可</span><small>{result.reasons.join(' / ')}</small></>}</td><td><a className="source-link" href={safeUrl(a.sourceUrl)} target="_blank" rel="noopener noreferrer">原典 A <ArrowUpRight size={12}/></a><a className="source-link" href={safeUrl(b.sourceUrl)} target="_blank" rel="noopener noreferrer">原典 B <ArrowUpRight size={12}/></a><small>A取得：{formatDate(a.fetchedAt)}<br/>B取得：{formatDate(b.fetchedAt)}</small></td></tr>)}</tbody></table></div>}</section>
+      <section className="panel"><div className="section-heading"><h2>先行・遅行を検討する</h2><span className="badge evidence-c">仮説の手がかり</span></div><p className="muted">同じ情報源で両地域に観測がある話題のみ表示します。収集範囲内の初回観測時刻です。RSS公開日時や記事の初回検知時刻であり、流行の発生日時ではありません。時系列の順序から、国をまたぐ伝播や将来の流行確率は断定できません。</p>
+      {source==='all'?<p className="notice">情報源を1つ選ぶと、その収集履歴内での初回観測を確認できます。</p>:!groups.some(g=>g.shared)?<p className="notice">同じ情報源で両国を観測した履歴がありません。</p>:<div className="timeline-comparisons">{groups.filter(g=>g.shared).slice(0,8).map(g=>{const a=earliest(g.a),b=earliest(g.b);const delta=a&&b?(Date.parse(b)-Date.parse(a))/86400000:null;return <div className="timeline-comparison" key={g.topic.id}><strong>{g.topic.title}</strong><p>{name(left)}: {a?formatDate(a):'日時不明'} → {name(right)}: {b?formatDate(b):'日時不明'}</p><span className="muted">{delta===null?'算出不可':delta===0?'同じ観測時点':`観測時刻の時間差：${Math.abs(delta).toFixed(1)}日（${delta>0?name(left):name(right)}が先）`}</span></div>;})}</div>}</section>
+    </>:<div className="notice"><strong>属性別の話題・検索動向の実測比較はありません</strong><p>年代・生活者属性の分からない投稿や国別ニュースを、対象層の人気として比較しません。以下では登録された属性別調査を比較します。</p></div>}
+    <section><div className="section-heading"><h2>生活者価値観の実測比較</h2><span className="badge evidence-a">A · 登録調査</span></div><p className="muted">同じ比較設計キー・設問・調査方法・調査時期・単位・対応する属性が一致し、各群の標本数が30以上の場合に記述的な差を表示します。キーは利用者の申告であり、国際比較の妥当性を自動保証しません。有意差の判定・重み補正は行いません。</p>
+      {!surveyPairs.length?<div className="panel empty-state"><BookIcon/><h3>比較可能な設問の組がありません</h3><p>{name(left)}：{aEvidence.length} 件 / {name(right)}：{bEvidence.length} 件。同一設問の調査を AUDIENCE から取り込めます。</p><button className="button" onClick={()=>navigate('audience')}>調査を取り込む <ArrowUpRight size={14}/></button></div>:<div className="grid-two">{surveyPairs.map(({a,b,result})=><article className="panel" key={`${a.id}-${b.id}`}><span className={`badge ${result.comparable?'evidence-a':''}`}>{result.comparable?'記述的比較が可能':'単純比較を保留'}</span><h3>{a.question}</h3><div className="survey-comparison"><div><span>{name(left)}</span><strong>{a.value} {a.unit}</strong><small>n={a.sampleSize??'不明'} · {a.surveyDate}</small></div><ArrowLeftRight size={20}/><div><span>{name(right)}</span><strong>{b.value} {b.unit}</strong><small>n={b.sampleSize??'不明'} · {b.surveyDate}</small></div></div>{result.comparable?<p className="notice">A − B = {result.difference?.toFixed(2)} {a.unit==='%'?'ポイント':a.unit}。母集団・標本設計を原典で再確認してください。</p>:<ul className="comparison-reasons">{result.reasons.map(r=><li key={r}>{r}</li>)}</ul>}<dl className="detail-list"><div><dt>A の母集団</dt><dd>{a.population}</dd></div><div><dt>B の母集団</dt><dd>{b.population}</dd></div><div><dt>調査方法</dt><dd>A：{a.methodology} / B：{b.methodology}</dd></div></dl><div className="button-row"><a className="source-link" href={safeUrl(a.sourceUrl)} target="_blank" rel="noopener noreferrer">A 原典 <ArrowUpRight size={13}/></a><a className="source-link" href={safeUrl(b.sourceUrl)} target="_blank" rel="noopener noreferrer">B 原典 <ArrowUpRight size={13}/></a></div><small className="muted">取得：A {formatDate(a.fetchedAt)} / B {formatDate(b.fetchedAt)}</small></article>)}</div>}
+    </section>
+  </div>;
+}
+function BookIcon(){return <FileQuestion size={32} aria-hidden="true"/>;}

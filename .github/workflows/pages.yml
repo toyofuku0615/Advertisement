@@ -1,0 +1,63 @@
+name: Publish CULTURE RADAR to GitHub Pages
+
+# The owner authorized initial publication; later successful collection refreshes the public site.
+# Before dispatching: review the data, licenses and GitHub Pages usage restrictions.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  workflow_run:
+    workflows: [Collect public observations]
+    types: [completed]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: culture-radar-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    permissions:
+      contents: read
+      pages: read
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/configure-pages@v6
+      - run: npm ci
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/prepare_public.py
+      - name: Build static site from committed observations
+        run: npm run build
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish reviewed artifact
+        id: deployment
+        uses: actions/deploy-pages@v4

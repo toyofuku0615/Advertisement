@@ -1,0 +1,40 @@
+name: Collect public observations
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1,13 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: public-data-collection
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test data semantics and collectors
+        run: python -m unittest discover -s tests -p 'test_collect*.py' -v
+      - name: Collect (partial failures are stored and retained data is preserved)
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          python scripts/collect.py --sources google-trends gdelt youtube
+          python scripts/prepare_public.py
+      - name: Commit changed public metadata only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data/dataset.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: refresh public observations'
+            git push
+          fi

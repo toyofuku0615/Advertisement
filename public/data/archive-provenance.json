@@ -1,0 +1,29 @@
+{
+  "sourceUrl": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+  "rawUrl": "https://raw.githubusercontent.com/googletrends/data/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+  "sourceCommit": "44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16",
+  "sourceSha256": "b0d58392bf7299c4d7cef3407018301f5aaf74515742b3720748565d6f2cc45b",
+  "fetchedAt": "2026-10-21T09:37:19Z",
+  "license": "CC BY 4.0; Google Trends; selected/reformatted, no endorsement; https://creativecommons.org/licenses/by/4.0/",
+  "modifications": "Selected three original topic series and requested eighteen countries; 16 are present in the original CSV. Original CSV values preserved. Annual dates are bucket labels; original zero values are omitted from map due to ambiguous low-volume/missing status.",
+  "availableRegions": [
+    "AU",
+    "BR",
+    "CA",
+    "DE",
+    "ES",
+    "FR",
+    "GB",
+    "ID",
+    "IN",
+    "IT",
+    "JP",
+    "KR",
+    "MX",
+    "SG",
+    "TH",
+    "TW"
+  ],
+  "period": "2012–2023",
+  "normalization": "原典の index_trends (0–100)。正規化範囲は原典未詳。国間順位・国間値比較不可。"
+}
