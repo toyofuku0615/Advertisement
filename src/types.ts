@@ -37,3 +37,16 @@ export interface LocalData {
   audienceEvidence: AudienceEvidence[]; importedGeo: GeoObservation[]; customTopics: Topic[];
   topicMappings: TopicMapping[]; categories: string[];
 }
+
+export interface Claim { text: string; kind: 'source_summary' | 'interpretation'; evidenceIds: string[] }
+export interface ExplanationEvidence { id: string; url: string; title: string; source: string; observedAt: string; fetchedAt: string; observationId: string }
+export interface TopicExplanation {
+  topicId: string; inputHash: string; generatedAt: string; provider: string; model: string;
+  status: 'ready' | 'stale' | 'unavailable'; overview: Claim; contexts: Claim[];
+  attention: Claim | null; marketing: Claim | null; caveats: string[]; evidence: ExplanationEvidence[];
+}
+export interface ExplanationBundle {
+  schemaVersion: 1; generatedAt: string;
+  providerStatus: { status: 'ready' | 'disabled' | 'error'; provider: string; model: string; message: string; checkedAt: string };
+  explanations: TopicExplanation[];
+}

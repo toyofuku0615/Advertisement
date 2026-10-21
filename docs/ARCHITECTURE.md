@@ -88,8 +88,14 @@ URL は http(s) と資格情報を含まない形式に制限し、React のエ�
 
 現在は有料 LLM を使わず、根拠のある事実をテンプレートで整理し、仮説・反対解釈・次の検証を別欄で示す。主張を観測 ID に結び付け、根拠のない人口統計・数値・確率を生成しない。簡易キーワード検査は完全なブランドセーフティ審査を代替しない。
 
-将来は `Dataset` 読込層を SQLite / DB / API adapter に差し替え、Evidence と ContentItem を独立した永続モデルに分離できる。ローカル LLM 接続は未実装。追加時にも出典 ID を入力・出力し、モデルの生成文を実測値として保存しない。Notion、認証、同期は別の adapter として追加し、現行の無料・静的ワークフローを残す。
+将来は `Dataset` 読込層を SQLite / DB / API adapter に差し替え、Evidence と ContentItem を独立した永続モデルに分離できる。ローカルOllamaでの任意の文脈解説生成に対応。ブラウザ内の対話型LLMは未実装。追加時にも出典 ID を入力・出力し、モデルの生成文を実測値として保存しない。Notion、認証、同期は別の adapter として追加し、現行の無料・静的ワークフローを残す。
 
 ## 静的リポジトリ境界と読み取りモデル
 
 `src/lib/repository.ts` の `parseDataset` は、配信 JSON のバージョン、参照 ID、原典 URL、日時、指標値、地域の意味を画面に渡す前に検証します。スキーマ変更を空データとして扱わず、読み込みエラーにします。`Evidence` と `ContentItem` は、元の `Observation` / `GeoObservation` から ID を追跡できる独立した読み取りモデルです。永続 JSON の二重化はせず、将来の DB adapter でも同じ根拠を参照できます。原投稿へのリンクと関連記事へのリンクを、投稿者リンクとして混同しません。
+
+## AI文脈解説
+
+公開JSONとは別に `explanations.json` を静的配信し、`src/lib/explanations.ts` で引用ID・URL・日時・区分を検証します。入力を正規化したSHA-256はPython生成側とブラウザ側で共通です。取得日時だけの更新では本文を再生成せず、見出し・関連URL等の変更を古い解説として区別します。要約と利用場面の仮説を分け、空の根拠や不明な出典をAI説明として採用しません。
+
+初期解説はCodexによる実際の生成結果。任意のローカルOllama adapterは収集機のloopbackだけへ接続し、クラウドモデルを拒否します。GitHub Actionsはキャッシュの更新状態を確認するだけで、外部APIを必須にしません。ブラウザの個人メモや広告企画、調査CSVを外部LLMへ送信しません。詳細は [AI_EXPLANATIONS.md](AI_EXPLANATIONS.md)。

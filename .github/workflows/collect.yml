@@ -22,18 +22,21 @@ jobs:
         with:
           python-version: '3.12'
       - name: Test data semantics and collectors
-        run: python -m unittest discover -s tests -p 'test_collect*.py' -v
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
       - name: Collect (partial failures are stored and retained data is preserved)
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
           python scripts/collect.py --sources google-trends gdelt youtube
           python scripts/prepare_public.py
+      - name: Reconcile cached AI explanations (no external inference or paid APIs)
+        continue-on-error: true
+        run: python scripts/generate_explanations.py
       - name: Commit changed public metadata only
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add public/data/dataset.json
+          git add public/data/dataset.json public/data/explanations.json
           if ! git diff --cached --quiet; then
             git commit -m 'data: refresh public observations'
             git push

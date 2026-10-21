@@ -1,0 +1,4371 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-21T10:22:15Z",
+  "providerStatus": {
+    "status": "ready",
+    "provider": "OpenAI Codex",
+    "model": "Codex",
+    "message": "収集済み関連記事の見出しから作成したAI解説。新しい話題の自動生成にはローカルLLM接続が必要です。",
+    "checkedAt": "2026-10-21T10:22:15Z"
+  },
+  "explanations": [
+    {
+      "topicId": "archive-climate-variability-and-change",
+      "inputHash": "54d6fa0de3ab6a20f7fa452d427e4595252d4bf055e3ecaab4618ba26fe6a9e2",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「気候変動」を扱うGoogle公式の検索関心アーカイブです。過去の年次資料で、現在の流行や最新の気象状況を表すものではありません。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "obs-f012144b8d3feb3b47999465"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "過去の検索関心が、気候変動という環境テーマにどう向いていたかを年単位で振り返る資料です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "obs-f012144b8d3feb3b47999465"
+          ]
+        },
+        {
+          "text": "サステナビリティを考える際、直近の一時的なニュースと長期の関心を分けるための参照資料として使えます。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "obs-f012144b8d3feb3b47999465"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "特定の年に関心が変化して見えても、その理由はこのデータだけでは分かりません。政策・報道・災害との関係は別の資料による検証が必要です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "obs-f012144b8d3feb3b47999465"
+        ]
+      },
+      "marketing": {
+        "text": "環境への関心を購買意向と同一視せず、ブランドの具体的な改善と生活上の便益を調査で照らし合わせる切り口が考えられます。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "obs-f012144b8d3feb3b47999465"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "Google公式の2012–2023年の年次資料を対象にしたAI解説です。現在の検索動向や、特定属性の実測値ではありません。",
+        "正規化範囲は原典で未詳です。国同士の指数値ランキング、国間の伸び率、伝播経路の断定には使いません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-0480349bf7e67876b387e17f",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Climate variability and change / 気候変動 · IT · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "0480349bf7e67876b387e17f"
+        },
+        {
+          "id": "obs-0d8e1f6d1a1e9b81bbe08ab4",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Climate variability and change / 気候変動 · CA · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "0d8e1f6d1a1e9b81bbe08ab4"
+        },
+        {
+          "id": "obs-19bc184078e32a1c5ecc1d38",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Climate variability and change / 気候変動 · FR · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "19bc184078e32a1c5ecc1d38"
+        },
+        {
+          "id": "obs-3836537eceff239351f8d5bd",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Climate variability and change / 気候変動 · TW · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "3836537eceff239351f8d5bd"
+        },
+        {
+          "id": "obs-3b840dc5d0fe15851ae6a3e1",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Climate variability and change / 気候変動 · KR · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "3b840dc5d0fe15851ae6a3e1"
+        },
+        {
+          "id": "obs-4c798b0eec1f789778a666ef",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Climate variability and change / 気候変動 · JP · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "4c798b0eec1f789778a666ef"
+        },
+        {
+          "id": "obs-6191218941aaac07e40d09e2",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Climate variability and change / 気候変動 · IN · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "6191218941aaac07e40d09e2"
+        },
+        {
+          "id": "obs-6d15913dab2583a908539877",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Climate variability and change / 気候変動 · DE · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "6d15913dab2583a908539877"
+        },
+        {
+          "id": "obs-6d499a89b4e88784c37a4ce3",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Climate variability and change / 気候変動 · ES · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "6d499a89b4e88784c37a4ce3"
+        },
+        {
+          "id": "obs-74e76d23d64f974f0172b253",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Climate variability and change / 気候変動 · BR · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "74e76d23d64f974f0172b253"
+        },
+        {
+          "id": "obs-948531898da0381aabd80401",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Climate variability and change / 気候変動 · GB · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "948531898da0381aabd80401"
+        },
+        {
+          "id": "obs-d4e8c7bfac4509053854e185",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Climate variability and change / 気候変動 · MX · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "d4e8c7bfac4509053854e185"
+        },
+        {
+          "id": "obs-e0d6d0ca313603bb9271349b",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Climate variability and change / 気候変動 · SG · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "e0d6d0ca313603bb9271349b"
+        },
+        {
+          "id": "obs-f012144b8d3feb3b47999465",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Climate variability and change / 気候変動 · AU · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "f012144b8d3feb3b47999465"
+        },
+        {
+          "id": "obs-f3c45a018ca90f3828cc43f5",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Climate variability and change / 気候変動 · TH · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "f3c45a018ca90f3828cc43f5"
+        },
+        {
+          "id": "obs-ff48ace31d487d7f14010a03",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Climate variability and change / 気候変動 · ID · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "ff48ace31d487d7f14010a03"
+        }
+      ]
+    },
+    {
+      "topicId": "archive-low-emission-vehicle",
+      "inputHash": "2dc3e3904ced7566a1db7db937d9cc7bd64f41672fa328d149fc992435105e15",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「低排出車」に関する過去のGoogle検索関心資料です。過去の年次アーカイブで、現在の車種の人気、販売台数、普及率ではありません。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "obs-f72f3a938832ec19c69f5af3"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "車の排出削減というテーマへの検索関心を、過去の年次推移で見るためのデータです。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "obs-f72f3a938832ec19c69f5af3"
+          ]
+        },
+        {
+          "text": "自動車の環境性能が生活者の検討課題になっていたかを探る入口になりますが、EV購入者の意思を実測した資料ではありません。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "obs-f72f3a938832ec19c69f5af3"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "車種・政策・充電環境などの変化が関係する可能性はあります。ただし年次指数だけでは、どの要因が関心を動かしたか特定できません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "obs-f72f3a938832ec19c69f5af3"
+        ]
+      },
+      "marketing": {
+        "text": "環境性能という抽象的な訴求を、利用費用や充電の手間など具体的な生活課題につなげられるかを別途検証する切り口です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "obs-f72f3a938832ec19c69f5af3"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "Google公式の2012–2023年の年次資料を対象にしたAI解説です。現在の検索動向や、特定属性の実測値ではありません。",
+        "正規化範囲が未詳のため国間の指数値比較はできません。「低排出車」を特定の動力方式や車種だけのデータと解釈しません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-0f64b113f42870bd83c3eb10",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Low-emission vehicle / 低排出車 · JP · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "0f64b113f42870bd83c3eb10"
+        },
+        {
+          "id": "obs-25dff8271857280cab46d12e",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Low-emission vehicle / 低排出車 · KR · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "25dff8271857280cab46d12e"
+        },
+        {
+          "id": "obs-3e8c71700815dbd8b2a4b11e",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Low-emission vehicle / 低排出車 · IN · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "3e8c71700815dbd8b2a4b11e"
+        },
+        {
+          "id": "obs-51c50ea24c2ca5583f2a7279",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Low-emission vehicle / 低排出車 · TW · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "51c50ea24c2ca5583f2a7279"
+        },
+        {
+          "id": "obs-584ff5bcd8eb1ebb0798b51e",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Low-emission vehicle / 低排出車 · BR · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "584ff5bcd8eb1ebb0798b51e"
+        },
+        {
+          "id": "obs-6623cc1b61a5e1f96bc57dd4",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Low-emission vehicle / 低排出車 · FR · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "6623cc1b61a5e1f96bc57dd4"
+        },
+        {
+          "id": "obs-6804ae63e43c73217908eec7",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Low-emission vehicle / 低排出車 · SG · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "6804ae63e43c73217908eec7"
+        },
+        {
+          "id": "obs-6d899987db8ff5af9a4a7c5d",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Low-emission vehicle / 低排出車 · MX · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "6d899987db8ff5af9a4a7c5d"
+        },
+        {
+          "id": "obs-7aedeecfe0fad3e713705510",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Low-emission vehicle / 低排出車 · ID · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "7aedeecfe0fad3e713705510"
+        },
+        {
+          "id": "obs-7cea3ca2b6ef57e55d09d562",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Low-emission vehicle / 低排出車 · CA · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "7cea3ca2b6ef57e55d09d562"
+        },
+        {
+          "id": "obs-a1e38fa8f4c1a32308dbc6d8",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Low-emission vehicle / 低排出車 · GB · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "a1e38fa8f4c1a32308dbc6d8"
+        },
+        {
+          "id": "obs-a762ddf576a623520acf81cc",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Low-emission vehicle / 低排出車 · IT · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "a762ddf576a623520acf81cc"
+        },
+        {
+          "id": "obs-b5f65a39f561ce5acbbb59d7",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Low-emission vehicle / 低排出車 · DE · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "b5f65a39f561ce5acbbb59d7"
+        },
+        {
+          "id": "obs-d45b5a3ee314456e3a4143b2",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Low-emission vehicle / 低排出車 · TH · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "d45b5a3ee314456e3a4143b2"
+        },
+        {
+          "id": "obs-ea58c6892dc8a3ac21c5e6d0",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Low-emission vehicle / 低排出車 · ES · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "ea58c6892dc8a3ac21c5e6d0"
+        },
+        {
+          "id": "obs-f72f3a938832ec19c69f5af3",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Low-emission vehicle / 低排出車 · AU · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "f72f3a938832ec19c69f5af3"
+        }
+      ]
+    },
+    {
+      "topicId": "archive-plastic-pollution",
+      "inputHash": "9e56c3e88f1d5280db944cb1bbc2c9cd87e9bfc5e98249cb8ba22ecf2a5f9990",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「プラスチック汚染」を扱うGoogle公式の過去資料です。過去の年次検索関心を参照するもので、最新の流行や実際の汚染量ではありません。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "obs-47ef4abadff02651afc92a68"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "プラスチックによる環境問題というテーマが、過去にどのように検索されたかを年単位で振り返ります。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "obs-47ef4abadff02651afc92a68"
+          ]
+        },
+        {
+          "text": "容器・包装や廃棄の問題を考える際の背景資料になりますが、個々の商品への評価や購入意向を示すものではありません。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "obs-47ef4abadff02651afc92a68"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "報道や制度の変更が関心に関係した可能性はありますが、この資料だけでは年次変化の原因を説明できません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "obs-47ef4abadff02651afc92a68"
+        ]
+      },
+      "marketing": {
+        "text": "素材変更のイメージ訴求だけでなく、分別のしやすさや使い勝手など、生活者が確認できる便益を調べる切り口が考えられます。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "obs-47ef4abadff02651afc92a68"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "Google公式の2012–2023年の年次資料を対象にしたAI解説です。現在の検索動向や、特定属性の実測値ではありません。",
+        "正規化範囲が未詳で、国間順位や関心の伝播は判定できません。検索指数を汚染の実態や環境行動の割合に置き換えません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-0fe81ddad04063b58ec26df0",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Plastic pollution / プラスチック汚染 · JP · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "0fe81ddad04063b58ec26df0"
+        },
+        {
+          "id": "obs-1d23a011cdab94eb7bc8ecec",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Plastic pollution / プラスチック汚染 · MX · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "1d23a011cdab94eb7bc8ecec"
+        },
+        {
+          "id": "obs-29f0b22fede861b60a74ecb1",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Plastic pollution / プラスチック汚染 · KR · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "29f0b22fede861b60a74ecb1"
+        },
+        {
+          "id": "obs-3c2dd48b97c33a775137a743",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Plastic pollution / プラスチック汚染 · TH · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "3c2dd48b97c33a775137a743"
+        },
+        {
+          "id": "obs-47ef4abadff02651afc92a68",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Plastic pollution / プラスチック汚染 · AU · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "47ef4abadff02651afc92a68"
+        },
+        {
+          "id": "obs-5b8e92fb17f8f68fdd37f25d",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Plastic pollution / プラスチック汚染 · GB · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "5b8e92fb17f8f68fdd37f25d"
+        },
+        {
+          "id": "obs-5e540434eec3252287c8b503",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Plastic pollution / プラスチック汚染 · DE · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "5e540434eec3252287c8b503"
+        },
+        {
+          "id": "obs-643ad088edca30f3d9c534d9",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Plastic pollution / プラスチック汚染 · TW · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "643ad088edca30f3d9c534d9"
+        },
+        {
+          "id": "obs-67f77411d5498f585e456144",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Plastic pollution / プラスチック汚染 · ES · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "67f77411d5498f585e456144"
+        },
+        {
+          "id": "obs-6f6a24030192d4d33e597ab2",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Plastic pollution / プラスチック汚染 · BR · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "6f6a24030192d4d33e597ab2"
+        },
+        {
+          "id": "obs-9bbdef4fff04160390e6fb64",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Plastic pollution / プラスチック汚染 · ID · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "9bbdef4fff04160390e6fb64"
+        },
+        {
+          "id": "obs-9d059270aa7f5b6e63d8b06c",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Plastic pollution / プラスチック汚染 · SG · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "9d059270aa7f5b6e63d8b06c"
+        },
+        {
+          "id": "obs-a63314d4e24c093fa72f82ab",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Plastic pollution / プラスチック汚染 · FR · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "a63314d4e24c093fa72f82ab"
+        },
+        {
+          "id": "obs-d5301f70763faa7cc1418f35",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Plastic pollution / プラスチック汚染 · IT · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "d5301f70763faa7cc1418f35"
+        },
+        {
+          "id": "obs-da3deee2039e8d7ee015c37c",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Plastic pollution / プラスチック汚染 · CA · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "da3deee2039e8d7ee015c37c"
+        },
+        {
+          "id": "obs-ee87d96ed6965d00d540c8b6",
+          "url": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/20220404_environmental_issues_country_timeline.csv",
+          "title": "Plastic pollution / プラスチック汚染 · IN · 2023年（履歴）",
+          "source": "google-trends-archive",
+          "observedAt": "2023-01-01T00:00:00Z",
+          "fetchedAt": "2026-10-21T09:37:19Z",
+          "observationId": "ee87d96ed6965d00d540c8b6"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-060e902d7842509e338926ed",
+      "inputHash": "9c000b1ffaa4db5ea4a27f21045afe0217ff30feef079a1f43a79cee1752bcef",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "京都サンガF.C.対鹿島アントラーズのサッカーの試合に関する検索語です。関連記事では、試合の展望、直近の対戦、放送・配信の視聴方法が扱われています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-b5985de25157317499093f18-0",
+          "news-b5985de25157317499093f18-1",
+          "news-b5985de25157317499093f18-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "関連記事では「どこで見られるか」と「対戦の見どころ」という、観戦前に必要な情報が並んでいます。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-b5985de25157317499093f18-0",
+            "news-b5985de25157317499093f18-1",
+            "news-b5985de25157317499093f18-2"
+          ]
+        },
+        {
+          "text": "試合前に観戦方法や相手チームの状況を調べる場面で使われた可能性があります。実際の検索目的を調査した結果ではありません。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-b5985de25157317499093f18-0",
+            "news-b5985de25157317499093f18-1",
+            "news-b5985de25157317499093f18-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "当日の試合関連の情報発信と検索観測の時期が重なっている可能性がありますが、検索増の原因は確認できません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-b5985de25157317499093f18-0",
+          "news-b5985de25157317499093f18-1",
+          "news-b5985de25157317499093f18-2"
+        ]
+      },
+      "marketing": {
+        "text": "スポーツとの接点を考えるなら、流行語の借用よりも、観戦時の準備や一緒に見る体験を支える便益を検討できます。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-b5985de25157317499093f18-0",
+          "news-b5985de25157317499093f18-1",
+          "news-b5985de25157317499093f18-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-b5985de25157317499093f18",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "京都 対 鹿島",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "b5985de25157317499093f18"
+        },
+        {
+          "id": "news-b5985de25157317499093f18-0",
+          "url": "https://news.yahoo.co.jp/articles/60916e806adc4bdc2483ab1c2abd274199679ba7",
+          "title": "何かが起こる「鹿島ｖｓ京都」…昨季は鹿島ホーム無敗神話２７戦でストップ＆鈴木優磨が後半ＡＴ劇的同点弾（スポーツ報知）",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "b5985de25157317499093f18"
+        },
+        {
+          "id": "news-b5985de25157317499093f18-1",
+          "url": "https://ibarakinews.jp/news/newsdetail.php?f_jun=1792503214920800",
+          "title": "明治安田J1 鹿島、勝ち点3狙う 21日敵地京都戦 4戦無失点なるか",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "b5985de25157317499093f18"
+        },
+        {
+          "id": "news-b5985de25157317499093f18-2",
+          "url": "https://www.dazn.com/ja-JP/news/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC/kyoto-kashima-j1-md11-livestreaming-20261021/1ud10uiq7vq3l1wnv56iprzzrs",
+          "title": "【10月21日】京都サンガF.C.vs鹿島アントラーズのテレビ放送・ネット配信予定・視聴方法｜明治安田J1リーグ",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "b5985de25157317499093f18"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-06b3fb928eac37b89ff6a122",
+      "inputHash": "246e89ac3b1cc85efcc3d8d7060f6d0e62ed2b09c4e2ae2b1822f75201e4fbb2",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「ソン・ガイン」という人物名です。今回の関連記事は、アン・ソンフンが語った無名時代の支援や、二人の関係を扱うテレビ番組のエピソードに結びついています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-a515303268807bbf4148d363-0",
+          "news-a515303268807bbf4148d363-1",
+          "news-a515303268807bbf4148d363-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "見出しでは、ソン・ガインが無名時代に化粧やマネジャーの役割を助けたというエピソードが紹介されています。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-a515303268807bbf4148d363-0",
+            "news-a515303268807bbf4148d363-1",
+            "news-a515303268807bbf4148d363-2"
+          ]
+        },
+        {
+          "text": "番組で語られた人物関係や過去の経緯を確かめたい場面で、人物名が検索された可能性があります。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-a515303268807bbf4148d363-0",
+            "news-a515303268807bbf4148d363-1",
+            "news-a515303268807bbf4148d363-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "テレビ番組のエピソードへの接触が関心の入口になった可能性があります。本人の新作人気やファンの属性までは示していません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-a515303268807bbf4148d363-0",
+          "news-a515303268807bbf4148d363-1",
+          "news-a515303268807bbf4148d363-2"
+        ]
+      },
+      "marketing": {
+        "text": "人を支えた経験や関係性への共感という問いは検討できますが、具体的な支持や広告効果は別の調査で確かめる必要があります。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-a515303268807bbf4148d363-0",
+          "news-a515303268807bbf4148d363-1",
+          "news-a515303268807bbf4148d363-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-a515303268807bbf4148d363",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "송가 인",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "a515303268807bbf4148d363"
+        },
+        {
+          "id": "news-a515303268807bbf4148d363-0",
+          "url": "https://sports.donga.com/ent/article/all/20261021/134881885/1",
+          "title": "안성훈, ‘미스터트롯2’ 상금 5억으로 부모님 집 마련…“카드도 못 써”",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "a515303268807bbf4148d363"
+        },
+        {
+          "id": "news-a515303268807bbf4148d363-1",
+          "url": "https://sports.khan.co.kr/article/202610211500003",
+          "title": "안성훈 “무명시절, 송가인이 매니저 역할” (편스토랑)",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "a515303268807bbf4148d363"
+        },
+        {
+          "id": "news-a515303268807bbf4148d363-2",
+          "url": "https://biz.chosun.com/entertainment/tv/2026/10/21/MZRTOOBZGE4TGNZTGBSWMNBWME/",
+          "title": "안성훈, 송가인과 무명시절부터 끈끈한 사이 \"누나가 화장+매니저도 해줘\" (편스토랑) - 조선비즈",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "a515303268807bbf4148d363"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-0a1ecb8d9fb112d3b65be406",
+      "inputHash": "ac59b8063897bc52550a3d7bf0b8be8998517c7a3d82f272186730aac9d3af45",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "川崎フロンターレ対ヴィッセル神戸のサッカーの試合に関する検索語です。関連記事には、公式の記録・速報、先発メンバー、放送・配信の案内があります。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-81bce4331fef0c46b1a104b6-0",
+          "news-81bce4331fef0c46b1a104b6-1",
+          "news-81bce4331fef0c46b1a104b6-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "取得した見出しは、試合の最新状況、誰が出場するか、どこで見られるかという観戦情報です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-81bce4331fef0c46b1a104b6-0",
+            "news-81bce4331fef0c46b1a104b6-1",
+            "news-81bce4331fef0c46b1a104b6-2"
+          ]
+        },
+        {
+          "text": "観戦中の速報確認や、視聴前の準備として使われた可能性があります。年代や熱心なファンの割合は分かりません。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-81bce4331fef0c46b1a104b6-0",
+            "news-81bce4331fef0c46b1a104b6-1",
+            "news-81bce4331fef0c46b1a104b6-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "当日の試合に関連する情報需要が考えられますが、検索した理由を直接確認した資料ではありません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-81bce4331fef0c46b1a104b6-0",
+          "news-81bce4331fef0c46b1a104b6-1",
+          "news-81bce4331fef0c46b1a104b6-2"
+        ]
+      },
+      "marketing": {
+        "text": "観戦の時間や情報確認の手間を支えるサービスとの関連性を検討できます。検索量だけで購買やスポンサー効果を判断しません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-81bce4331fef0c46b1a104b6-0",
+          "news-81bce4331fef0c46b1a104b6-1",
+          "news-81bce4331fef0c46b1a104b6-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-81bce4331fef0c46b1a104b6",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "川崎f 対 神戸",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "81bce4331fef0c46b1a104b6"
+        },
+        {
+          "id": "news-81bce4331fef0c46b1a104b6-0",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+          "title": "ゲーム記録・速報 - 2026/27／J1リーグ 第11節 vs.ヴィッセル神戸 | KAWASAKI FRONTALE",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "81bce4331fef0c46b1a104b6"
+        },
+        {
+          "id": "news-81bce4331fef0c46b1a104b6-1",
+          "url": "https://news.yahoo.co.jp/articles/ff38f55bef1e5c6f620246db10a3f1f1a4fd8d46",
+          "title": "ヴィッセル神戸、川崎戦のスタメン発表 MF飯野が第6節長崎戦以来の先発入り（神戸新聞NEXT）",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "81bce4331fef0c46b1a104b6"
+        },
+        {
+          "id": "news-81bce4331fef0c46b1a104b6-2",
+          "url": "https://www.dazn.com/ja-JP/news/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC/kawasaki-kobe-j1-md11-livestreaming-20261021/18yc9kpaykyhq1roxq8vvuwsol",
+          "title": "【10月21日】川崎フロンターレvsヴィッセル神戸のテレビ放送・ネット配信予定・視聴方法｜明治安田J1リーグ",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "81bce4331fef0c46b1a104b6"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-153ba5f550f22f7857051572",
+      "inputHash": "606f43d6fe0f7d3696da6dcbe2c67f915876fd83ba29e04f883d2a6735e37b29",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "コメディアンのジミー・カーに関する検索語です。関連記事は、新ツアーの英国各地での公演発表や日程を伝える内容にまとまっています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-2d27bf17ee26cd76ce0ad68a-0",
+          "news-2d27bf17ee26cd76ce0ad68a-1",
+          "news-2d27bf17ee26cd76ce0ad68a-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "イプスウィッチ、ヨーク、ブラッドフォードの公演に関する見出しがあり、開催地や公演予定を確認する文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-2d27bf17ee26cd76ce0ad68a-0",
+            "news-2d27bf17ee26cd76ce0ad68a-1",
+            "news-2d27bf17ee26cd76ce0ad68a-2"
+          ]
+        },
+        {
+          "text": "公演に行ける地域や日程を探すために、出演者名を検索する場面が考えられます。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-2d27bf17ee26cd76ce0ad68a-0",
+            "news-2d27bf17ee26cd76ce0ad68a-1",
+            "news-2d27bf17ee26cd76ce0ad68a-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "複数都市の公演発表と同じ時期に観測されたため、ツアー情報が接点になった可能性があります。実際の購入意向は未確認です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-2d27bf17ee26cd76ce0ad68a-0",
+          "news-2d27bf17ee26cd76ce0ad68a-1",
+          "news-2d27bf17ee26cd76ce0ad68a-2"
+        ]
+      },
+      "marketing": {
+        "text": "ライブ参加を特別な外出体験として捉え、会場までの移動や同行者との予定調整など、体験前後の課題を調べる切り口です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-2d27bf17ee26cd76ce0ad68a-0",
+          "news-2d27bf17ee26cd76ce0ad68a-1",
+          "news-2d27bf17ee26cd76ce0ad68a-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "人物名の検索を好意的支持とみなしません。出演者や公演の素材を広告で使う場合は権利確認が必要です。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-2d27bf17ee26cd76ce0ad68a",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "jimmy carr",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:50:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "2d27bf17ee26cd76ce0ad68a"
+        },
+        {
+          "id": "news-2d27bf17ee26cd76ce0ad68a-0",
+          "url": "https://www.ipswichstar.co.uk/news/26652712.jimmy-carr-announces-ipswich-date-new-tour-2027/",
+          "title": "Dark humour comedian announces Ipswich stop on next tour",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:50:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "2d27bf17ee26cd76ce0ad68a"
+        },
+        {
+          "id": "news-2d27bf17ee26cd76ce0ad68a-1",
+          "url": "https://www.yorkpress.co.uk/news/26652488.jimmy-carr-bring-killing-jokes-tour-york-barbican/",
+          "title": "Top comedian announces two York shows in one day for new tour",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:50:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "2d27bf17ee26cd76ce0ad68a"
+        },
+        {
+          "id": "news-2d27bf17ee26cd76ce0ad68a-2",
+          "url": "https://www.thetelegraphandargus.co.uk/news/26652046.jimmy-carr-bringing-killing-jokes-tour-bradford-live/",
+          "title": "Jimmy Carr announces Bradford date for new tour - all the details",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:50:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "2d27bf17ee26cd76ce0ad68a"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-22b2d720a3856a3c2df52c68",
+      "inputHash": "9313cc4a19cc869fd76e5b4eea5499359b3431d4e78bd27397b79e99c14fdaac",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "オンラインゲーム「リーグ・オブ・レジェンド（LoL）」の韓国語表記です。関連記事では、更新版のパッチノート、メンテナンス、新しいゲーム内要素が扱われています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-1b32d3e6a31348b518cdfc87-0",
+          "news-1b32d3e6a31348b518cdfc87-1",
+          "news-1b32d3e6a31348b518cdfc87-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "公式パッチノートとメンテナンス記事に結びついており、遊べる時間やゲームの変更内容を確認する文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-1b32d3e6a31348b518cdfc87-0",
+            "news-1b32d3e6a31348b518cdfc87-1",
+            "news-1b32d3e6a31348b518cdfc87-2"
+          ]
+        },
+        {
+          "text": "プレイ前に更新内容を知りたい人や、変更に合わせた遊び方を調べる人の検索である可能性があります。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-1b32d3e6a31348b518cdfc87-0",
+            "news-1b32d3e6a31348b518cdfc87-1",
+            "news-1b32d3e6a31348b518cdfc87-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "ゲーム更新のタイミングが関係した可能性はありますが、新規プレイヤーの増加や特定年代の支持を示すものではありません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-1b32d3e6a31348b518cdfc87-0",
+          "news-1b32d3e6a31348b518cdfc87-1",
+          "news-1b32d3e6a31348b518cdfc87-2"
+        ]
+      },
+      "marketing": {
+        "text": "ゲームの更新を追う習慣と、短時間で必要な変更点を把握したい需要との接点を検討できます。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-1b32d3e6a31348b518cdfc87-0",
+          "news-1b32d3e6a31348b518cdfc87-1",
+          "news-1b32d3e6a31348b518cdfc87-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-1b32d3e6a31348b518cdfc87",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "리그 오브 레전드",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "1b32d3e6a31348b518cdfc87"
+        },
+        {
+          "id": "news-1b32d3e6a31348b518cdfc87-0",
+          "url": "https://www.leagueoflegends.com/ko-kr/news/game-updates/league-of-legends-patch-26-21-notes/",
+          "title": "26.21 패치 노트",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "1b32d3e6a31348b518cdfc87"
+        },
+        {
+          "id": "news-1b32d3e6a31348b518cdfc87-1",
+          "url": "https://news.jkn.co.kr/post/1038369",
+          "title": "롤 21일 5시간 점검…26.21 패치 적용 : 산업",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "1b32d3e6a31348b518cdfc87"
+        },
+        {
+          "id": "news-1b32d3e6a31348b518cdfc87-2",
+          "url": "https://www.inven.co.kr/webzine/news/?news=322393",
+          "title": "신규 증강 35종, 'LoL' 아수라장에 K/DA, 펜타킬 뜬다",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "1b32d3e6a31348b518cdfc87"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-25fdea8ceca97a5f7dbc6886",
+      "inputHash": "7a85db5f02dd626d2a6941e279caeefb30a00841b422a1cb3719fc85b0165f55",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "検索語は「イチロー」ですが、今回付いた関連記事は大谷翔平とドジャースの報道です。見出しだけでは、イチロー本人のどの出来事を指すのか特定できません。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "obs-ff309301503ac045d215b4fe",
+          "news-ff309301503ac045d215b4fe-0",
+          "news-ff309301503ac045d215b4fe-1",
+          "news-ff309301503ac045d215b4fe-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "関連記事には、大谷翔平の試合後の様子やチームに関する話題が並んでいます。検索語との直接の結びつきは確認できません。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "obs-ff309301503ac045d215b4fe",
+            "news-ff309301503ac045d215b4fe-0",
+            "news-ff309301503ac045d215b4fe-1",
+            "news-ff309301503ac045d215b4fe-2"
+          ]
+        },
+        {
+          "text": "同じ野球分野の情報が広く関連づけられた可能性がありますが、イチロー本人の新しい話題として読むのは避けるべきです。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "obs-ff309301503ac045d215b4fe",
+            "news-ff309301503ac045d215b4fe-0",
+            "news-ff309301503ac045d215b4fe-1",
+            "news-ff309301503ac045d215b4fe-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "今回の原典だけでは、なぜこの人物名が検索されたかを説明できません。関連ニュースの不一致を含む観測として扱います。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "obs-ff309301503ac045d215b4fe",
+          "news-ff309301503ac045d215b4fe-0",
+          "news-ff309301503ac045d215b4fe-1",
+          "news-ff309301503ac045d215b4fe-2"
+        ]
+      },
+      "marketing": null,
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "検索語と関連記事の対応に不確実性があります。人物の発言、活動、人気の理由を補っていません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-ff309301503ac045d215b4fe",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "イチロー",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "ff309301503ac045d215b4fe"
+        },
+        {
+          "id": "news-ff309301503ac045d215b4fe-0",
+          "url": "https://news.yahoo.co.jp/articles/5f40209aa7c04636a9b39ab398e15aa8368868d2",
+          "title": "「敗北の瞬間バットを握ったまま」しかし大谷翔平は取材終了後ふと笑った…復活弾もドジャース3連覇の夢が潰えた夜、山本由伸にかけた何気ない一言とは（Number Web）",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "ff309301503ac045d215b4fe"
+        },
+        {
+          "id": "news-ff309301503ac045d215b4fe-1",
+          "url": "https://number.bunshun.jp/articles/-/872365",
+          "title": "「えっ、今から？」大谷翔平の取材が突然…テレビに映らないドジャース完敗劇、何があった？「前夜に急かされた退出」「気になった本拠地の空席」（柳原直之（スポーツニッポン））",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "ff309301503ac045d215b4fe"
+        },
+        {
+          "id": "news-ff309301503ac045d215b4fe-2",
+          "url": "https://topics.smt.docomo.ne.jp/article/fullcount/sports/fullcount-2033755",
+          "title": "「見たことない」大谷翔平の姿　「怒りがあった」…米メディアが復活を確信するワケ",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "ff309301503ac045d215b4fe"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-2af60e64cf2e5e8a76bc8e53",
+      "inputHash": "495d9b4575d203e75cd99d7f787055da90fbec646078eff154b8e5cd31de08e0",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "南アフリカ対オーストラリアのクリケットの試合に関する検索語です。関連記事は、テストマッチの途中経過、選手の活躍、選手選考を扱っています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-feeb813799c7e67bf02fec86-0",
+          "news-feeb813799c7e67bf02fec86-1",
+          "news-feeb813799c7e67bf02fec86-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "ライブ更新や試合日の記事があり、試合の進行と選手の状態を追う文脈で使われています。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-feeb813799c7e67bf02fec86-0",
+            "news-feeb813799c7e67bf02fec86-1",
+            "news-feeb813799c7e67bf02fec86-2"
+          ]
+        },
+        {
+          "text": "長時間にわたる試合の状況を途中から確かめたり、試合後の論点を調べたりする検索が考えられます。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-feeb813799c7e67bf02fec86-0",
+            "news-feeb813799c7e67bf02fec86-1",
+            "news-feeb813799c7e67bf02fec86-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "進行中の試合報道が関心と重なった可能性があります。韓国・英国の検索観測があっても、国間で伝播したとは判断できません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-feeb813799c7e67bf02fec86-0",
+          "news-feeb813799c7e67bf02fec86-1",
+          "news-feeb813799c7e67bf02fec86-2"
+        ]
+      },
+      "marketing": {
+        "text": "観戦の途中参加やハイライト確認など、限られた時間で試合を追いたい場面を支える価値を検討できます。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-feeb813799c7e67bf02fec86-0",
+          "news-feeb813799c7e67bf02fec86-1",
+          "news-feeb813799c7e67bf02fec86-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-6fcd81a4a2da04578194b32d",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "south africa vs australia",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "6fcd81a4a2da04578194b32d"
+        },
+        {
+          "id": "news-6fcd81a4a2da04578194b32d-0",
+          "url": "https://www.abc.net.au/news/2026-10-21/test-cricket-live-updates-south-africa-vs-australia/107293438",
+          "title": "Live: South Africa strikes early to deepen Aussie woes in Gqeberha",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "6fcd81a4a2da04578194b32d"
+        },
+        {
+          "id": "news-6fcd81a4a2da04578194b32d-1",
+          "url": "https://www.theguardian.com/sport/live/2026/oct/21/south-africa-v-australia-second-test-day-four-cricket-st-georges-park-gqeberha-live-updates",
+          "title": "South Africa v Australia: second men’s cricket Test, day four – live",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "6fcd81a4a2da04578194b32d"
+        },
+        {
+          "id": "news-6fcd81a4a2da04578194b32d-2",
+          "url": "https://www.cricinfo.com/story/when-south-africa-stumbled-temba-bavuma-stood-tall-1559260",
+          "title": "When South Africa stumbled, Bavuma stood tall",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "6fcd81a4a2da04578194b32d"
+        },
+        {
+          "id": "obs-feeb813799c7e67bf02fec86",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "south africa vs australia",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "feeb813799c7e67bf02fec86"
+        },
+        {
+          "id": "news-feeb813799c7e67bf02fec86-0",
+          "url": "https://www.bbc.com/sport/cricket/articles/crx2d3y6gd80o",
+          "title": "South Africa vs Australia: Temba Bavuma century drags hosts back into series",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "feeb813799c7e67bf02fec86"
+        },
+        {
+          "id": "news-feeb813799c7e67bf02fec86-1",
+          "url": "https://sports.ndtv.com/cricket/first-time-in-60-years-marco-jansen-achieves-historic-feat-for-south-africa-in-tests-12211653",
+          "title": "First Time In 60 Years: Marco Jansen Achieves Historic Feat For South Africa In Tests",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "feeb813799c7e67bf02fec86"
+        },
+        {
+          "id": "news-feeb813799c7e67bf02fec86-2",
+          "url": "https://www.smh.com.au/sport/cricket/they-won-t-make-the-tough-decision-great-slams-selectors-as-lyon-axing-backfires-20261021-p617fi.html",
+          "title": "‘They won’t make the tough decision’: Great slams selectors as Lyon axing backfires",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "feeb813799c7e67bf02fec86"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-2b92cdeda993134270b75de4",
+      "inputHash": "344be89d881086c74eba0e17a067aac599fc8b48ba7eb06ce938c1a2902bb897",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "検索語は「dani watt」ですが、関連記事はNFLのパリ開催、視聴方法、試合の警備や観客の渡航判断です。この人物名との直接の関係は確認できません。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "obs-9c83b4bb30c43bbf5d16a196",
+          "news-9c83b4bb30c43bbf5d16a196-0",
+          "news-9c83b4bb30c43bbf5d16a196-1",
+          "news-9c83b4bb30c43bbf5d16a196-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "今回集まった見出しは、スティーラーズ対セインツのパリでの試合と、その視聴・安全面の情報です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "obs-9c83b4bb30c43bbf5d16a196",
+            "news-9c83b4bb30c43bbf5d16a196-0",
+            "news-9c83b4bb30c43bbf5d16a196-1",
+            "news-9c83b4bb30c43bbf5d16a196-2"
+          ]
+        },
+        {
+          "text": "人物名とスポーツイベントの関連記事が結びついているものの、本人について何が注目されたかを推測で補うことはできません。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "obs-9c83b4bb30c43bbf5d16a196",
+            "news-9c83b4bb30c43bbf5d16a196-0",
+            "news-9c83b4bb30c43bbf5d16a196-1",
+            "news-9c83b4bb30c43bbf5d16a196-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "検索が増えた背景は見出しだけでは特定できません。人物とイベントの関連付けが適切かを原典で確認する必要があります。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "obs-9c83b4bb30c43bbf5d16a196",
+          "news-9c83b4bb30c43bbf5d16a196-0",
+          "news-9c83b4bb30c43bbf5d16a196-1",
+          "news-9c83b4bb30c43bbf5d16a196-2"
+        ]
+      },
+      "marketing": null,
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "人物の経歴や家族関係を推定していません。関連記事との対応が不明なため、広告活用案は作成していません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-9c83b4bb30c43bbf5d16a196",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "dani watt",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:30:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "9c83b4bb30c43bbf5d16a196"
+        },
+        {
+          "id": "news-9c83b4bb30c43bbf5d16a196-0",
+          "url": "https://www.steelers.com/news/steelers-at-saints-in-paris-how-to-watch-listen-to-the-game",
+          "title": "Steelers at Saints in Paris: How to watch/listen to the game",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:30:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "9c83b4bb30c43bbf5d16a196"
+        },
+        {
+          "id": "news-9c83b4bb30c43bbf5d16a196-1",
+          "url": "https://noticias.foxnews.com/outkick-sports/nfl-vp-says-league-vigilant-security-france-matchup-remains-confident-plans",
+          "title": "NFL VP says league is 'vigilant' about security for France matchup, remains confident in plans",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:30:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "9c83b4bb30c43bbf5d16a196"
+        },
+        {
+          "id": "news-9c83b4bb30c43bbf5d16a196-2",
+          "url": "https://www.wwltv.com/article/sports/nfl/saints/saints-fans-split-on-trip-to-paris-as-violent-protests-continue/289-d9a32afc-ca24-4457-abf3-6eb9e92d1593",
+          "title": "Saints fans split on trip to Paris as violent protests continue",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:30:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "9c83b4bb30c43bbf5d16a196"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-2d4a044c4354c9fddd02c2d9",
+      "inputHash": "2c25ee228ed1b808fc3d9d5632cd72962f99f0a5a793e70490d19ed208dc1642",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "エイミー・ジョー・ジョンソン氏の人物名です。今回の関連記事は、搭乗機の滑走路逸脱と、その後の本人の発言や事故調査に関する報道です。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-334e266f213ff3db23d64ea9-0",
+          "news-334e266f213ff3db23d64ea9-1",
+          "news-334e266f213ff3db23d64ea9-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "芸能活動の新作ではなく、航空機の出来事に関する本人の状況と報道を確認する文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-334e266f213ff3db23d64ea9-0",
+            "news-334e266f213ff3db23d64ea9-1",
+            "news-334e266f213ff3db23d64ea9-2"
+          ]
+        },
+        {
+          "text": "報道で名前を知った人が、その人物や事故後の情報を調べた可能性があります。実際の検索動機は未確認です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-334e266f213ff3db23d64ea9-0",
+            "news-334e266f213ff3db23d64ea9-1",
+            "news-334e266f213ff3db23d64ea9-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "事故に関する報道が関心の入口になった可能性があります。関心の増加を好意的な人気や広告機会と読み替えません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-334e266f213ff3db23d64ea9-0",
+          "news-334e266f213ff3db23d64ea9-1",
+          "news-334e266f213ff3db23d64ea9-2"
+        ]
+      },
+      "marketing": null,
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "事故の最新状況・被害・調査結果は本文や公式発表で確認してください。センシティブな報道のため商用アイデアは出していません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-334e266f213ff3db23d64ea9",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "amy jo johnson",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "334e266f213ff3db23d64ea9"
+        },
+        {
+          "id": "news-334e266f213ff3db23d64ea9-0",
+          "url": "https://people.com/power-rangers-alum-amy-jo-johnson-speaks-out-plane-she-was-on-donnie-wahlberg-skids-off-runway-12185556",
+          "title": "Power Rangers Alum Amy Jo Johnson Speaks Out After Plane She Was on with Donnie Wahlberg Skids Off Runway",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "334e266f213ff3db23d64ea9"
+        },
+        {
+          "id": "news-334e266f213ff3db23d64ea9-1",
+          "url": "https://news3lv.com/news/local/faa-investigates-jet-runway-overrun-at-harry-reid-airport-as-airport-reviews-records",
+          "title": "FAA investigates after jet skids off Harry Reid Airport runway as officials review records",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "334e266f213ff3db23d64ea9"
+        },
+        {
+          "id": "news-334e266f213ff3db23d64ea9-2",
+          "url": "https://www.syracuse.com/entertainment/2026/10/singer-ok-after-plane-slips-off-runway-crashes-into-fence-god-covered-us.html",
+          "title": "Singer OK after plane slips off runway, crashes into fence: ‘God covered us’",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "334e266f213ff3db23d64ea9"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-3494340fc42c8dd89c0880d8",
+      "inputHash": "eb14cd4347a9a5c61841fa1c2506ff29d84a04c59c0027dae7b9dc3f58ce009b",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "日本のサイバー対策に関する組織名の検索語です。ただし今回の関連記事は、警視庁による個人情報流出と悪用リスクの注意喚起で、組織の具体的な活動との関係は未確認です。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-26ef716fcdca2f8f0be5ec19-0",
+          "news-26ef716fcdca2f8f0be5ec19-1",
+          "news-26ef716fcdca2f8f0be5ec19-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "関連記事は、不正アクセスによる情報流出が詐欺や強盗などに悪用される恐れを注意喚起する文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-26ef716fcdca2f8f0be5ec19-0",
+            "news-26ef716fcdca2f8f0be5ec19-1",
+            "news-26ef716fcdca2f8f0be5ec19-2"
+          ]
+        },
+        {
+          "text": "情報漏えいの報道を見て公的機関や対策を探した可能性はありますが、どの組織の何を知りたかったかは分かりません。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-26ef716fcdca2f8f0be5ec19-0",
+            "news-26ef716fcdca2f8f0be5ec19-1",
+            "news-26ef716fcdca2f8f0be5ec19-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "複数の注意喚起記事が関係した可能性はあります。ただし検索語と機関の対応を含め、原因は見出しだけで判断できません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-26ef716fcdca2f8f0be5ec19-0",
+          "news-26ef716fcdca2f8f0be5ec19-1",
+          "news-26ef716fcdca2f8f0be5ec19-2"
+        ]
+      },
+      "marketing": null,
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "センシティブな話題の可能性があるため、広告活用の自動提案を停止しています。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "不正アクセス・犯罪被害に関する内容です。被害状況や対策を断定せず、広告利用を自動提案しません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-26ef716fcdca2f8f0be5ec19",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "国家サイバー統括室",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "26ef716fcdca2f8f0be5ec19"
+        },
+        {
+          "id": "news-26ef716fcdca2f8f0be5ec19-0",
+          "url": "https://news.yahoo.co.jp/articles/bd2621bc67bcff252653fc722e5255f99cd6f4a3",
+          "title": "不正アクセスで情報流出、詐欺や強盗に悪用の恐れ 警視庁が注意喚起（朝日新聞）",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "26ef716fcdca2f8f0be5ec19"
+        },
+        {
+          "id": "news-26ef716fcdca2f8f0be5ec19-1",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261021de62656",
+          "title": "不正アクセスによる個人情報漏えい相次ぎ警視庁に相談相次ぐ",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "26ef716fcdca2f8f0be5ec19"
+        },
+        {
+          "id": "news-26ef716fcdca2f8f0be5ec19-2",
+          "url": "https://www.jiji.com/jc/article?k=2026102100769&g=soc",
+          "title": "想定被害事例をＨＰで公開 サイバー攻撃で情報漏えい相次ぎ―警視庁",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "26ef716fcdca2f8f0be5ec19"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-363566be94387cc50d04f1b2",
+      "inputHash": "46a0545841ba52c875bdde9c2c543e7ded43e10fc01f698f54f1df27832cc7da",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「Texas」はここでは米国の州への旅行ではなく、音楽グループの公演に関する語です。関連記事では、アルバムの記念公演や2027年のツアー発表が扱われています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "obs-30e6b986e900249994586d55",
+          "news-30e6b986e900249994586d55-0",
+          "news-30e6b986e900249994586d55-1",
+          "news-30e6b986e900249994586d55-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "ベルファスト公演や記念ツアーの見出しに結びついており、開催地や公演日程を探す文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "obs-30e6b986e900249994586d55",
+            "news-30e6b986e900249994586d55-0",
+            "news-30e6b986e900249994586d55-1",
+            "news-30e6b986e900249994586d55-2"
+          ]
+        },
+        {
+          "text": "過去の楽曲への思い出と、新しいライブ参加の機会を結びつけて情報を探す場面が考えられます。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "obs-30e6b986e900249994586d55",
+            "news-30e6b986e900249994586d55-0",
+            "news-30e6b986e900249994586d55-1",
+            "news-30e6b986e900249994586d55-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "記念公演の発表が関心の入口になった可能性がありますが、記事接触から購入までの行動は確認できません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "obs-30e6b986e900249994586d55",
+          "news-30e6b986e900249994586d55-0",
+          "news-30e6b986e900249994586d55-1",
+          "news-30e6b986e900249994586d55-2"
+        ]
+      },
+      "marketing": {
+        "text": "懐かしさを現在の体験につなぐ企画を考える入口になります。年齢層を決めつけず、どの記憶が響くかを調査で確かめます。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "obs-30e6b986e900249994586d55",
+          "news-30e6b986e900249994586d55-0",
+          "news-30e6b986e900249994586d55-1",
+          "news-30e6b986e900249994586d55-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-30e6b986e900249994586d55",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "texas tour 2027",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "30e6b986e900249994586d55"
+        },
+        {
+          "id": "news-30e6b986e900249994586d55-0",
+          "url": "https://www.belfasttelegraph.co.uk/entertainment/music/texas-to-mark-30th-anniversary-of-iconic-album-with-belfast-arena-show-and-new-single/a/163379561.html",
+          "title": "Texas to mark 30th anniversary of iconic album with Belfast arena show and new single",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "30e6b986e900249994586d55"
+        },
+        {
+          "id": "news-30e6b986e900249994586d55-1",
+          "url": "https://www.thesun.co.uk/tvandshowbiz/40749827/sharleen-spiteri-texas-announces-anniversary-tour/",
+          "title": "90s pop icon reveals she snubbed chance to go on Celebrity Traitors",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "30e6b986e900249994586d55"
+        },
+        {
+          "id": "news-30e6b986e900249994586d55-2",
+          "url": "https://www.thescottishsun.co.uk/tvandshowbiz/16966116/scots-rock-icons-tour-celebrity-traitors/",
+          "title": "Scots rock icons to perform huge 30th anniversary tour after singer snubbed Celebrity Traitors",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "30e6b986e900249994586d55"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-50bd3f6aff59a15a8287718e",
+      "inputHash": "ff8c0ef68c8ea1d0564f730daaa2c9a2e298b11548ed38c76770bb413428843f",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "マンチェスター・シティのリーグ規則違反を巡るニュースに関する検索語です。関連記事は、判断への異議や規制機関の権限など、競技運営・法的論点を扱っています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-f8a0879a7089ebd46efa9486-0",
+          "news-f8a0879a7089ebd46efa9486-1",
+          "news-f8a0879a7089ebd46efa9486-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "試合結果ではなく、クラブの規則遵守と判断の行方を追う文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-f8a0879a7089ebd46efa9486-0",
+            "news-f8a0879a7089ebd46efa9486-1",
+            "news-f8a0879a7089ebd46efa9486-2"
+          ]
+        },
+        {
+          "text": "どのような判断が示され、何が争われているかを確かめる検索が考えられますが、立場や支持は判別できません。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-f8a0879a7089ebd46efa9486-0",
+            "news-f8a0879a7089ebd46efa9486-1",
+            "news-f8a0879a7089ebd46efa9486-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "複数の見解や判断を巡る報道が関心に結びついた可能性があります。法的な確定事項は見出しだけでは確認できません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-f8a0879a7089ebd46efa9486-0",
+          "news-f8a0879a7089ebd46efa9486-1",
+          "news-f8a0879a7089ebd46efa9486-2"
+        ]
+      },
+      "marketing": null,
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "争いのある事案を確定的な不正認定として扱いません。評判・法的リスクがあるため広告アイデアは作成していません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-f8a0879a7089ebd46efa9486",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "man city premier league rule breach",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f8a0879a7089ebd46efa9486"
+        },
+        {
+          "id": "news-f8a0879a7089ebd46efa9486-0",
+          "url": "https://www.theguardian.com/football/2026/oct/21/manchester-city-david-kogan-independent-football-regulator",
+          "title": "Football regulator has ‘absolute power’ to force Manchester City sale if verdict upheld",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f8a0879a7089ebd46efa9486"
+        },
+        {
+          "id": "news-f8a0879a7089ebd46efa9486-1",
+          "url": "https://www.espn.co.uk/football/story/_/id/50221682/man-city-cheated-premier-league-was-built-unfair",
+          "title": "Man City cheated because Premier League was built to be unfair",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f8a0879a7089ebd46efa9486"
+        },
+        {
+          "id": "news-f8a0879a7089ebd46efa9486-2",
+          "url": "https://www.telegraph.co.uk/football/2026/10/16/full-detail-man-city-irrefutable-evidence-overturn-verdict/",
+          "title": "Revealed: Full detail of Man City’s ‘irrefutable evidence’ as they look to overturn verdict",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f8a0879a7089ebd46efa9486"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-5c45ad0c39ca90f78d1df42d",
+      "inputHash": "3a43372eba0cc6005679c46464e2547ec5f86f509232b65c2ef3ba00aa71b39d",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "CDマラトン対アリアンサのサッカーの対戦を指す検索語です。関連記事は、中米カップのプレーイン初戦の結果や、対戦を前にした監督の状況を扱っています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-89180f6732ed4abff964edc2-0",
+          "news-89180f6732ed4abff964edc2-1",
+          "news-89180f6732ed4abff964edc2-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "スペイン語の記事では、試合の要約・結果・得点や、ベンチに立つ監督に関する情報が紹介されています。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-89180f6732ed4abff964edc2-0",
+            "news-89180f6732ed4abff964edc2-1",
+            "news-89180f6732ed4abff964edc2-2"
+          ]
+        },
+        {
+          "text": "試合を見逃した後に結果を確認したり、次の対戦の見どころを調べたりする場面が考えられます。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-89180f6732ed4abff964edc2-0",
+            "news-89180f6732ed4abff964edc2-1",
+            "news-89180f6732ed4abff964edc2-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "対戦日の報道と検索観測が重なった可能性があります。米国の検索市場での観測を、米国チームの対戦という意味には読み替えません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-89180f6732ed4abff964edc2-0",
+          "news-89180f6732ed4abff964edc2-1",
+          "news-89180f6732ed4abff964edc2-2"
+        ]
+      },
+      "marketing": {
+        "text": "国をまたぐスポーツ情報への接触を考える入口になります。言語・応援先・居住地の関係は別のデータで確かめます。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-89180f6732ed4abff964edc2-0",
+          "news-89180f6732ed4abff964edc2-1",
+          "news-89180f6732ed4abff964edc2-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-89180f6732ed4abff964edc2",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "marathón - alianza",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "89180f6732ed4abff964edc2"
+        },
+        {
+          "id": "news-89180f6732ed4abff964edc2-0",
+          "url": "https://es.concacaf.com/competitions/central-american-cup/news/cd-marathon-derroto-a-alianza-en-el-partido-de-ida-del-play-in",
+          "title": "CD Marathón derrotó a Alianza en el partido de ida del Play-In",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "89180f6732ed4abff964edc2"
+        },
+        {
+          "id": "news-89180f6732ed4abff964edc2-1",
+          "url": "https://www.laprensa.hn/deportes/marathon-alianza-repechaje-copa-centroamericana-en-vivo-hoy-hora-ver-transmision-play-in-GK32388349",
+          "title": "Marathón vs Alianza: resumen, resultado y goles del repechaje de ida Copa Centroamericana",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "89180f6732ed4abff964edc2"
+        },
+        {
+          "id": "news-89180f6732ed4abff964edc2-2",
+          "url": "https://www.elpais.hn/diego-vazquez-no-estara-en-el-banquillo-para-enfrentar-a-marathon/",
+          "title": "Diego Vázquez no estará en el banquillo para enfrentar a Marathón",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "89180f6732ed4abff964edc2"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-6fa60a6b22454f0eb100ec09",
+      "inputHash": "b14f1c954303a589164d35301ef20c5dd37f3f95edc75f011fc18bd89a3caa3c",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「조세」は韓国語で税に関する語です。今回の関連記事は、Googleやゲーム会社を巡る脱税・会計不正の疑いと、これに対する業界側の反論を扱っています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-89770b5faee3b4e62813a1b6-0",
+          "news-89770b5faee3b4e62813a1b6-1",
+          "news-89770b5faee3b4e62813a1b6-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "一般的な納税方法ではなく、企業の課税や会計を巡る報道の文脈に結びついています。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-89770b5faee3b4e62813a1b6-0",
+            "news-89770b5faee3b4e62813a1b6-1",
+            "news-89770b5faee3b4e62813a1b6-2"
+          ]
+        },
+        {
+          "text": "企業側と市民団体側の主張、アプリ内決済の手数料問題との関係を調べる検索が考えられます。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-89770b5faee3b4e62813a1b6-0",
+            "news-89770b5faee3b4e62813a1b6-1",
+            "news-89770b5faee3b4e62813a1b6-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "国会での追及や当局への申告に関する記事が関心の入口になった可能性があります。疑惑の正しさは確認していません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-89770b5faee3b4e62813a1b6-0",
+          "news-89770b5faee3b4e62813a1b6-1",
+          "news-89770b5faee3b4e62813a1b6-2"
+        ]
+      },
+      "marketing": null,
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "疑惑と確定した事実を区別します。法的・社会的な争点を含むため、広告活用案は出していません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-89770b5faee3b4e62813a1b6",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "조세",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "89770b5faee3b4e62813a1b6"
+        },
+        {
+          "id": "news-89770b5faee3b4e62813a1b6-0",
+          "url": "https://www.yna.co.kr/view/AKR20261021120300017",
+          "title": "경실련 \"구글·국내 게임사 5곳 회계부정 의혹\"…업계 반박",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "89770b5faee3b4e62813a1b6"
+        },
+        {
+          "id": "news-89770b5faee3b4e62813a1b6-1",
+          "url": "https://zdnet.co.kr/view/?no=20261021171510",
+          "title": "\"구글 인앱결제 수수료 피해 8조원”…이진숙, 국감서 책임 묻겠다",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "89770b5faee3b4e62813a1b6"
+        },
+        {
+          "id": "news-89770b5faee3b4e62813a1b6-2",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440386",
+          "title": "경실련, 국세청·금감원에 구글·게임사 신고…\"조세포탈·회계부정 의혹\"",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "89770b5faee3b4e62813a1b6"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-749ab2c0d06c42ae3b841b79",
+      "inputHash": "f504676f801c4898a91943afd6ed7d9de837b20f290ca5416f23cf4462dbe599",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「what」は意味の広い英語で、この語だけでは話題を特定できません。今回の関連記事は米国の中間選挙と中絶の権利を巡る記事ですが、語との直接の関係は不明です。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "obs-db41fd790105a8a45e81fa49",
+          "news-db41fd790105a8a45e81fa49-0",
+          "news-db41fd790105a8a45e81fa49-1",
+          "news-db41fd790105a8a45e81fa49-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "取得された関連記事は、選挙の争点としての中絶や投票判断に関する内容です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "obs-db41fd790105a8a45e81fa49",
+            "news-db41fd790105a8a45e81fa49-0",
+            "news-db41fd790105a8a45e81fa49-1",
+            "news-db41fd790105a8a45e81fa49-2"
+          ]
+        },
+        {
+          "text": "この一般語の検索を、特定の政治的主張や生活者の意見と結びつけて解釈することはできません。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "obs-db41fd790105a8a45e81fa49",
+            "news-db41fd790105a8a45e81fa49-0",
+            "news-db41fd790105a8a45e81fa49-1",
+            "news-db41fd790105a8a45e81fa49-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "関連付けのノイズが大きく、何が検索理由だったかは説明できません。曖昧な検索語として扱います。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "obs-db41fd790105a8a45e81fa49",
+          "news-db41fd790105a8a45e81fa49-0",
+          "news-db41fd790105a8a45e81fa49-1",
+          "news-db41fd790105a8a45e81fa49-2"
+        ]
+      },
+      "marketing": null,
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "一般語と関連記事の対応は未確認です。政治・権利に関する個人の立場を推測せず、広告アイデアも作成しません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-db41fd790105a8a45e81fa49",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "what",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "db41fd790105a8a45e81fa49"
+        },
+        {
+          "id": "news-db41fd790105a8a45e81fa49-0",
+          "url": "https://www.theguardian.com/us-news/video/2026/oct/20/abortion-midterms-candidates",
+          "title": "Abortion is on the ballot. Why is no one talking about it? – Stateside with Kai and Carter",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "db41fd790105a8a45e81fa49"
+        },
+        {
+          "id": "news-db41fd790105a8a45e81fa49-1",
+          "url": "https://www.ms.now/news/abortion-2026-midterms-choice",
+          "title": "Voters backed Trump and abortion rights in 2024. Will they split their tickets again?",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "db41fd790105a8a45e81fa49"
+        },
+        {
+          "id": "news-db41fd790105a8a45e81fa49-2",
+          "url": "https://www.sltrib.com/religion/2026/10/17/abortion-is-ballot-states-besides/",
+          "title": "Abortion is on the ballot in other states, too, and faith groups are speaking out on all sides",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "db41fd790105a8a45e81fa49"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-8128aa9710e45fcbcb031332",
+      "inputHash": "1a9e4a71a2669493bd3d10218e815ccc83eab5bd641aba33981ad84a69193d3f",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "マクドナルドのブランド名ですが、今回の主な関連記事はハロウィーン向けのBoo Bucketsや期間商品に関する内容です。単に外食全体の人気を示すものではありません。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-9a4a543b94ca1a2693c7fff1-0",
+          "news-9a4a543b94ca1a2693c7fff1-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "関連する見出しでは、季節限定の容器の再登場、見た目の変化、懐かしむファンの反応が取り上げられています。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-9a4a543b94ca1a2693c7fff1-0",
+            "news-9a4a543b94ca1a2693c7fff1-2"
+          ]
+        },
+        {
+          "text": "限定アイテムの内容や発売情報、以前の商品との違いを確認したい検索である可能性があります。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-9a4a543b94ca1a2693c7fff1-0",
+            "news-9a4a543b94ca1a2693c7fff1-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "季節行事と過去の記憶を結びつけた商品報道が関心の入口になった可能性があります。反応の好悪や購入効果は未測定です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-9a4a543b94ca1a2693c7fff1-0",
+          "news-9a4a543b94ca1a2693c7fff1-2"
+        ]
+      },
+      "marketing": {
+        "text": "季節の習慣や収集したくなる体験を商品価値とどう結びつけるかを考える切り口です。売上に効いたと断定はできません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-9a4a543b94ca1a2693c7fff1-0",
+          "news-9a4a543b94ca1a2693c7fff1-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "関連記事の一つは交通事故の記事で、ブランドとの関係は確認できません。説明では関連性が確認できる二つの見出しを用いています。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-9a4a543b94ca1a2693c7fff1",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "mcdonald's",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:30:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "9a4a543b94ca1a2693c7fff1"
+        },
+        {
+          "id": "news-9a4a543b94ca1a2693c7fff1-0",
+          "url": "https://www.yahoo.com/news/us/article/mcdonalds-boo-buckets-are-back-with-a-new-look-nostalgic-fans-have-thoughts-173801158.html",
+          "title": "McDonald's Boo Buckets are back with a new look. Nostalgic fans have thoughts.",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:30:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "9a4a543b94ca1a2693c7fff1"
+        },
+        {
+          "id": "news-9a4a543b94ca1a2693c7fff1-1",
+          "url": "https://www.wfsb.com/2026/10/20/elm-street-closed-enfield-due-crash-police-say/",
+          "title": "Elm Street closed in Enfield due to crash, police say",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:30:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "9a4a543b94ca1a2693c7fff1"
+        },
+        {
+          "id": "news-9a4a543b94ca1a2693c7fff1-2",
+          "url": "https://www.allrecipes.com/mcdonalds-disney-villains-boo-buckets-12173909",
+          "title": "McDonald’s Is Bringing Back the Meal Fans Wait All Year For",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:30:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "9a4a543b94ca1a2693c7fff1"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-82b818c5f0192223be0b142f",
+      "inputHash": "4587a87002ff8d0ebd0befd21724a8b3334fd02cdc7a4e85454cb7b0a941bf39",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "Webサイト作成サービスWixに関する検索語です。関連記事では、AIによるサイト生成や、AIエージェントによる決済機能と株式市場の評価が扱われています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-f1b11346da920c94416df074-0",
+          "news-f1b11346da920c94416df074-1",
+          "news-f1b11346da920c94416df074-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "単なるサイトの作り方だけでなく、小規模事業者の作業をAIで進める機能のニュースに結びついています。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-f1b11346da920c94416df074-0",
+            "news-f1b11346da920c94416df074-1",
+            "news-f1b11346da920c94416df074-2"
+          ]
+        },
+        {
+          "text": "機能を使いたい事業者の情報収集と、企業を評価する投資家の情報収集が混ざっている可能性があります。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-f1b11346da920c94416df074-0",
+            "news-f1b11346da920c94416df074-1",
+            "news-f1b11346da920c94416df074-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "AI機能の発表が接点になった可能性はありますが、導入の増加や株価の将来を示すデータではありません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-f1b11346da920c94416df074-0",
+          "news-f1b11346da920c94416df074-1",
+          "news-f1b11346da920c94416df074-2"
+        ]
+      },
+      "marketing": {
+        "text": "AIそのものの目新しさより、事業者の作業時間や手間をどう減らすかを具体化する表現を検討できます。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-f1b11346da920c94416df074-0",
+          "news-f1b11346da920c94416df074-1",
+          "news-f1b11346da920c94416df074-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "利用者の導入率・投資判断・決済の安全性は、この検索観測と見出しだけでは評価できません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-f1b11346da920c94416df074",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "wix",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f1b11346da920c94416df074"
+        },
+        {
+          "id": "news-f1b11346da920c94416df074-0",
+          "url": "https://kalkinemedia.com/us/stocks/midcap/can-its-ai-site-generator-keep-wixcom-nasdaqwix-in-view",
+          "title": "Can Its AI Site Generator Keep Wix.com (NASDAQ:WIX) in View?",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f1b11346da920c94416df074"
+        },
+        {
+          "id": "news-f1b11346da920c94416df074-1",
+          "url": "https://www.marketscreener.com/news/wix-com-ltd-integrates-stripe-s-link-wallet-for-agents-with-symphony-by-wix-enabling-ai-agents-to-ce785dd3de8af426",
+          "title": "Wix.com Ltd. Integrates Stripe?s Link Wallet For Agents With Symphony By Wix, Enabling AI Agents To Make Payments On Behalf Of Small Businesses",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f1b11346da920c94416df074"
+        },
+        {
+          "id": "news-f1b11346da920c94416df074-2",
+          "url": "https://simplywall.st/stocks/us/software/nasdaq-wix/wixcom/news/wix-stock-faces-a-real-test-after-ai-payments-launch",
+          "title": "Wix Stock Faces A Real Test After AI Payments Launch",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f1b11346da920c94416df074"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-87148274a4f2da5d366df9e9",
+      "inputHash": "4ed074f4ac3d3898e98378c3d73c928d6181537b261ec8375b90109dab9fa85b",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "野球ゲーム「プロ野球スピリッツ」シリーズの略称です。関連記事は、プロスピAの周年企画、ゲーム内選手の追加、野球表現の技術を扱っています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-5be8c9950189056965e58d0e-0",
+          "news-5be8c9950189056965e58d0e-1",
+          "news-5be8c9950189056965e58d0e-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "周年企画や新しい選手、ゲームの見た目といった、遊ぶ前に知りたい更新情報の文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-5be8c9950189056965e58d0e-0",
+            "news-5be8c9950189056965e58d0e-1",
+            "news-5be8c9950189056965e58d0e-2"
+          ]
+        },
+        {
+          "text": "継続プレイヤーが新しい要素を確かめたり、野球に関する映像をきっかけにゲームを調べたりする場面が考えられます。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-5be8c9950189056965e58d0e-0",
+            "news-5be8c9950189056965e58d0e-1",
+            "news-5be8c9950189056965e58d0e-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "周年施策や関連動画などの発信が関心の入口になった可能性がありますが、実際の利用継続や課金行動は未確認です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-5be8c9950189056965e58d0e-0",
+          "news-5be8c9950189056965e58d0e-1",
+          "news-5be8c9950189056965e58d0e-2"
+        ]
+      },
+      "marketing": {
+        "text": "現実のスポーツ体験とゲーム内体験をつなぐ楽しさを考える切り口です。利用者の年齢や支払意向は推定しません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-5be8c9950189056965e58d0e-0",
+          "news-5be8c9950189056965e58d0e-1",
+          "news-5be8c9950189056965e58d0e-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-5be8c9950189056965e58d0e",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "プロスピ",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "5be8c9950189056965e58d0e"
+        },
+        {
+          "id": "news-5be8c9950189056965e58d0e-0",
+          "url": "https://www.famitsu.com/article/202610/91593",
+          "title": "『プロスピA』11周年スカウト（ガチャ）一部先行公開。「NPB“最多安打”獲得数1位といえば誰？」イチローがクイズに答えるスペシャル動画が18時公開",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "5be8c9950189056965e58d0e"
+        },
+        {
+          "id": "news-5be8c9950189056965e58d0e-1",
+          "url": "https://cgworld.jp/article/202610-cgw337-prospi.html",
+          "title": "野球専用エンジンが実現する、現実の野球に迫る画づくり『プロ野球スピリッツ2026』",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "5be8c9950189056965e58d0e"
+        },
+        {
+          "id": "news-5be8c9950189056965e58d0e-2",
+          "url": "https://gamebiz.jp/news/434106",
+          "title": "KONAMI、『プロスピA』に「2026 Series2」選手が新登場…岩城颯空(西武)、Ｒ．マルティネス(巨人)、佐藤直樹(楽天)、名原典彦(広島)など",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "5be8c9950189056965e58d0e"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-924b903a41682c9e2534e117",
+      "inputHash": "b54e4ed99f097e7118dd88a5fdb91abab447523c9b2a2ea15695629104ecc378",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "子吉川という河川名に関する検索語です。今回の関連記事は氾濫危険警報、川の増水、土砂災害への警戒を伝えており、安全確認の文脈です。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-08e36f0543db6e2bd8153660-1",
+          "news-08e36f0543db6e2bd8153660-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "河川の危険度や大雨の影響を確認するための、緊急性を伴う情報に結びついています。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-08e36f0543db6e2bd8153660-1",
+            "news-08e36f0543db6e2bd8153660-2"
+          ]
+        },
+        {
+          "text": "周辺地域の状況を知りたい検索である可能性がありますが、検索者の居住地や避難行動は特定できません。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-08e36f0543db6e2bd8153660-1",
+            "news-08e36f0543db6e2bd8153660-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "大雨と警報の報道が関心の入口になった可能性があります。流行や好意的な人気として読むべき情報ではありません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-08e36f0543db6e2bd8153660-1",
+          "news-08e36f0543db6e2bd8153660-2"
+        ]
+      },
+      "marketing": null,
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "センシティブな話題の可能性があるため、広告活用の自動提案を停止しています。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "これは取得時点のニュース要約で、現在の避難情報ではありません。最新の自治体・気象庁等の公式案内を確認してください。広告利用は自動提案しません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-08e36f0543db6e2bd8153660",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "子吉川",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "08e36f0543db6e2bd8153660"
+        },
+        {
+          "id": "news-08e36f0543db6e2bd8153660-0",
+          "url": "https://news.yahoo.co.jp/articles/d29b31d1403221e97f767e0bfa240304eb3e8ae6",
+          "title": "津軽の大雨の峠は越えるも地盤の緩みに注意 21日夜のはじめ頃にかけて土砂災害に警戒呼びかけ（青森放送）",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "08e36f0543db6e2bd8153660"
+        },
+        {
+          "id": "news-08e36f0543db6e2bd8153660-1",
+          "url": "https://newsdig.tbs.co.jp/articles/-/3029046?display=1",
+          "title": "【レベル４氾濫危険警報】子吉川に発表 18:15時点",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "08e36f0543db6e2bd8153660"
+        },
+        {
+          "id": "news-08e36f0543db6e2bd8153660-2",
+          "url": "https://news.ntv.co.jp/n/abs/category/society/ab6d5f96bf2285485cb0028cdc786820c8",
+          "title": "県内は大気の状態が非常に不安定に 今夜遅くにかけて川の増水や氾濫に警戒 土砂災害や西寄りの強い風に十分注意を 秋田",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "08e36f0543db6e2bd8153660"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-93aa59f4a038fb30cfdb134f",
+      "inputHash": "40f2df47936f0e7f4fce6a7f59e9979f1fcfd09d128a4cca38ff8b391dd35212",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "デイビッド・アッテンボローの名前に関する検索語です。今回の関連記事は、庭でハリネズミなどの野生動物を守る工夫や、冬の生息場所づくりに結びついています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-8fb03c84aa97620a79e415f7-0",
+          "news-8fb03c84aa97620a79e415f7-1",
+          "news-8fb03c84aa97620a79e415f7-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "有名人の動向だけでなく、自宅の庭で野生動物を守る具体的な方法を扱う記事の文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-8fb03c84aa97620a79e415f7-0",
+            "news-8fb03c84aa97620a79e415f7-1",
+            "news-8fb03c84aa97620a79e415f7-2"
+          ]
+        },
+        {
+          "text": "自然保護という大きなテーマを、庭づくりなど身近な行動に落とし込んで調べる場面が考えられます。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-8fb03c84aa97620a79e415f7-0",
+            "news-8fb03c84aa97620a79e415f7-1",
+            "news-8fb03c84aa97620a79e415f7-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "季節に合わせた庭の手入れと自然保護の話題が接点になった可能性があります。記事の露出だけで行動の普及は判断できません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-8fb03c84aa97620a79e415f7-0",
+          "news-8fb03c84aa97620a79e415f7-1",
+          "news-8fb03c84aa97620a79e415f7-2"
+        ]
+      },
+      "marketing": {
+        "text": "環境メッセージを抽象的な理念にとどめず、家庭で無理なくできる行動と結びつけられるかを考える切り口です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-8fb03c84aa97620a79e415f7-0",
+          "news-8fb03c84aa97620a79e415f7-1",
+          "news-8fb03c84aa97620a79e415f7-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-8fb03c84aa97620a79e415f7",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "david attenborough",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "8fb03c84aa97620a79e415f7"
+        },
+        {
+          "id": "news-8fb03c84aa97620a79e415f7-0",
+          "url": "https://www.womanandhome.com/homes/gardens/how-to-protect-hedgehogs-in-garden-expert-advice/",
+          "title": "5 things we should all do to protect hedgehogs in our gardens – this season and beyond",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "8fb03c84aa97620a79e415f7"
+        },
+        {
+          "id": "news-8fb03c84aa97620a79e415f7-1",
+          "url": "https://www.homesandgardens.com/gardens/how-to-make-a-brush-pile-for-garden-wildlife",
+          "title": "The Backyard Habitat You Can Create in One Afternoon for Winter Wildlife – Before Frost Arrives",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "8fb03c84aa97620a79e415f7"
+        },
+        {
+          "id": "news-8fb03c84aa97620a79e415f7-2",
+          "url": "https://demokratis.co.id/en/attenborough-hedgehog-garden-highways",
+          "title": "David Attenborough Urges Gardeners to Create Hedgehog Highways",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "8fb03c84aa97620a79e415f7"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-9597bc4a9ad86bec48df4ca9",
+      "inputHash": "c525629630c202a105ff710079935b25f98e80bc5b753ca4e79059a668442a88",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「NBA選手」という広い語ですが、関連記事は開幕時期のファンタジー・バスケットボールや賭けの予想に偏っています。NBA全体の選手人気ランキングではありません。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-141f3b7a5f796fdaf1b0439d-0",
+          "news-141f3b7a5f796fdaf1b0439d-1",
+          "news-141f3b7a5f796fdaf1b0439d-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "見出しには、選手を選ぶファンタジー競技と、試合・選手成績を対象にした賭けの予想が並んでいます。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-141f3b7a5f796fdaf1b0439d-0",
+            "news-141f3b7a5f796fdaf1b0439d-1",
+            "news-141f3b7a5f796fdaf1b0439d-2"
+          ]
+        },
+        {
+          "text": "試合前に選手の状態や予想を調べる検索が考えられますが、一般の観戦者全体の関心を代表するとは限りません。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-141f3b7a5f796fdaf1b0439d-0",
+            "news-141f3b7a5f796fdaf1b0439d-1",
+            "news-141f3b7a5f796fdaf1b0439d-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "開幕関連の記事が関心と重なった可能性があります。特定選手の支持率や賭けの結果を示すものではありません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-141f3b7a5f796fdaf1b0439d-0",
+          "news-141f3b7a5f796fdaf1b0439d-1",
+          "news-141f3b7a5f796fdaf1b0439d-2"
+        ]
+      },
+      "marketing": null,
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "賭けに関する記事を含みます。予想の推奨、勝つ確率、投資・賭博への誘導や広告案は作成しません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-141f3b7a5f796fdaf1b0439d",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "nba players",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "141f3b7a5f796fdaf1b0439d"
+        },
+        {
+          "id": "news-141f3b7a5f796fdaf1b0439d-0",
+          "url": "https://www.espn.com/fantasy/basketball/story/_/id/50228665/fantasy-basketball-tips-nba-betting-picks-today",
+          "title": "Who to add in fantasy and the bets to make when the NBA season tips off Tuesday",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "141f3b7a5f796fdaf1b0439d"
+        },
+        {
+          "id": "news-141f3b7a5f796fdaf1b0439d-1",
+          "url": "https://www.nbcsports.com/betting/nba/news/celtics-vs-pistons-and-knicks-vs-76ers-predictions-odds-best-bets-picks-for-oct-20",
+          "title": "Celtics vs Pistons and Knicks vs 76ers Predictions: NBA Odds, Best Bets, and Picks for Oct. 20",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "141f3b7a5f796fdaf1b0439d"
+        },
+        {
+          "id": "news-141f3b7a5f796fdaf1b0439d-2",
+          "url": "https://www.fanduel.com/research/nba-player-props-today-3-best-nba-prop-bets-for-opening-night-oct-20",
+          "title": "NBA Player Props Today: 3 Best NBA Prop Bets for Opening Night (Oct. 20)",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "141f3b7a5f796fdaf1b0439d"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-9780daa5e89d610e8763997c",
+      "inputHash": "0836d8e7f0aca66551ae3e9d1565e3df9f8faf1ace6b5438945b01cff725d9b9",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "ここでの「SONGS」は一般的な「歌」ではなく、NHKの音楽番組です。関連記事はMrs. GREEN APPLEの出演、フルオーケストラとの共演、披露曲に結びついています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-a9ff8e39b70a9274c61d33ab-0",
+          "news-a9ff8e39b70a9274c61d33ab-1",
+          "news-a9ff8e39b70a9274c61d33ab-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "番組への出演情報、テレビ初披露曲、演奏形式を確認する文脈で使われています。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-a9ff8e39b70a9274c61d33ab-0",
+            "news-a9ff8e39b70a9274c61d33ab-1",
+            "news-a9ff8e39b70a9274c61d33ab-2"
+          ]
+        },
+        {
+          "text": "放送を見たい人や、好きなアーティストの普段と異なる演奏を確かめたい人の検索である可能性があります。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-a9ff8e39b70a9274c61d33ab-0",
+            "news-a9ff8e39b70a9274c61d33ab-1",
+            "news-a9ff8e39b70a9274c61d33ab-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "出演発表や特別な演奏形式が関心の入口になった可能性があります。音楽全般の関心増加とは区別します。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-a9ff8e39b70a9274c61d33ab-0",
+          "news-a9ff8e39b70a9274c61d33ab-1",
+          "news-a9ff8e39b70a9274c61d33ab-2"
+        ]
+      },
+      "marketing": {
+        "text": "いつもの楽しみに新しい見せ方を加える体験を、ブランドの提供価値とどう接続できるか考える入口です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-a9ff8e39b70a9274c61d33ab-0",
+          "news-a9ff8e39b70a9274c61d33ab-1",
+          "news-a9ff8e39b70a9274c61d33ab-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-a9ff8e39b70a9274c61d33ab",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "songs",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "a9ff8e39b70a9274c61d33ab"
+        },
+        {
+          "id": "news-a9ff8e39b70a9274c61d33ab-0",
+          "url": "https://news.yahoo.co.jp/articles/a343b4d8299b4724b28e6d21405d5be9625657c6",
+          "title": "ミセス、NHK「SONGS」で自身初のフルオーケストラ共演（vois ヴォイス）",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "a9ff8e39b70a9274c61d33ab"
+        },
+        {
+          "id": "news-a9ff8e39b70a9274c61d33ab-1",
+          "url": "https://www.billboard-japan.com/d_news/detail/166721",
+          "title": "Mrs. GREEN APPLEが『SONGSスペシャル』出演、テレビ初披露曲など全5曲をフルサイズ披露へ",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "a9ff8e39b70a9274c61d33ab"
+        },
+        {
+          "id": "news-a9ff8e39b70a9274c61d33ab-2",
+          "url": "https://www.topics.or.jp/articles/-/1513067",
+          "title": "Mrs. GREEN APPLE、『SONGSスペシャル』出演 テレビ初披露「共犯」「シンデレラ」ほか5曲、トークも",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "a9ff8e39b70a9274c61d33ab"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-9a991bc58276855f22002d64",
+      "inputHash": "cbb39cc03f7a91b7773d77ad8ed39e2af483b7bacf7e4b5256f95b7d050e9141",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「ミルウォーキー・ブルワーズ」の韓国語表記です。関連記事は、野球のワールドシリーズ、チームとファンの関係、球団運営の話題を扱っています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-bdeed22da6aff1f7f394bf93-0",
+          "news-bdeed22da6aff1f7f394bf93-1",
+          "news-bdeed22da6aff1f7f394bf93-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "試合結果だけでなく、長く応援してきたファンへの対応や、小規模市場の球団の意思決定という話題が含まれています。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-bdeed22da6aff1f7f394bf93-0",
+            "news-bdeed22da6aff1f7f394bf93-1",
+            "news-bdeed22da6aff1f7f394bf93-2"
+          ]
+        },
+        {
+          "text": "チームの成績とともに、その背景や応援する人の経験を知りたい場面で調べられた可能性があります。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-bdeed22da6aff1f7f394bf93-0",
+            "news-bdeed22da6aff1f7f394bf93-1",
+            "news-bdeed22da6aff1f7f394bf93-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "大きな大会に関連する報道が関心の入口になった可能性があります。韓国の検索観測をチーム支持者の居住地分布とはみなしません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-bdeed22da6aff1f7f394bf93-0",
+          "news-bdeed22da6aff1f7f394bf93-1",
+          "news-bdeed22da6aff1f7f394bf93-2"
+        ]
+      },
+      "marketing": {
+        "text": "長く関わってきた利用者への扱いや、応援を続ける理由を調べる切り口になります。今回の記事だけでファン全体の評価は判断しません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-bdeed22da6aff1f7f394bf93-0",
+          "news-bdeed22da6aff1f7f394bf93-1",
+          "news-bdeed22da6aff1f7f394bf93-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-bdeed22da6aff1f7f394bf93",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "밀워키 브루어스",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "bdeed22da6aff1f7f394bf93"
+        },
+        {
+          "id": "news-bdeed22da6aff1f7f394bf93-0",
+          "url": "https://www.yna.co.kr/view/AKR20261021038700007",
+          "title": "월드시리즈 진출 밀워키, 11년 전 고액 입장권 구매한 팬들 홀대",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "bdeed22da6aff1f7f394bf93"
+        },
+        {
+          "id": "news-bdeed22da6aff1f7f394bf93-1",
+          "url": "https://www.chosun.com/sports/world-baseball/2026/10/21/MMZTCMTDMU4TEN3CMM2TQNZVG4/",
+          "title": "MVP가 되어 다시 만났다! 나를 버린 팀을 상대로 창단 첫 우승 정조준…46년만의 '무관'시리즈, 한쪽은 반드시 성불한다",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "bdeed22da6aff1f7f394bf93"
+        },
+        {
+          "id": "news-bdeed22da6aff1f7f394bf93-2",
+          "url": "https://www.sedaily.com/article/20103812",
+          "title": "“MLB ‘스몰마켓’ 구단 선전 비결...직관보다 데이터로 의사결정해야”",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "bdeed22da6aff1f7f394bf93"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-9dd06ac8423840ba83074ee2",
+      "inputHash": "d36858117bc8dbeb54caf0633e48bb877f366721c17cf4b5391d03f3720b9161",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「ビッグアーチ」というマクドナルドのハンバーガーを指す韓国語です。関連記事は、実食、ボリューム、価格、ビッグマックとの違いを扱っています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-f028ca6ae2b4552f56b5ac6a-0",
+          "news-f028ca6ae2b4552f56b5ac6a-1",
+          "news-f028ca6ae2b4552f56b5ac6a-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "レビューの見出しで、大きさと価格、具材の構成が比較されています。食べる前に商品像を把握する文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-f028ca6ae2b4552f56b5ac6a-0",
+            "news-f028ca6ae2b4552f56b5ac6a-1",
+            "news-f028ca6ae2b4552f56b5ac6a-2"
+          ]
+        },
+        {
+          "text": "値段に見合う満足感があるか、いつもの商品と何が違うかを確かめたい検索である可能性があります。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-f028ca6ae2b4552f56b5ac6a-0",
+            "news-f028ca6ae2b4552f56b5ac6a-1",
+            "news-f028ca6ae2b4552f56b5ac6a-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "商品を試した記事の発信が関心の入口になった可能性があります。検索需要だけで売れ行きや高評価は判断できません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-f028ca6ae2b4552f56b5ac6a-0",
+          "news-f028ca6ae2b4552f56b5ac6a-1",
+          "news-f028ca6ae2b4552f56b5ac6a-2"
+        ]
+      },
+      "marketing": {
+        "text": "大きさや価格の目立ち方だけでなく、誰のどんな食事場面に十分な満足を提供できるかを比較表現で確かめる切り口です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-f028ca6ae2b4552f56b5ac6a-0",
+          "news-f028ca6ae2b4552f56b5ac6a-1",
+          "news-f028ca6ae2b4552f56b5ac6a-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-f028ca6ae2b4552f56b5ac6a",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "빅아치",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f028ca6ae2b4552f56b5ac6a"
+        },
+        {
+          "id": "news-f028ca6ae2b4552f56b5ac6a-0",
+          "url": "https://zdnet.co.kr/view/?no=20261021171656",
+          "title": "빅맥보다 68% 묵직하다…맥도날드 ‘빅아치’ 먹어보니",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f028ca6ae2b4552f56b5ac6a"
+        },
+        {
+          "id": "news-f028ca6ae2b4552f56b5ac6a-1",
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261021010007250",
+          "title": "[먹어보아투] 맥도날드서 가장 크고 비싼 버거…1만2400원 ‘빅아치’ 먹어보니",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f028ca6ae2b4552f56b5ac6a"
+        },
+        {
+          "id": "news-f028ca6ae2b4552f56b5ac6a-2",
+          "url": "https://biz.newdaily.co.kr/site/data/html/2026/10/21/2026102100289.html",
+          "title": "[르포] \"소고기 패티 2장에 치즈 3장, 빅맥 1.7배\" … 맥도날드 '빅아치' 승부수",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f028ca6ae2b4552f56b5ac6a"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-a70ae2f27dd73dc688dcba01",
+      "inputHash": "d4b41e0fec2a634feb12115a9c0da30dc7bb3938d5f98f6876e2cf62825e3f08",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「トランプ氏の支持率」を意味する検索語です。関連記事は、中間選挙を前にした支持率調査と、その政治的な意味を扱う報道に結びついています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-e30f3e8085f0283f84291c96-0",
+          "news-e30f3e8085f0283f84291c96-1",
+          "news-e30f3e8085f0283f84291c96-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "世論調査の結果や、選挙情勢との関係を確認する政治ニュースの文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-e30f3e8085f0283f84291c96-0",
+            "news-e30f3e8085f0283f84291c96-1",
+            "news-e30f3e8085f0283f84291c96-2"
+          ]
+        },
+        {
+          "text": "報道された調査の内容を確かめる検索が考えられますが、検索者の支持・不支持は分かりません。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-e30f3e8085f0283f84291c96-0",
+            "news-e30f3e8085f0283f84291c96-1",
+            "news-e30f3e8085f0283f84291c96-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "選挙を前にした調査報道が関心の入口になった可能性があります。検索量と候補者への支持率は異なる指標です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-e30f3e8085f0283f84291c96-0",
+          "news-e30f3e8085f0283f84291c96-1",
+          "news-e30f3e8085f0283f84291c96-2"
+        ]
+      },
+      "marketing": null,
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "支持率の具体値、調査対象、標本数、設問・調査方法は未取得です。政治的な立場や広告対象属性を推測しません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-e30f3e8085f0283f84291c96",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "trump approval rating",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "e30f3e8085f0283f84291c96"
+        },
+        {
+          "id": "news-e30f3e8085f0283f84291c96-0",
+          "url": "https://www.washingtonpost.com/politics/2026/10/18/trump-approval-hits-record-low-handing-democrats-clear-midterm-edge/",
+          "title": "Trump approval hits record low, handing Democrats a clear midterm edge",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "e30f3e8085f0283f84291c96"
+        },
+        {
+          "id": "news-e30f3e8085f0283f84291c96-1",
+          "url": "https://www.nytimes.com/2026/10/21/us/politics/trump-midterm-election-poll.html",
+          "title": "Trump Approval Hits New Low Two Weeks Before Midterms, Poll Finds",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "e30f3e8085f0283f84291c96"
+        },
+        {
+          "id": "news-e30f3e8085f0283f84291c96-2",
+          "url": "https://www.pbs.org/newshour/show/tamara-keith-and-carrie-dann-on-trumps-approval-rating-hitting-a-record-low",
+          "title": "Tamara Keith and Carrie Dann on Trump's approval rating hitting a record low",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "e30f3e8085f0283f84291c96"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-ac9ca692fab1f4936584cb13",
+      "inputHash": "901ff1a0fc13e8f79d190fe2b99dc7f64e5e720ed9ee571d56f8d04f22c47777",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「住宅売買」という韓国語です。今回の関連記事は米国の住宅市場、金利、販売契約を扱う韓国語報道で、韓国国内の住宅人気を示しているわけではありません。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-1ca1aec8c133226064cb34cb-0",
+          "news-1ca1aec8c133226064cb34cb-1",
+          "news-1ca1aec8c133226064cb34cb-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "見出しでは米国の住宅売買の減速や金利との関係が報じられています。海外経済ニュースを読む文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-1ca1aec8c133226064cb34cb-0",
+            "news-1ca1aec8c133226064cb34cb-1",
+            "news-1ca1aec8c133226064cb34cb-2"
+          ]
+        },
+        {
+          "text": "住宅費や経済の先行きへの関心から、国外の市場情報を調べる検索である可能性があります。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-1ca1aec8c133226064cb34cb-0",
+            "news-1ca1aec8c133226064cb34cb-1",
+            "news-1ca1aec8c133226064cb34cb-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "米国の住宅市場に関する報道が接点になった可能性があります。記事の言語、検索市場、住宅市場の対象国を分けて読む必要があります。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-1ca1aec8c133226064cb34cb-0",
+          "news-1ca1aec8c133226064cb34cb-1",
+          "news-1ca1aec8c133226064cb34cb-2"
+        ]
+      },
+      "marketing": null,
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "住宅統計の原表や調査方法は確認していません。住宅価格の予測、投資判断、検索者の購入意向を生成しません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-1ca1aec8c133226064cb34cb",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "주택 매매",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "1ca1aec8c133226064cb34cb"
+        },
+        {
+          "id": "news-1ca1aec8c133226064cb34cb-0",
+          "url": "https://www.newsis.com/view/NISX20261021_0003834173",
+          "title": "美 9월 주택시장 급랭…7%대 대출금리에 매매계약 '역대 최저'",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "1ca1aec8c133226064cb34cb"
+        },
+        {
+          "id": "news-1ca1aec8c133226064cb34cb-1",
+          "url": "https://ekn.kr/web/view.php?key=20261021023188943",
+          "title": "“AI 거품만 걱정했는데”…美 주택시장에 무슨 일이 [이슈+]",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "1ca1aec8c133226064cb34cb"
+        },
+        {
+          "id": "news-1ca1aec8c133226064cb34cb-2",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440231",
+          "title": "美 9월 잠정주택판매 전월비 7.3% 감소…예상치 대폭 하회",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "1ca1aec8c133226064cb34cb"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-acd16d3b68de9a90a0e2019e",
+      "inputHash": "da6281b448cff3fda30392c9452b3926c0624beeaeb391bce8eabd5afb961aac",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「帯状疱疹ワクチン」という韓国語です。今回の関連記事は、企業による候補ワクチンの臨床試験計画や結果発表を伝える開発ニュースです。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-5ca38ec4ab1534c7a986864b-0",
+          "news-5ca38ec4ab1534c7a986864b-1",
+          "news-5ca38ec4ab1534c7a986864b-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "接種の受け方そのものではなく、ワクチンの開発段階や企業発表を確認する文脈に結びついています。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-5ca38ec4ab1534c7a986864b-0",
+            "news-5ca38ec4ab1534c7a986864b-1",
+            "news-5ca38ec4ab1534c7a986864b-2"
+          ]
+        },
+        {
+          "text": "医療技術の進展や企業の開発状況を調べる場面が考えられますが、接種希望者の需要を実測した情報ではありません。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-5ca38ec4ab1534c7a986864b-0",
+            "news-5ca38ec4ab1534c7a986864b-1",
+            "news-5ca38ec4ab1534c7a986864b-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "臨床試験に関する発表が関心の入口になった可能性があります。見出しから有効性・安全性・承認状況は判断できません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-5ca38ec4ab1534c7a986864b-0",
+          "news-5ca38ec4ab1534c7a986864b-1",
+          "news-5ca38ec4ab1534c7a986864b-2"
+        ]
+      },
+      "marketing": null,
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "センシティブな話題の可能性があるため、広告活用の自動提案を停止しています。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "医療・開発段階に関する報道です。医療上の助言、接種の推奨、成果や広告効果の推定は行いません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-5ca38ec4ab1534c7a986864b",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "대상포진백신",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:50:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "5ca38ec4ab1534c7a986864b"
+        },
+        {
+          "id": "news-5ca38ec4ab1534c7a986864b-0",
+          "url": "https://www.datatooza.com/article/2026102118002837652ef3c23d8_80",
+          "title": "유바이오로직스, 대상포진 백신 EuHZV 2상 임상시험계획 신청",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:50:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "5ca38ec4ab1534c7a986864b"
+        },
+        {
+          "id": "news-5ca38ec4ab1534c7a986864b-1",
+          "url": "https://www.cbci.co.kr/news/articleView.html?idxno=617884",
+          "title": "[속보] 유바이오로직스, 대상포진 백신 국내 임상 1상 결과 발표",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:50:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "5ca38ec4ab1534c7a986864b"
+        },
+        {
+          "id": "news-5ca38ec4ab1534c7a986864b-2",
+          "url": "https://www.datatooza.com/article/2026102117585124752ef3b901a_80",
+          "title": "유바이오로직스, 대상포진 백신 EuHZV 국내 1상 결과 발표",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:50:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "5ca38ec4ab1534c7a986864b"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-bcf203216d4f397ca1f0e17c",
+      "inputHash": "f0ef7e545dfc9e711b90dc73b20eecffb25af229b8f3a672c4be48d0615521f7",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「binge-watching」は作品を続けて一気に見ることです。今回の関連記事は、Netflixのスリラー作品を長時間見続ける視聴体験を強調する内容です。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-a62814052811d46fe6279727-0",
+          "news-a62814052811d46fe6279727-1",
+          "news-a62814052811d46fe6279727-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "作品の紹介記事で「見始めると止まらない」という没入感を伝える表現として使われています。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-a62814052811d46fe6279727-0",
+            "news-a62814052811d46fe6279727-1",
+            "news-a62814052811d46fe6279727-2"
+          ]
+        },
+        {
+          "text": "次に見る作品を選ぶ際、どれほど引き込まれるかを確かめたい場面で検索された可能性があります。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-a62814052811d46fe6279727-0",
+            "news-a62814052811d46fe6279727-1",
+            "news-a62814052811d46fe6279727-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "視聴体験を強調した記事が接点になった可能性があります。ただし実際の視聴時間や、多くの人が徹夜したことは確認できません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-a62814052811d46fe6279727-0",
+          "news-a62814052811d46fe6279727-1",
+          "news-a62814052811d46fe6279727-2"
+        ]
+      },
+      "marketing": {
+        "text": "生活者が時間を使いたくなる体験と、楽しみながら区切りをつけたい事情の両方を理解する切り口です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-a62814052811d46fe6279727-0",
+          "news-a62814052811d46fe6279727-1",
+          "news-a62814052811d46fe6279727-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "「朝まで見た」などの見出し表現を、実測された視聴行動や全視聴者の傾向と解釈しません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-a62814052811d46fe6279727",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "binge-watching",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "a62814052811d46fe6279727"
+        },
+        {
+          "id": "news-a62814052811d46fe6279727-0",
+          "url": "https://www.express.co.uk/showbiz/tv-radio/2258415/netflix-showing-series-good-viewers",
+          "title": "Netflix is showing series so good viewers are staying up all night to binge it",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "a62814052811d46fe6279727"
+        },
+        {
+          "id": "news-a62814052811d46fe6279727-1",
+          "url": "https://www.examinerlive.co.uk/news/tv/netflix-thriller-series-gripping-itll-34784418",
+          "title": "Netflix thriller series is so gripping it'll have you binge-watching until 6am",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "a62814052811d46fe6279727"
+        },
+        {
+          "id": "news-a62814052811d46fe6279727-2",
+          "url": "https://www.cheshire-live.co.uk/news/showbiz/netflix-viewers-hooked-until-6am-34784302",
+          "title": "Netflix viewers are hooked until 6am begging for more episodes of gripping show",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "a62814052811d46fe6279727"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-c55584d987a65ba707a33ff3",
+      "inputHash": "0bf60d817c5d207cd6897a4542ce0570187c92d90e58fc232d6d798840801110",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「チケプラ」はライブ等のチケットに関するサービス名です。今回の関連記事は、CIELのワンマンライブで公式リセールを始める案内にまとまっています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-9d7f29f19ed1db06bee2d129-0",
+          "news-9d7f29f19ed1db06bee2d129-1",
+          "news-9d7f29f19ed1db06bee2d129-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "行けなくなったチケットを公式の仕組みで扱うことや、購入の機会を探す文脈に結びついています。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-9d7f29f19ed1db06bee2d129-0",
+            "news-9d7f29f19ed1db06bee2d129-1",
+            "news-9d7f29f19ed1db06bee2d129-2"
+          ]
+        },
+        {
+          "text": "ライブ参加を考える人が、公式の取引方法や入手方法を確かめる検索である可能性があります。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-9d7f29f19ed1db06bee2d129-0",
+            "news-9d7f29f19ed1db06bee2d129-1",
+            "news-9d7f29f19ed1db06bee2d129-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "公式リセールの案内が関心の入口になった可能性があります。三つの見出しは同じ発表を取り上げており、独立した支持の証拠ではありません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-9d7f29f19ed1db06bee2d129-0",
+          "news-9d7f29f19ed1db06bee2d129-1",
+          "news-9d7f29f19ed1db06bee2d129-2"
+        ]
+      },
+      "marketing": {
+        "text": "参加したい気持ちと予定変更への不安を両立できる体験を、サービスの提供価値として検証する切り口です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-9d7f29f19ed1db06bee2d129-0",
+          "news-9d7f29f19ed1db06bee2d129-1",
+          "news-9d7f29f19ed1db06bee2d129-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "同じ発表の転載・紹介が複数あります。掲載数を人気の広がりや利用者数とみなしません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-9d7f29f19ed1db06bee2d129",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "チケプラ",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "9d7f29f19ed1db06bee2d129"
+        },
+        {
+          "id": "news-9d7f29f19ed1db06bee2d129-0",
+          "url": "https://prtimes.jp/main/html/rd/p/000000218.000170825.html",
+          "title": "CIEL、待望の初現地ワンマンライブ、チケプラTradeにて公式リセール開始！",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "9d7f29f19ed1db06bee2d129"
+        },
+        {
+          "id": "news-9d7f29f19ed1db06bee2d129-1",
+          "url": "https://news.livedoor.com/pr_topics/detail/32612214/",
+          "title": "CIEL、待望の初現地ワンマンライブ、チケプラTradeにて公式リセール開始！ (2026年10月20日掲載)",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "9d7f29f19ed1db06bee2d129"
+        },
+        {
+          "id": "news-9d7f29f19ed1db06bee2d129-2",
+          "url": "https://ticketplus.co.jp/news/detail/1036",
+          "title": "CIEL、待望の初現地ワンマンライブ、チケプラTradeにて公式リセール開始！",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "9d7f29f19ed1db06bee2d129"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-cb9515f0da4115649deca199",
+      "inputHash": "a776737151b43b6a0dfa167010b91538e8e456277731a3a9e0479b6fb38b6db5",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "ロサンゼルス・ラムズの「デプスチャート」、つまりポジションごとの選手起用・控えの構成に関する検索語です。関連記事は負傷後の編成や次戦の情報を扱っています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-c73cf6b95db72fc77bc4158f-0",
+          "news-c73cf6b95db72fc77bc4158f-1",
+          "news-c73cf6b95db72fc77bc4158f-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "主力が出場できるか、代わりに誰が起用されるかなど、試合前のチーム編成を確認する文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-c73cf6b95db72fc77bc4158f-0",
+            "news-c73cf6b95db72fc77bc4158f-1",
+            "news-c73cf6b95db72fc77bc4158f-2"
+          ]
+        },
+        {
+          "text": "観戦準備や選手評価のために調べる場面が考えられますが、関連記事には賭けの予想も混在しています。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-c73cf6b95db72fc77bc4158f-0",
+            "news-c73cf6b95db72fc77bc4158f-1",
+            "news-c73cf6b95db72fc77bc4158f-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "負傷に伴う起用の変化が関心の入口になった可能性があります。実際の検索目的や試合結果の予測精度は不明です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-c73cf6b95db72fc77bc4158f-0",
+          "news-c73cf6b95db72fc77bc4158f-1",
+          "news-c73cf6b95db72fc77bc4158f-2"
+        ]
+      },
+      "marketing": null,
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "選手の負傷と賭けに関する記事を含むため、賭博・成果予測や広告利用を自動提案していません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-c73cf6b95db72fc77bc4158f",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "rams depth chart",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:50:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "c73cf6b95db72fc77bc4158f"
+        },
+        {
+          "id": "news-c73cf6b95db72fc77bc4158f-0",
+          "url": "https://www.turfshowtimes.com/los-angeles-rams-depth-chart/152817/rams-depth-chart-injuries",
+          "title": "How does Rams’ depth chart look post-injuries?",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:50:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "c73cf6b95db72fc77bc4158f"
+        },
+        {
+          "id": "news-c73cf6b95db72fc77bc4158f-1",
+          "url": "https://www.raiders.com/news/raiders-unofficial-depth-chart-for-week-7-vs-los-angeles-rams-102526",
+          "title": "Raiders' unofficial depth chart for Week 7 vs. Los Angeles Rams",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:50:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "c73cf6b95db72fc77bc4158f"
+        },
+        {
+          "id": "news-c73cf6b95db72fc77bc4158f-2",
+          "url": "https://www.azcentral.com/story/sports/nfl/2026/10/19/los-angeles-rams-las-vegas-raiders-picks-predictions-odds-nfl/90427283007/",
+          "title": "Rams vs Raiders picks, predictions, odds for NFL Week 7 game Sunday",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:50:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "c73cf6b95db72fc77bc4158f"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-ce5d0ffc7f4f1e8d7b3fe867",
+      "inputHash": "e84fd4762d82ba85f6fad254db74113fce935590c4db5dfd8fbd8decca1d3ae5",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "英国で、歩道をまたぐ溝型の設備などを使ったEVの自宅充電に関する検索語です。関連記事は、充電設備の設置ルールや費用の変化を扱っています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-e0ce92ccca38a1c4dec6b402-0",
+          "news-e0ce92ccca38a1c4dec6b402-1",
+          "news-e0ce92ccca38a1c4dec6b402-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "環境理念だけでなく、自宅から車へどう充電するか、設置の手間や費用がどうなるかを調べる実用的な文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-e0ce92ccca38a1c4dec6b402-0",
+            "news-e0ce92ccca38a1c4dec6b402-1",
+            "news-e0ce92ccca38a1c4dec6b402-2"
+          ]
+        },
+        {
+          "text": "自宅の駐車条件で充電できるかを確かめたい場面が考えられます。所有者全体の需要や導入率を測ったものではありません。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-e0ce92ccca38a1c4dec6b402-0",
+            "news-e0ce92ccca38a1c4dec6b402-1",
+            "news-e0ce92ccca38a1c4dec6b402-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "英国政府のルール変更に関する発表と関連記事が接点になった可能性があります。節約効果を全ての利用者に一般化はできません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-e0ce92ccca38a1c4dec6b402-0",
+          "news-e0ce92ccca38a1c4dec6b402-1",
+          "news-e0ce92ccca38a1c4dec6b402-2"
+        ]
+      },
+      "marketing": {
+        "text": "環境性能という抽象的な価値を、日々の充電のしやすさや住環境の制約という具体的な課題に結びつける切り口です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-e0ce92ccca38a1c4dec6b402-0",
+          "news-e0ce92ccca38a1c4dec6b402-1",
+          "news-e0ce92ccca38a1c4dec6b402-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "適用条件や設置の可否・費用は場所ごとに異なり得ます。見出しの節約額を普遍的な保証として使いません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-e0ce92ccca38a1c4dec6b402",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "ev pavement gully charging england",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "e0ce92ccca38a1c4dec6b402"
+        },
+        {
+          "id": "news-e0ce92ccca38a1c4dec6b402-0",
+          "url": "https://www.theguardian.com/money/2026/oct/21/charge-car-new-rules-ev-drivers-cross-pavement-gully",
+          "title": "‘I can charge my car for £6’: could new rules cut costs for EV drivers?",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "e0ce92ccca38a1c4dec6b402"
+        },
+        {
+          "id": "news-e0ce92ccca38a1c4dec6b402-1",
+          "url": "https://www.gov.uk/government/news/drivers-to-save-up-to-300-when-installing-ev-chargers-at-home-as-government-slashes-unnecessary-red-tape",
+          "title": "Drivers to save up to £300 when installing EV chargers at home, as government slashes unnecessary red tape",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "e0ce92ccca38a1c4dec6b402"
+        },
+        {
+          "id": "news-e0ce92ccca38a1c4dec6b402-2",
+          "url": "https://www.aol.co.uk/articles/andy-burnham-driveway-rule-confirmed-073600000.html",
+          "title": "Andy Burnham driveway rule confirmed for millions of Brits",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "e0ce92ccca38a1c4dec6b402"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-d220d8f71c69afa3aed9e2d0",
+      "inputHash": "2e7d0d9d70724ba06fa47ad2718427f6c59ace17eb25bf1dbfa1b67e0ae1cb76",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「オリオン座流星群」を意味する検索語です。関連記事は、観測しやすい時期、空を見る時間や方法など、天体観測の実用情報を扱っています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-52e852544baa707733e147ef-0",
+          "news-52e852544baa707733e147ef-1",
+          "news-52e852544baa707733e147ef-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "流星群のピークに合わせ、いつ・どのように空を見ればよいかを確認する文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-52e852544baa707733e147ef-0",
+            "news-52e852544baa707733e147ef-1",
+            "news-52e852544baa707733e147ef-2"
+          ]
+        },
+        {
+          "text": "一度きりのタイミングを逃さずに身近な自然体験を楽しみたい場面で調べられた可能性があります。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-52e852544baa707733e147ef-0",
+            "news-52e852544baa707733e147ef-1",
+            "news-52e852544baa707733e147ef-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "観測時期に合わせた記事が関心と重なった可能性がありますが、記事を読んだ人の参加行動は確認できません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-52e852544baa707733e147ef-0",
+          "news-52e852544baa707733e147ef-1",
+          "news-52e852544baa707733e147ef-2"
+        ]
+      },
+      "marketing": {
+        "text": "特定の夜の体験を、移動や屋外で過ごす準備など実際の行動を支える価値と結びつけて考える切り口です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-52e852544baa707733e147ef-0",
+          "news-52e852544baa707733e147ef-1",
+          "news-52e852544baa707733e147ef-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "天候や地域別の見え方は未確認です。取得日の見出しを現在の観測予報として使わないでください。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-52e852544baa707733e147ef",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "orionids meteor shower",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "52e852544baa707733e147ef"
+        },
+        {
+          "id": "news-52e852544baa707733e147ef-0",
+          "url": "https://www.bbc.co.uk/weather/articles/cm17knj9kpv8o",
+          "title": "Orionid meteor shower peak: How and when to see it this week",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "52e852544baa707733e147ef"
+        },
+        {
+          "id": "news-52e852544baa707733e147ef-1",
+          "url": "https://www.forbes.com/sites/jamiecartereurope/2026/10/21/orionids-halleys-comet-shooting-stars-peak-tonight---when-to-look/",
+          "title": "The Orionid Meteor Shower Peaks Tonight — Here’s When To Look",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "52e852544baa707733e147ef"
+        },
+        {
+          "id": "news-52e852544baa707733e147ef-2",
+          "url": "https://www.theguardian.com/science/2026/oct/19/orionid-meteor-shower-halley-comet-starwatch",
+          "title": "Starwatch: Catch the Orionid meteor shower streak across the night sky",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "52e852544baa707733e147ef"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-d4fb162ca97d0d62a3b9479f",
+      "inputHash": "7713fac600ddf7fb81ce48baf52f0c9b00a15218ea6be22e90682b374a920407",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "ライアン・ワイスという野球選手名の韓国語表記です。関連記事は、ハンファへの復帰を巡る憶測と、家族による発言などを扱っています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-f9c77172d6ff8ce681512fd4-0",
+          "news-f9c77172d6ff8ce681512fd4-1",
+          "news-f9c77172d6ff8ce681512fd4-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "移籍や復帰が決まったという情報ではなく、今後の所属先を巡る報道や反応の文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-f9c77172d6ff8ce681512fd4-0",
+            "news-f9c77172d6ff8ce681512fd4-1",
+            "news-f9c77172d6ff8ce681512fd4-2"
+          ]
+        },
+        {
+          "text": "応援するチームの来季の編成や、選手の動向を確かめたい人の検索である可能性があります。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-f9c77172d6ff8ce681512fd4-0",
+            "news-f9c77172d6ff8ce681512fd4-1",
+            "news-f9c77172d6ff8ce681512fd4-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "復帰を巡る報道や憶測が関心の入口になった可能性はありますが、正式な決定を確認した資料ではありません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-f9c77172d6ff8ce681512fd4-0",
+          "news-f9c77172d6ff8ce681512fd4-1",
+          "news-f9c77172d6ff8ce681512fd4-2"
+        ]
+      },
+      "marketing": null,
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "移籍・復帰は未確認です。家族の発言を将来の所属の確定情報や広告活用の根拠として扱いません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-f9c77172d6ff8ce681512fd4",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "라이언 와이스",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f9c77172d6ff8ce681512fd4"
+        },
+        {
+          "id": "news-f9c77172d6ff8ce681512fd4-0",
+          "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014560",
+          "title": "'한화 복귀설 솔솔' 와이스, 대전예수로 돌아오나? 아내 직접 입장 밝혔다 \"지금 구단들과 접촉할 수 없어\"",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f9c77172d6ff8ce681512fd4"
+        },
+        {
+          "id": "news-f9c77172d6ff8ce681512fd4-1",
+          "url": "https://www.xportsnews.com/article/2209881",
+          "title": "한화 팬 날벼락? '주황색 모자+휴대폰' 이글스 복귀설 불붙은 '대전 예수' 와이스…아내 직접 입 열다→\"우리도 내년 어디서 뛸지 몰라\"",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f9c77172d6ff8ce681512fd4"
+        },
+        {
+          "id": "news-f9c77172d6ff8ce681512fd4-2",
+          "url": "https://mydaily.co.kr/page/view/2026101522211785243",
+          "title": "'이럴 수가' 이 선수는 아닌데, 대전예수 결국 한국 와야 하나…\"한화서 좋았는데, 결별 어려운 결정 아니다\" 美 충격 평가 떴다",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f9c77172d6ff8ce681512fd4"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-d7750d4c46bbe08724ea4574",
+      "inputHash": "8a51c4c73f97fd79a7cbe4feb8abd194a03d2a6b78905ba6269ac1af8c69b90c",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "アルビレックス新潟対サガン鳥栖のサッカーの試合に関する検索語です。関連記事には、来場アーティスト、試合メンバー、先発予想の情報があります。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-fa95b0894277b17c40797179-0",
+          "news-fa95b0894277b17c40797179-1",
+          "news-fa95b0894277b17c40797179-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "試合そのものに加え、会場で何を体験できるかという情報も含む観戦前の文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-fa95b0894277b17c40797179-0",
+            "news-fa95b0894277b17c40797179-1",
+            "news-fa95b0894277b17c40797179-2"
+          ]
+        },
+        {
+          "text": "応援する選手や当日の会場企画を確かめながら、現地観戦の予定を立てる場面が考えられます。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-fa95b0894277b17c40797179-0",
+            "news-fa95b0894277b17c40797179-1",
+            "news-fa95b0894277b17c40797179-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "当日の試合・来場企画の発信が関心の入口になった可能性があります。イベントが集客に与えた効果までは分かりません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-fa95b0894277b17c40797179-0",
+          "news-fa95b0894277b17c40797179-1",
+          "news-fa95b0894277b17c40797179-2"
+        ]
+      },
+      "marketing": {
+        "text": "競技のファンと会場体験への関心がどこで重なるかを調べ、来場前後の体験を支える価値を考える切り口です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-fa95b0894277b17c40797179-0",
+          "news-fa95b0894277b17c40797179-1",
+          "news-fa95b0894277b17c40797179-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-fa95b0894277b17c40797179",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "新潟 対 鳥栖",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "fa95b0894277b17c40797179"
+        },
+        {
+          "id": "news-fa95b0894277b17c40797179-0",
+          "url": "https://www.albirex.co.jp/news/70244/",
+          "title": "Tani Yuukiさんの来場が決定！【10月21日（水）鳥栖戦】",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "fa95b0894277b17c40797179"
+        },
+        {
+          "id": "news-fa95b0894277b17c40797179-1",
+          "url": "https://www.niigata-nippo.co.jp/articles/-/927726",
+          "title": "［アルビレックス新潟］ホーム鳥栖戦メンバー速報（午後7時キックオフ） Ｊ２リーグ",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "fa95b0894277b17c40797179"
+        },
+        {
+          "id": "news-fa95b0894277b17c40797179-2",
+          "url": "https://news.yahoo.co.jp/articles/d2409aa804de60243541c021c8db5846f1cbd38e",
+          "title": "新潟 ホーム6連勝へ 出場停止明けのMF大西がスタメン復帰濃厚 21日鳥栖戦（スポニチアネックス）",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:20:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "fa95b0894277b17c40797179"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-e12ecc7f595470f8e97d8c58",
+      "inputHash": "fcb67e53c1daacbb2c07b4637013ae7b54ba656eb050fa8a692ba8385d06f966",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "パク・ソンジェ氏の名前です。関連記事では、元法相の内乱関与を巡る控訴審判決と量刑が報じられており、司法・政治ニュースの文脈です。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-9f01915fed1bab4451003d86-0",
+          "news-9f01915fed1bab4451003d86-1",
+          "news-9f01915fed1bab4451003d86-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "人物の日常的な活動ではなく、裁判の判断や一審からの変化を確認する内容に結びついています。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-9f01915fed1bab4451003d86-0",
+            "news-9f01915fed1bab4451003d86-1",
+            "news-9f01915fed1bab4451003d86-2"
+          ]
+        },
+        {
+          "text": "速報で名前を知り、判決の内容や経緯を調べる検索が考えられます。検索者の政治的立場は特定できません。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-9f01915fed1bab4451003d86-0",
+            "news-9f01915fed1bab4451003d86-1",
+            "news-9f01915fed1bab4451003d86-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "判決を伝える複数の速報が関心の入口になった可能性があります。記事数は当事者への支持や反対の強さを意味しません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-9f01915fed1bab4451003d86-0",
+          "news-9f01915fed1bab4451003d86-1",
+          "news-9f01915fed1bab4451003d86-2"
+        ]
+      },
+      "marketing": null,
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "センシティブな話題の可能性があるため、広告活用の自動提案を停止しています。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "判決の確定状況や今後の手続きは、見出しだけでは判断できません。政治・司法事案として広告活用案は出していません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-9f01915fed1bab4451003d86",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "박성재",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:30:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "9f01915fed1bab4451003d86"
+        },
+        {
+          "id": "news-9f01915fed1bab4451003d86-0",
+          "url": "https://imnews.imbc.com/news/2026/society/article/6859636_36918.html",
+          "title": "[속보] '내란 가담' 박성재 2심 징역 9년‥1심 25년서 대폭 감형",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:30:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "9f01915fed1bab4451003d86"
+        },
+        {
+          "id": "news-9f01915fed1bab4451003d86-1",
+          "url": "https://www.hani.co.kr/arti/society/society_general/1283486.html",
+          "title": "법원 “박성재 내란 가담했지만 사전에 몰라”…항소심서 징역 9년 선고",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:30:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "9f01915fed1bab4451003d86"
+        },
+        {
+          "id": "news-9f01915fed1bab4451003d86-2",
+          "url": "https://news.jtbc.co.kr/article/NB12324143",
+          "title": "[속보] ‘내란 가담’ 박성재 전 법무장관 2심 징역 9년 선고",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:30:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "9f01915fed1bab4451003d86"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-ea3080ac2bedca6fc93944cd",
+      "inputHash": "7ceff35f549d6f3c95618afcb496fb190c8b0868697a7ed79b672a7580077567",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「Shameless」はここでは作品名として参照されています。関連記事は、その作品などに着想を得た英国の舞台作品や、地元の出演者募集を扱っています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-2ed4bb7d698012f7d7dc2030-0",
+          "news-2ed4bb7d698012f7d7dc2030-1",
+          "news-2ed4bb7d698012f7d7dc2030-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "日常語としての意味ではなく、既存作品の雰囲気を新しい舞台企画の説明に使う文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-2ed4bb7d698012f7d7dc2030-0",
+            "news-2ed4bb7d698012f7d7dc2030-1",
+            "news-2ed4bb7d698012f7d7dc2030-2"
+          ]
+        },
+        {
+          "text": "好きな作品に似た表現を探したり、地域の舞台制作や参加方法を調べたりする場面が考えられます。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-2ed4bb7d698012f7d7dc2030-0",
+            "news-2ed4bb7d698012f7d7dc2030-1",
+            "news-2ed4bb7d698012f7d7dc2030-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "既存作品と地域の新しい企画を結びつけた報道が接点になった可能性があります。作品全体の人気が再燃したと断定はできません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-2ed4bb7d698012f7d7dc2030-0",
+          "news-2ed4bb7d698012f7d7dc2030-1",
+          "news-2ed4bb7d698012f7d7dc2030-2"
+        ]
+      },
+      "marketing": {
+        "text": "既知の表現が新しい体験の入口になる仕組みを検討できます。作品名・設定を広告に借用する場合は別途権利確認が必要です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-2ed4bb7d698012f7d7dc2030-0",
+          "news-2ed4bb7d698012f7d7dc2030-1",
+          "news-2ed4bb7d698012f7d7dc2030-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-2ed4bb7d698012f7d7dc2030",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "shameless",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:30:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "2ed4bb7d698012f7d7dc2030"
+        },
+        {
+          "id": "news-2ed4bb7d698012f7d7dc2030-0",
+          "url": "https://www.thenorthernecho.co.uk/news/26648733.tiktoker-brings-shameless-top-boy-inspired-play-middlesbrough/",
+          "title": "Tiktoker to bring her 'gritty' play inspired by 'Shameless' to North East stage",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:30:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "2ed4bb7d698012f7d7dc2030"
+        },
+        {
+          "id": "news-2ed4bb7d698012f7d7dc2030-1",
+          "url": "https://suaragarut.id/en/teesside-creator-middlesbrough-stage-play",
+          "title": "Teesside Creator Develops Middlesbrough Play Inspired by Local Life",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:30:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "2ed4bb7d698012f7d7dc2030"
+        },
+        {
+          "id": "news-2ed4bb7d698012f7d7dc2030-2",
+          "url": "https://uk.news.yahoo.com/teesside-tiktoker-needs-north-east-150000202.html",
+          "title": "Teesside TikToker needs North East actors for 'Shameless and Top Boy' style show",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T08:30:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "2ed4bb7d698012f7d7dc2030"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-f728cd120708682dc896c0be",
+      "inputHash": "0e5af006729ad3ceae2002502cb3ced75f97f3de742463683aae79558cde0563",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "V・ファーレン長崎対サンフレッチェ広島のサッカーの対戦に関する検索語です。関連記事では、放送・配信案内と、試合前の戦い方の展望などが紹介されています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-864beca6733c3b80003293f3-0",
+          "news-864beca6733c3b80003293f3-1",
+          "news-864beca6733c3b80003293f3-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "どこで試合を見られるかと、どんな試合になりそうかを事前に確認する観戦情報の文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-864beca6733c3b80003293f3-0",
+            "news-864beca6733c3b80003293f3-1",
+            "news-864beca6733c3b80003293f3-2"
+          ]
+        },
+        {
+          "text": "試合前の視聴準備や、チームを応援する際の予備知識を得る検索が考えられます。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-864beca6733c3b80003293f3-0",
+            "news-864beca6733c3b80003293f3-1",
+            "news-864beca6733c3b80003293f3-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "当日の試合関連の情報発信が接点になった可能性があります。個々の関連記事が検索の原因だったとは確認できません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-864beca6733c3b80003293f3-0",
+          "news-864beca6733c3b80003293f3-1",
+          "news-864beca6733c3b80003293f3-2"
+        ]
+      },
+      "marketing": {
+        "text": "視聴方法を選ぶ手間や観戦の準備を減らすなど、スポーツ体験の具体的な課題を支える価値を検討できます。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-864beca6733c3b80003293f3-0",
+          "news-864beca6733c3b80003293f3-1",
+          "news-864beca6733c3b80003293f3-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "平和祈念活動に関する関連記事もありますが、この検索語の増加との関係は確認できません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-864beca6733c3b80003293f3",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "長崎 対 広島",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "864beca6733c3b80003293f3"
+        },
+        {
+          "id": "news-864beca6733c3b80003293f3-0",
+          "url": "https://www.dazn.com/ja-JP/news/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC/nagasaki-hiroshima-j1-md11-livestreaming-20261021/1l5tb8rwr1lk91s0zkwxz0hfaf",
+          "title": "【10月21日】V・ファーレン長崎vsサンフレッチェ広島のテレビ放送・ネット配信予定・視聴方法｜明治安田J1リーグ",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "864beca6733c3b80003293f3"
+        },
+        {
+          "id": "news-864beca6733c3b80003293f3-1",
+          "url": "https://www.nishinippon.co.jp/image/1094244/",
+          "title": "【2026年 平和祈念活動】8年ぶりのJ1リーグ。8/9開幕戦からの歩み。 - 写真・画像(1/1)",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "864beca6733c3b80003293f3"
+        },
+        {
+          "id": "news-864beca6733c3b80003293f3-2",
+          "url": "https://www4.targma.jp/nagasaki/2026/10/20/post41169/",
+          "title": "【26-27.J1第11節 長崎対広島】プレビュー～連戦の広島戦。ボックスで耐え、走力を維持し、切り札で刺す～",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:10:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "864beca6733c3b80003293f3"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-f99cbc0f0f6dbb81a3d6c2d2",
+      "inputHash": "9ac51cfc6d501f5df60d55741ab441b1b8960d818625345a7d2da5d57d540bc6",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "Amazonの採用情報に関する検索語です。関連記事では、年末商戦に向けた米国の季節採用や、賃金・福利厚生の発表が扱われています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-eb5353e0e0db66bcbcf03314-0",
+          "news-eb5353e0e0db66bcbcf03314-1",
+          "news-eb5353e0e0db66bcbcf03314-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "買い物のための検索ではなく、仕事の募集条件、地域別の募集、企業の採用動向を確認する文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-eb5353e0e0db66bcbcf03314-0",
+            "news-eb5353e0e0db66bcbcf03314-1",
+            "news-eb5353e0e0db66bcbcf03314-2"
+          ]
+        },
+        {
+          "text": "季節の収入機会を探す人と、企業の雇用計画を調べる人の情報需要が混在している可能性があります。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-eb5353e0e0db66bcbcf03314-0",
+            "news-eb5353e0e0db66bcbcf03314-1",
+            "news-eb5353e0e0db66bcbcf03314-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "年末商戦前の採用発表が関心の入口になった可能性があります。検索者が応募したことや、希望する働き方は確認できません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-eb5353e0e0db66bcbcf03314-0",
+          "news-eb5353e0e0db66bcbcf03314-1",
+          "news-eb5353e0e0db66bcbcf03314-2"
+        ]
+      },
+      "marketing": {
+        "text": "募集人数の大きさだけでなく、働く時間や地域・生活との両立など、応募前に確かめたい具体的な条件を伝える切り口です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-eb5353e0e0db66bcbcf03314-0",
+          "news-eb5353e0e0db66bcbcf03314-1",
+          "news-eb5353e0e0db66bcbcf03314-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "見出しにある採用数を、このアプリで検証した雇用統計として扱いません。最新の募集条件は企業の原典で確認してください。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-eb5353e0e0db66bcbcf03314",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "amazon hiring",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "eb5353e0e0db66bcbcf03314"
+        },
+        {
+          "id": "news-eb5353e0e0db66bcbcf03314-0",
+          "url": "https://www.click2houston.com/news/local/2026/10/20/amazon-hiring-more-than-6000-workers-in-greater-houston-for-holiday-season/",
+          "title": "Amazon hiring more than 6,000 workers in Greater Houston for holiday season",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "eb5353e0e0db66bcbcf03314"
+        },
+        {
+          "id": "news-eb5353e0e0db66bcbcf03314-1",
+          "url": "https://www.aboutamazon.com/news/workplace/amazon-holiday-jobs-2026-seasonal-hiring-healthcare",
+          "title": "Amazon is creating over 300,000 new US jobs this holiday season with increased pay and expanded benefits",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "eb5353e0e0db66bcbcf03314"
+        },
+        {
+          "id": "news-eb5353e0e0db66bcbcf03314-2",
+          "url": "https://www.reuters.com/legal/litigation/amazon-recruit-over-300000-workers-holiday-season-first-hiring-jump-three-years-2026-10-20/",
+          "title": "Amazon to recruit over 300,000 workers for holiday season in first hiring jump in three years",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "eb5353e0e0db66bcbcf03314"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-fb416d3f45f8d1f69fcaba04",
+      "inputHash": "fa73f497ed95864ec5c7d340f500d51d818b9bc31d580627925467bc3ab2fc18",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "BBC Oneの番組「Morning Live」に関する検索語です。関連記事は地域別の番組表に集中しており、放送時間や番組内容を探す文脈と考えられます。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-6ecec2555140a3285c69d52c-0",
+          "news-6ecec2555140a3285c69d52c-1",
+          "news-6ecec2555140a3285c69d52c-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "今回のリンクは、英国の複数地域向けのテレビ番組表です。特定の出演者の発言や出来事は見出しから特定できません。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-6ecec2555140a3285c69d52c-0",
+            "news-6ecec2555140a3285c69d52c-1",
+            "news-6ecec2555140a3285c69d52c-2"
+          ]
+        },
+        {
+          "text": "今日いつ放送されるかを確かめたり、地域別の放送予定を探したりする検索である可能性があります。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-6ecec2555140a3285c69d52c-0",
+            "news-6ecec2555140a3285c69d52c-1",
+            "news-6ecec2555140a3285c69d52c-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "番組表への日常的な情報需要かもしれませんが、何が特に話題になったかは資料が足りず説明できません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-6ecec2555140a3285c69d52c-0",
+          "news-6ecec2555140a3285c69d52c-1",
+          "news-6ecec2555140a3285c69d52c-2"
+        ]
+      },
+      "marketing": null,
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "番組の話題になった発言や内容を推測で補っていません。日常的な番組検索と一時的な注目を区別する追加資料が必要です。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-6ecec2555140a3285c69d52c",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "morning live",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "6ecec2555140a3285c69d52c"
+        },
+        {
+          "id": "news-6ecec2555140a3285c69d52c-0",
+          "url": "https://www.tvguide.co.uk/schedule/4308c401-14ed-57b0-8438-bb9162316276/morning-live",
+          "title": "Morning Live on BBC One East HD: full details and when it's on",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "6ecec2555140a3285c69d52c"
+        },
+        {
+          "id": "news-6ecec2555140a3285c69d52c-1",
+          "url": "https://www.tvguide.co.uk/schedule/806de9ac-de0c-5d94-83a5-f8ee546c0382/morning-live",
+          "title": "Morning Live on BBC One Wales HD: full details and when it's on",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "6ecec2555140a3285c69d52c"
+        },
+        {
+          "id": "news-6ecec2555140a3285c69d52c-2",
+          "url": "https://www.tvguide.co.uk/schedule/418be69a-8db4-51a3-a8a6-bd3289d6b66a/morning-live",
+          "title": "Morning Live on BBC One Yorkshire: full details and when it's on",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T09:00:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "6ecec2555140a3285c69d52c"
+        }
+      ]
+    }
+  ]
+}

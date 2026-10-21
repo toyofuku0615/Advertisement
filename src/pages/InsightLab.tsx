@@ -6,6 +6,7 @@ import { downloadText, formatDate, id, REGIONS, safeUrl } from '../lib/utils';
 import { brandSafety, calculateMomentum, calculateNovelty, calculatePersistence, describeMetric, diffusion, groupComparable, topicEvidence } from '../lib/analysis';
 import type { GeoObservation, Observation } from '../types';
 import './research.css';
+import TopicContext from '../components/TopicContext';
 
 interface Reference { id: string; title: string; url: string; date: string; fetched: string; source: string; metric: string; population: string; region: string; normalization: string }
 function reference(o: Observation | GeoObservation): Reference {
@@ -84,6 +85,7 @@ export default function InsightLab() {
   return <div className="research-page">
     <header className="page-header"><div><p className="eyebrow">FROM SIGNAL TO UNDERSTANDING</p><h1>INSIGHT LAB<span className="lab-title-dot">.</span></h1><p className="muted">観測できたことから、まだ分からないことへ。根拠と仮説を分けて考える。</p></div><span className="badge"><FlaskConical size={14} /> 定型分析・有料API不要</span></header>
     <div className="panel lab-topic-bar"><label className="lab-topic-select">分析する話題<select className="field" aria-label="分析する話題" value={topic?.id || ''} onChange={event => selectTopic(event.target.value)}><option value="" disabled>話題を選択</option>{dataset.topics.map(item => <option key={item.id} value={item.id}>{item.title}</option>)}</select></label><button className="button" disabled={!topic} onClick={exportAnalysis}>分析をMarkdown出力 <ArrowUpRight size={15} /></button></div>
+    {topic && <TopicContext topic={topic} variant="full"/>}
     {!topic ? <div className="panel lab-empty"><FlaskConical size={34} /><h2>まず、観測する話題を集めましょう。</h2><p className="muted">データ収集後、またはSPREAD MAPから実データCSVを取り込むと分析できます。架空の分析は生成しません。</p><button className="button button-primary" onClick={() => navigate('map')}>データを取り込む</button></div> : <>
       {safety?.flagged && <div className="notice lab-sensitive"><ShieldAlert size={19} /><p>{safety.reason}</p></div>}
       <div className="lab-layout"><div className="lab-main">
