@@ -1,5 +1,7 @@
 # CULTURE RADAR
 
+**公開アプリ:** https://toyofuku0615.github.io/Advertisement/ （2026-10-21に公開・HTTP200と実データ配信を確認）
+
 **自分とは違う人が見ている世界を知る。**
 
 検索・公開投稿・ニュース・生活者調査の根拠を確かめながら、文化の変化を広告の仮説につなげる静的 Web アプリです。React + TypeScript + Vite と Python 標準ライブラリで動き、サーバー・認証基盤・有料 LLM・有料地図 API は必要ありません。
@@ -135,13 +137,13 @@ npm run test:e2e
 
 `.github/workflows/collect.yml` は1日2回（01:17 / 13:17 UTC、日本時間10:17 / 22:17）と手動で収集し、データファイルを更新する設定です。GitHub の scheduler は定刻実行を保証しません。リポジトリ設定で Actions の書込権限が必要で、ブランチ保護等により更新できない場合があります。ジョブの実行成功と各情報源の取得成功は別なので、`CollectionRun` を確認します。
 
-外部への公開はまだ行っていません。公開する場合は権利・データ・連絡先・利用条件を確認したうえで、次を運用者が実施します。
+このリポジトリのGitHub Pagesへの初回公開は完了しました。別のリポジトリで公開する場合は、権利・データ・連絡先・利用条件を確認したうえで、次を運用者が実施します。
 
 1. 無料の GitHub Pages を使うなら公開リポジトリを用意し、コードとレビュー済みデータを push
 2. リポジトリ Settings → Pages → Build and deployment の Source を GitHub Actions に設定
 3. Actions → **Publish CULTURE RADAR to GitHub Pages** → Run workflow を手動実行
 
-`.github/workflows/pages.yml` は手動のみで動きます。収集をデプロイの副作用にせず、コミット済み JSON をビルドします。既定のプロジェクトサイト向けに `BASE_PATH=/<リポジトリ名>/` を設定します。ユーザー/組織サイトやカスタムドメインでは `BASE_PATH=/` に変更してください。 ローカルでプロジェクトサイトの配信を確認する場合は、`BASE_PATH=/Advertisement/ npm run build` と `BASE_PATH=/Advertisement/ npm run preview` の両方で同じベースパスを指定します。preview側だけ既定の `/` にするとアセットの検証先が異なります。ハッシュベースの画面遷移のためサーバーの SPA rewrite は不要です。
+`.github/workflows/pages.yml` は main への更新、手動実行、定期収集の成功後に動きます。収集をデプロイの副作用にせず、コミット済み JSON をビルドします。既定のプロジェクトサイト向けに `BASE_PATH=/<リポジトリ名>/` を設定します。ユーザー/組織サイトやカスタムドメインでは `BASE_PATH=/` に変更してください。 ローカルでプロジェクトサイトの配信を確認する場合は、`BASE_PATH=/Advertisement/ npm run build` と `BASE_PATH=/Advertisement/ npm run preview` の両方で同じベースパスを指定します。preview側だけ既定の `/` にするとアセットの検証先が異なります。ハッシュベースの画面遷移のためサーバーの SPA rewrite は不要です。
 
 Pages の無料範囲は public repository 等の条件付きです。**商用 SaaS・オンライン事業の無料ホスティングを主目的とする用途は Pages の規約で制限されています。** 非公開リポジトリでの Pages、Actions の割当超過、商用提供、外部 API の有料利用を一律0円とは保証しません。[情報源・利用条件](docs/SOURCES.md) を確認してください。
 

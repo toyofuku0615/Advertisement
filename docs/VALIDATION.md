@@ -67,3 +67,16 @@ BASE_PATH=/Advertisement/ npm run preview -- --port 4173 --strictPort
 クラウド環境設定のドラフトに `install_script`、`start_skill`、必要な通信先を保存。保存成功をツールで確認した。ドラフト保存は適用・Publishを意味しない。新しいクラウドタスクでの復元、GitHub Actionsの定期運転、GitHub Pagesへの公開は未実施。外部公開は利用者の明示許可後に行う。
 
 制約と今後の作業は [LIMITATIONS.md](LIMITATIONS.md)、データ条件は [SOURCES.md](SOURCES.md) を参照。
+
+## 外部公開の追加検証（2026-10-21）
+
+ユーザーからの明示的な公開依頼を受け、ソースを `toyofuku0615/Advertisement` の main にアップロード。初回のPages設定はAPI認証の権限不足403で停止し、ユーザーがSourceをGitHub Actionsに変更した後に再実行して成功しました。
+
+- 公開URL: https://toyofuku0615.github.io/Advertisement/
+- GitHub ActionsのCI: 依存導入、全単体テスト、Pythonテスト、ビルド、20ブラウザケースがすべて成功
+- Pagesのbuild/deploy: 実行39581391683が成功
+- 公開ホームと公開dataset.json: 実HTTPSリクエストでHTTP200
+- 公開データ: 42トピック・88観測・501地域時点。Google RSSと公式アーカイブを維持し、Blueskyは運用連絡先・削除窓口未設定のため公開用JSONから除外
+- 公開用サニタイザーを追加し、Pythonテストは20件成功。ローカルSNS収集と手動URL保存は維持
+
+新しいクラウド環境へのスナップショット復元は別途未検証です。
