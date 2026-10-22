@@ -108,3 +108,5 @@ BASE_PATH=/Advertisement/ npm run preview -- --port 4173 --strictPort
 - GitHub ActionsへWindows runnerのPythonテストと起動設定のdry-runを追加。利用者のWindows実機の登録、Ollamaの実モデル推論、性能・常駐処理の長期稼働はこのクラウドで検証できず、PCでの初回セットアップが必要
 
 操作手順と運用の範囲は [Windows PCの自動更新](PC_UPDATES.md) を参照。
+
+公開前に、先行していた定期収集コミットを通常mergeで取り込み、更新データを保全した。最新スナップショットは123話題・336観測・542地域時点で、AI解説は42件ready / 81件unavailable。新しい公開前バリデーターと単体60件をこのデータに対して再実行して成功。GitHub Actionsのschedule実行39649455993 / 39732073509の成功を確認し、最新ではGDELTの2クエリが各50記事を取得、matchaの失敗は別途保持している。
