@@ -35,11 +35,11 @@ def main():
     parser.add_argument('--input', type=Path, default=Path('public/data/dataset.json'))
     parser.add_argument('--output', type=Path)
     args = parser.parse_args()
-    data = json.loads(args.input.read_text())
+    data = json.loads(args.input.read_text(encoding='utf-8'))
     result = prepare_public(data)
     target = args.output or args.input
     target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
+    target.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'Public dataset: {len(result["topics"])} topics, {len(result["observations"])} observations, {len(result["geoObservations"])} regional observations')
 
 

@@ -21,6 +21,8 @@ from urllib.error import HTTPError, URLError
 ROOT = Path(__file__).resolve().parents[1]
 MAX_RESPONSE_BYTES = 256 * 1024
 PROMPT_VERSION = 'culture-context-v1'
+MAX_INFERENCE_EVIDENCE = 8
+MAX_INFERENCE_BYTES = 5_000
 CLAIM_KINDS = {'source_summary', 'interpretation'}
 SOURCE_NOTE = '収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。'
 SENSITIVE_NOTE = 'センシティブな話題の可能性があるため、広告活用の自動提案を停止しています。'
@@ -169,6 +171,28 @@ source_summaryは見出しの要約、interpretationは確認されていない�
 形式: {"topicId":"入力ID","overview":{"text":"何の話か・120文字程度","kind":"source_summary","evidenceIds":["入力ID"]},"contexts":[{"text":"どんな文脈で使われるか・120文字程度","kind":"interpretation","evidenceIds":["入力ID"]}],"attention":{"text":"関心の背景の仮説。断定しない","kind":"interpretation","evidenceIds":["入力ID"]},"marketing":null,"caveats":["不足している根拠や同名の曖昧さ"]}'''
 
 
+def inference_evidence(evidence: list[dict]) -> list[dict]:
+    """Bound the model input, retaining original IDs and full cached provenance.
+
+    Source URLs and fetch metadata remain in the cache, not in the model prompt.
+    A small Japanese model should not lose the end of its input to context overflow.
+    The newest available headlines are used; this selection is not a popularity rank.
+    """
+    selected = []
+    for row in reversed(evidence):
+        item = {key: row[key] for key in ('id', 'title', 'source', 'observedAt')}
+        item['title'] = item['title'][:240]
+        candidate = [item, *selected]
+        if len(json.dumps(candidate, ensure_ascii=False).encode('utf-8')) > MAX_INFERENCE_BYTES:
+            break
+        selected = candidate
+        if len(selected) >= MAX_INFERENCE_EVIDENCE:
+            break
+    if not selected:
+        raise ExplanationError('モデルに渡せる見出しがありません。')
+    return selected
+
+
 def call_ollama(topic: dict, evidence: list[dict], *, endpoint: str, model: str, timeout: float = 45, opener=urlopen) -> dict:
     try:
         parsed = urlparse(endpoint)
@@ -196,9 +220,13 @@ def call_ollama(topic: dict, evidence: list[dict], *, endpoint: str, model: str,
         raise ExplanationError('ローカルLLMに接続できないか、タイムアウトしました。') from None
     except (json.JSONDecodeError, UnicodeDecodeError, AttributeError):
         raise ExplanationError('ローカルモデル情報が対応するJSON形式ではありません。') from None
-    # The last 24 evidence items bound the prompt without changing its provenance hash.
-    supplied = evidence[-24:]
-    payload = {'model': model, 'stream': False, 'format': 'json', 'messages': [{'role': 'system', 'content': SYSTEM_PROMPT}, {'role': 'user', 'content': json.dumps({'topic': {'id': topic['id'], 'title': topic['title']}, 'evidence': supplied}, ensure_ascii=False)}], 'options': {'temperature': 0.2, 'num_predict': 1400}}
+    # Bound inference independently of the full input fingerprint and cached evidence.
+    supplied = inference_evidence(evidence)
+    payload = {'model': model, 'stream': False, 'format': 'json', 'messages': [{'role': 'system', 'content': SYSTEM_PROMPT}, {'role': 'user', 'content': json.dumps({'topic': {'id': topic['id'], 'title': topic['title']}, 'evidence': supplied}, ensure_ascii=False)}], 'options': {'temperature': 0.2, 'num_predict': 1400, 'num_ctx': 8192}}
+    capabilities = info.get('capabilities', [])
+    if 'thinking' in capabilities or 'qwen3' in str(info['model_info'].get('general.architecture', '')).lower() or model.lower().startswith('qwen3:'):
+        # Qwen3 otherwise can spend the whole output budget before producing JSON.
+        payload['think'] = False
     request = Request(endpoint.rstrip('/') + '/api/chat', data=json.dumps(payload, ensure_ascii=False).encode(), headers={'Content-Type': 'application/json', 'User-Agent': 'CultureRadar-explanations/1.0'}, method='POST')
     try:
         with opener(request, timeout=timeout) as response:
@@ -211,7 +239,10 @@ def call_ollama(topic: dict, evidence: list[dict], *, endpoint: str, model: str,
         if result.get('remote_host') or result.get('remote_model'):
             raise ExplanationError('クラウドモデルの応答は採用しません。')
         content = json.loads(result['message']['content'])
-        return validate_content(content, topic, supplied)
+        supplied_ids = {row['id'] for row in supplied}
+        # Validate against the exact (possibly shortened) headlines the model saw.
+        validation_evidence = [{**row, 'title': next(item['title'] for item in supplied if item['id'] == row['id'])} for row in evidence if row['id'] in supplied_ids]
+        return validate_content(content, topic, validation_evidence)
     except HTTPError as error:
         raise ExplanationError(f'ローカルLLM HTTP {error.code}。モデルの導入と起動を確認してください。') from None
     except (URLError, TimeoutError, OSError):
@@ -313,13 +344,13 @@ def main() -> int:
     if not 1 <= args.max_topics <= 100 or not 1 <= args.timeout <= 120:
         parser.error('max-topics must be 1..100 and timeout must be 1..120 seconds')
     try:
-        dataset = json.loads(args.dataset.read_text())
-        previous = json.loads(args.cache.read_text()) if args.cache.exists() else None
+        dataset = json.loads(args.dataset.read_text(encoding='utf-8'))
+        previous = json.loads(args.cache.read_text(encoding='utf-8')) if args.cache.exists() else None
         result = reconcile(dataset, previous, provider=args.provider, model=args.model, endpoint=args.endpoint, max_topics=args.max_topics, timeout=args.timeout, force=args.force)
         target = args.output or args.cache
         target.parent.mkdir(parents=True, exist_ok=True)
         temporary = target.with_suffix(target.suffix + '.tmp')
-        temporary.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
+        temporary.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
         temporary.replace(target)
     except (OSError, ValueError, KeyError, ExplanationError) as error:
         print(f'AI explanation cache not replaced: {type(error).__name__}')

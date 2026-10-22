@@ -96,3 +96,15 @@ BASE_PATH=/Advertisement/ npm run preview -- --port 4173 --strictPort
 
 - [AI文脈解説のPC画面](screenshots/context-desktop.png)
 - [AI文脈解説のスマートフォン画面](screenshots/context-mobile.png)
+
+## Windows PCの自動更新とスマホの復帰時更新（2026-10-22）
+
+- Windows向け初回セットアップ、現在ユーザーのログイン時起動、標準6時間の収集/ローカル生成/JSON限定push、停止・解除を追加。クラウドから利用者PCへ登録は行っていない
+- Python **91件成功**。ローカルの一時bare Gitへ実際にpushし、JSON以外を送らないこと、同時更新からの退避、OSロック、クラウドモデル拒否、根拠検証、生成の部分失敗、終了後15分の再試行を検証。Windows起動XMLのUTF-16/UTF-8/CP932読取とコマンドの引数・登録範囲は模擬実行で検証
+- フロントエンド単体 **60件成功**。画面復帰イベントの重複抑制、1分間隔、非表示/処理中の取得抑止を含む
+- 新しいPC/スマホの画面テスト6ケース成功。公開日時の変化、復帰時に1回だけ再取得、検索条件・保存済みメモ・未保存入力の維持、503時の旧データ維持を実ブラウザで確認。全体実行でブリーフ画面の1ケースがタイムアウトしたため、編集完了後に同ケースを単独再実行し成功を確認
+- `BASE_PATH=/Advertisement/ npm run build` 成功。Windowsの起動設定を `--dry-run --platform win32` で生成して所有マーカーを確認。OSへの登録はしない
+- 本番の42話題・42解説・原典対応を新しい公開前検証器で確認。テスト用DEMOデータや生成を模した応答は一時フォルダー/テストブラウザ内だけで使い、公開JSONは変更していない
+- GitHub ActionsへWindows runnerのPythonテストと起動設定のdry-runを追加。利用者のWindows実機の登録、Ollamaの実モデル推論、性能・常駐処理の長期稼働はこのクラウドで検証できず、PCでの初回セットアップが必要
+
+操作手順と運用の範囲は [Windows PCの自動更新](PC_UPDATES.md) を参照。

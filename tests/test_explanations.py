@@ -4,7 +4,7 @@ import io
 import json
 import unittest
 from urllib.error import HTTPError, URLError
-from scripts.generate_explanations import (ExplanationError, SYSTEM_PROMPT, build_evidence, call_ollama, input_fingerprint, reconcile, validate_content)
+from scripts.generate_explanations import (ExplanationError, MAX_INFERENCE_BYTES, SYSTEM_PROMPT, build_evidence, call_ollama, inference_evidence, input_fingerprint, reconcile, validate_content)
 
 
 def dataset():
@@ -115,6 +115,42 @@ class ExplanationTest(unittest.TestCase):
         self.assertEqual(result['providerStatus']['status'], 'error')
         self.assertEqual(result['explanations'][0]['status'], 'stale')
         self.assertEqual(result['explanations'][0]['generatedAt'], old['explanations'][0]['generatedAt'])
+
+    def test_local_small_model_input_is_bounded_and_qwen_thinking_is_disabled(self):
+        data = dataset()
+        evidence = build_evidence(data['topics'][0], data)
+        evidence = [{**evidence[0], 'id': f'DEMO-{i}', 'title': '長い日本語見出し' * 100} for i in range(40)]
+        original = copy.deepcopy(evidence)
+        supplied = inference_evidence(evidence)
+        self.assertLessEqual(len(supplied), 8)
+        self.assertLessEqual(len(json.dumps(supplied, ensure_ascii=False).encode()), MAX_INFERENCE_BYTES)
+        self.assertEqual(supplied[-1]['id'], 'DEMO-39')
+        self.assertEqual(evidence, original)
+        self.assertTrue(all('url' not in row and 'fetchedAt' not in row for row in supplied))
+        def opener(request, timeout):
+            if request.full_url.endswith('/api/show'):
+                return io.BytesIO(b'{"model_info":{"general.architecture":"qwen3"},"capabilities":["completion","thinking"]}')
+            payload = json.loads(request.data)
+            self.assertIs(payload['think'], False)
+            self.assertEqual(payload['options']['num_ctx'], 8192)
+            value = content()
+            for claim in [value['overview'], *value['contexts']]:
+                claim['evidenceIds'] = [supplied[-1]['id']]
+            return io.BytesIO(json.dumps({'done': True, 'message': {'content': json.dumps(value)}}).encode())
+        call_ollama(data['topics'][0], evidence, endpoint='http://127.0.0.1:11434', model='qwen3:4b', opener=opener)
+
+    def test_model_cannot_cite_an_omitted_headline(self):
+        data = dataset()
+        evidence = build_evidence(data['topics'][0], data)
+        evidence.extend([{**evidence[0], 'id': f'DEMO-newer-{i}'} for i in range(12)])
+        def opener(request, timeout):
+            if request.full_url.endswith('/api/show'):
+                return io.BytesIO(b'{"model_info":{"architecture":"DEMO"}}')
+            value = content()
+            value['overview']['evidenceIds'] = [evidence[0]['id']]
+            return io.BytesIO(json.dumps({'done': True, 'message': {'content': json.dumps(value)}}).encode())
+        with self.assertRaises(ExplanationError):
+            call_ollama(data['topics'][0], evidence, endpoint='http://127.0.0.1:11434', model='DEMO', opener=opener)
 
     def test_invalid_json_and_timeout_are_safe_errors(self):
         data = dataset(); evidence = build_evidence(data['topics'][0], data)

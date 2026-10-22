@@ -31,7 +31,11 @@ public/data/dataset.json ── 静的配信 ── React画面
 | `scripts/collect.py` | HTTP、各情報源パーサー、重複排除、保持、原子的保存、実行履歴 |
 | `public/data/` | 配信対象 JSON・地理データ・実履歴の来歴 |
 | `tests/` / `*.test.ts` | 本番から分離した自動テスト |
-| `.github/workflows/` | 定期収集と手動のみの Pages 公開 |
+| `.github/workflows/` | 定期収集、main更新・収集成功後・手動のPages公開 |
+| `scripts/pc_updater.py` | PC起動中の収集・ローカル生成・検証・JSON限定push、OSロック・再試行・状態記録 |
+| `scripts/setup_windows_updates.py` | Windowsの初回ソフト確認・明示的なモデル取得・認証・初回更新・自動起動登録 |
+| `scripts/install_pc_startup.py` | ユーザー単位のログイン時起動の登録/解除/設定確認。Windowsはタスクスケジューラ |
+| `src/lib/resume-refresh.ts` | 画面復帰・通信復帰時の公開JSON再確認。バックグラウンド常時監視やOllama呼び出しはしない |
 
 ## データモデルと根拠
 

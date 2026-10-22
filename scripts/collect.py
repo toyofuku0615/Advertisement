@@ -464,7 +464,7 @@ def main() -> int:
     parser.add_argument("--sources", nargs="+", choices=["google-trends", "bluesky-search", "bluesky-author", "gdelt", "youtube"], default=["google-trends", "bluesky-search", "bluesky-author", "gdelt", "youtube"], help="Retry only diagnosed/changed source operations when needed")
     args = parser.parse_args()
     try:
-        previous = json.loads(args.output.read_text()) if args.output.exists() else empty_dataset()
+        previous = json.loads(args.output.read_text(encoding="utf-8")) if args.output.exists() else empty_dataset()
     except (OSError, json.JSONDecodeError):
         raise SystemExit("Existing dataset unreadable; refusing to overwrite it")
     if previous.get("schemaVersion") != 1:

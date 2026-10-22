@@ -29,3 +29,17 @@ jobs:
           name: browser-test-results
           path: test-results/
           retention-days: 7
+  verify-windows-updater:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    env:
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test collectors, local publishing and Windows setup without registering startup
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Render Windows startup settings without applying them
+        run: python scripts/install_pc_startup.py --install --dry-run
