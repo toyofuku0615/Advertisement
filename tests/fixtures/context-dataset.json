@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-22T06:10:21Z",
+  "topics": [
+    {
+      "id": "topic-9dd06ac8423840ba83074ee2",
+      "title": "빅아치",
+      "category": "未分類",
+      "aliases": [
+        {
+          "id": "a5a42853c5a341d4ea873b34",
+          "text": "빅아치",
+          "language": "ko"
+        }
+      ],
+      "observationIds": [
+        "f028ca6ae2b4552f56b5ac6a"
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "id": "f028ca6ae2b4552f56b5ac6a",
+      "topicId": "topic-9dd06ac8423840ba83074ee2",
+      "source": "google-trends",
+      "sourceId": "KR:빅아치:2026-10-21T07:40:00Z",
+      "sourceUrl": "https://trends.google.com/trending/rss?geo=KR",
+      "title": "빅아치",
+      "publishedAt": "2026-10-21T07:40:00Z",
+      "observedAt": "2026-10-21T07:40:00Z",
+      "fetchedAt": "2026-10-21T09:31:21Z",
+      "regionCode": "KR",
+      "regionMeaning": "search-market",
+      "metric": {
+        "name": "RSS検索トラフィック（概数下限）",
+        "value": 100.0,
+        "unit": "searches-lower-bound",
+        "normalization": "RSSが公開する概数。0–100指数ではなく、RSSの対象期間は原典に依存。"
+      },
+      "population": "Google Trends 急上昇検索 / KR",
+      "reliability": "observed",
+      "method": "公式 Trending Now RSS。pubDateはRSS話題公開時刻であり急上昇開始時刻の保証なし。カテゴリーはルール推定C。",
+      "license": "Google Terms of Service; publisher/news content rights remain with owners",
+      "status": "fresh",
+      "relatedLinks": [
+        {
+          "title": "빅맥보다 68% 묵직하다…맥도날드 ‘빅아치’ 먹어보니",
+          "url": "https://zdnet.co.kr/view/?no=20261021171656"
+        },
+        {
+          "title": "[먹어보아투] 맥도날드서 가장 크고 비싼 버거…1만2400원 ‘빅아치’ 먹어보니",
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261021010007250"
+        },
+        {
+          "title": "[르포] \"소고기 패티 2장에 치즈 3장, 빅맥 1.7배\" … 맥도날드 '빅아치' 승부수",
+          "url": "https://biz.newdaily.co.kr/site/data/html/2026/10/21/2026102100289.html"
+        }
+      ]
+    }
+  ],
+  "geoObservations": [],
+  "collectionRuns": [],
+  "sources": [
+    {
+      "id": "google-trends",
+      "name": "Google Trends · 急上昇RSS",
+      "kind": "search",
+      "url": "https://trends.google.com/trending",
+      "termsUrl": "https://support.google.com/trends/answer/4365533",
+      "metricDescription": "急上昇RSSの公開検索トラフィック概数。任意語句の0–100関心指数とは異なる。",
+      "license": "Google Terms of Service; publisher/news content rights remain with owners",
+      "enabled": true
+    },
+    {
+      "id": "bluesky",
+      "name": "Bluesky · 公開投稿",
+      "kind": "social",
+      "url": "https://bsky.app",
+      "termsUrl": "https://bsky.social/about/support/tos",
+      "metricDescription": "公開版では未有効化。運用者の連絡先・削除窓口の整備後に再開。原典URLの手動保存は利用可能。",
+      "license": "Bluesky developer guidelines / original authors retain content rights",
+      "enabled": false
+    },
+    {
+      "id": "gdelt",
+      "name": "GDELT · ニュース",
+      "kind": "news",
+      "url": "https://www.gdeltproject.org",
+      "termsUrl": "https://www.gdeltproject.org/about.html",
+      "metricDescription": "DOC APIが返した最大50件の記事標本。所在国は報道機関の国であり出来事の場所ではない。",
+      "license": "GDELT open data; underlying articles remain publishers' copyright",
+      "enabled": true
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube · 地域別人気動画",
+      "kind": "social",
+      "url": "https://www.youtube.com",
+      "termsUrl": "https://developers.google.com/youtube/terms/developer-policies",
+      "metricDescription": "mostPopular公開動画の取得時点再生数。Shorts専用・属性別ランキングではない。",
+      "license": "YouTube API Services Terms; refresh/delete cached API data within 30 days",
+      "enabled": false
+    },
+    {
+      "id": "google-trends-archive",
+      "name": "Google Trends · 公式履歴データ 2012–2023",
+      "kind": "search",
+      "url": "https://github.com/googletrends/data",
+      "termsUrl": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/LICENSE",
+      "metricDescription": "Google公開の年次 index_trends。正規化の詳細未詳、国間比較不可。最新トレンドではない。0値は低量・欠損を区別できないため地図では未表示。",
+      "license": "CC BY 4.0; Google Trends; selected/reformatted, no endorsement; https://creativecommons.org/licenses/by/4.0/",
+      "enabled": true
+    }
+  ]
+}

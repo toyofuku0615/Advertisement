@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-22T06:10:21Z",
+  "providerStatus": {
+    "status": "disabled",
+    "provider": "none",
+    "model": "",
+    "message": "新しい話題のAI解説は未生成です。保存済み解説と、見出しからの手がかりを利用できます。",
+    "checkedAt": "2026-10-22T06:10:21Z"
+  },
+  "explanations": [
+    {
+      "topicId": "topic-9dd06ac8423840ba83074ee2",
+      "inputHash": "d36858117bc8dbeb54caf0633e48bb877f366721c17cf4b5391d03f3720b9161",
+      "generatedAt": "2026-10-21T10:22:15Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
+      "overview": {
+        "text": "「ビッグアーチ」というマクドナルドのハンバーガーを指す韓国語です。関連記事は、実食、ボリューム、価格、ビッグマックとの違いを扱っています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-f028ca6ae2b4552f56b5ac6a-0",
+          "news-f028ca6ae2b4552f56b5ac6a-1",
+          "news-f028ca6ae2b4552f56b5ac6a-2"
+        ]
+      },
+      "contexts": [
+        {
+          "text": "レビューの見出しで、大きさと価格、具材の構成が比較されています。食べる前に商品像を把握する文脈です。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-f028ca6ae2b4552f56b5ac6a-0",
+            "news-f028ca6ae2b4552f56b5ac6a-1",
+            "news-f028ca6ae2b4552f56b5ac6a-2"
+          ]
+        },
+        {
+          "text": "値段に見合う満足感があるか、いつもの商品と何が違うかを確かめたい検索である可能性があります。",
+          "kind": "interpretation",
+          "evidenceIds": [
+            "news-f028ca6ae2b4552f56b5ac6a-0",
+            "news-f028ca6ae2b4552f56b5ac6a-1",
+            "news-f028ca6ae2b4552f56b5ac6a-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "商品を試した記事の発信が関心の入口になった可能性があります。検索需要だけで売れ行きや高評価は判断できません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-f028ca6ae2b4552f56b5ac6a-0",
+          "news-f028ca6ae2b4552f56b5ac6a-1",
+          "news-f028ca6ae2b4552f56b5ac6a-2"
+        ]
+      },
+      "marketing": {
+        "text": "大きさや価格の目立ち方だけでなく、誰のどんな食事場面に十分な満足を提供できるかを比較表現で確かめる切り口です。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-f028ca6ae2b4552f56b5ac6a-0",
+          "news-f028ca6ae2b4552f56b5ac6a-1",
+          "news-f028ca6ae2b4552f56b5ac6a-2"
+        ]
+      },
+      "caveats": [
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "関連記事の見出しに基づくAI要約です。記事本文・実投稿は未確認で、検索者の属性や検索理由を直接示すものではありません。",
+        "利用場面は関連記事からの解釈であり、実際の投稿用例や検索意図を調査した結果ではありません。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-f028ca6ae2b4552f56b5ac6a",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "빅아치",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f028ca6ae2b4552f56b5ac6a"
+        },
+        {
+          "id": "news-f028ca6ae2b4552f56b5ac6a-0",
+          "url": "https://zdnet.co.kr/view/?no=20261021171656",
+          "title": "빅맥보다 68% 묵직하다…맥도날드 ‘빅아치’ 먹어보니",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f028ca6ae2b4552f56b5ac6a"
+        },
+        {
+          "id": "news-f028ca6ae2b4552f56b5ac6a-1",
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261021010007250",
+          "title": "[먹어보아투] 맥도날드서 가장 크고 비싼 버거…1만2400원 ‘빅아치’ 먹어보니",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f028ca6ae2b4552f56b5ac6a"
+        },
+        {
+          "id": "news-f028ca6ae2b4552f56b5ac6a-2",
+          "url": "https://biz.newdaily.co.kr/site/data/html/2026/10/21/2026102100289.html",
+          "title": "[르포] \"소고기 패티 2장에 치즈 3장, 빅맥 1.7배\" … 맥도날드 '빅아치' 승부수",
+          "source": "google-trends",
+          "observedAt": "2026-10-21T07:40:00Z",
+          "fetchedAt": "2026-10-21T09:31:21Z",
+          "observationId": "f028ca6ae2b4552f56b5ac6a"
+        }
+      ]
+    }
+  ]
+}

@@ -2,14 +2,22 @@ import { readFileSync } from 'node:fs';
 import { test, expect, type Page } from '@playwright/test';
 import type { Dataset, ExplanationBundle } from '../../src/types';
 
-const DATASET_PATH = new URL('../../public/data/dataset.json', import.meta.url);
-const EXPLANATIONS_PATH = new URL('../../public/data/explanations.json', import.meta.url);
+const DATASET_PATH = new URL('../fixtures/context-dataset.json', import.meta.url);
+const EXPLANATIONS_PATH = new URL('../fixtures/context-explanations.json', import.meta.url);
 const dataset = JSON.parse(readFileSync(DATASET_PATH, 'utf8')) as Dataset;
 const bigArch = dataset.topics.find(topic => topic.title === '빅아치');
 if (!bigArch) throw new Error('The real Korean Big Arch observation is required to test Japanese contextual discovery.');
 const topicTitle = bigArch.title;
 const topicId = bigArch.id;
 function bundle(): ExplanationBundle { return JSON.parse(readFileSync(EXPLANATIONS_PATH, 'utf8')) as ExplanationBundle; }
+
+test.beforeEach(async ({ page }) => {
+  // Immutable, real source-grounded history: routine collection and retention must
+  // not remove the evidence required to test Japanese context and citation handling.
+  await page.clock.install({ time: new Date(dataset.generatedAt) });
+  await page.route('**/data/dataset.json', route => route.fulfill({ json: dataset }));
+  await page.route('**/data/explanations.json', route => route.fulfill({ json: bundle() }));
+});
 async function findTopic(page: Page) {
   await page.goto('/');
   await expect(page.locator('.evidence-card').first()).toBeVisible();
@@ -24,8 +32,9 @@ async function openContext(page: Page) {
   return page.getByRole('dialog');
 }
 
-// These tests use the actual source-grounded production cache. Mutated data below
-// is explicitly DEMO data delivered only by test-browser request interception.
+// These tests use an immutable subset of the actual source-grounded historical
+// cache (see tests/fixtures/README.md). Mutated data below is explicitly DEMO data
+// delivered only by test-browser request interception.
 // No test mock is written to public/data or sent to an external inference API.
 test('real Japanese AI context connects a foreign trend to cited original headlines without browser AI calls', async ({ page }, info) => {
   const requested: string[] = []; const runtimeErrors: string[] = [];
@@ -76,7 +85,7 @@ test('Insight keeps the context introduction separate from the original nine ana
 
 test('a Japanese explanation keyword discovers the actual Korean topic', async ({ page }) => {
   await page.goto('/');
-  await expect(page.locator('.context-card-summary.has-explanation').first()).toBeVisible();
+  await expect(page.locator('.evidence-card').first()).toBeVisible();
   await page.getByLabel('話題を検索', { exact: true }).fill('マクドナルド');
   await expect(page.locator('.evidence-card').filter({ hasText: topicTitle })).toHaveCount(1);
   await expect(page.locator('.evidence-card').filter({ hasText: topicTitle }).locator('.context-card-summary')).toContainText('マクドナルド');
