@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T06:12:37Z",
+  "generatedAt": "2026-10-25T17:05:55Z",
   "providerStatus": {
     "status": "disabled",
     "provider": "none",
     "model": "",
     "message": "新しい話題のAI解説は未生成です。保存済み解説と、見出しからの手がかりを利用できます。",
-    "checkedAt": "2026-10-25T06:12:37Z"
+    "checkedAt": "2026-10-25T17:05:55Z"
   },
   "explanations": [
     {
@@ -715,6 +715,63 @@
       ]
     },
     {
+      "topicId": "topic-02eb929cf45205742d155b70",
+      "inputHash": "87e9ca0c31efdd51ee9895512520a693b4e37c3e53c0c484d4985219bdf7cc83",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-fc6827a93092e10eaba69de2",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "george kittle",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "fc6827a93092e10eaba69de2"
+        },
+        {
+          "id": "news-fc6827a93092e10eaba69de2-0",
+          "url": "https://www.tsn.ca/betting/video/2026/10/25/fanduel-primetime-will-kittle-tear-up-the-falcons-on-national-tight-ends-day/",
+          "title": "FanDuel Primetime: Will Kittle tear up the Falcons on National Tight Ends Day?",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "fc6827a93092e10eaba69de2"
+        },
+        {
+          "id": "news-fc6827a93092e10eaba69de2-1",
+          "url": "https://www.si.com/nfl/49ers/onsi/49ers-george-kittles-2026-nfl-season-flying-under-radar",
+          "title": "49ers TE George Kittle's 2026 NFL Season is Flying Under the Radar",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "fc6827a93092e10eaba69de2"
+        },
+        {
+          "id": "news-fc6827a93092e10eaba69de2-2",
+          "url": "https://www.rotoballer.com/player-news/george-kittle-in-line-for-big-week-against-falcons/1974306",
+          "title": "George Kittle Week 7 Outlook for Fantasy Football (2026)",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "fc6827a93092e10eaba69de2"
+        }
+      ]
+    },
+    {
       "topicId": "topic-0573037165df9cf5ab4ca0f8",
       "inputHash": "e15c97f5ec279e26fd8e0fe5233ac8bd055c2fded3213bbb094a7cf714dfb162",
       "generatedAt": "",
@@ -1310,6 +1367,63 @@
       ]
     },
     {
+      "topicId": "topic-0717922c1682880e3c1244d2",
+      "inputHash": "79bbb0a89c0a7a4fa6c680ac7df5c7d1aef965b2d80485e609e6674d708d91ff",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-e6f93c944261df45fe6ced67",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "panthers vs buccaneers",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "e6f93c944261df45fe6ced67"
+        },
+        {
+          "id": "news-e6f93c944261df45fe6ced67-0",
+          "url": "https://www.panthers.com/news/week-7-inactives-vs-tampa-bay-no-jaelan-phillips-this-week",
+          "title": "Week 7 Inactives vs. Tampa Bay: No Jaelan Phillips this week",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "e6f93c944261df45fe6ced67"
+        },
+        {
+          "id": "news-e6f93c944261df45fe6ced67-1",
+          "url": "https://www.catscratchreader.com/carolina-panthers-roster/61771/panthers-injury-report-transactions-week-7",
+          "title": "Panthers Injury Report & Transactions - Week 7",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "e6f93c944261df45fe6ced67"
+        },
+        {
+          "id": "news-e6f93c944261df45fe6ced67-2",
+          "url": "https://www.si.com/nfl/panthers/onsi/panthers-inactives-vs-buccaneers-another-starter-down-01m5swpsv8vx",
+          "title": "Panthers Inactives vs. Buccaneers: Another Starter Down as Injuries Keep Piling Up",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "e6f93c944261df45fe6ced67"
+        }
+      ]
+    },
+    {
       "topicId": "topic-07cd95d75a15881af44cec74",
       "inputHash": "81bdc30c15669922007dba2319e21c875985ddd49aa5141b45fff3ac65a2c569",
       "generatedAt": "",
@@ -1420,6 +1534,63 @@
           "observedAt": "2026-10-22T16:40:00Z",
           "fetchedAt": "2026-10-22T17:59:28Z",
           "observationId": "785cff3dfc88d9da2c0e32d9"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-084b36f8552f16923e9eba10",
+      "inputHash": "f957e40275699294e77d35dabb82974c252aacc98cb149e1db7e54a650c5cc01",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-7e3e9ac7b190e249e04ced24",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "近鉄特急暴走事故",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "7e3e9ac7b190e249e04ced24"
+        },
+        {
+          "id": "news-7e3e9ac7b190e249e04ced24-0",
+          "url": "https://news.yahoo.co.jp/articles/d2cca780e2d09532a31d7949471d9451a5ae68f3",
+          "title": "時速144kmで列車が正面衝突、25人死亡…安全装置の誤作動と“ミスの連鎖”が招いた惨劇【近鉄特急暴走事故55年】",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "7e3e9ac7b190e249e04ced24"
+        },
+        {
+          "id": "news-7e3e9ac7b190e249e04ced24-1",
+          "url": "https://news.livedoor.com/topics/detail/32650852/",
+          "title": "近鉄特急の正面衝突から55年、安全装置の誤作動とミスの連鎖を振り返る (2026年10月25日掲載)",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "7e3e9ac7b190e249e04ced24"
+        },
+        {
+          "id": "news-7e3e9ac7b190e249e04ced24-2",
+          "url": "https://article.auone.jp/7153ce16-9b37-4843-9632-88478dbec9d6",
+          "title": "時速144kmで列車が正面衝突、25人死亡…安全装置の誤作動と“ミスの連鎖”が招いた惨劇【近鉄特急暴走事故55年】",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "7e3e9ac7b190e249e04ced24"
         }
       ]
     },
@@ -1864,6 +2035,63 @@
       ]
     },
     {
+      "topicId": "topic-0dd847ae1a5362880cf00e6f",
+      "inputHash": "0845129aeaac69b3a51611fdaff6647922b3dc9dcd242f480c6f97aaa912cddc",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-0ba325c64083fe0704fdc979",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "russian tanker emergency",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "0ba325c64083fe0704fdc979"
+        },
+        {
+          "id": "news-0ba325c64083fe0704fdc979-0",
+          "url": "https://united24media.com/world/russias-sanctioned-shadow-fleet-tanker-calls-for-help-near-ireland-23783",
+          "title": "Russia’s Sanctioned Shadow Fleet Tanker Calls for Help Near Ireland",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "0ba325c64083fe0704fdc979"
+        },
+        {
+          "id": "news-0ba325c64083fe0704fdc979-1",
+          "url": "https://www.dailystar.co.uk/news/latest-news/raf-russian-tanker-distress-alert-37807805",
+          "title": "RAF scrambled as Russian-linked tanker Myra sends distress alert off UK coast",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "0ba325c64083fe0704fdc979"
+        },
+        {
+          "id": "news-0ba325c64083fe0704fdc979-2",
+          "url": "https://eadaily.com/en/news/2026/10/25/off-the-coast-of-ireland-the-myra-tanker-following-from-ust-luga-sent-a-distress-signal",
+          "title": "Off the coast of Ireland, the Myra tanker, following from Ust-Luga, sent a distress signal",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "0ba325c64083fe0704fdc979"
+        }
+      ]
+    },
+    {
       "topicId": "topic-0e5ef2cefb0009991f6d50eb",
       "inputHash": "d9eefc60cce7d9f932d4bc43270d7c14a8cb9b41bafb90c2eda7bed5ee16ab69",
       "generatedAt": "",
@@ -2022,6 +2250,63 @@
           "observedAt": "2026-10-24T05:30:00Z",
           "fetchedAt": "2026-10-24T05:56:27Z",
           "observationId": "2040382c9ca181cf4d1d417d"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-10b78914ab959a0c87aa5867",
+      "inputHash": "d365c9fcef3bf704cf9ffa01ecb22bb6b06e39b0dfff8b51574d788628f2dd47",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-aaeb4df0c2115ac245889315",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "矢野謙次",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "aaeb4df0c2115ac245889315"
+        },
+        {
+          "id": "news-aaeb4df0c2115ac245889315-0",
+          "url": "https://news.yahoo.co.jp/articles/aa71596e49606c5b466f5df655530ca4ba65e985",
+          "title": "【阪神】超異例の仰天人事！矢野謙次氏を巨人からダイレクト移籍で１軍打撃コーチに招聘 ＯＢで前ヤクルトの坪井智哉コーチらも入閣へ（スポーツ報知）",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "aaeb4df0c2115ac245889315"
+        },
+        {
+          "id": "news-aaeb4df0c2115ac245889315-1",
+          "url": "https://www.sponichi.co.jp/baseball/news/2026/10/26/articles/20261026s00001173009000c.html",
+          "title": "阪神が巨人退団の矢野謙次氏を1軍打撃コーチとして招聘 平田勝男2軍監督はヘッドコーチに配置転換",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "aaeb4df0c2115ac245889315"
+        },
+        {
+          "id": "news-aaeb4df0c2115ac245889315-2",
+          "url": "https://www.giants.jp/news/31554/",
+          "title": "コーチの退任について",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "aaeb4df0c2115ac245889315"
         }
       ]
     },
@@ -2611,6 +2896,63 @@
       ]
     },
     {
+      "topicId": "topic-1631c574af959b2265d9aa56",
+      "inputHash": "e1aec628d7ad825c5245db04747de7991f3009880895fa20495efa44339174e5",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-cdb73443b655f98934aafd4c",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "エプスタイン",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:00:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "cdb73443b655f98934aafd4c"
+        },
+        {
+          "id": "news-cdb73443b655f98934aafd4c-0",
+          "url": "https://news.yahoo.co.jp/articles/f1c0a79009c076bf0a590250687924ad90271a10",
+          "title": "エプスタイン問題、米中間選挙で再び争点に-民主党は徹底調査の構え（TBS CROSS DIG with Bloomberg）",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:00:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "cdb73443b655f98934aafd4c"
+        },
+        {
+          "id": "news-cdb73443b655f98934aafd4c-1",
+          "url": "https://topics.smt.docomo.ne.jp/article/japanesejoins/world/japanesejoins-356509?page=2",
+          "title": "トランプ熱狂的支持グループ「フロント・ロウ・ジョーズ」にも亀裂",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:00:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "cdb73443b655f98934aafd4c"
+        },
+        {
+          "id": "news-cdb73443b655f98934aafd4c-2",
+          "url": "https://newsdig.tbs.co.jp/articles/withbloomberg/3036833?display=1",
+          "title": "エプスタイン問題、米中間選挙で再び争点に－民主党は徹底調査の構え",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:00:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "cdb73443b655f98934aafd4c"
+        }
+      ]
+    },
+    {
       "topicId": "topic-16966926738f9237d0e46a51",
       "inputHash": "65281bf9fb89b937cd3758110544bec771015a315ac826cbe98c150c3e759224",
       "generatedAt": "",
@@ -2782,6 +3124,63 @@
       ]
     },
     {
+      "topicId": "topic-177e7beec67d122c46627c8d",
+      "inputHash": "d0b2ec32ef5d2a24f68febb18c8242af130114be926a7bb217e403ff000dc5ed",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-5ce8123e8d684b9be4ba7a5e",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "スキーンズ",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:20:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "5ce8123e8d684b9be4ba7a5e"
+        },
+        {
+          "id": "news-5ce8123e8d684b9be4ba7a5e-0",
+          "url": "https://www.nikkansports.com/baseball/mlb/photonews/photonews_nsInc_202610250000425-1.html",
+          "title": "フジ佐久間みなみアナの顔が胸のあたりに「身長差がエグい」サイ・ヤング右腕と対面",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:20:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "5ce8123e8d684b9be4ba7a5e"
+        },
+        {
+          "id": "news-5ce8123e8d684b9be4ba7a5e-1",
+          "url": "https://news.yahoo.co.jp/articles/35e739fc2faa8d695a74a87439d83c9064ba6e00",
+          "title": "【ＭＬＢ】パイレーツの剛腕スキーンズ 初来日に特別な思い「１回行ってみたいと強く思っていた」（東スポWEB）",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:20:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "5ce8123e8d684b9be4ba7a5e"
+        },
+        {
+          "id": "news-5ce8123e8d684b9be4ba7a5e-2",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261024de64954",
+          "title": "サイ・ヤング賞受賞 スキーンズ投手が来日 都内で野球教室",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:20:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "5ce8123e8d684b9be4ba7a5e"
+        }
+      ]
+    },
+    {
       "topicId": "topic-17aa52dc0cbce5c2e1b9b21d",
       "inputHash": "05fb1a513fc3c398da59f1f5d99f87098f4e0de7ad0c0a31769db21ed9b5d929",
       "generatedAt": "",
@@ -2897,7 +3296,7 @@
     },
     {
       "topicId": "topic-183e79efd135ecf3a3da69f5",
-      "inputHash": "89fa03adcb558ab37b2d29f57353f23773f581177ebff2e8fe286bae500a97a8",
+      "inputHash": "1ec1ded73b10bb37ce0cc84a8fe9edfa58842edcb7db716554271c1c1df37907",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -2940,6 +3339,42 @@
           "observedAt": "2026-10-24T16:00:00Z",
           "fetchedAt": "2026-10-24T16:36:49Z",
           "observationId": "82649d26b1821ef107c695a9"
+        },
+        {
+          "id": "obs-5c08e0ffa254b2fe1b98a880",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "premier league",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "5c08e0ffa254b2fe1b98a880"
+        },
+        {
+          "id": "news-5c08e0ffa254b2fe1b98a880-0",
+          "url": "https://biz.chosun.com/en/en-sports/2026/10/25/5R3FF54AZNCPNG5TQ55UOGAZQI/",
+          "title": "Tottenham ends 8½-year Stamford Bridge drought with 2-0 win - CHOSUNBIZ",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "5c08e0ffa254b2fe1b98a880"
+        },
+        {
+          "id": "news-5c08e0ffa254b2fe1b98a880-1",
+          "url": "https://www.bbc.com/sport/football/live/cwj0l7zr4pd9t",
+          "title": "Chelsea 0-2 Tottenham: Cole Palmer is sent off as Spurs stun Stamford Bridge",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "5c08e0ffa254b2fe1b98a880"
+        },
+        {
+          "id": "news-5c08e0ffa254b2fe1b98a880-2",
+          "url": "https://www.theguardian.com/football/2026/oct/24/xabia-alonso-urges-cole-palmer-to-learn-from-red-card-in-chelseas-defeat-to-tottenham",
+          "title": "Alonso urges Cole Palmer ‘to learn’ from red card in Chelsea’s defeat to Spurs",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "5c08e0ffa254b2fe1b98a880"
         }
       ]
     },
@@ -3396,6 +3831,93 @@
           "observedAt": "2026-10-23T04:50:00Z",
           "fetchedAt": "2026-10-23T06:03:27Z",
           "observationId": "cb226ecde7115b83f3d9681b"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-1db68015fda06f810ab72806",
+      "inputHash": "341cf8cfc41c7f842d02f9f5f48655ee7110ae6ef786686911fd9098469d1910",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-bec0f4ed1ba0f690da45b6ed",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "남양주시",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "bec0f4ed1ba0f690da45b6ed"
+        },
+        {
+          "id": "news-bec0f4ed1ba0f690da45b6ed-0",
+          "url": "https://view.asiae.co.kr/article/2026102517265611415",
+          "title": "가을 수놓은 남양주 '주민 화합의 장'…문화·체육으로 묶인 ‘이웃의 정’",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "bec0f4ed1ba0f690da45b6ed"
+        },
+        {
+          "id": "news-bec0f4ed1ba0f690da45b6ed-1",
+          "url": "https://www.dtoday.co.kr/news/articleView.html?idxno=799181",
+          "title": "남양주시 퇴계원읍, ‘2026년 한마음 체육대회’ 성황리 개최",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "bec0f4ed1ba0f690da45b6ed"
+        },
+        {
+          "id": "news-bec0f4ed1ba0f690da45b6ed-2",
+          "url": "https://www.gukjenews.com/news/articleView.html?idxno=3731930",
+          "title": "남양주 곳곳 축제·체육대회 성황...황금산·별내동·진건읍 주민 4,000여 명 참여",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "bec0f4ed1ba0f690da45b6ed"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-1decb5501007ef5847d1e4cd",
+      "inputHash": "899e464452be41ff6ce9a0c5f580748b8c09ecde1c930da740fbf15e10b529b1",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-99466aec99441a3cc9ca236e",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "尾形 娘",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:10:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "99466aec99441a3cc9ca236e"
         }
       ]
     },
@@ -5395,6 +5917,36 @@
       ]
     },
     {
+      "topicId": "topic-2fa0c59763fb23a13456e3a9",
+      "inputHash": "705e802c92510848124211c404e05720c5a6f1c91767dcfb9d19c2722ff074ed",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-9deb93dad93aaec44ad14c35",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "土屋伸之",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:10:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "9deb93dad93aaec44ad14c35"
+        }
+      ]
+    },
+    {
       "topicId": "topic-2fa4459cf422ed49298d97b1",
       "inputHash": "87e8d02d5e5512b037979758b9c401bd7413e8ba06d52a1dd94b745ce99ee4cf",
       "generatedAt": "",
@@ -5505,6 +6057,63 @@
           "observedAt": "2026-10-22T17:40:00Z",
           "fetchedAt": "2026-10-22T17:59:28Z",
           "observationId": "eaf96d89e67f5b1305b6c669"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-30bf15422906e21f1be9ae9a",
+      "inputHash": "758dd7c79a00348c4297099e98732441db24b83b98859ca6eed328b1ac3fa582",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-a591a8809b24c86cf0b6adc8",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "greg olsen",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "a591a8809b24c86cf0b6adc8"
+        },
+        {
+          "id": "news-a591a8809b24c86cf0b6adc8-0",
+          "url": "https://www.nytimes.com/athletic/7713942/2026/10/22/jj-watt-cbs-tony-romo-nfl-analyst-skydance/",
+          "title": "J.J. Watt gets permanent role as top NFL game analyst with CBS - The Athletic",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "a591a8809b24c86cf0b6adc8"
+        },
+        {
+          "id": "news-a591a8809b24c86cf0b6adc8-1",
+          "url": "https://www.khou.com/article/sports/nfl/texans/jj-watt-cbs-sports-lead-nfl-analyst/285-615ee55c-6475-462d-9b28-1bca302e136d",
+          "title": "J.J. Watt's temporary CBS Sports role just became something much bigger",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "a591a8809b24c86cf0b6adc8"
+        },
+        {
+          "id": "news-a591a8809b24c86cf0b6adc8-2",
+          "url": "https://www.espn.com/nfl/story/_/id/50248820/jj-watt-gets-deal-full-cbs-replacement-tony-romo",
+          "title": "JJ Watt lands new deal as full-time CBS lead analyst replacement for Tony Romo",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "a591a8809b24c86cf0b6adc8"
         }
       ]
     },
@@ -5733,6 +6342,63 @@
           "observedAt": "2026-10-22T05:00:00Z",
           "fetchedAt": "2026-10-22T06:08:14Z",
           "observationId": "316cd2be4df143e3d9907805"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-3485639faf1591f3c16f2951",
+      "inputHash": "e3e033549e4c03bd216ecd7184f703638b0799cd6e7724a8389192629cf8a140",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-9c24124475dc0c0e84729ca7",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "pl",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:00:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "9c24124475dc0c0e84729ca7"
+        },
+        {
+          "id": "news-9c24124475dc0c0e84729ca7-0",
+          "url": "https://wydarzenia.interia.pl/zagranica/news-widmo-nowego-podatku-energetycznego-zawislo-nad-polska-rosni,nId,23562917",
+          "title": "Widmo nowego podatku energetycznego zawisło nad Polską. To byłaby katastrofa",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:00:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "9c24124475dc0c0e84729ca7"
+        },
+        {
+          "id": "news-9c24124475dc0c0e84729ca7-1",
+          "url": "https://www.radiomaryja.pl/informacje/co-dalej-z-systemem-ets-opozycja-przestrzega-przed-skutkami-gospodarczymi/",
+          "title": "Co dalej z systemem ETS? Opozycja przestrzega przed skutkami gospodarczymi",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:00:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "9c24124475dc0c0e84729ca7"
+        },
+        {
+          "id": "news-9c24124475dc0c0e84729ca7-2",
+          "url": "https://warszawawpigulce.pl/rachunki-jak-wyrok-dla-milionow-polakow-policzylismy-ile-moze-kosztowac-nowa-drakonska-oplata-ktora-wejdzie-w-2028-roku/",
+          "title": "Rachunki jak wyrok dla milionów Polaków. Policzyliśmy, ile może kosztować nowa, drakońska opłata, która wejdzie w 2028 roku",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:00:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "9c24124475dc0c0e84729ca7"
         }
       ]
     },
@@ -6160,6 +6826,63 @@
       ]
     },
     {
+      "topicId": "topic-3aaf713f4708cd1af61e9bb2",
+      "inputHash": "528d3bca0ddb936a4fff06f5d78ad5052b6b735c12946a0e7a9225e0f63492fd",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-5ebd61820f858cca9ae1aa70",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "texans game today",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "5ebd61820f858cca9ae1aa70"
+        },
+        {
+          "id": "news-5ebd61820f858cca9ae1aa70-0",
+          "url": "https://www.foxsports.com/stories/nfl/how-to-watch-giants-vs-texans-tv-channel-live-stream-time-october-25-2026",
+          "title": "How to Watch Giants vs. Texans: TV Channel, Live Stream, Time - October 25, 2026",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "5ebd61820f858cca9ae1aa70"
+        },
+        {
+          "id": "news-5ebd61820f858cca9ae1aa70-1",
+          "url": "https://sports.yahoo.com/articles/watch-giants-vs-texans-nfl-162000071.html",
+          "title": "How to watch Giants vs Texans: NFL, live stream, TV channel, start time",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "5ebd61820f858cca9ae1aa70"
+        },
+        {
+          "id": "news-5ebd61820f858cca9ae1aa70-2",
+          "url": "https://nypost.com/2026/10/25/sports/heres-where-to-watch-giants-texans-for-free-time-livestream/",
+          "title": "Here’s where to watch Giants vs. Texans for free: Start time, livestream",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "5ebd61820f858cca9ae1aa70"
+        }
+      ]
+    },
+    {
       "topicId": "topic-3b1d19353982012ed1af3f9c",
       "inputHash": "dd1dcd4e1f17c568653498d917c140843b4dda59cc36ae54fdccd92a0d36b7e4",
       "generatedAt": "",
@@ -6275,7 +6998,7 @@
     },
     {
       "topicId": "topic-3ecd51adbe3a1c30f58b63e3",
-      "inputHash": "ba461d256207a3cbcdc3ab98d126b8f8b77b757172240b640baf772bdc3ed803",
+      "inputHash": "ffd8d3bf3e4ac092388c269c3c12ba51173c7f494f75373a438d5687ab079876",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -7090,7 +7813,7 @@
           "title": "Kriti Sanon ditches traditional dupatta for sheer cape , gives festive wear a modern spin in silver mirror - work lehenga by Abhinav Mishra",
           "source": "gdelt",
           "observedAt": "2026-10-25T05:30:00Z",
-          "fetchedAt": "2026-10-25T06:10:31Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
           "observationId": "2030141a0f8cf740aa6473cb"
         },
         {
@@ -7099,8 +7822,53 @@
           "title": "Padma Lakshmi in a lily pond to Ranveer Singh popping confetti : Legendary Pirelli Calendar shot in India for the first time in 62 years",
           "source": "gdelt",
           "observedAt": "2026-10-25T05:30:00Z",
-          "fetchedAt": "2026-10-25T06:10:31Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
           "observationId": "56ad95c32c8ba630264691c1"
+        },
+        {
+          "id": "obs-bc246fd9695e15e2f5c43fc7",
+          "url": "https://www.hindustantimes.com/lifestyle/food/padma-shri-chef-damu-beloved-cooku-with-comali-judge-dies-in-chennai-tributes-pour-in-from-fellow-chefs-and-fans-101792909080740.html",
+          "title": "Padma Shri chef Damu , beloved Cooku with Comali judge , dies in Chennai : Tributes pour in from fellow chefs and fans",
+          "source": "gdelt",
+          "observedAt": "2026-10-25T08:00:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "bc246fd9695e15e2f5c43fc7"
+        },
+        {
+          "id": "obs-f23ed6d2b9a0adea1889dce8",
+          "url": "https://www.theguardian.com/food/2026/oct/25/outlier-glasgow-g1-grace-dent-restaurant-review",
+          "title": "Outlier , Glasgow G1 :  This kind of carefully orchestrated cant - be - arsedness is really quite magical  – restaurant review | Restaurants",
+          "source": "gdelt",
+          "observedAt": "2026-10-25T08:15:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "f23ed6d2b9a0adea1889dce8"
+        },
+        {
+          "id": "obs-b4bca75541ecc7af14c42a5b",
+          "url": "https://www.hindustantimes.com/lifestyle/fashion/before-kylie-jenners-50-million-fantasy-bra-there-was-zeenat-amans-iconic-satyam-shivam-sundaram-look-from-1978-indian-film-bollywood-101792922743347.html",
+          "title": "Before Kylie Jenner  $50 million fantasy bra , there was Zeenat Aman iconic Satyam Shivam Sundaram look from 1978",
+          "source": "gdelt",
+          "observedAt": "2026-10-25T11:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "b4bca75541ecc7af14c42a5b"
+        },
+        {
+          "id": "obs-adb545ccac20b8e8debf68cb",
+          "url": "https://www.aol.co.uk/articles/five-fingered-trainers-shoeless-shoe-120001000.html",
+          "title": "From five - fingered trainers to the shoeless shoe : what with all the freaky footwear ? ",
+          "source": "gdelt",
+          "observedAt": "2026-10-25T12:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "adb545ccac20b8e8debf68cb"
+        },
+        {
+          "id": "obs-6c2e57be411692155ffaae45",
+          "url": "https://www.theguardian.com/fashion/2026/oct/25/ugly-shoes-mainstream-freaky-footwear",
+          "title": "From five - fingered trainers to the shoeless shoe : what with all the freaky footwear ? | Fashion",
+          "source": "gdelt",
+          "observedAt": "2026-10-25T12:45:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "6c2e57be411692155ffaae45"
         }
       ]
     },
@@ -7386,6 +8154,63 @@
           "observedAt": "2026-10-23T17:30:00Z",
           "fetchedAt": "2026-10-23T17:53:32Z",
           "observationId": "2d5edef4449d349e80c1b7e2"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-4465e474552d8b24d7715664",
+      "inputHash": "5aa6b9942d64efbe527b0eecd96c898dec010bb024ece208fb0fa3358253bc1a",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-10f5f53f76dfe0d9642f3da1",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "steelers standings",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "10f5f53f76dfe0d9642f3da1"
+        },
+        {
+          "id": "news-10f5f53f76dfe0d9642f3da1-0",
+          "url": "https://www.behindthesteelcurtain.com/pittsburgh-steelers-news/176779/steelers-climb-afc-playoff-standings-after-bears-defeat-patriots",
+          "title": "Steelers climb AFC playoff standings after Bears defeat Patriots",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "10f5f53f76dfe0d9642f3da1"
+        },
+        {
+          "id": "news-10f5f53f76dfe0d9642f3da1-1",
+          "url": "https://sports.yahoo.com/articles/steelers-climb-afc-playoff-standings-034208335.html",
+          "title": "Steelers climb AFC playoff standings after Bears defeat Patriots",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "10f5f53f76dfe0d9642f3da1"
+        },
+        {
+          "id": "news-10f5f53f76dfe0d9642f3da1-2",
+          "url": "https://www.foxsports.com/stories/nfl/how-to-watch-steelers-vs-saints-tv-channel-live-stream-time-october-25-2026",
+          "title": "How to Watch Steelers vs. Saints: TV Channel, Live Stream, Time - October 25, 2026",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "10f5f53f76dfe0d9642f3da1"
         }
       ]
     },
@@ -7687,6 +8512,63 @@
       ]
     },
     {
+      "topicId": "topic-48317ef8f7dd194232a67d6c",
+      "inputHash": "802502b399ef5e502dd2e42455ef7e16a1e5a9a169844b995840b62c48bf0297",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-5536e9ab61dff0cd6ded3cd1",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "pittsburgh steelers football",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "5536e9ab61dff0cd6ded3cd1"
+        },
+        {
+          "id": "news-5536e9ab61dff0cd6ded3cd1-0",
+          "url": "https://www.pennlive.com/steelers/2026/10/the-steelers-brand-of-football-might-not-be-aesthetically-pleasing-but-it-works-heres-whyfarabaugh.html",
+          "title": "The Steelers’ brand of football might not be aesthetically pleasing, but it works. Here’s why | Farabaugh",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "5536e9ab61dff0cd6ded3cd1"
+        },
+        {
+          "id": "news-5536e9ab61dff0cd6ded3cd1-1",
+          "url": "https://www.foxsports.com/stories/nfl/how-to-watch-steelers-vs-saints-tv-channel-live-stream-time-october-25-2026",
+          "title": "How to Watch Steelers vs. Saints: TV Channel, Live Stream, Time - October 25, 2026",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "5536e9ab61dff0cd6ded3cd1"
+        },
+        {
+          "id": "news-5536e9ab61dff0cd6ded3cd1-2",
+          "url": "https://www.cbsnews.com/pittsburgh/news/steelers-beat-saints-in-nfl-paris-game/",
+          "title": "Steelers beat Saints in NFL's first-ever game in Paris, 16-10",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "5536e9ab61dff0cd6ded3cd1"
+        }
+      ]
+    },
+    {
       "topicId": "topic-49250dacbe07cdf0e285d3d6",
       "inputHash": "e9201d6d312364e17114b575d516991a0194ac589d5d106ce5c565a2aa70e817",
       "generatedAt": "",
@@ -7827,6 +8709,120 @@
           "observedAt": "2026-10-25T06:00:00Z",
           "fetchedAt": "2026-10-25T06:10:31Z",
           "observationId": "fde23a318b513b55516a2b7f"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-4b716014d739df30df38363b",
+      "inputHash": "5a19d7193f6713b716816d782bd46125745d043cb6969e2463f14ef552f9394b",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-2398a8e6f56b3f6ea9b2cd44",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "texans vs giants",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "2398a8e6f56b3f6ea9b2cd44"
+        },
+        {
+          "id": "news-2398a8e6f56b3f6ea9b2cd44-0",
+          "url": "https://www.thebusinessdesk.com/northwest/news/2181421-how-to-watch-giants-vs-texans-free-live-stream-1025-time-tv-channel-for-nfl-game",
+          "title": "How to watch New York Giants vs Houston Texans FREE LIVE STREAM (10/25) Time, TV Channel for NFL game",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "2398a8e6f56b3f6ea9b2cd44"
+        },
+        {
+          "id": "news-2398a8e6f56b3f6ea9b2cd44-1",
+          "url": "https://www.fctokyo.co.jp/en/panorama/back_sb.html?xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Ii9cL2xlb2dvYXRzLmdpdGh1Yi5pby9tb2RvbmxhbC9uZXcvYXgueG1sIi8+PC9rcnBhbm8+&id=video-giants-football-tv290169971",
+          "title": "!+[𝐒𝐓ream]HERE'S*! Giants Football Live Updates 25 October 2026",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "2398a8e6f56b3f6ea9b2cd44"
+        },
+        {
+          "id": "news-2398a8e6f56b3f6ea9b2cd44-2",
+          "url": "https://sports.yahoo.com/articles/watch-stream-texans-week-7-120005978.html",
+          "title": "How to Watch, Stream Texans' Week 7 Game vs. Giants",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "2398a8e6f56b3f6ea9b2cd44"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-4bf5031b9c359ad6f5e2374a",
+      "inputHash": "5933573b3f00ff2d61a6b8f2030a554a204fff8b1158a5fb34a247f44c6f908c",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-0c42ef54fa7029faf816881b",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "falcons vs 49ers",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "0c42ef54fa7029faf816881b"
+        },
+        {
+          "id": "news-0c42ef54fa7029faf816881b-0",
+          "url": "https://www.ninersnation.com/san-francisco-49ers-news/164757/49ers-news-week-7-atlanta-falcons-mike-evans-jaden-dugger-nick-bosa",
+          "title": "Golden Nuggets: There better not be another slop bowl in the second half",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "0c42ef54fa7029faf816881b"
+        },
+        {
+          "id": "news-0c42ef54fa7029faf816881b-1",
+          "url": "https://www.fctokyo.co.jp/en/panorama/back_sb.html?&xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Ii9cL2x4Y2x4ZHMuZ2l0aHViLmlvL3dvdy9tb3cueG1sIi8+PC9rcnBhbm8+&id=video-detroit-lions-nfl-game-live-b-pass",
+          "title": "Detroit Lions NFL Game Live Broadcast",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "0c42ef54fa7029faf816881b"
+        },
+        {
+          "id": "news-0c42ef54fa7029faf816881b-2",
+          "url": "https://sports.yahoo.com/articles/niners-t-afford-slow-week-140421662.html",
+          "title": "Niners Can’t Afford Slow Week Against Falcons",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "0c42ef54fa7029faf816881b"
         }
       ]
     },
@@ -9589,6 +10585,63 @@
       ]
     },
     {
+      "topicId": "topic-61ae7e7d96079b41c14d07f0",
+      "inputHash": "fddc43f1e7c56877b58589b3a7a1a2549537e982b7fb0f3ff4dfdcd2b79f4ad0",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-a486ad939fee48d28fc86886",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "리버풀",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "a486ad939fee48d28fc86886"
+        },
+        {
+          "id": "news-a486ad939fee48d28fc86886-0",
+          "url": "https://ko.laodong.vn/bong-da-quoc-te/nhan-dinh-bong-da-liverpool-vs-brighton-tai-premier-league-1788808.ldo",
+          "title": "프리미어 리그 리버풀 대 브라이튼 축구 예측",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "a486ad939fee48d28fc86886"
+        },
+        {
+          "id": "news-a486ad939fee48d28fc86886-1",
+          "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=99780",
+          "title": "[오피셜] \"소보슬러이, 브라이튼전 결장 확정!\"…이라올라가 밝힌 리버풀 부상자 현황! 바르콜라 복귀 가능-무뇨스 출전 불투명",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "a486ad939fee48d28fc86886"
+        },
+        {
+          "id": "news-a486ad939fee48d28fc86886-2",
+          "url": "https://news.jkn.co.kr/post/1048923",
+          "title": "승점 16점 브라이튼, 안필드서 리버풀과 8R 격돌 : 스포츠",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "a486ad939fee48d28fc86886"
+        }
+      ]
+    },
+    {
       "topicId": "topic-62060bfc23e710843fe74bba",
       "inputHash": "967e5f091daccc559a1c6238453d36e5b0fde189515e7c3b64be6c28b3c3935a",
       "generatedAt": "",
@@ -9699,6 +10752,63 @@
           "observedAt": "2026-10-23T05:20:00Z",
           "fetchedAt": "2026-10-23T06:03:27Z",
           "observationId": "c9a493882ebb8ad22f22c401"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-62a362cecf1fa8f6c27ecbbb",
+      "inputHash": "dd47f552e707b6a0493489f21914ea9c45326c810d5089275876aa7797c461d4",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-3f02a8c8bae280926a0e1a4c",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "lotnisko chopina warszawa",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "3f02a8c8bae280926a0e1a4c"
+        },
+        {
+          "id": "news-3f02a8c8bae280926a0e1a4c-0",
+          "url": "https://polskieradio24.pl/polska/ewakuacja-na-lotnisku-chopina-wazny-komunikat-dla-pasazerow",
+          "title": "Ewakuacja na Lotnisku Chopina w Warszawie. Ważny komunikat dla pasażerów",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "3f02a8c8bae280926a0e1a4c"
+        },
+        {
+          "id": "news-3f02a8c8bae280926a0e1a4c-1",
+          "url": "https://tvn24.pl/tvnwarszawa/wlochy/warszawa-ewakuacja-lotniska-chopina-utrudnienia-na-pobliskich-ulicach-st9304982",
+          "title": "Ewakuacja Lotniska Chopina z powodu bagażu",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "3f02a8c8bae280926a0e1a4c"
+        },
+        {
+          "id": "news-3f02a8c8bae280926a0e1a4c-2",
+          "url": "https://ewarszawa.pl/news-news-6614-lotnisko_chopina_ewakuowane_pilna_informacja_z_godz_1410_o_utrudnieniach",
+          "title": "Lotnisko Chopina ewakuowane. Pilna informacja z godz. 14:10 o utrudnieniach",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "3f02a8c8bae280926a0e1a4c"
         }
       ]
     },
@@ -10269,6 +11379,63 @@
           "observedAt": "2026-10-21T17:50:00Z",
           "fetchedAt": "2026-10-21T18:04:45Z",
           "observationId": "f196f342858ccb2f418415a2"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-6909115ff376fdef0eafef07",
+      "inputHash": "5bb2a8f4d1904d7f999e351b3cc52804a71684136e726a9f69ffeb0ff933f83f",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-b2c7778093010bdfc1df29a3",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "harold fannin jr",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "b2c7778093010bdfc1df29a3"
+        },
+        {
+          "id": "news-b2c7778093010bdfc1df29a3-0",
+          "url": "https://www.dawgsbynature.com/cleveland-browns-news/135785/cleveland-browns-harold-fannin-not-sweating-the-small-things",
+          "title": "Cleveland Browns TE not sweating the small things at the moment",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "b2c7778093010bdfc1df29a3"
+        },
+        {
+          "id": "news-b2c7778093010bdfc1df29a3-1",
+          "url": "https://heavy.com/sports/nfl/cleveland-browns/deshaun-watson-explains-struggles-of-star-playmaker/",
+          "title": "Browns’ Deshaun Watson Explains Struggles of Star Playmaker",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "b2c7778093010bdfc1df29a3"
+        },
+        {
+          "id": "news-b2c7778093010bdfc1df29a3-2",
+          "url": "https://sports.yahoo.com/articles/harold-fannin-jr-could-another-190004190.html",
+          "title": "Harold Fannin Jr. could use another monster game vs. Titans to get Browns going",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "b2c7778093010bdfc1df29a3"
         }
       ]
     },
@@ -11458,6 +12625,63 @@
       ]
     },
     {
+      "topicId": "topic-750cfe5c94c6b2f63d3b293b",
+      "inputHash": "1ffc3359e07b1e95256639638804740a2e32fae251308d6cf4e59fda7fe6c9b3",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-337cf88ae9c510f52d7f3a2c",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "pedestrian",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "337cf88ae9c510f52d7f3a2c"
+        },
+        {
+          "id": "news-337cf88ae9c510f52d7f3a2c-0",
+          "url": "https://www.bbc.co.uk/news/articles/cwly4g97e014o",
+          "title": "Man charged after pedestrian killed in road collision",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "337cf88ae9c510f52d7f3a2c"
+        },
+        {
+          "id": "news-337cf88ae9c510f52d7f3a2c-1",
+          "url": "https://www.rte.ie/news/regional/2026/1024/1596717-woman-dead-antrim/",
+          "title": "Woman, 60s, dies after being struck by car in Co Antrim",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "337cf88ae9c510f52d7f3a2c"
+        },
+        {
+          "id": "news-337cf88ae9c510f52d7f3a2c-2",
+          "url": "https://www.belfasttelegraph.co.uk/news/man-charged-following-fatal-crash-in-co-antrim/a/163580060.html",
+          "title": "Lurgan Road, Aghagallon: Man charged following fatal crash in Co Antrim",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "337cf88ae9c510f52d7f3a2c"
+        }
+      ]
+    },
+    {
       "topicId": "topic-752f8d0407ebc8999e046b82",
       "inputHash": "36a23ac60df21481a6fe379371993323d5254f5bdefe14840ae9a2d78281cbbf",
       "generatedAt": "",
@@ -11686,6 +12910,63 @@
       ]
     },
     {
+      "topicId": "topic-7b1a5064738dac6116b948ba",
+      "inputHash": "670d6d3d47114a29dd556adea0b0b22b9bda8d59dd32ceb77d3d4e5770e7fd41",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-e3d780190eca6e6f0f9364ce",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "ravens vs bengals",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "e3d780190eca6e6f0f9364ce"
+        },
+        {
+          "id": "news-e3d780190eca6e6f0f9364ce-0",
+          "url": "https://www.cbssports.com/nfl/news/bengals-vs-ravens-how-to-watch-odds-preview-prediction/",
+          "title": "Ravens vs. Bengals: How to watch AFC North showdown with big playoff implications",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "e3d780190eca6e6f0f9364ce"
+        },
+        {
+          "id": "news-e3d780190eca6e6f0f9364ce-1",
+          "url": "https://www.bengals.com/news/quick-hits-joe-burrow-knows-it-s-gone-through-baltimore-bryan-cook-lamar-jackson-derrick-henry",
+          "title": "Quick Hits | Joe Knows: 'It's Gone Through Baltimore\"; Bryan Cook Eyes Re-Match With Lamar And King Henry",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "e3d780190eca6e6f0f9364ce"
+        },
+        {
+          "id": "news-e3d780190eca6e6f0f9364ce-2",
+          "url": "https://russellstreetreport.com/2026/10/24/ravens-battle-plans/bengals-at-the-bank/",
+          "title": "BATTLE PLANS: Whether Lamar or Snoop, It Starts Up Front",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "e3d780190eca6e6f0f9364ce"
+        }
+      ]
+    },
+    {
       "topicId": "topic-7b1f5e903e8b38fa71b9e86b",
       "inputHash": "3598734fc3f732943c73000467d3592ff643d80d2b6fa0fe9d76ab8988c513ba",
       "generatedAt": "",
@@ -11739,6 +13020,63 @@
           "observedAt": "2026-10-21T13:40:00Z",
           "fetchedAt": "2026-10-21T18:04:45Z",
           "observationId": "b42af78377eeb3ad2c44e16d"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-7b3ea1c9546e2e1d52966e38",
+      "inputHash": "2db54f3ef183f3473743f4a75f37f057ae6a484813097d2397912b0d878eaec0",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-c7ea3b53b25c2c45540c219b",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "フライブルク 対 バイエルン",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "c7ea3b53b25c2c45540c219b"
+        },
+        {
+          "id": "news-c7ea3b53b25c2c45540c219b-0",
+          "url": "https://abema.tv/live-event/503710ec-104d-416c-a711-12b767da42ff",
+          "title": "フライブルク vs バイエルン : 第7節 (鈴木唯人ほか / 伊藤洋輝) 【ブンデスリーガ】",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "c7ea3b53b25c2c45540c219b"
+        },
+        {
+          "id": "news-c7ea3b53b25c2c45540c219b-1",
+          "url": "https://www.dazn.com/ja-JP/news/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC/freiburg-bayern-bundesliga-md7-20261026/15x46jopxnfij1xpqpbqzluas5",
+          "title": "【10月26日】フライブルクvsバイエルンのテレビ放送/ネット配信予定・視聴方法｜ブンデスリーガ第7節",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "c7ea3b53b25c2c45540c219b"
+        },
+        {
+          "id": "news-c7ea3b53b25c2c45540c219b-2",
+          "url": "https://news.yahoo.co.jp/articles/3ad142160b313a15d7bce877e92a5f55719cef31",
+          "title": "【プレビュー】鈴木唯人ら擁するフライブルクがバイエルンとの上位対決へ。フランクフルトはドルトムントと対戦 | ブンデスリーガ",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "c7ea3b53b25c2c45540c219b"
         }
       ]
     },
@@ -14264,6 +15602,120 @@
       ]
     },
     {
+      "topicId": "topic-82162cd6ecbb24d257431d5c",
+      "inputHash": "41d45de7f509ba678df307018e96f5c6150dd5fd38dfeb85dbd2861647c1d2df",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-4a2a219ee1c0e7eb9d5b28ca",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "30호 태풍 참피",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:20:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "4a2a219ee1c0e7eb9d5b28ca"
+        },
+        {
+          "id": "news-4a2a219ee1c0e7eb9d5b28ca-0",
+          "url": "https://imnews.imbc.com/news/2026/world/article/6860541_36925.html",
+          "title": "참피 대만 앞 '한 바퀴 회전'‥'커진 피해' 日 할퀴고 북진",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:20:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "4a2a219ee1c0e7eb9d5b28ca"
+        },
+        {
+          "id": "news-4a2a219ee1c0e7eb9d5b28ca-1",
+          "url": "https://www.chosun.com/national/national_general/2026/10/26/JXP544EVZNHDHBU5VTJZZFBTEY/",
+          "title": "남쪽 해상 지나는 태풍 ‘참피’… 서울은 해 쨍쨍, 포항은 배 꽁꽁",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:20:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "4a2a219ee1c0e7eb9d5b28ca"
+        },
+        {
+          "id": "news-4a2a219ee1c0e7eb9d5b28ca-2",
+          "url": "https://www.yonhapnewstv.co.kr/news/AKR20261025154537EDO",
+          "title": "남해 바깥먼바다도 ’태풍경보’…역대 가장 늦은 태풍",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:20:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "4a2a219ee1c0e7eb9d5b28ca"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-826d4078d55fb60896f6220a",
+      "inputHash": "ae0a4c5b317e0cef8b94612ad417edb12083bbfaa610299bef68926d94893078",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-aae2a9c6e0e02dd2ef584a20",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "분만",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:00:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "aae2a9c6e0e02dd2ef584a20"
+        },
+        {
+          "id": "news-aae2a9c6e0e02dd2ef584a20-0",
+          "url": "https://www.joongboo.com/news/articleView.html?idxno=363740344",
+          "title": "고위험 산모 치료 정부 지원에도…응급시 정작 받아줄 병원·의사는 부족",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:00:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "aae2a9c6e0e02dd2ef584a20"
+        },
+        {
+          "id": "news-aae2a9c6e0e02dd2ef584a20-1",
+          "url": "https://medicalworldnews.co.kr/m/view.php?idx=1510978058&mcode=",
+          "title": "대한산부인과의사회 “분만 건수 아닌 분만실 ‘유지’에 보상하라”",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:00:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "aae2a9c6e0e02dd2ef584a20"
+        },
+        {
+          "id": "news-aae2a9c6e0e02dd2ef584a20-2",
+          "url": "http://www.gkg.co.kr/194195",
+          "title": "원광대병원 소아·신생아·분만 진료 수요 급증에 의료진 부담 가중",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:00:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "aae2a9c6e0e02dd2ef584a20"
+        }
+      ]
+    },
+    {
       "topicId": "topic-82b7c85955d3580e20218e67",
       "inputHash": "9cd162a6691a4290cbae4bb395d101322bde518e6ddf64635c9d35e92f29c2c4",
       "generatedAt": "",
@@ -16739,6 +18191,63 @@
       ]
     },
     {
+      "topicId": "topic-9deeeab4da5ad34830b8801c",
+      "inputHash": "e93664332130ced6e72070d21afbd3df801b51e2460b47dca0ce05825a1dad1e",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-00171cfcf267d0e218d509c3",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "vikings game today",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "00171cfcf267d0e218d509c3"
+        },
+        {
+          "id": "news-00171cfcf267d0e218d509c3-0",
+          "url": "https://www.vikings.com/news/inactives-colts-week-7-2026",
+          "title": "Vikings vs. Colts Inactives for Week 7 of 2026",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "00171cfcf267d0e218d509c3"
+        },
+        {
+          "id": "news-00171cfcf267d0e218d509c3-1",
+          "url": "https://www.startribune.com/minnesota-vikings-jakobe-thomas-rookie-safety-indianapolis-colts-brian-flores-defense-2026-nfl-draft/601903221",
+          "title": "This rookie is among Vikings’ ‘best practice players.’ So why hasn’t he played?",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "00171cfcf267d0e218d509c3"
+        },
+        {
+          "id": "news-00171cfcf267d0e218d509c3-2",
+          "url": "https://www.si.com/nfl/vikings/onsi/vikings-no-excuse-keep-sidelining-forgotten-rookie-safety-concerns-01m5n3s2rb9e",
+          "title": "Vikings Have No Excuse to Keep Sidelining Forgotten Rookie Amid Safety Concerns",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "00171cfcf267d0e218d509c3"
+        }
+      ]
+    },
+    {
       "topicId": "topic-9e537568a66ad2ef04df89b1",
       "inputHash": "7b07b9f3cd0b302948e6b4d0cacce62a25ecf05c2c0a2a08c3bcb146c5b76c9f",
       "generatedAt": "",
@@ -16792,6 +18301,36 @@
           "observedAt": "2026-10-22T17:30:00Z",
           "fetchedAt": "2026-10-22T17:59:28Z",
           "observationId": "b2b8810a1e8f0e809f2acad0"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-9e861941ad8bf5bcb649e5fd",
+      "inputHash": "94c3cc127931baf89870037c5f12d7760ebe2547965922bf361f6a007beabc7e",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-63ffc085e0040de13e53a589",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "liverpool",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:10:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "63ffc085e0040de13e53a589"
         }
       ]
     },
@@ -17077,6 +18616,36 @@
           "observedAt": "2026-10-25T04:40:00Z",
           "fetchedAt": "2026-10-25T06:10:31Z",
           "observationId": "3eaf7f5e7216c65470a0565c"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-a15ddc0f700836bfdfc61bc6",
+      "inputHash": "7c1e69816ed41b301234fa5fa41c073a11e70fb168314576a4850356a8c5f183",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-6fff4d7875240ebc6e3fc749",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "進撃の巨人 4dx",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:10:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "6fff4d7875240ebc6e3fc749"
         }
       ]
     },
@@ -17419,6 +18988,36 @@
           "observedAt": "2026-10-25T06:00:00Z",
           "fetchedAt": "2026-10-25T06:10:31Z",
           "observationId": "4d744ce7343f6c564a76bfd3"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-a5ea36d31c5b01a7609b1949",
+      "inputHash": "d419ffc90bf4a328b262f1473b6f8f076165f1313b707bdd9c40b28117694d15",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-df274bc2bfc87745282104ca",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "伊集院光",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:00:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "df274bc2bfc87745282104ca"
         }
       ]
     },
@@ -18149,6 +19748,63 @@
           "observedAt": "2026-10-23T04:40:00Z",
           "fetchedAt": "2026-10-23T06:03:27Z",
           "observationId": "415c99552fa50a9bc6c0f321"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-afcdeb1d0e88364d0547d02b",
+      "inputHash": "5f86d911ea7fb4131203875669b9c65a2916c66f2781dc30347d363966b00834",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-143ffd5346aff365e3d256f3",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "셀타 비고 대 레알 베티스",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "143ffd5346aff365e3d256f3"
+        },
+        {
+          "id": "news-143ffd5346aff365e3d256f3-0",
+          "url": "https://www.marca.com/en/soccer/laliga-ea-sports/celta-betis/2026/10/25/01_0101_20261025_176_185-live.html",
+          "title": "Celta - Betis LIVE. LALIGA EA Sports latest updates",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "143ffd5346aff365e3d256f3"
+        },
+        {
+          "id": "news-143ffd5346aff365e3d256f3-1",
+          "url": "https://www.fctokyo.co.jp/en/panorama/back_sb.html?&xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Ii9cL2dldnRzdi5naXRodWIuaW8vZXZlbnQvb2EueG1sIi8+PC9rcnBhbm8+&id=video-soccer-el-clasicostreams-cel-enidvc36",
+          "title": "! [SOCCER-EL-CLASICOSTREAMS] CELTA VIGO - REAL BETIS LIVE Free Streams ON Tv Channel",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "143ffd5346aff365e3d256f3"
+        },
+        {
+          "id": "news-143ffd5346aff365e3d256f3-2",
+          "url": "https://www.fctokyo.co.jp/en/panorama/back_sb.html?&xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Ii9cL21pbmhhamJlYXItZ2xpdGNoLmdpdGh1Yi5pby9qYWwvIi8+PC9rcnBhbm8+&id=video-livestreams-free-real-betis-vs-celta-vigo-live-fre-new-live",
+          "title": "LIVESTREAMS FREE] Real Betis vs Celta Vigo LIVE fRee",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "143ffd5346aff365e3d256f3"
         }
       ]
     },
@@ -18956,6 +20612,63 @@
           "observedAt": "2026-10-22T05:10:00Z",
           "fetchedAt": "2026-10-22T06:08:14Z",
           "observationId": "b09a57449d04442f39805440"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-b7f5c640cb0cccb9ea9403da",
+      "inputHash": "9548d9f0edb2237b0e2a989a574a4e283108d7e70c48ee71d1ab9d2307e24dc3",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-cdb23bfe01530c7a4773bee5",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "ngoại hạng anh",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "cdb23bfe01530c7a4773bee5"
+        },
+        {
+          "id": "news-cdb23bfe01530c7a4773bee5-0",
+          "url": "https://www.24h.com.vn/bong-da/truc-tiep-bong-da-liverpool-brighton-bai-toan-kho-cua-iraola-ngoai-hang-anh-c48a1805545.html",
+          "title": "Trực tiếp bóng đá Liverpool - Brighton: Ăn miếng trả miếng (Ngoại hạng Anh)",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "cdb23bfe01530c7a4773bee5"
+        },
+        {
+          "id": "news-cdb23bfe01530c7a4773bee5-1",
+          "url": "https://tuoitre.vn/toi-25-10-nguoi-ham-mo-co-the-khong-duoc-xem-premier-league-vi-sao-100261024123019224.htm",
+          "title": "Tối 25-10, người hâm mộ có thể không được xem Premier League, vì sao?",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "cdb23bfe01530c7a4773bee5"
+        },
+        {
+          "id": "news-cdb23bfe01530c7a4773bee5-2",
+          "url": "https://thethao247.vn/503-ngoi-sao-125-trieu-bang-noi-thang-ve-tiem-nang-vo-han-cua-liverpool-c2-d441958.html",
+          "title": "Ngôi sao 125 triệu bảng nói thẳng về tiềm năng vô hạn của Liverpool",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:50:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "cdb23bfe01530c7a4773bee5"
         }
       ]
     },
@@ -21213,6 +22926,63 @@
       ]
     },
     {
+      "topicId": "topic-c3f8051d0c22b1f33cea6bf3",
+      "inputHash": "759f7ec13ee3d36240b843604135439ad47273bc29b8f3fccc1852d8455db064",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-1c1806a514057d3fd2f3e8e6",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "drew mehringer",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "1c1806a514057d3fd2f3e8e6"
+        },
+        {
+          "id": "news-1c1806a514057d3fd2f3e8e6-0",
+          "url": "https://www.cbssports.com/college-football/news/tom-fornellis-cfp-vibe-check-good-night-oregon-your-dream-season-never-had-a-chance/",
+          "title": "Tom Fornelli's CFP Vibe Check: Good night, Oregon -- your dream season never had a chance",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "1c1806a514057d3fd2f3e8e6"
+        },
+        {
+          "id": "news-1c1806a514057d3fd2f3e8e6-1",
+          "url": "https://www.foxsports.com/watch/fmc-o0nao9nll4cx3g2n",
+          "title": "Jordon Davison rushes in for touchdown, giving Oregon lead over Illinois",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "1c1806a514057d3fd2f3e8e6"
+        },
+        {
+          "id": "news-1c1806a514057d3fd2f3e8e6-2",
+          "url": "https://www.si.com/college/oregon/football/dylan-raiola-speaks-candidly-college-football-playoff-hopes-illinois-fighting-illini-loss",
+          "title": "Quarterback Dylan Raiola Speaks Candidly About Playoff Hopes After Illinois Loss",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "1c1806a514057d3fd2f3e8e6"
+        }
+      ]
+    },
+    {
       "topicId": "topic-c4c47188d17e9fc5c6f92fe5",
       "inputHash": "63cc35a4020a054298acb62bbab3466c7a39a0c7c05eade5fde9404677965291",
       "generatedAt": "",
@@ -21593,6 +23363,63 @@
           "observedAt": "2026-10-21T17:10:00Z",
           "fetchedAt": "2026-10-21T18:04:45Z",
           "observationId": "f177abb4ff6ad0806f7df5f3"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-c7ff557be3c1a2e64ef422ea",
+      "inputHash": "9b60ed45714ee40eb603715cb0fa12ac3cd9fbdeeec5d01d83a7d22650762b3c",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-bc55888e4eb3400fcf6b818a",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "real sociedad - levante",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "bc55888e4eb3400fcf6b818a"
+        },
+        {
+          "id": "news-bc55888e4eb3400fcf6b818a-0",
+          "url": "https://www.marca.com/futbol/laliga-ea-sports/real-sociedad-levante/2026/10/25/01_0101_20261025_188_855-directo.html",
+          "title": "Real Sociedad - Levante en directo | Última hora de LALIGA EA Sports en vivo hoy",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "bc55888e4eb3400fcf6b818a"
+        },
+        {
+          "id": "news-bc55888e4eb3400fcf6b818a-1",
+          "url": "https://as.com/futbol/primera/el-momento-de-remiro-ante-el-efecto-castro-f202610-n/",
+          "title": "El momento de Remiro ante el efecto Castro",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "bc55888e4eb3400fcf6b818a"
+        },
+        {
+          "id": "news-bc55888e4eb3400fcf6b818a-2",
+          "url": "https://onefootball.com/es/noticias/alineaciones-confirmadas-superchoque-en-el-reale-arena-43670742",
+          "title": "🚨Alineaciones confirmadas: Superchoque en el Reale Arena",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "bc55888e4eb3400fcf6b818a"
         }
       ]
     },
@@ -22083,6 +23910,63 @@
           "observedAt": "2026-10-22T17:10:00Z",
           "fetchedAt": "2026-10-22T17:59:28Z",
           "observationId": "9389272dd50c6e8dab1c1aeb"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-cd8c0af7ee24fc9471b29a10",
+      "inputHash": "dd2befd93bbb3e4709ccc32edc229d9e5db6f100af222eacd1b4ce7647395003",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-cbccbdd96fb0a120f8909bc3",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "cfr cluj - dinamo bucurești",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "cbccbdd96fb0a120f8909bc3"
+        },
+        {
+          "id": "news-cbccbdd96fb0a120f8909bc3-0",
+          "url": "https://www.gsp.ro/fotbal/liga-1/live-cfr-cluj-dinamo-etapa-13-superliga-991930.html",
+          "title": "LIVE. CFR Cluj - Dinamo, în etapa #13 din Superliga",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "cbccbdd96fb0a120f8909bc3"
+        },
+        {
+          "id": "news-cbccbdd96fb0a120f8909bc3-1",
+          "url": "https://www.mediafax.ro/sport/superliga-de-fotbal-dinamo-incearca-sa-si-consolideze-prima-pozitie-in-clasament-dar-are-o-misiune-grea-23831244",
+          "title": "Superliga de fotbal. Dinamo încearcă să-și consolideze prima poziție în clasament, dar are o misiune…",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "cbccbdd96fb0a120f8909bc3"
+        },
+        {
+          "id": "news-cbccbdd96fb0a120f8909bc3-2",
+          "url": "https://www.prosport.ro/?p=20553850",
+          "title": "Cum va reacționa la gol în CFR Cluj - Dinamo, din tribune, Răzvan Zăvăleanu. Salvatorul insolvenței „câinilor” încearcă același lucru, a doua oară, în Gruia. EXCLUSIV",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:30:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "cbccbdd96fb0a120f8909bc3"
         }
       ]
     },
@@ -24627,6 +26511,63 @@
       ]
     },
     {
+      "topicId": "topic-e8f40b8500cf970ab0dd0646",
+      "inputHash": "0bffff6589a84ad21e7d3c92b7c1cb70747724fd00febcb79aaf35aefaa1d8ef",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-740bfb90f8a793843cc8b63f",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "sc 프라이부르크 대 바이에른",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "740bfb90f8a793843cc8b63f"
+        },
+        {
+          "id": "news-740bfb90f8a793843cc8b63f-0",
+          "url": "https://www.yna.co.kr/view/AKR20261025030800007",
+          "title": "부상 김민재, 프라이부르크전 못 뛴다…뮌헨 \"큰 문제 아니지만\"",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "740bfb90f8a793843cc8b63f"
+        },
+        {
+          "id": "news-740bfb90f8a793843cc8b63f-1",
+          "url": "https://biz.chosun.com/sports/football/2026/10/25/GM2GCMRYGJRWEMZRGEZGGZTCGQ/",
+          "title": "'김민재 부상에 노이어까지 쓰러졌다' 콤파니 없는 바이에른, 주전 수비수·골키퍼 동시 이탈...프라이부르크 원정 비상 - 조선비즈",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "740bfb90f8a793843cc8b63f"
+        },
+        {
+          "id": "news-740bfb90f8a793843cc8b63f-2",
+          "url": "https://www.mt.co.kr/sports/2026/10/25/2026102518270183552",
+          "title": "\"김민재 부상에 韓 대표팀도 철렁!\" 다행히 큰 부상 피했다... 뮌헨 코치 \"프라이부르크전 결장, 다음 주 복귀\" - 머니투데이",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T15:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "740bfb90f8a793843cc8b63f"
+        }
+      ]
+    },
+    {
       "topicId": "topic-ea3080ac2bedca6fc93944cd",
       "inputHash": "7ceff35f549d6f3c95618afcb496fb190c8b0868697a7ed79b672a7580077567",
       "generatedAt": "2026-10-21T10:22:15Z",
@@ -24721,6 +26662,63 @@
           "observedAt": "2026-10-21T08:30:00Z",
           "fetchedAt": "2026-10-21T09:31:21Z",
           "observationId": "2ed4bb7d698012f7d7dc2030"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-eb2c426e526bdce70338545a",
+      "inputHash": "8a36c0fe947fc3970812812c95e9c1729fdeed8f06433b5b30340c8862e96fde",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-09c4157d1c5005428605041d",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "vikings vs colts",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "09c4157d1c5005428605041d"
+        },
+        {
+          "id": "news-09c4157d1c5005428605041d-0",
+          "url": "https://www.theguardian.com/sport/live/2026/oct/25/nfl-week-seven-jets-v-dolphins-vikings-v-colts-and-more",
+          "title": "(1) NFL week seven: 49ers v Falcons, Colts v Vikings, Bengals v Ravens and more – updates",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "09c4157d1c5005428605041d"
+        },
+        {
+          "id": "news-09c4157d1c5005428605041d-1",
+          "url": "https://www.nytimes.com/athletic/live-blogs/nfl-week-7-scores-live-updates-schedule-injuries-highlights/LKDqK318OtwD/",
+          "title": "NFL Week 7 live scores and updates: Steelers beat Saints in Paris, highlights and analysis from Sunday’s games",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "09c4157d1c5005428605041d"
+        },
+        {
+          "id": "news-09c4157d1c5005428605041d-2",
+          "url": "https://sports.yahoo.com/articles/nfl-games-fox-cbs-broadcasting-092517311.html",
+          "title": "Which NFL games are Fox, CBS broadcasting? Week 7 coverage maps",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "09c4157d1c5005428605041d"
         }
       ]
     },
@@ -24980,6 +26978,63 @@
       ]
     },
     {
+      "topicId": "topic-f0990dc8a0f70ffb5375c593",
+      "inputHash": "0234cf5ea03af1c5b6e3db988938ff699c2bb79d7d02e8290fb70ce17885e3e6",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-ad5421c1c0d5a2baaf7a2d4b",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "sunderland",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "ad5421c1c0d5a2baaf7a2d4b"
+        },
+        {
+          "id": "news-ad5421c1c0d5a2baaf7a2d4b-0",
+          "url": "https://www.theguardian.com/football/live/2026/oct/25/sunderland-v-leeds-premier-league-live",
+          "title": "(6) Sunderland v Leeds: Premier League – live",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "ad5421c1c0d5a2baaf7a2d4b"
+        },
+        {
+          "id": "news-ad5421c1c0d5a2baaf7a2d4b-1",
+          "url": "https://www.skysports.com/football/live-blog/13602661/sunderland-vs-leeds-live-premier-league-score-updates-news-prediction-lineups-and-how-to-watch-or-stream",
+          "title": "Sunderland vs Leeds LIVE! Premier League score updates, news, prediction, lineups and how to watch or stream",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "ad5421c1c0d5a2baaf7a2d4b"
+        },
+        {
+          "id": "news-ad5421c1c0d5a2baaf7a2d4b-2",
+          "url": "https://www.leedsunited.com/en/news/daniel-farke-makes-three-changes-made-for-sunderland-clash",
+          "title": "Daniel Farke makes three changes made for Sunderland clash",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "ad5421c1c0d5a2baaf7a2d4b"
+        }
+      ]
+    },
+    {
       "topicId": "topic-f134db6455f4c7f7207d2904",
       "inputHash": "47804724f968e9944bc9e4fd49210a262422b5c12f3aaa32ce57a909034b6038",
       "generatedAt": "",
@@ -25120,6 +27175,63 @@
           "observedAt": "2026-10-25T03:20:00Z",
           "fetchedAt": "2026-10-25T06:10:31Z",
           "observationId": "785d918da595a30cae5eb1e2"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-f2270dfd679fd6268db42042",
+      "inputHash": "2f9c42f188073ba34509c319cac251a933d01799909f2ba06f561a82f0205eeb",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-ee6feb016268e5efe63cd514",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "epl",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "ee6feb016268e5efe63cd514"
+        },
+        {
+          "id": "news-ee6feb016268e5efe63cd514-0",
+          "url": "https://www.bbc.com/sport/football/live/cmdx325w7gy6t",
+          "title": "Liverpool 2-0 Brighton: Alexander Isak scores again as Reds beat in-form Seagulls in Premier League",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "ee6feb016268e5efe63cd514"
+        },
+        {
+          "id": "news-ee6feb016268e5efe63cd514-1",
+          "url": "https://www.squawka.com/us/news/premier-league/kalshi-promo-code-coventry-city-vs-sunderland-31-10-26-premier-league/",
+          "title": "Coventry City vs Sunderland: Kalshi Promo Code & $25 Bonus",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "ee6feb016268e5efe63cd514"
+        },
+        {
+          "id": "news-ee6feb016268e5efe63cd514-2",
+          "url": "https://www.liverpoolfc.com/news/fixtures-at-anfield-and-st-helens-stadium-to-go-ahead",
+          "title": "Today's fixtures at Anfield and St Helens Stadium to go ahead",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T14:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "ee6feb016268e5efe63cd514"
         }
       ]
     },
@@ -26237,6 +28349,63 @@
           "observedAt": "2026-10-25T05:00:00Z",
           "fetchedAt": "2026-10-25T06:10:31Z",
           "observationId": "bc0c2e68cdec2880ded2e2a1"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-feaa4ae7b45e24c2140ab834",
+      "inputHash": "ddb448ddcb9a9c5b8be9d819dee980773b9381b0fecc208b4ce2e3ab6347c93d",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-1c1a01060be8ac25f80737e6",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "atalanta bc vs frosinone calcio standings",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "1c1a01060be8ac25f80737e6"
+        },
+        {
+          "id": "news-1c1a01060be8ac25f80737e6-0",
+          "url": "https://www.bbc.com/sport/football/live/cw4g12rk4dgyt",
+          "title": "Atalanta vs Frosinone: Italian Serie A stats & head-to-head",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "1c1a01060be8ac25f80737e6"
+        },
+        {
+          "id": "news-1c1a01060be8ac25f80737e6-1",
+          "url": "https://www.oddschecker.com/tips/football/italian-serie-a/cng101-20261025-atalanta-vs-frosinone-predictions-bet-builder-tips-lineups-odds",
+          "title": "Atalanta vs Frosinone: Lineups, Prediction, Betting Tips & Odds",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "1c1a01060be8ac25f80737e6"
+        },
+        {
+          "id": "news-1c1a01060be8ac25f80737e6-2",
+          "url": "https://www.oddschecker.com/insight/football/cng102-20261025-atalanta-vs-frosinone-confirmed-lineups",
+          "title": "Atalanta vs Frosinone: Confirmed Lineups & Match Prediction",
+          "source": "google-trends",
+          "observedAt": "2026-10-25T16:40:00Z",
+          "fetchedAt": "2026-10-25T17:04:05Z",
+          "observationId": "1c1a01060be8ac25f80737e6"
         }
       ]
     },
