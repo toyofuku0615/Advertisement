@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T06:54:36Z",
+  "generatedAt": "2026-10-28T18:54:49Z",
   "providerStatus": {
     "status": "disabled",
     "provider": "none",
     "model": "",
     "message": "新しい話題のAI解説は未生成です。保存済み解説と、見出しからの手がかりを利用できます。",
-    "checkedAt": "2026-10-28T06:54:36Z"
+    "checkedAt": "2026-10-28T18:54:49Z"
   },
   "explanations": [
     {
@@ -882,6 +882,54 @@
           "observedAt": "2026-10-25T16:40:00Z",
           "fetchedAt": "2026-10-25T17:04:05Z",
           "observationId": "fc6827a93092e10eaba69de2"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-04aa2eb6ee97b5fc2ec42b11",
+      "inputHash": "d15650e9c4712a10528fb448fc7c70b92413b8c556155f1f2a5a10aea11bbb4e",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-9983e5fc47f5d03586d3a415",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "本田由紀",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "9983e5fc47f5d03586d3a415"
+        },
+        {
+          "id": "news-9983e5fc47f5d03586d3a415-0",
+          "url": "https://www.asahi.com/articles/ASVBX3VNSVBXUTIL025M.html",
+          "title": "東大教授のSNS投稿「配慮不足」 日本教育学会が見解、限定で公開",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "9983e5fc47f5d03586d3a415"
+        },
+        {
+          "id": "news-9983e5fc47f5d03586d3a415-1",
+          "url": "https://agora-web.jp/archives/261027144254.html",
+          "title": "日本教育学会が本田由紀会長の差別発言について見解：一般非公開で批判が集中",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "9983e5fc47f5d03586d3a415"
         }
       ]
     },
@@ -3022,6 +3070,63 @@
       ]
     },
     {
+      "topicId": "topic-0ee8e6ead25797ac27265269",
+      "inputHash": "4b0c4eb4eaf4df27ef4f1f9d325faa007d1bd9ce73754ecb72c8744bf8c792ed",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-b77300fa2e16ae29d2efe959",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "小笠原道大",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "b77300fa2e16ae29d2efe959"
+        },
+        {
+          "id": "news-b77300fa2e16ae29d2efe959-0",
+          "url": "https://news.yahoo.co.jp/articles/f516098ae24e818f77a088a98093133a4087fe8c",
+          "title": "楽天 小笠原道大氏が来季打撃コーチに就任！貧打解消、巻き返しへ“フルスイング”組閣だ（スポニチアネックス）",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "b77300fa2e16ae29d2efe959"
+        },
+        {
+          "id": "news-b77300fa2e16ae29d2efe959-1",
+          "url": "https://www.sponichi.co.jp/baseball/news/2026/10/29/articles/20261029s00001173005000c.html",
+          "title": "楽天 来季投手コーチに増井浩俊氏が就任！救援陣を中心にした投手力整備に期待 - スポニチ Sponichi Annex 野球",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "b77300fa2e16ae29d2efe959"
+        },
+        {
+          "id": "news-b77300fa2e16ae29d2efe959-2",
+          "url": "https://news.yahoo.co.jp/articles/b998fdba4182d58015fb0e0ea854e712dd7f99d2",
+          "title": "楽天 来季投手コーチに増井浩俊氏が就任！救援陣を中心にした投手力整備に期待（スポニチアネックス）",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "b77300fa2e16ae29d2efe959"
+        }
+      ]
+    },
+    {
       "topicId": "topic-0fb80f5b335365457fe8f7ce",
       "inputHash": "33df73365fe7c0fd5b26d4ddf8ed05d2d0e95783b67a1553fc0d35ee0a0831e6",
       "generatedAt": "",
@@ -3796,6 +3901,93 @@
       ]
     },
     {
+      "topicId": "topic-1582cdc13bad8669cd92d69b",
+      "inputHash": "f9c20ac5488c962168de29d7479cc21cf849738cee07b288bd26789f92ec9a1b",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-2e43c5ac45e9ec2be59746a7",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "노바크 조코비치",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "2e43c5ac45e9ec2be59746a7"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-15a6447ca7a8a61ae9b5e9f8",
+      "inputHash": "7a8eda06d41b3555363ee1ebb74be66925314f8491c5e82faa3cc67704180a57",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-eb8792bbb596daf21963502f",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "owain wyn evans",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "eb8792bbb596daf21963502f"
+        },
+        {
+          "id": "news-eb8792bbb596daf21963502f-0",
+          "url": "https://www.freepressseries.co.uk/news/26672127.owain-wyn-evans-cheered-hollywood-star-challenge/",
+          "title": "Owain Wyn Evans has been cheered on by a Hollywood star before his 400-mile stunt",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "eb8792bbb596daf21963502f"
+        },
+        {
+          "id": "news-eb8792bbb596daf21963502f-1",
+          "url": "https://www.bbc.co.uk/news/articles/cwrkylee5px0o",
+          "title": "Radio presenter's 'wobbles' over Children in Need cycling challenge",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "eb8792bbb596daf21963502f"
+        },
+        {
+          "id": "news-eb8792bbb596daf21963502f-2",
+          "url": "https://ontheradio.co.uk/2026/10/luke-evans-sends-owain-wyn-evans-a-special-good-luck-message/",
+          "title": "Luke Evans sends Owain Wyn Evans a special good luck message",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "eb8792bbb596daf21963502f"
+        }
+      ]
+    },
+    {
       "topicId": "topic-15c6d611193988e468c74312",
       "inputHash": "b2a08c572be63049b8d14fc8e9993e075ed99f2c55e17a5296162b513a04e863",
       "generatedAt": "",
@@ -4537,6 +4729,63 @@
       ]
     },
     {
+      "topicId": "topic-19a2f9eed79c17648325f7cf",
+      "inputHash": "43e6eaedb97825bf4194f723fa5f1de46e2e3b482d74360ddb8d656a94a3d135",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-e26364be5021bac5ecd2cb57",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "애플",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "e26364be5021bac5ecd2cb57"
+        },
+        {
+          "id": "news-e26364be5021bac5ecd2cb57-0",
+          "url": "https://www.apple.com/kr/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+          "title": "Apple, M6를 탑재한 신규 MacBook Pro 14 공개",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "e26364be5021bac5ecd2cb57"
+        },
+        {
+          "id": "news-e26364be5021bac5ecd2cb57-1",
+          "url": "https://kr.investing.com/news/stock-market-news/article-2146525",
+          "title": "애플, 터치스크린 OLED 디스플레이 탑재 맥북 프로 공개",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "e26364be5021bac5ecd2cb57"
+        },
+        {
+          "id": "news-e26364be5021bac5ecd2cb57-2",
+          "url": "https://www.yna.co.kr/view/AKR20261028002500091",
+          "title": "애플, M6칩 탑재로 AI성능 높인 신형 맥북프로·아이맥 공개",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "e26364be5021bac5ecd2cb57"
+        }
+      ]
+    },
+    {
       "topicId": "topic-19d82475f0166d702ebe0fb8",
       "inputHash": "dbf78f5fed817d9b73d7718a253a004450e9d14e46e8bcd982ef4d3b1685872c",
       "generatedAt": "",
@@ -4879,6 +5128,63 @@
       ]
     },
     {
+      "topicId": "topic-1c73feac09f3e9c6b97d2d61",
+      "inputHash": "5a7c761a8f504e4b4f20a05e3ad4941a28a72f7d656b1161000c7d9f33c114ff",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-71dc6f8b1fa84ea1459a9324",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "wwe crown jewel",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "71dc6f8b1fa84ea1459a9324"
+        },
+        {
+          "id": "news-71dc6f8b1fa84ea1459a9324-0",
+          "url": "https://sports.yahoo.com/articles/wwe-stadium-ad-suggests-huge-165247023.html",
+          "title": "WWE Stadium Ad Suggests Huge Grudge Match Will be Added to Crown Jewel Card on 11/7",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "71dc6f8b1fa84ea1459a9324"
+        },
+        {
+          "id": "news-71dc6f8b1fa84ea1459a9324-1",
+          "url": "https://www.cagesideseats.com/rumor-round-up/483488/rumor-roundup-oct-27-2026-crown-jewel-set-up-disarray-tony-khan-meeting-rusev-return-wwe-plan",
+          "title": "Rumor Roundup (Oct. 27, 2026): Crown Jewel set up & disarray, Tony Khan meeting, Rusev, more!",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "71dc6f8b1fa84ea1459a9324"
+        },
+        {
+          "id": "news-71dc6f8b1fa84ea1459a9324-2",
+          "url": "https://www.wrestlinginc.com/2298731/dave-meltzer-wwe-crown-jewel-going-forward-riyadh-something-big/",
+          "title": "Dave Meltzer: WWE Crown Jewel Is Going Forward In Riyadh Unless Something Big Happens",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "71dc6f8b1fa84ea1459a9324"
+        }
+      ]
+    },
+    {
       "topicId": "topic-1c843614cc2e243ef551e4e6",
       "inputHash": "b44ab2e438236d51cbf702eecf18f39a8e933f298bc939135820271a02804a4b",
       "generatedAt": "",
@@ -4932,6 +5238,63 @@
           "observedAt": "2026-10-27T05:10:00Z",
           "fetchedAt": "2026-10-27T06:18:45Z",
           "observationId": "f8ebfdc1dfe0b07daa72be84"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-1c8a75206dea55568a3f7984",
+      "inputHash": "934156b93a7eef908358a13df0a757bc741c447fde13db5144944d05071c9403",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-8b509a6ed9300550e686cae6",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "hearts v rangers",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "8b509a6ed9300550e686cae6"
+        },
+        {
+          "id": "news-8b509a6ed9300550e686cae6-0",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cjr4y51g6zvvo",
+          "title": "McInnes admits 'guilt' over Hearts exit for Rangers",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "8b509a6ed9300550e686cae6"
+        },
+        {
+          "id": "news-8b509a6ed9300550e686cae6-1",
+          "url": "https://www.skysports.com/football/live-blog/13604439/scottish-premiership-live-hearts-host-rangers-live-on-sky-celtic-at-home-as-part-of-full-card",
+          "title": "Scottish Premiership LIVE! Hearts host Rangers, live on Sky, Celtic at home as part of full card",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "8b509a6ed9300550e686cae6"
+        },
+        {
+          "id": "news-8b509a6ed9300550e686cae6-2",
+          "url": "https://www.rangers.co.uk/news/supporter-information-heart-midlothian",
+          "title": "Supporter Information: Heart of Midlothian (A)",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "8b509a6ed9300550e686cae6"
         }
       ]
     },
@@ -8980,6 +9343,99 @@
       ]
     },
     {
+      "topicId": "topic-377116f070579282f358b5d1",
+      "inputHash": "27e32f68e34c1feca2eac32a67d4334c837eb5d27ba3977b0e3bc2e7587491bf",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-a9a29f88c7a3a21a85c81d4b",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "man city vs brighton",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "a9a29f88c7a3a21a85c81d4b"
+        },
+        {
+          "id": "news-a9a29f88c7a3a21a85c81d4b-0",
+          "url": "https://www.bbc.co.uk/sport/football/live/ck9qzeprvpn8t",
+          "title": "Manchester City vs Brighton & Hove Albion: League Cup stats & head-to-head",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "a9a29f88c7a3a21a85c81d4b"
+        },
+        {
+          "id": "news-a9a29f88c7a3a21a85c81d4b-1",
+          "url": "https://www.mancity.com/news/mens/city-v-brighton-carabao-cup-team-news-63928805",
+          "title": "City make nine changes for Brighton Carabao Cup clash",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "a9a29f88c7a3a21a85c81d4b"
+        },
+        {
+          "id": "news-a9a29f88c7a3a21a85c81d4b-2",
+          "url": "https://www.tntsports.co.uk/betting/tips/manchester-city-vs-brighton-prediction-tips-and-odds-carabao-cup-28-10-26/",
+          "title": "Manchester City vs Brighton: Prediction, Tips and Odds | Carabao Cup",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "a9a29f88c7a3a21a85c81d4b"
+        },
+        {
+          "id": "obs-a6232a6ef008885acb1aacb0",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "man city vs brighton",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "a6232a6ef008885acb1aacb0"
+        },
+        {
+          "id": "news-a6232a6ef008885acb1aacb0-0",
+          "url": "https://www.mancity.com/news/mens/city-v-brighton-carabao-cup-team-news-63928805",
+          "title": "City make nine changes for Brighton Carabao Cup clash",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "a6232a6ef008885acb1aacb0"
+        },
+        {
+          "id": "news-a6232a6ef008885acb1aacb0-1",
+          "url": "https://sports.yahoo.com/articles/confirmed-line-ups-manchester-city-181500730.html",
+          "title": "Confirmed Line-Ups: Manchester City vs Brighton & Hove Albion (Carabao Cup Fourth Round)",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "a6232a6ef008885acb1aacb0"
+        },
+        {
+          "id": "news-a6232a6ef008885acb1aacb0-2",
+          "url": "https://www.si.com/soccer/man-city-vs-brighton-preview-predictions-lineups-10-28-26",
+          "title": "Man City vs. Brighton: Preview, Predictions and Lineups",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "a6232a6ef008885acb1aacb0"
+        }
+      ]
+    },
+    {
       "topicId": "topic-389ea8c37dc8b7bb2a3c2565",
       "inputHash": "3b8cbf57758eb2bbc80786a48ad4b990e9d269d0fc95753a484e6add12090a50",
       "generatedAt": "",
@@ -9208,6 +9664,63 @@
       ]
     },
     {
+      "topicId": "topic-3999944f858621cfa306a887",
+      "inputHash": "09c57230de8a8c199cea30a87a3ea4e4d8ffdf69b1c0c4f183fd7eea7043fe07",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-3351ad31b0e6119cdb08670f",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "alphadjo cisse",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "3351ad31b0e6119cdb08670f"
+        },
+        {
+          "id": "news-3351ad31b0e6119cdb08670f-0",
+          "url": "https://www.tntsports.co.uk/football/serie-a/2026-2027/live-ac-milan-bologna_mtc21874214/live-commentary.shtml",
+          "title": "AC Milan 2-1 Bologna - Serie A live updates and latest as Alphadjo Cisse continues hot streak with double",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "3351ad31b0e6119cdb08670f"
+        },
+        {
+          "id": "news-3351ad31b0e6119cdb08670f-1",
+          "url": "https://fr.uefa.com/uefaeuropaleague/video/02aa-21df7786f380-24382888d2ef-1000--meilleur-buteur-le-triple-d-alphadjo-cisse-avec-milan/",
+          "title": "Joueur de la saison | Meilleur buteur, le triplé d’Alphadjo Cisse avec Milan | Vidéo | UEFA Europa League",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "3351ad31b0e6119cdb08670f"
+        },
+        {
+          "id": "news-3351ad31b0e6119cdb08670f-2",
+          "url": "https://www.fotmob.com/news/1d4dg254v4svl1xj5g9c21hxab_fr-amorim-tempere-les-attentes-autour-du-jeune-milanais-cisse?utm_source=fotmob",
+          "title": "Amorim tempère les attentes autour du jeune Milanais Cisse",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "3351ad31b0e6119cdb08670f"
+        }
+      ]
+    },
+    {
       "topicId": "topic-3a4b2268481c3072f50066b6",
       "inputHash": "f313f8732d026a7383b91f1a904ed64ddd3c9152e63b2637af3ac5da3f7cb865",
       "generatedAt": "",
@@ -9252,6 +9765,99 @@
           "observedAt": "2026-10-27T18:20:00Z",
           "fetchedAt": "2026-10-27T18:43:14Z",
           "observationId": "e9d23072649a1376391f2ae7"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-3a7bd3e2360a3d29eea436fc",
+      "inputHash": "95e136b4f43dd72a5061beb56441ddf9f36e84f37293a704497f86869c4b16f7",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-17746ed77341943226e490f4",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "apple",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "17746ed77341943226e490f4"
+        },
+        {
+          "id": "news-17746ed77341943226e490f4-0",
+          "url": "https://www.nytimes.com/2026/10/28/technology/apple-touch-screen-macbook-pro.html",
+          "title": "Apple Unveils Its First Touch-Screen Laptop Computer",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "17746ed77341943226e490f4"
+        },
+        {
+          "id": "news-17746ed77341943226e490f4-1",
+          "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+          "title": "Apple introduces the new 14-inch MacBook Pro with M6",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "17746ed77341943226e490f4"
+        },
+        {
+          "id": "news-17746ed77341943226e490f4-2",
+          "url": "https://www.cnbc.com/2026/10/28/apple-mac-touchscreen-launch.html",
+          "title": "Apple brings touch to the Mac, reversing years-old stance on touchscreen laptop",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "17746ed77341943226e490f4"
+        },
+        {
+          "id": "obs-b05146b5aadf70dc4e4ad151",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "apple",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "b05146b5aadf70dc4e4ad151"
+        },
+        {
+          "id": "news-b05146b5aadf70dc4e4ad151-0",
+          "url": "https://www.nytimes.com/2026/10/28/technology/apple-touch-screen-macbook-pro.html",
+          "title": "Apple Unveils Its First Touch-Screen Laptop Computer",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "b05146b5aadf70dc4e4ad151"
+        },
+        {
+          "id": "news-b05146b5aadf70dc4e4ad151-1",
+          "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+          "title": "Apple introduces the new 14-inch MacBook Pro with M6",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "b05146b5aadf70dc4e4ad151"
+        },
+        {
+          "id": "news-b05146b5aadf70dc4e4ad151-2",
+          "url": "https://www.cnbc.com/2026/10/28/apple-mac-touchscreen-launch.html",
+          "title": "Apple brings touch to the Mac, reversing years-old stance on touchscreen laptop",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "b05146b5aadf70dc4e4ad151"
         }
       ]
     },
@@ -10864,6 +11470,63 @@
       ]
     },
     {
+      "topicId": "topic-40e99006d8e6d0cb7de602fc",
+      "inputHash": "805f97616e68844c39cf274b46cd3ec6fa0c4838cf3665899e32af200467a313",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-a4f64febf3a39165e841ea9c",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "アップル",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "a4f64febf3a39165e841ea9c"
+        },
+        {
+          "id": "news-a4f64febf3a39165e841ea9c-0",
+          "url": "https://www.apple.com/jp/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+          "title": "PROLED XDRディスプレイを搭載した画期的なMacBook Proを発表",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "a4f64febf3a39165e841ea9c"
+        },
+        {
+          "id": "news-a4f64febf3a39165e841ea9c-1",
+          "url": "https://www.jiji.com/jc/d4?p=app424-jpp093872001&d=d4_qq",
+          "title": "新型「ｉＭａｃ」 米アップルが発…：アップル・勢ぞろいのリンゴたち 写真特集：時事ドットコム",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "a4f64febf3a39165e841ea9c"
+        },
+        {
+          "id": "news-a4f64febf3a39165e841ea9c-2",
+          "url": "https://topics.smt.docomo.ne.jp/article/jiji/business/jiji-202610280093872002",
+          "title": "新型マックブックプロ、来月６日発売",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "a4f64febf3a39165e841ea9c"
+        }
+      ]
+    },
+    {
       "topicId": "topic-4122a714c9f2dec454f65692",
       "inputHash": "bb776d35a0394e0f2c56f42e6458b97b96d183984a59bade5e3d93060eadb45f",
       "generatedAt": "",
@@ -10978,6 +11641,63 @@
       ]
     },
     {
+      "topicId": "topic-42c40a2b8fd4f39c48fac7ba",
+      "inputHash": "03b73a1737c426d6a5f9457d9523cb61047b496e095fb77500c3127ee39d4b50",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-3b70471b402cc98affc4a24c",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "sc 프라이부르크 대 볼프스부르크",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "3b70471b402cc98affc4a24c"
+        },
+        {
+          "id": "news-3b70471b402cc98affc4a24c-0",
+          "url": "https://www.bbc.com/sport/football/live/cq62ynwkdxryt",
+          "title": "Freiburg vs Wolfsburg: German DFB Pokal stats & head-to-head",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "3b70471b402cc98affc4a24c"
+        },
+        {
+          "id": "news-3b70471b402cc98affc4a24c-1",
+          "url": "https://www.sportsmole.co.uk/football/freiburg/dfb-pokal/preview/freiburg-vs-wolfsburg-prediction-team-news-lineups_607757.html",
+          "title": "Preview: Freiburg vs Wolfsburg - prediction, team news, lineups",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "3b70471b402cc98affc4a24c"
+        },
+        {
+          "id": "news-3b70471b402cc98affc4a24c-2",
+          "url": "https://www.vfl-wolfsburg.de/en/newsdetails/news-detail/detail/news/fond-memories",
+          "title": "Fond memories",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "3b70471b402cc98affc4a24c"
+        }
+      ]
+    },
+    {
       "topicId": "topic-436bffc6285fa2438c403bf3",
       "inputHash": "5d88a48e1f6b9390370fe6389e64814926e27f7800eb8738d2ab3ed3b31c0f96",
       "generatedAt": "",
@@ -11088,6 +11808,63 @@
           "observedAt": "2026-10-25T16:40:00Z",
           "fetchedAt": "2026-10-25T17:04:05Z",
           "observationId": "10f5f53f76dfe0d9642f3da1"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-44b97c2c99a5f9f7332feeeb",
+      "inputHash": "1f142446a1f603f561572d62a6ecee99fc1c9306fd52beed8ce6709a5bde567f",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-506a3f1d594831343bd86c50",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "渡邊渚",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "506a3f1d594831343bd86c50"
+        },
+        {
+          "id": "news-506a3f1d594831343bd86c50-0",
+          "url": "https://news.yahoo.co.jp/articles/beb5c5149809e6a8b4fdf580a4e74c7914cf36c8",
+          "title": "渡邊渚との“意外な交友関係”明かした外国大使のツーショット写真に集まる驚き…反響の大きさに「笑っていいとも!」",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "506a3f1d594831343bd86c50"
+        },
+        {
+          "id": "news-506a3f1d594831343bd86c50-1",
+          "url": "https://topics.smt.docomo.ne.jp/article/nikkangeinou/entertainment/f-et-tp0-261028-202610280000094",
+          "title": "渡邊渚がジョージア料理を堪能、休養前の23年も「すし＆ワイン」駐日大使のＸに登場しコメ殺到",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "506a3f1d594831343bd86c50"
+        },
+        {
+          "id": "news-506a3f1d594831343bd86c50-2",
+          "url": "https://www.sponichi.co.jp/entertainment/news/2026/10/28/gazo/20261028s10041000138000p.html",
+          "title": "ティムラズ・レジャバ駐日大使のX（@TeimurazLezhava）から - スポニチ Sponichi Annex 芸能",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "506a3f1d594831343bd86c50"
         }
       ]
     },
@@ -12311,7 +13088,7 @@
     },
     {
       "topicId": "topic-4cc779ecdf26bdbbc2501df1",
-      "inputHash": "00610c5eff21d32ae86ab3b80a53cf07a27f39e85876a7c0b4df4b501f3ebacf",
+      "inputHash": "44ec73d37fb88cec88ed7abe1fb5bdc9ae27d210cc73b412d7f5981bf7964e40",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -12363,6 +13140,42 @@
           "observedAt": "2026-10-27T15:40:00Z",
           "fetchedAt": "2026-10-27T18:43:14Z",
           "observationId": "16f9c48357f2aa6a32e06692"
+        },
+        {
+          "id": "obs-d244245a493cf17864b4ca63",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "크랙",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "d244245a493cf17864b4ca63"
+        },
+        {
+          "id": "news-d244245a493cf17864b4ca63-0",
+          "url": "https://news.kbs.co.kr/news/view.do?ncd=8697648",
+          "title": "“혁신은 멈췄고 완성도는 깨졌다”…애플 ‘완벽주의’가 무너진다 [핫클립]",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "d244245a493cf17864b4ca63"
+        },
+        {
+          "id": "news-d244245a493cf17864b4ca63-1",
+          "url": "https://www.newsis.com/view/NISX20261028_0003844671",
+          "title": "\"애플한테 1원도 안 받았다\"…잇섭, 아이폰 듀오 검증 악플에 '강력 대응' 경고",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "d244245a493cf17864b4ca63"
+        },
+        {
+          "id": "news-d244245a493cf17864b4ca63-2",
+          "url": "https://www.khan.co.kr/article/202610272056005",
+          "title": "‘듀오’ 결함 인정…흠집 난 애플",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "d244245a493cf17864b4ca63"
         }
       ]
     },
@@ -13225,6 +14038,63 @@
           "observedAt": "2026-10-26T18:50:00Z",
           "fetchedAt": "2026-10-26T19:21:22Z",
           "observationId": "5ddd8844e2dd268d94ebaa2f"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-540aaea5ae306365a5461e29",
+      "inputHash": "231812fc6a3c291d4441caf7f8f442511998662768e2c5417a3865df33450be2",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-06b569ef317a0bd6ad81d7c9",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "cristiano ronaldo",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "06b569ef317a0bd6ad81d7c9"
+        },
+        {
+          "id": "news-06b569ef317a0bd6ad81d7c9-0",
+          "url": "https://en.as.com/soccer/boat-live-updates-winner-rankings-and-nominees-messi-and-ronaldo-battle-for-the-ballon-dor-of-all-time-f202610-d/",
+          "title": "BOAT live updates: winner, rankings and nominees | Messi and Ronaldo battle for the Ballon d’Or of All Time",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "06b569ef317a0bd6ad81d7c9"
+        },
+        {
+          "id": "news-06b569ef317a0bd6ad81d7c9-1",
+          "url": "https://sports.yahoo.com/articles/cr7-wins-time-ballon-dor-180100831.html",
+          "title": "🚨 CR7 wins the all-time Ballon d'Or",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "06b569ef317a0bd6ad81d7c9"
+        },
+        {
+          "id": "news-06b569ef317a0bd6ad81d7c9-2",
+          "url": "https://www.marca.com/en/football/2026/10/28/2008-cristiano-ronaldo-wins-the-b-t-for-the-best-ballon-d-or-in-history.html",
+          "title": "2008 Cristiano Ronaldo wins the B.O.A.T. for the best Ballon d'Or in history",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "06b569ef317a0bd6ad81d7c9"
         }
       ]
     },
@@ -15055,6 +15925,63 @@
       ]
     },
     {
+      "topicId": "topic-617307628491c809e6e5fccd",
+      "inputHash": "09d9eea08ac3aeda88814aa51b4db70c7975e43a2d062fff2ebded46fc1bcaa6",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-63f69bfe0b63ce84fa18c2f2",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "taylor fritz",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "63f69bfe0b63ce84fa18c2f2"
+        },
+        {
+          "id": "news-63f69bfe0b63ce84fa18c2f2-0",
+          "url": "https://www.essentiallysports.com/tennis-news-renting-a-car-in-the-middle-of-nowhere-taylor-fritz-reveals-wild-side-of-atp-tour-ahead-of-swiss-indoors/",
+          "title": "“Renting a Car in the Middle of Nowhere”- Taylor Fritz Reveals Wild Side of ATP Tour Ahead of Swiss Indoors",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "63f69bfe0b63ce84fa18c2f2"
+        },
+        {
+          "id": "news-63f69bfe0b63ce84fa18c2f2-1",
+          "url": "https://www.yardbarker.com/tennis/articles/renting_a_car_in_the_middle_of_nowhere_taylor_fritz_reveals_wild_side_of_atp_tour_ahead_of_swiss_indoors/s1_17730_44479702",
+          "title": "'Renting a Car in the Middle of Nowhere'- Taylor Fritz Reveals Wild Side of ATP Tour Ahead of Swiss Indoors",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "63f69bfe0b63ce84fa18c2f2"
+        },
+        {
+          "id": "news-63f69bfe0b63ce84fa18c2f2-2",
+          "url": "https://tennishead.net/taylor-fritz-criticised-after-what-happened-during-his-defeat-in-lyon-final-he-is-so-stubborn/",
+          "title": "Taylor Fritz criticised after what happened during his defeat in Lyon final, ‘he is so stubborn’",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "63f69bfe0b63ce84fa18c2f2"
+        }
+      ]
+    },
+    {
       "topicId": "topic-61ae7e7d96079b41c14d07f0",
       "inputHash": "fddc43f1e7c56877b58589b3a7a1a2549537e982b7fb0f3ff4dfdcd2b79f4ad0",
       "generatedAt": "",
@@ -15450,6 +16377,63 @@
           "observedAt": "2026-10-24T16:20:00Z",
           "fetchedAt": "2026-10-24T16:36:49Z",
           "observationId": "ea46e2899217eebd10ba672c"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-643725fb20f775103f60439c",
+      "inputHash": "bab060904121adb73b0b7e10c9d446b1e1a6568bbcc981e236e0248845346c35",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-1711d1795b462e7c5e4a8ab1",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "ポカール",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:50:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "1711d1795b462e7c5e4a8ab1"
+        },
+        {
+          "id": "news-1711d1795b462e7c5e4a8ab1-0",
+          "url": "https://sports.yahoo.co.jp/video/player/28457670",
+          "title": "【動画】【ボルシアMG】宇野禅斗の移籍後初アシストをゴール裏から！🥅 - スポーツナビ「ボルシア・メンヒェングラートバッハ」",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:50:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "1711d1795b462e7c5e4a8ab1"
+        },
+        {
+          "id": "news-1711d1795b462e7c5e4a8ab1-1",
+          "url": "https://topics.smt.docomo.ne.jp/article/football_zone/sports/football_zone-681109?page=2",
+          "title": "森保Jでの起用にOB太鼓判「絶対いい」 27歳の日本代表が豪快な一撃…監督は「使いたくなる」",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:50:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "1711d1795b462e7c5e4a8ab1"
+        },
+        {
+          "id": "news-1711d1795b462e7c5e4a8ab1-2",
+          "url": "https://www.soccer-king.jp/news/world/ger/20261028/2221997.html",
+          "title": "ボルシアMGがポカール勝利！ 町野修斗＆宇野禅斗が先発、板倉滉も復帰…カールスルーエでは福田師王が存在感",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:50:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "1711d1795b462e7c5e4a8ab1"
         }
       ]
     },
@@ -16651,6 +17635,63 @@
       ]
     },
     {
+      "topicId": "topic-6d73a13e0f6f158356e0399b",
+      "inputHash": "2c9565cd417cc24543f299e057ff24ff6a8dfd1f0e48136b80d107371abb6aac",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-2796abcb50c4fcdf478a3806",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "don warrington",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "2796abcb50c4fcdf478a3806"
+        },
+        {
+          "id": "news-2796abcb50c4fcdf478a3806-0",
+          "url": "https://www.independent.co.uk/bulletin/culture/death-in-paradise-don-warrington-b3074872.html",
+          "title": "BBC star addresses fan confusion over surprise return to beloved series",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "2796abcb50c4fcdf478a3806"
+        },
+        {
+          "id": "news-2796abcb50c4fcdf478a3806-1",
+          "url": "https://www.thesun.ie/tv/17830583/death-in-paradise-star-returns/",
+          "title": "Death in Paradise star makes official show return after sparking ‘exit’ fears",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "2796abcb50c4fcdf478a3806"
+        },
+        {
+          "id": "news-2796abcb50c4fcdf478a3806-2",
+          "url": "https://www.independent.co.uk/arts-entertainment/tv/news/death-in-paradise-cast-bbc-b3074713.html",
+          "title": "Death in Paradise star returns to BBC show two years after exit",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "2796abcb50c4fcdf478a3806"
+        }
+      ]
+    },
+    {
       "topicId": "topic-6e3420fdb2acbe800fd2d671",
       "inputHash": "69ab6c3ca6e6822a1cb84e7a0b527633103a908db6e434f9d367ef8f9d3654d2",
       "generatedAt": "",
@@ -17615,6 +18656,63 @@
       ]
     },
     {
+      "topicId": "topic-741446b07ec0f5366d619da9",
+      "inputHash": "c5832d29b4059d6e97ec2d0331be534cd0386929dcefaf717cf2f8ca8efddc52",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-367e2d264f3063ea1ec164b7",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "経済産業省",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "367e2d264f3063ea1ec164b7"
+        },
+        {
+          "id": "news-367e2d264f3063ea1ec164b7-0",
+          "url": "https://www.reuters.com/jp/markets/japan/N3QCKQ4EWVNG5BHSPZNYN5GUME-2026-10-28/",
+          "title": "経産省、電力・ガス取引のサイトに不正アクセス 運用停止",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "367e2d264f3063ea1ec164b7"
+        },
+        {
+          "id": "news-367e2d264f3063ea1ec164b7-1",
+          "url": "https://www.nikkei.com/article/DGXZQOUA28BRW0Y6A021C2000000/",
+          "title": "経産省のサイトに不正アクセス 運営停止し原因究明",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "367e2d264f3063ea1ec164b7"
+        },
+        {
+          "id": "news-367e2d264f3063ea1ec164b7-2",
+          "url": "https://www.okinawatimes.co.jp/articles/-/1954678",
+          "title": "経産省のサイトに不正アクセス",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "367e2d264f3063ea1ec164b7"
+        }
+      ]
+    },
+    {
       "topicId": "topic-7428af1f9bd337e99558e54d",
       "inputHash": "d0d4f3c3cf1204158678823cda8f862a9132512dcf60e0709455d49a68010b2d",
       "generatedAt": "",
@@ -18217,6 +19315,63 @@
       ]
     },
     {
+      "topicId": "topic-77ff0913108cacbb6d0ee8d8",
+      "inputHash": "a5e1d19408a4cdd8133c7e7e1fc4b40e44d081b5356e0391483e9188cf33d63c",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-cec057033a453895e2717a7b",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "小島和哉",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "cec057033a453895e2717a7b"
+        },
+        {
+          "id": "news-cec057033a453895e2717a7b-0",
+          "url": "https://news.yahoo.co.jp/articles/5e7ad37ccce957928e64199d852deea3699683a2",
+          "title": "ロッテの小島和哉がFA宣言へ 阪神など複数球団が興味を示す（朝日新聞）",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "cec057033a453895e2717a7b"
+        },
+        {
+          "id": "news-cec057033a453895e2717a7b-1",
+          "url": "https://www.nikkansports.com/baseball/news/202610280001868.html",
+          "title": "【阪神】オリックス中川圭太の獲得調査へ本腰　中日上林誠知、ロッテ小島和哉も調査　FA申請開始",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "cec057033a453895e2717a7b"
+        },
+        {
+          "id": "news-cec057033a453895e2717a7b-2",
+          "url": "https://sportsbull.jp/p/2446656/",
+          "title": "【阪神】オリックス中川圭太の獲得調査へ本腰 中日上林誠知、ロッテ小島和哉も調査 FA申請開始",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "cec057033a453895e2717a7b"
+        }
+      ]
+    },
+    {
       "topicId": "topic-78130e8c98ef0f8327d54867",
       "inputHash": "91d3b528f79de77ce164aeb0932abef8d0011a40b663182c45db683966304cbb",
       "generatedAt": "",
@@ -18327,6 +19482,63 @@
           "observedAt": "2026-10-25T05:50:00Z",
           "fetchedAt": "2026-10-25T06:10:31Z",
           "observationId": "af260cb64ed04e0e7a848db0"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-78adbc6bd41fe265d569b364",
+      "inputHash": "8580f2792c10a04bda8adb05e8fb5bb1707b5c0b14f95bd109d20f4c81270f4d",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-feaf370c71671cfbdfa7835b",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "fbi",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "feaf370c71671cfbdfa7835b"
+        },
+        {
+          "id": "news-feaf370c71671cfbdfa7835b-0",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-berates-doj-attorney-new-charge-filed-former-fbi-officials-rcna606013",
+          "title": "Judge berates DOJ attorney in court over new charge filed against former FBI officials",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "feaf370c71671cfbdfa7835b"
+        },
+        {
+          "id": "news-feaf370c71671cfbdfa7835b-1",
+          "url": "https://abcnews.com/US/fbi-agents-fighting-charges-accusing-lying-hunter-biden/story?id=137641238",
+          "title": "Ex-FBI agents fighting charges accusing them of lying about Hunter Biden probe",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "feaf370c71671cfbdfa7835b"
+        },
+        {
+          "id": "news-feaf370c71671cfbdfa7835b-2",
+          "url": "https://www.nytimes.com/2026/10/27/us/politics/fbi-trump-patel-witt-testimony.html",
+          "title": "White House Has Tight Grip Over F.B.I. in Pursuing Trump Targets, Agent Says",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "feaf370c71671cfbdfa7835b"
         }
       ]
     },
@@ -23033,6 +24245,54 @@
       ]
     },
     {
+      "topicId": "topic-86aec76c516ff1c138691d93",
+      "inputHash": "214bd3800b608e18ecce820a33c7852ceb63fe0cc594905b1defff6b1eb77349",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-3dcba750d3caf2d06fd5e92b",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "ミラン 対 ボローニャ",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "3dcba750d3caf2d06fd5e92b"
+        },
+        {
+          "id": "news-3dcba750d3caf2d06fd5e92b-0",
+          "url": "https://www.goal.com/jp/%E3%83%AA%E3%82%B9%E3%83%88/%E3%83%9F%E3%83%A9%E3%83%B3-%E3%83%9B%E3%82%99%E3%83%AD%E3%83%BC%E3%83%8B%E3%83%A3%E6%88%A6%E3%81%A6%E3%82%99%E3%83%A2%E3%83%88%E3%82%99%E3%83%AA%E3%83%83%E3%83%81%E3%82%92%E4%BC%91%E9%A4%8A%E3%81%B8-%E4%B8%AD%E7%9B%A4%E3%81%A6%E3%82%99%E3%83%95%E3%82%9A%E3%83%AC%E3%83%BC%E3%81%99%E3%82%8B%E3%81%AE%E3%81%AF%E8%AA%B0%E3%81%8B/blt5bf93da636b28c37",
+          "title": "ミラン、ボローニャ戦でモドリッチを休養へ。中盤でプレーするのは誰か",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "3dcba750d3caf2d06fd5e92b"
+        },
+        {
+          "id": "news-3dcba750d3caf2d06fd5e92b-1",
+          "url": "https://ja.laodong.vn/bong-da-quoc-te/nhan-dinh-bong-da-ac-milan-vs-bologna-tai-serie-a-1790718.ldo",
+          "title": "セリエA ACミラン対ボローニャのサッカープレビュー",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T17:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "3dcba750d3caf2d06fd5e92b"
+        }
+      ]
+    },
+    {
       "topicId": "topic-87148274a4f2da5d366df9e9",
       "inputHash": "4ed074f4ac3d3898e98378c3d73c928d6181537b261ec8375b90109dab9fa85b",
       "generatedAt": "2026-10-21T10:22:15Z",
@@ -23241,6 +24501,63 @@
           "observedAt": "2026-10-22T16:20:00Z",
           "fetchedAt": "2026-10-22T17:59:28Z",
           "observationId": "77d2949c816c4a63556685f8"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-87e601ee7a7f2f671a0be380",
+      "inputHash": "9c0a075095c29d462b461c20612e0920e9f27db67c815ebf028887bb707b9243",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-a75ebe5ea0a265ceedee73dd",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "서울반도체",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T14:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "a75ebe5ea0a265ceedee73dd"
+        },
+        {
+          "id": "news-a75ebe5ea0a265ceedee73dd-0",
+          "url": "https://www.mt.co.kr/industry/2026/10/28/2026102817174980304",
+          "title": "서울반도체, '희토류 필요없는' 초소형 백색 LED 최초 개발 - 머니투데이",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T14:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "a75ebe5ea0a265ceedee73dd"
+        },
+        {
+          "id": "news-a75ebe5ea0a265ceedee73dd-1",
+          "url": "https://zdnet.co.kr/view/?no=20261028183723",
+          "title": "서울바이오시스, '희토류 없는' 백색 마이크로 LED 양산",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T14:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "a75ebe5ea0a265ceedee73dd"
+        },
+        {
+          "id": "news-a75ebe5ea0a265ceedee73dd-2",
+          "url": "https://www.asiatime.co.kr/article/20261028500414",
+          "title": "서울반도체, 無희토류 3세대 광반도체 개발",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T14:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "a75ebe5ea0a265ceedee73dd"
         }
       ]
     },
@@ -23644,6 +24961,63 @@
       ]
     },
     {
+      "topicId": "topic-8edcf474f0f5ce6b1d66e316",
+      "inputHash": "554134cc235f3fe7753061054fb8ef87a2a4b872a5e7d8fd5944df8c824ed505",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-2e7e4a65338419c2998c6b6a",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "police service of northern ireland",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "2e7e4a65338419c2998c6b6a"
+        },
+        {
+          "id": "news-2e7e4a65338419c2998c6b6a-0",
+          "url": "https://www.bbc.com/news/articles/c83vq7eg6l56o",
+          "title": "West Belfast: CCTV released of suspect in Sean O'Reilly shooting",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "2e7e4a65338419c2998c6b6a"
+        },
+        {
+          "id": "news-2e7e4a65338419c2998c6b6a-1",
+          "url": "https://www.belfasttelegraph.co.uk/news/day-long-manhunt-for-west-belfast-man-sought-by-police-over-dissident-feud-shooting/a/163701851.html",
+          "title": "Day-long manhunt for west Belfast man sought by police over dissident feud shooting",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "2e7e4a65338419c2998c6b6a"
+        },
+        {
+          "id": "news-2e7e4a65338419c2998c6b6a-2",
+          "url": "https://www.irishnews.com/news/northern-ireland/psni-release-footage-of-man-who-may-be-able-to-help-investigation-into-west-belfast-murder-bid-QUV334NXLBHZTCH2V4SGYW5AE4/",
+          "title": "PSNI release footage of man who ‘may be able to help’ investigation into west Belfast murder bid",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "2e7e4a65338419c2998c6b6a"
+        }
+      ]
+    },
+    {
       "topicId": "topic-8ef058a4a9aeb1621f6229d7",
       "inputHash": "9fe3f0544ee5a55fb5e48241fd643b91be29e22992ad5d4e176f7b3f175c8c7d",
       "generatedAt": "",
@@ -23837,7 +25211,7 @@
     },
     {
       "topicId": "topic-90bbc0121db68b63585b5e26",
-      "inputHash": "604c4035758b8e1f9c50ea82a55ed4814681e1b615a869f7c4c65c2a5222c16f",
+      "inputHash": "01d73843831563bcd30fe69bedf1d7a305ac58e587874b8012bea15461ef456d",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -23889,6 +25263,42 @@
           "observedAt": "2026-10-21T17:40:00Z",
           "fetchedAt": "2026-10-21T18:04:45Z",
           "observationId": "176666c5ae7862ec70967934"
+        },
+        {
+          "id": "obs-947b1cff78feda86c15d7db9",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "football tonight",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "947b1cff78feda86c15d7db9"
+        },
+        {
+          "id": "news-947b1cff78feda86c15d7db9-0",
+          "url": "https://www.digitalspy.com/soaps/coronation-street/a74265248/emmerdale-and-coronation-street-arent-on-today/",
+          "title": "Emmerdale and Coronation Street aren't on today - here's when the ITV soaps are back",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "947b1cff78feda86c15d7db9"
+        },
+        {
+          "id": "news-947b1cff78feda86c15d7db9-1",
+          "url": "https://metro.co.uk/2026/10/26/corrie-emmerdale-episode-dates-this-week-confirmed-schedule-changes-29739192/",
+          "title": "Corrie and Emmerdale episode dates for this week confirmed as schedule changes",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "947b1cff78feda86c15d7db9"
+        },
+        {
+          "id": "news-947b1cff78feda86c15d7db9-2",
+          "url": "https://www.thesun.co.uk/tv/40831041/coronation-street-cancelled-carabao-cup/",
+          "title": "Is Coronation Street on tonight? ITV soap disruption as huge Carabao Cup clash hits our screens",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "947b1cff78feda86c15d7db9"
         }
       ]
     },
@@ -25021,6 +26431,63 @@
           "observedAt": "2026-10-22T05:40:00Z",
           "fetchedAt": "2026-10-22T06:08:14Z",
           "observationId": "7f329af5fd4aad77f0837850"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-96dd6c5a1541b91e18a4e0a6",
+      "inputHash": "917c7f6f8da94bca4b3440d479cf19f9d820de3cbe8107f18a0c30fe8dd679dc",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-b87ad90907049a66ded2d886",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "oracle stock",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "b87ad90907049a66ded2d886"
+        },
+        {
+          "id": "news-b87ad90907049a66ded2d886-0",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-called-one-more-182811837.html",
+          "title": "Michael Burry Called It ‘One of the More Common Frauds.’ Oracle Stock Is Down 45% Since.",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "b87ad90907049a66ded2d886"
+        },
+        {
+          "id": "news-b87ad90907049a66ded2d886-1",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-28/oracle-projects-30-billion-free-cash-flow-in-fiscal-2029",
+          "title": "Oracle Projects $30 Billion Free Cash Flow in Fiscal 2029",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "b87ad90907049a66ded2d886"
+        },
+        {
+          "id": "news-b87ad90907049a66ded2d886-2",
+          "url": "https://www.investors.com/news/technology/oracle-stock-ai-world-2026-google-nvidia-openai/",
+          "title": "Oracle Stock Climbs On OpenAI, Google Partnership Expansions. Here's The Next Test.",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "b87ad90907049a66ded2d886"
         }
       ]
     },
@@ -26410,6 +27877,63 @@
           "observedAt": "2026-10-23T15:40:00Z",
           "fetchedAt": "2026-10-23T17:53:32Z",
           "observationId": "7c3bb6e85f7c4a168cc17ada"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-9f166456fdaccf4804141b9e",
+      "inputHash": "4ad559cfb5e5e3b4e1e834396ffba6be428990d43c33c477e1a785a49b110a43",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-771eabfad371714501d0ed91",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "inter milan",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "771eabfad371714501d0ed91"
+        },
+        {
+          "id": "news-771eabfad371714501d0ed91-0",
+          "url": "https://www.bbc.co.uk/sport/football/articles/crvg93zvgjzzo",
+          "title": "Milan derby to be shown live on BBC Two",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "771eabfad371714501d0ed91"
+        },
+        {
+          "id": "news-771eabfad371714501d0ed91-1",
+          "url": "https://talksport.com/football/4672133/serie-a-milan-derby-inter-live-coverage/",
+          "title": "Iconic European derby being shown live on free to air TV this weekend",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "771eabfad371714501d0ed91"
+        },
+        {
+          "id": "news-771eabfad371714501d0ed91-2",
+          "url": "https://www.gazzetta.it/en/football/teams/milan/news/storie/27-10-2026/milan-inter-who-recovers-who-rests-injuries-and-tactics/amorims-strategies.shtml",
+          "title": "Milan and Inter head towards the derby: who recovers, who rests, injuries and...",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "771eabfad371714501d0ed91"
         }
       ]
     },
@@ -28332,6 +29856,63 @@
       ]
     },
     {
+      "topicId": "topic-afa08bb2c0e3ed8aae29c5b5",
+      "inputHash": "ac757d9cdc625bca63c3bd50c741546e744038583bf6cc525504a311211a1d38",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-6501d9df20743be5053c07df",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "lg에너지솔루션",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "6501d9df20743be5053c07df"
+        },
+        {
+          "id": "news-6501d9df20743be5053c07df-0",
+          "url": "https://www.donga.com/news/Economy/article/all/20261028/134928243/2",
+          "title": "LG화학, LG엔솔 지분 2.5조 매각… 4000억은 주주환원",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "6501d9df20743be5053c07df"
+        },
+        {
+          "id": "news-6501d9df20743be5053c07df-1",
+          "url": "https://www.yna.co.kr/view/AKR20261028159600003",
+          "title": "LG화학, LG엔솔 지분 2.5조 처분…자사주 3천억원 매입·소각",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "6501d9df20743be5053c07df"
+        },
+        {
+          "id": "news-6501d9df20743be5053c07df-2",
+          "url": "https://stock.mk.co.kr/news/view/1183285",
+          "title": "LG화학, LG엔솔 지분 2.5조 PRS로 유동화…4천억은 주주환원",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "6501d9df20743be5053c07df"
+        }
+      ]
+    },
+    {
       "topicId": "topic-afad20c7f1a9ad1d5ba665fc",
       "inputHash": "e17ac6ee0d4321bc671864104121dec81a4d8517bb14ffd4d6c44d7716f1f61a",
       "generatedAt": "",
@@ -29538,6 +31119,63 @@
       ]
     },
     {
+      "topicId": "topic-b749f3596669b1301009687b",
+      "inputHash": "e14476204a52ae43987f42d29d0d0fdae9d0d5e04fbc5d02c731ec8a50f24e18",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-be2974bec4766fb1f9e4b7e0",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "bet 365",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "be2974bec4766fb1f9e4b7e0"
+        },
+        {
+          "id": "news-be2974bec4766fb1f9e4b7e0-0",
+          "url": "https://www.rotowire.com/news/bet365-bonus-code-bet-10-get-200-win-or-lose-1027-144128",
+          "title": "bet365 Bonus Code: $200 in Bonus Bets Win or Lose",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "be2974bec4766fb1f9e4b7e0"
+        },
+        {
+          "id": "news-be2974bec4766fb1f9e4b7e0-1",
+          "url": "https://www.foxsports.com/stories/betting/betr-promo-code-foxsports-get-200-bonuses-sweat-free-picks-eagles-vs-cowboys-rays-vs-brewers",
+          "title": "Betr Promo Code FOXSPORTS: Get $200 in Bonuses and Sweat-Free Picks for Eagles vs. Cowboys, Rays vs. Brewers",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "be2974bec4766fb1f9e4b7e0"
+        },
+        {
+          "id": "news-be2974bec4766fb1f9e4b7e0-2",
+          "url": "https://www.si.com/betting-promo/bet365-bonus-code-offer-for-dallas-vs-philadelphia-bet-10-get-200-bonus-bets-win-or-lose-01m5wesdwza2",
+          "title": "bet365 Bonus Code Offer for Dallas vs. Philadelphia: Bet $10, Get $200 Bonus Bets Win or Lose",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:20:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "be2974bec4766fb1f9e4b7e0"
+        }
+      ]
+    },
+    {
       "topicId": "topic-b769992c5aae7aee2cf64398",
       "inputHash": "de6940c6f756ea2e8f517ef2f998e74bd7c5882566fdeda7a2624ffabc020fa7",
       "generatedAt": "",
@@ -29652,6 +31290,63 @@
       ]
     },
     {
+      "topicId": "topic-b7ca4ea30d006f5d022e1851",
+      "inputHash": "b0c51978eb011a83bb4f2e76d83148315f974de83cab2b5a68252921ebfc6f08",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-505028eab23cc4d67389920e",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "ernie johnson",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "505028eab23cc4d67389920e"
+        },
+        {
+          "id": "news-505028eab23cc4d67389920e-0",
+          "url": "https://bleacherreport.com/articles/25523249-ernie-johnson-announces-final-season-inside-nba-updates-retirement-plans-video",
+          "title": "Ernie Johnson Announces Final Season with 'Inside the NBA,' Updates Retirement Plans in Video",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "505028eab23cc4d67389920e"
+        },
+        {
+          "id": "news-505028eab23cc4d67389920e-1",
+          "url": "https://sports.yahoo.com/nba/article/ernie-johnson-announces-this-will-be-the-final-year-he-hosts-inside-the-nba-180848635.html",
+          "title": "Ernie Johnson announces this will be the final year he hosts 'Inside the NBA'",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "505028eab23cc4d67389920e"
+        },
+        {
+          "id": "news-505028eab23cc4d67389920e-2",
+          "url": "https://www.hollywoodreporter.com/tv/tv-news/inside-the-nba-host-ernie-johnson-stepping-down-1236741936/",
+          "title": "‘Inside the NBA’ Host Ernie Johnson Says This Is His Final Season",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "505028eab23cc4d67389920e"
+        }
+      ]
+    },
+    {
       "topicId": "topic-b7f5c640cb0cccb9ea9403da",
       "inputHash": "9548d9f0edb2237b0e2a989a574a4e283108d7e70c48ee71d1ab9d2307e24dc3",
       "generatedAt": "",
@@ -29762,6 +31457,63 @@
           "observedAt": "2026-10-27T05:50:00Z",
           "fetchedAt": "2026-10-27T06:18:45Z",
           "observationId": "2554c22c7264a4f0478496c3"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-b870a43f68c8be1d275e856b",
+      "inputHash": "73ae5ff3e048076c5756f63a56e8ae9f5fad5cd13ba5ffd2d21b42a038e1a396",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-64a895b04da5cfe3a85532a2",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "은지원",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "64a895b04da5cfe3a85532a2"
+        },
+        {
+          "id": "news-64a895b04da5cfe3a85532a2-0",
+          "url": "https://www.chosun.com/entertainments/broadcast/2026/10/28/G5TDEMRRHEZTGMDEGRSGKZJQGE/",
+          "title": "'집돌이' 은지원, 재혼 후 변했다..\"♥9살 연하 아내와 캠핑 즐겨\" 깜짝",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "64a895b04da5cfe3a85532a2"
+        },
+        {
+          "id": "news-64a895b04da5cfe3a85532a2-1",
+          "url": "https://enews.imbc.com/M/Detail/522744",
+          "title": "은지원, 재혼 후 180도 달라졌다…\"상상도 안 돼\" [소셜in]",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "64a895b04da5cfe3a85532a2"
+        },
+        {
+          "id": "news-64a895b04da5cfe3a85532a2-2",
+          "url": "https://m.newsen.com/news_view.php?uid=202610281257092110",
+          "title": "“은지원 상상 안 가” ♥9살 연하 코디 재혼 후 달라졌다 증언, 와이프와 캠핑 多(이승기2)",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "64a895b04da5cfe3a85532a2"
         }
       ]
     },
@@ -31736,6 +33488,63 @@
           "observedAt": "2026-10-25T04:50:00Z",
           "fetchedAt": "2026-10-25T06:10:31Z",
           "observationId": "7e2c50c7e070c0e2491ef1f0"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-b9db54781b029f389cc42cf2",
+      "inputHash": "15c4342d492727b553fd40fbc44b00bf6f6ce4de87d4f55a1138966be4432893",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-4698e44650ee981a8cd6fed5",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "일본 지진",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "4698e44650ee981a8cd6fed5"
+        },
+        {
+          "id": "news-4698e44650ee981a8cd6fed5-0",
+          "url": "https://www.yna.co.kr/view/AKR20261029001000530",
+          "title": "일본 지바현 지바시 동쪽서 규모 5.4 지진 발생",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "4698e44650ee981a8cd6fed5"
+        },
+        {
+          "id": "news-4698e44650ee981a8cd6fed5-1",
+          "url": "https://news.kbs.co.kr/news/view.do?ncd=8698111",
+          "title": "일본 지바현 지바시 동쪽 55km 지역 규모 5.4 지진",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "4698e44650ee981a8cd6fed5"
+        },
+        {
+          "id": "news-4698e44650ee981a8cd6fed5-2",
+          "url": "https://www.donga.com/news/Inter/article/all/20261029/134929337/1",
+          "title": "日 지바현서 규모 5.4 지진…최대 진도 5약·쓰나미 우려 없어",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "4698e44650ee981a8cd6fed5"
         }
       ]
     },
@@ -36283,6 +38092,63 @@
       ]
     },
     {
+      "topicId": "topic-deccccb0e2fd1d7a30f2e9ed",
+      "inputHash": "ccf17de95e5d2b2dc8751ccfa2322e4557a556796f23b04a482e91edc5cd4466",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-9c11fe28b43d8b88ed3a7532",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "liverpool vs chelsea",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "9c11fe28b43d8b88ed3a7532"
+        },
+        {
+          "id": "news-9c11fe28b43d8b88ed3a7532-0",
+          "url": "https://www.nytimes.com/athletic/7730339/2026/10/28/liverpool-xabi-alonso-chelsea-manager/",
+          "title": "How will being Chelsea manager change Xabi Alonso’s relationship with Liverpool fans?",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "9c11fe28b43d8b88ed3a7532"
+        },
+        {
+          "id": "news-9c11fe28b43d8b88ed3a7532-1",
+          "url": "https://www.theguardian.com/football/live/2026/oct/28/liverpool-v-chelsea-carabao-cup-fourth-round-live",
+          "title": "Liverpool v Chelsea: Carabao Cup fourth round – live",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "9c11fe28b43d8b88ed3a7532"
+        },
+        {
+          "id": "news-9c11fe28b43d8b88ed3a7532-2",
+          "url": "https://www.chelseafc.com/en/news/article/danny-welbeck-this-is-a-great-opportunity-for-us",
+          "title": "Danny Welbeck: 'This is a great opportunity for us' | News | Official Site",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "9c11fe28b43d8b88ed3a7532"
+        }
+      ]
+    },
+    {
       "topicId": "topic-dfa6b7c6b0148b337ccc0660",
       "inputHash": "0e0a18df18164d4ba9dab7156aa1e107b0dfb833e1008c5e3c01e605df815a91",
       "generatedAt": "",
@@ -37146,6 +39012,63 @@
       ]
     },
     {
+      "topicId": "topic-e5f8fc62804284413c37517c",
+      "inputHash": "95d08e66d168b7178672d7a96ced262b4dd4169015a000dd660a576f41bc751c",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-d0138425b49481d228685b7f",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "drilling rig",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "d0138425b49481d228685b7f"
+        },
+        {
+          "id": "news-d0138425b49481d228685b7f-0",
+          "url": "https://www.offshore-mag.com/special-reports/news/55414243/borr-drillings-prospector-5-drilling-rig-sinks-offshore-gabon",
+          "title": "Borr Drilling’s Prospector 5 drilling rig sinks offshore Gabon",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "d0138425b49481d228685b7f"
+        },
+        {
+          "id": "news-d0138425b49481d228685b7f-1",
+          "url": "https://www.surfer.com/news/prospector-5-oil-rig-collapse-video",
+          "title": "Oil Rig Catastrophe: Horrifying Video Shows Massive Prospector 5 Topple Into the Atlantic With 115 Aboard (Video)",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "d0138425b49481d228685b7f"
+        },
+        {
+          "id": "news-d0138425b49481d228685b7f-2",
+          "url": "https://maritime-executive.com/article/borr-drilling-jackup-loses-stability-and-sinks-off-gabon",
+          "title": "Borr Drilling Jackup Loses Stability and Sinks off Gabon",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:40:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "d0138425b49481d228685b7f"
+        }
+      ]
+    },
+    {
       "topicId": "topic-e648a77014706949eec3d884",
       "inputHash": "9ff86914424d8bb9009582f34a0a45262645e54ecfd57e2f4d28c6808688cfb9",
       "generatedAt": "",
@@ -37370,6 +39293,63 @@
           "observedAt": "2026-10-23T04:00:00Z",
           "fetchedAt": "2026-10-23T06:03:27Z",
           "observationId": "3e3adabf443d3291bb1bc0af"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-e7f7edd66497ed34291ddb36",
+      "inputHash": "a023255164135d3734b4411382272162aadf1c2141a8b1f3f88869a26468b9c4",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-bc800e0a37f43ebd7af0a590",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "ダノンデサイル",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "bc800e0a37f43ebd7af0a590"
+        },
+        {
+          "id": "news-bc800e0a37f43ebd7af0a590-0",
+          "url": "https://news.yahoo.co.jp/articles/afc3b51ad1fd4a3aeb453fee4623bf0314e2d252",
+          "title": "【天皇賞・秋追い切り】リアライズシリウス美浦坂路4F53秒0－ラスト12秒0 津村騎手「先週マスカレードボールと併せて素軽くなっていました」（中日スポーツ）",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "bc800e0a37f43ebd7af0a590"
+        },
+        {
+          "id": "news-bc800e0a37f43ebd7af0a590-1",
+          "url": "https://www.nishinippon.co.jp/image/1097073/",
+          "title": "天皇賞・秋に向けて調整したマスカレードボール＝美浦トレーニングセンター - 天皇賞、マスカレードボール好調 11月1日、最終追い切り - 写真・画像(1/1)",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "bc800e0a37f43ebd7af0a590"
+        },
+        {
+          "id": "news-bc800e0a37f43ebd7af0a590-2",
+          "url": "https://www.chunichi.co.jp/article/1331476",
+          "title": "【天皇賞・秋追い切り】新たな相棒Cデムーロ鞍上でクロワデュノールは3頭併せで先着 斉藤崇師「どの競馬場、どの距離でも力出してくれることが大きな強み」",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T16:30:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "bc800e0a37f43ebd7af0a590"
         }
       ]
     },
@@ -38245,6 +40225,63 @@
           "observedAt": "2026-10-28T06:30:00Z",
           "fetchedAt": "2026-10-28T06:52:51Z",
           "observationId": "077b5f5e50033fec0ff0d085"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-f06656ebdcd530eb63c821b3",
+      "inputHash": "8d39f3b691b4030150bafc22827df57c7150c1bea6bb3bc0ddbd17600818789d",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-0cce84aa1f0833a1162617a5",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "한겨레",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "0cce84aa1f0833a1162617a5"
+        },
+        {
+          "id": "news-0cce84aa1f0833a1162617a5-0",
+          "url": "https://www.khan.co.kr/article/202610281550001",
+          "title": "이 대통령 ‘외국인노동자 경제에 크게 도움 안 돼’ 발언 논란…전문가들 “맥락 고려해도 정당화 안돼”",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "0cce84aa1f0833a1162617a5"
+        },
+        {
+          "id": "news-0cce84aa1f0833a1162617a5-1",
+          "url": "https://www.hankyung.com/article/2026102813991",
+          "title": "'일당 13만원' 불체자도 바글바글…\"외국인 없으면 다 멈출 판\"",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "0cce84aa1f0833a1162617a5"
+        },
+        {
+          "id": "news-0cce84aa1f0833a1162617a5-2",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=05703926645617512&mediaCodeNo=257",
+          "title": "[이슈분석]月 500만원 준다는 '농촌 일자리'…1만명에 1500억, 효과는 미지수",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T15:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "0cce84aa1f0833a1162617a5"
         }
       ]
     },
@@ -40137,6 +42174,63 @@
       ]
     },
     {
+      "topicId": "topic-fca69c220dca10eab0de3e81",
+      "inputHash": "ad7de8db49322e58a0388e1cd4bc00fa743e48992cd59b6c72b7fd1ee9a578f4",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-2eb33785d95f7c4d36091c91",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "bet365",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "2eb33785d95f7c4d36091c91"
+        },
+        {
+          "id": "news-2eb33785d95f7c4d36091c91-0",
+          "url": "https://www.livescore.com/en/news/football/promotions/liverpool-vs-chelsea-betting-offer-bet-gbp10-get-gbp30-in-free-bets-for-new-customers-with-livescore-bet/",
+          "title": "Liverpool vs Chelsea betting offer: bet £10 get £30 in free bets for new customers with Livescore Bet",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "2eb33785d95f7c4d36091c91"
+        },
+        {
+          "id": "news-2eb33785d95f7c4d36091c91-1",
+          "url": "https://www.squawka.com/en/betting-offers/carabao-cup-betting-offers-free-bets-tonight-28-10-2026/",
+          "title": "Carabao Cup betting offers tonight (8pm KO): £50 in free Bet Builders for Liverpool vs Chelsea and Man City vs Brighton",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "2eb33785d95f7c4d36091c91"
+        },
+        {
+          "id": "news-2eb33785d95f7c4d36091c91-2",
+          "url": "https://talksport.com/betting/4667998/fleetwood-vs-arsenal-betfred-promo-code/",
+          "title": "Betfred bonus code: Bet £10, get £50 ahead of Fleetwood vs Arsenal",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:10:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "2eb33785d95f7c4d36091c91"
+        }
+      ]
+    },
+    {
       "topicId": "topic-fd2f45f2ab063f95fb268b5a",
       "inputHash": "ca2b665c9f0e122dd7d4a8365878d9ab66ee244484205b830b34aaef8d018c9e",
       "generatedAt": "",
@@ -40361,6 +42455,63 @@
           "observedAt": "2026-10-25T16:40:00Z",
           "fetchedAt": "2026-10-25T17:04:05Z",
           "observationId": "1c1a01060be8ac25f80737e6"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-ff547209b8518288bb54c98d",
+      "inputHash": "05a7c6cb31f09f1c220563dcfe0b0a8531946ae59d488da2970237de6a4bd5bb",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-72e555f4489b30f1ac79330b",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "prince louis new family photo",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "72e555f4489b30f1ac79330b"
+        },
+        {
+          "id": "news-72e555f4489b30f1ac79330b-0",
+          "url": "https://www.yahoo.com/entertainment/celebrity/articles/prince-louis-looks-more-grown-145618937.html",
+          "title": "Prince Louis Looks More Grown Up Than Ever in a New Photo Shared by Mom Princess Kate",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "72e555f4489b30f1ac79330b"
+        },
+        {
+          "id": "news-72e555f4489b30f1ac79330b-1",
+          "url": "https://www.vogue.com/article/kate-middleton-prince-william-share-family-photo-mountain-rescue-awareness-day",
+          "title": "Matching Outfits, Matching Smiles: Kate Middleton and Prince William Share a Sweet New Family Photo",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "72e555f4489b30f1ac79330b"
+        },
+        {
+          "id": "news-72e555f4489b30f1ac79330b-2",
+          "url": "https://www.purewow.com/news/wales-children-group-photo-prince-william-kate-middleton-personal-message",
+          "title": "Kensington Palace Releases New Photo of Prince William and Kate Middleton's Kids",
+          "source": "google-trends",
+          "observedAt": "2026-10-28T18:00:00Z",
+          "fetchedAt": "2026-10-28T18:53:02Z",
+          "observationId": "72e555f4489b30f1ac79330b"
         }
       ]
     },
