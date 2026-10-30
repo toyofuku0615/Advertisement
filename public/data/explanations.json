@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T18:59:47Z",
+  "generatedAt": "2026-10-30T07:11:29Z",
   "providerStatus": {
     "status": "disabled",
     "provider": "none",
     "model": "",
     "message": "新しい話題のAI解説は未生成です。保存済み解説と、見出しからの手がかりを利用できます。",
-    "checkedAt": "2026-10-29T18:59:47Z"
+    "checkedAt": "2026-10-30T07:11:29Z"
   },
   "explanations": [
     {
@@ -886,6 +886,63 @@
       ]
     },
     {
+      "topicId": "topic-023d8b91a9cf50de97928257",
+      "inputHash": "6860a22cebd5ae590d1a83b85b59186ca86a54dcfc4adc709f807cf6c57284ed",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-1cfc7f696d15a7ff901f87d8",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "해병대",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "1cfc7f696d15a7ff901f87d8"
+        },
+        {
+          "id": "news-1cfc7f696d15a7ff901f87d8-0",
+          "url": "https://www.yonhapnewstv.co.kr/news/AKR20261030144457s44",
+          "title": "후임병 성추행·폭행한 해병대 선임병 징역 1년…법정구속",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "1cfc7f696d15a7ff901f87d8"
+        },
+        {
+          "id": "news-1cfc7f696d15a7ff901f87d8-1",
+          "url": "https://www.newsis.com/view/NISX20261030_0003848306",
+          "title": "해병대서 군 후임들 강제 추행·폭행한 20대 실형",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "1cfc7f696d15a7ff901f87d8"
+        },
+        {
+          "id": "news-1cfc7f696d15a7ff901f87d8-2",
+          "url": "https://www.lawissue.co.kr/view.php?ud=2026102918330958649a8c8bf58f_12",
+          "title": "대구고법, 하급자 강제추행하고 상습 폭행 가혹행위 해병대 하사 실형→집유",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "1cfc7f696d15a7ff901f87d8"
+        }
+      ]
+    },
+    {
       "topicId": "topic-02eb929cf45205742d155b70",
       "inputHash": "87e9ca0c31efdd51ee9895512520a693b4e37c3e53c0c484d4985219bdf7cc83",
       "generatedAt": "",
@@ -1582,6 +1639,63 @@
           "observedAt": "2026-10-21T08:20:00Z",
           "fetchedAt": "2026-10-21T09:31:21Z",
           "observationId": "a515303268807bbf4148d363"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-06b90b384ac9f4adc7f2faf5",
+      "inputHash": "ecf5f2c15ba27010b7d05849ce60413e7b9c00c4774b72478c3cafd313f654dc",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-c0e4b89da3af9b14d441c52c",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "mac jones",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "c0e4b89da3af9b14d441c52c"
+        },
+        {
+          "id": "news-c0e4b89da3af9b14d441c52c-0",
+          "url": "https://www.foxnews.com/outkick-sports/george-kittle-wife-calls-mac-jones-eating-habits-biggest-dating-red-flag",
+          "title": "George Kittle's wife calls Mac Jones' eating habits his biggest dating 'red flag' | OutKick",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "c0e4b89da3af9b14d441c52c"
+        },
+        {
+          "id": "news-c0e4b89da3af9b14d441c52c-1",
+          "url": "https://sports.yahoo.com/articles/49ers-qb-mac-jones-gets-212145107.html",
+          "title": "49ers QB Mac Jones Gets Honest About Dating Life After Breakup",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "c0e4b89da3af9b14d441c52c"
+        },
+        {
+          "id": "news-c0e4b89da3af9b14d441c52c-2",
+          "url": "https://nypost.com/2026/10/29/sports/george-kittles-wife-claire-exposes-mac-jones-dating-red-flag/",
+          "title": "George Kittle’s wife calls out 49ers QB’s dating ‘red flag’",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "c0e4b89da3af9b14d441c52c"
         }
       ]
     },
@@ -2890,6 +3004,63 @@
       ]
     },
     {
+      "topicId": "topic-0d3f5143903c5d8610d21335",
+      "inputHash": "81527f38436869dafd0fb3194308383b69f60ec2e0373622aae6fd4834147a34",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-aa79c8e87e9e81f69e407389",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "ファンパレ",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "aa79c8e87e9e81f69e407389"
+        },
+        {
+          "id": "news-aa79c8e87e9e81f69e407389-0",
+          "url": "https://www.famitsu.com/article/202610/92326",
+          "title": "『呪術廻戦ファンパレ』禪院直哉が10月30日に先行登場。「最高速度でブチ抜いたる!!」",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "aa79c8e87e9e81f69e407389"
+        },
+        {
+          "id": "news-aa79c8e87e9e81f69e407389-1",
+          "url": "https://gamewith.jp/jujutsuphanpara/585649",
+          "title": "【ファンパレ】禪院直哉(秒間24フレームの支配)のおすすめ残滓と評価【呪術廻戦ファントムパレード】",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "aa79c8e87e9e81f69e407389"
+        },
+        {
+          "id": "news-aa79c8e87e9e81f69e407389-2",
+          "url": "https://x.com/i/trending/2115326990886535511",
+          "title": "ファンパレに禪院直哉が10月30日先行登場、ファン歓喜のPV公開",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "aa79c8e87e9e81f69e407389"
+        }
+      ]
+    },
+    {
       "topicId": "topic-0d441ecded87f52f24d23f65",
       "inputHash": "a792b34f504bcda14fcbe250ddf6b324be34c01c5c6cb2a2be951b9f30947e3f",
       "generatedAt": "",
@@ -3828,6 +3999,63 @@
           "observedAt": "2026-10-26T05:30:00Z",
           "fetchedAt": "2026-10-26T06:17:09Z",
           "observationId": "886329f31305e19fcaa53a58"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-147c2e4203f4c94cd0a9759e",
+      "inputHash": "b9540b4da6991d2c7f3ea87ee6d5b3b0589c40e8bf5c494263ee1d224095bdb3",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-fde2e040d68dc02fae9c4a40",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "レーザーテック 決算",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "fde2e040d68dc02fae9c4a40"
+        },
+        {
+          "id": "news-fde2e040d68dc02fae9c4a40-0",
+          "url": "https://kabutan.jp/news/?b=k202610300246",
+          "title": "レーザーテク、7-9月期(1Q)経常は46％減益で着地",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "fde2e040d68dc02fae9c4a40"
+        },
+        {
+          "id": "news-fde2e040d68dc02fae9c4a40-1",
+          "url": "https://finance.yahoo.co.jp/news/detail/c33e0dabe0fc60c9bf0cc3d13b0487b7768abf24",
+          "title": "【決算速報】レーザーテック、1Q経常14,711百万。アナリスト予想を下回る(アイフィス株予報)",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "fde2e040d68dc02fae9c4a40"
+        },
+        {
+          "id": "news-fde2e040d68dc02fae9c4a40-2",
+          "url": "https://www.moomoo.com/ja/news/post/1002409865/lasertec-adr-lsrcyus-is-scheduled-to-release-its-financial-results",
+          "title": "レーザーテック(ADR)(LSRCY.US)は10月30日に決算を発表します",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "fde2e040d68dc02fae9c4a40"
         }
       ]
     },
@@ -6990,6 +7218,63 @@
       ]
     },
     {
+      "topicId": "topic-24d833b8a91e60da5ef3834d",
+      "inputHash": "9944a6f21ca56aa79246ddfeaacfe0674c7691e96394ef478ff7e9bd274d7492",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-6921d2f9078b6a24b5a04343",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "stock futures",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6921d2f9078b6a24b5a04343"
+        },
+        {
+          "id": "news-6921d2f9078b6a24b5a04343-0",
+          "url": "https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html",
+          "title": "Alphabet loses $482 billion in market value, the biggest drop in its history",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6921d2f9078b6a24b5a04343"
+        },
+        {
+          "id": "news-6921d2f9078b6a24b5a04343-1",
+          "url": "https://www.cnn.com/2026/10/29/investing/alphabet-google-stock-ai",
+          "title": "Shares of Google’s parent company just had their worst day ever. Here’s what it means",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6921d2f9078b6a24b5a04343"
+        },
+        {
+          "id": "news-6921d2f9078b6a24b5a04343-2",
+          "url": "https://www.reuters.com/legal/transactional/global-markets-global-markets-2026-10-30/",
+          "title": "Stocks slump, bonds leap as AI giants' spending spooks investors",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6921d2f9078b6a24b5a04343"
+        }
+      ]
+    },
+    {
       "topicId": "topic-25673fbcad94c9414050a56e",
       "inputHash": "d3ae6a690faa225f8c878a5daed95f4382677eba96585bf80bd2e57e0c62b1e6",
       "generatedAt": "",
@@ -7822,6 +8107,63 @@
           "observedAt": "2026-10-24T05:20:00Z",
           "fetchedAt": "2026-10-24T05:56:27Z",
           "observationId": "65e947d3dd237ef59ca5426f"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-2a2b1105d30674456e682ccb",
+      "inputHash": "d05e16a0def48b55754e61f7cca3a9113928e657ad3dda3d5eb52744c7121c6c",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-442084df7940671e22231d69",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "杉浦 希空",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "442084df7940671e22231d69"
+        },
+        {
+          "id": "news-442084df7940671e22231d69-0",
+          "url": "https://news.yahoo.co.jp/articles/23136a8e1e35eec70d20bf7f4fd18e765fd1be64",
+          "title": "辻希美「きれいでもかわいくもない」長女・希空からの “辛辣評価” 告白に集まる同情…夏には “オフなし” 家事で目元にクマも",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "442084df7940671e22231d69"
+        },
+        {
+          "id": "news-442084df7940671e22231d69-1",
+          "url": "https://topics.smt.docomo.ne.jp/article/smartflash/entertainment/smartflash-436001?page=2",
+          "title": "辻希美「きれいでもかわいくもない」長女・希空からの “辛辣評価” 告白に集まる同情…夏には “オフなし” 家事で目元にクマも",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "442084df7940671e22231d69"
+        },
+        {
+          "id": "news-442084df7940671e22231d69-2",
+          "url": "https://smart-flash.jp/entertainment/entertainment-news/436001/image/3/",
+          "title": "辻希美「きれいでもかわいくもない」長女・希空からの “辛辣評価” 告白に集まる同情…夏には “オフなし” 家事で目元にクマも",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "442084df7940671e22231d69"
         }
       ]
     },
@@ -8940,6 +9282,63 @@
           "observedAt": "2026-10-23T15:40:00Z",
           "fetchedAt": "2026-10-23T17:53:32Z",
           "observationId": "85bc7f5e9c403a87c0424751"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-2ef9caf19d511ec132cedbc3",
+      "inputHash": "f546d8d80e3487670e282c0819c761c9cf3c6ed6b5f70b4927f4d4e016cf250c",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-836c05e6e02d1f6497fe6a09",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "the mirror",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "836c05e6e02d1f6497fe6a09"
+        },
+        {
+          "id": "news-836c05e6e02d1f6497fe6a09-0",
+          "url": "https://yougov.com/en-gb/articles/55828-royal-family-favourability-trackers-october-2026",
+          "title": "Royal family favourability trackers, October 2026",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "836c05e6e02d1f6497fe6a09"
+        },
+        {
+          "id": "news-836c05e6e02d1f6497fe6a09-1",
+          "url": "https://malaysia.news.yahoo.com/meghan-harrys-popularity-plummets-uk-150710725.html",
+          "title": "Meghan and Harry's popularity plummets after UK return, poll reveals",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "836c05e6e02d1f6497fe6a09"
+        },
+        {
+          "id": "news-836c05e6e02d1f6497fe6a09-2",
+          "url": "https://www.hellomagazine.com/royalty/931984/why-isnt-king-charles-relentless-work-ethic-paying-off-the-bombshells-behind-his-polling-slump/",
+          "title": "Why isn't King Charles' relentless work ethic paying off? The bombshells behind his polling slump",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "836c05e6e02d1f6497fe6a09"
         }
       ]
     },
@@ -10450,6 +10849,63 @@
       ]
     },
     {
+      "topicId": "topic-3a48c2443b07faa22ab4b555",
+      "inputHash": "315de92e0dbb8e21a442c825e54a1e4c0e386e0a4b9b7ed243e127a030fe8cdd",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-13fd7f29a4dc0dc5016d0d79",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "submarine",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "13fd7f29a4dc0dc5016d0d79"
+        },
+        {
+          "id": "news-13fd7f29a4dc0dc5016d0d79-0",
+          "url": "https://news.sky.com/video/uks-nuclear-submarines-in-very-unusual-deployment-13604493",
+          "title": "UK's nuclear submarines in 'very unusual' deployment",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "13fd7f29a4dc0dc5016d0d79"
+        },
+        {
+          "id": "news-13fd7f29a4dc0dc5016d0d79-1",
+          "url": "https://www.navylookout.com/three-royal-navy-vanguard-class-submarines-at-sea-does-not-signal-change-in-nuclear-posture/",
+          "title": "Three Royal Navy Vanguard-class submarines at sea does not signal change in nuclear posture",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "13fd7f29a4dc0dc5016d0d79"
+        },
+        {
+          "id": "news-13fd7f29a4dc0dc5016d0d79-2",
+          "url": "https://www.theferret.scot/uk-escalating-nuclear-tensions-trident-submarines/",
+          "title": "UK ‘escalating nuclear tensions’ with Trident submarines",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "13fd7f29a4dc0dc5016d0d79"
+        }
+      ]
+    },
+    {
       "topicId": "topic-3a4b2268481c3072f50066b6",
       "inputHash": "f313f8732d026a7383b91f1a904ed64ddd3c9152e63b2637af3ac5da3f7cb865",
       "generatedAt": "",
@@ -10815,6 +11271,63 @@
           "observedAt": "2026-10-27T18:20:00Z",
           "fetchedAt": "2026-10-27T18:43:14Z",
           "observationId": "a05c6680daf0cf7eb7979f14"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-3c38dbfe99e8fdd522b4eb63",
+      "inputHash": "d00a0dfaaf411b309be23c0ba5f626ebd78a08729c9fb6f3c476eba05803a729",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-6feccf5ff74629d0e6bb0ace",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "indianapolis colts tickets",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6feccf5ff74629d0e6bb0ace"
+        },
+        {
+          "id": "news-6feccf5ff74629d0e6bb0ace-0",
+          "url": "https://www.colts.com/news/colts-sign-t-charlie-heck-to-53-man-roster-sign-g-joshua-gray-to-practice-squad-release-lb-germaine-pratt-from-practice-squad",
+          "title": "Colts sign T Charlie Heck to 53-man roster, sign G Joshua Gray to practice squad, release LB Germaine Pratt from practice squad",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6feccf5ff74629d0e6bb0ace"
+        },
+        {
+          "id": "news-6feccf5ff74629d0e6bb0ace-1",
+          "url": "https://www.indystar.com/story/sports/nfl/colts/2026/10/29/nfl-news-indianapolis-colts-injury-report-cut-germaine-pratt-cj-allen-sauce-gardner-practice/92503414007/",
+          "title": "Colts cut veteran as injury report helps linebacker depth, hurts cornerbacks",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6feccf5ff74629d0e6bb0ace"
+        },
+        {
+          "id": "news-6feccf5ff74629d0e6bb0ace-2",
+          "url": "https://www.cincinnati.com/story/sports/nfl/bengals/2026/10/29/colts-release-germaine-pratt-former-bengals-linebacker/92498046007/",
+          "title": "Colts release former Bengals linebacker",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6feccf5ff74629d0e6bb0ace"
         }
       ]
     },
@@ -13588,6 +14101,63 @@
       ]
     },
     {
+      "topicId": "topic-488dbdd0701acf40c799a689",
+      "inputHash": "adee4a6c7b31aeaea07710c206bcc9d874be1ffd7bce8f68ae0e4e8ad32a4317",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-1e835ed0d7d21f058cce4e73",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "東京エレクトロン 株価",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "1e835ed0d7d21f058cce4e73"
+        },
+        {
+          "id": "news-1e835ed0d7d21f058cce4e73-0",
+          "url": "https://finance.yahoo.co.jp/news/detail/49303854a74c77278608248d1a669a8e6e37c4fd",
+          "title": "東エレク、自社株買いの実施を発表(株探ニュース)",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "1e835ed0d7d21f058cce4e73"
+        },
+        {
+          "id": "news-1e835ed0d7d21f058cce4e73-1",
+          "url": "https://topics.smt.docomo.ne.jp/article/reuters/business/reuters-20261030089",
+          "title": "東京エレク、発行済み株式の1.1％・1500億円を上限に自社株買い決議",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "1e835ed0d7d21f058cce4e73"
+        },
+        {
+          "id": "news-1e835ed0d7d21f058cce4e73-2",
+          "url": "https://jp.investing.com/news/earnings/article-1734001",
+          "title": "東京エレクトロン、AI需要で第2四半期純利益27%増・1500億円自社株買いを発表 執筆",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "1e835ed0d7d21f058cce4e73"
+        }
+      ]
+    },
+    {
       "topicId": "topic-49250dacbe07cdf0e285d3d6",
       "inputHash": "e9201d6d312364e17114b575d516991a0194ac589d5d106ce5c565a2aa70e817",
       "generatedAt": "",
@@ -13641,6 +14211,63 @@
           "observedAt": "2026-10-22T14:20:00Z",
           "fetchedAt": "2026-10-22T17:59:28Z",
           "observationId": "9bc250a5ecd404a3fde5ba81"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-497c4ba11f015ff415743596",
+      "inputHash": "1c37641318b0c5c10e04086fe0ce35502fdf705e98fa434e2842ef35762e6f60",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-4c3f9344bd30f5290d6e4cf1",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "when is black friday",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "4c3f9344bd30f5290d6e4cf1"
+        },
+        {
+          "id": "news-4c3f9344bd30f5290d6e4cf1-0",
+          "url": "https://www.wired.com/story/black-friday-deals-10-27-2026/",
+          "title": "The Early Black Friday Bargains Worth Bagging",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "4c3f9344bd30f5290d6e4cf1"
+        },
+        {
+          "id": "news-4c3f9344bd30f5290d6e4cf1-1",
+          "url": "https://www.moneytalksnews.com/black-friday-sales-have-already-started-heres-every-big-stores-date/",
+          "title": "Black Friday Sales Have Already Started. Here’s Every Big Store’s Date",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "4c3f9344bd30f5290d6e4cf1"
+        },
+        {
+          "id": "news-4c3f9344bd30f5290d6e4cf1-2",
+          "url": "https://pasqualepillitteri.it/en/news/28162/black-friday-2026-mac-gpu-ssd-ai",
+          "title": "Black Friday 2026, which Macs, GPUs and SSDs to buy for AI",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "4c3f9344bd30f5290d6e4cf1"
         }
       ]
     },
@@ -17140,6 +17767,63 @@
       ]
     },
     {
+      "topicId": "topic-5f12947f041f1a296b4236fa",
+      "inputHash": "766923b2feeacd8434a62459228791a808513ae014e629a938f163d72a87346b",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-002666a7888e10758bcbf95f",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "xrp price",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:30:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "002666a7888e10758bcbf95f"
+        },
+        {
+          "id": "news-002666a7888e10758bcbf95f-0",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/could-xrp-ever-hit-1-213036218.html",
+          "title": "Could XRP Ever Hit $1,000 as Ripple Becomes a U.S. National Trust Bank?",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:30:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "002666a7888e10758bcbf95f"
+        },
+        {
+          "id": "news-002666a7888e10758bcbf95f-1",
+          "url": "https://www.openpr.com/news/4675853/is-xrp-s-institutional-surge-just-the-beginning-apeing-s",
+          "title": "Is XRP's Institutional Surge Just the Beginning? Apeing's",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:30:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "002666a7888e10758bcbf95f"
+        },
+        {
+          "id": "news-002666a7888e10758bcbf95f-2",
+          "url": "https://www.crowdfundinsider.com/2026/10/320649-ripple-receives-final-occ-authorization-to-establish-national-trust-bank/",
+          "title": "Ripple Receives Final OCC Authorization To Establish National Trust Bank",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:30:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "002666a7888e10758bcbf95f"
+        }
+      ]
+    },
+    {
       "topicId": "topic-5f27fbb82b58207ac029bafc",
       "inputHash": "1f9716fddc384a02abe330860b20663438f8dffb353d734e902a2cefce75cc16",
       "generatedAt": "",
@@ -17250,6 +17934,36 @@
           "observedAt": "2026-10-27T15:10:00Z",
           "fetchedAt": "2026-10-27T18:43:14Z",
           "observationId": "8f0e8426dc136f63dee4c14b"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-60a792ba6158f2e6af96c0bd",
+      "inputHash": "b15fe26fbe2f90bfd6ade37cd786dafa29ba6e197ce47f0cbb3b6a7eeb7d3130",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-6749313cf0f0ae098aa96f7b",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "울산과학대학교",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:00:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6749313cf0f0ae098aa96f7b"
         }
       ]
     },
@@ -17597,7 +18311,7 @@
     },
     {
       "topicId": "topic-620ae81916e9f9f35345cdad",
-      "inputHash": "85a386514c91e3617c17c27c0a6859d73fbc31f977fb017cb54815ca7a3aabb6",
+      "inputHash": "83a9c79883de001f9c201d6bcac7b9a1af7ecdb7bb23054a5be2fe99aad77c99",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -17649,6 +18363,15 @@
           "observedAt": "2026-10-29T06:40:00Z",
           "fetchedAt": "2026-10-29T07:09:04Z",
           "observationId": "933e618b6ad84828354bc533"
+        },
+        {
+          "id": "obs-d0ea72e97d174aa3fc20b623",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "適時開示",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:30:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "d0ea72e97d174aa3fc20b623"
         }
       ]
     },
@@ -17877,6 +18600,63 @@
           "observedAt": "2026-10-22T03:50:00Z",
           "fetchedAt": "2026-10-22T06:08:14Z",
           "observationId": "588c29a9509f1bf5d3504380"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-632de1067421f755622ef906",
+      "inputHash": "8174b6e16984b332b99a2811be6ad88db40e7158ae220bdff9db98673cc4f0e4",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-62dbe4c3cd8c02dae2abf7bf",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "pay council tax",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "62dbe4c3cd8c02dae2abf7bf"
+        },
+        {
+          "id": "news-62dbe4c3cd8c02dae2abf7bf-0",
+          "url": "https://news.sky.com/story/money-live-consumer-personal-finance-tips-sky-news-latest-13040934?",
+          "title": "New pension tax allowance explained - as crucial £13,319 figure revealed | Money blog",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "62dbe4c3cd8c02dae2abf7bf"
+        },
+        {
+          "id": "news-62dbe4c3cd8c02dae2abf7bf-1",
+          "url": "https://www.manchestereveningnews.co.uk/news/uk-news/andy-burnham-government-confirms-four-34834102",
+          "title": "Andy Burnham government confirms four groups NOT eligible for £100 energy payment",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "62dbe4c3cd8c02dae2abf7bf"
+        },
+        {
+          "id": "news-62dbe4c3cd8c02dae2abf7bf-2",
+          "url": "https://www.moneysavingexpert.com/news/2026/10/council-tax-100-energy-support-payment/",
+          "title": "Budget 2026: Millions of households in Council Tax bands A-D to get £100 payment next year",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "62dbe4c3cd8c02dae2abf7bf"
         }
       ]
     },
@@ -22245,6 +23025,63 @@
           "observedAt": "2026-10-21T17:50:00Z",
           "fetchedAt": "2026-10-21T18:04:45Z",
           "observationId": "3b07884d3f041d818a5546fd"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-7f29b65e988fbda7d90ec45a",
+      "inputHash": "dc6c17b7b9400249622435c5d0d40f8c9be49fbf497abf6ce22eb12ab6f73eae",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-70de04ab9550ebfb7f3080ca",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "대한민국 해병대",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "70de04ab9550ebfb7f3080ca"
+        },
+        {
+          "id": "news-70de04ab9550ebfb7f3080ca-0",
+          "url": "https://www.yna.co.kr/view/AKR20261029169600704",
+          "title": "[영상] 4년 개발 끝에…내년부터 해병대 상륙공격헬기 양산 돌입",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "70de04ab9550ebfb7f3080ca"
+        },
+        {
+          "id": "news-70de04ab9550ebfb7f3080ca-1",
+          "url": "https://www.segye.com/newsView/20261030503470",
+          "title": "K2 전차부터 300㎞ 로켓·자폭드론까지…해병대의 변신 [박수찬의 軍]",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "70de04ab9550ebfb7f3080ca"
+        },
+        {
+          "id": "news-70de04ab9550ebfb7f3080ca-2",
+          "url": "https://kr.investing.com/news/stock-market-news/article-2147593",
+          "title": "KAI, ‘상륙공격헬기’ 개발 성공…글로벌 군용헬기 시장 정조준 By EBN",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "70de04ab9550ebfb7f3080ca"
         }
       ]
     },
@@ -27169,6 +28006,63 @@
       ]
     },
     {
+      "topicId": "topic-88e7dfcab551a19d95c14a44",
+      "inputHash": "24462dd7036601efea753680a2999b815b8a2fe68187faec3361ecdb489a8469",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-6d6ce1e78de1a10714c7982b",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "吉田 鋼 太郎 園遊会",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6d6ce1e78de1a10714c7982b"
+        },
+        {
+          "id": "news-6d6ce1e78de1a10714c7982b-0",
+          "url": "https://news.yahoo.co.jp/articles/b45ecef0097e7f546586a8a40c83c3b3bc51b510",
+          "title": "「絶対美人」吉田鋼太郎 結婚10年で初解禁…秋の園遊会で注目集めた“22歳年下妻の美貌”（女性自身）",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6d6ce1e78de1a10714c7982b"
+        },
+        {
+          "id": "news-6d6ce1e78de1a10714c7982b-1",
+          "url": "https://news.tv-asahi.co.jp/news_society/articles/photos/900203058.html",
+          "title": "【画像まとめ】晴れやかな和の装いで…野球・ドラマ談議に花 『秋の園遊会』笑顔で懇談",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6d6ce1e78de1a10714c7982b"
+        },
+        {
+          "id": "news-6d6ce1e78de1a10714c7982b-2",
+          "url": "https://www.afpbb.com/articles/-/3660047",
+          "title": "秋の園遊会、赤坂御苑で開催",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6d6ce1e78de1a10714c7982b"
+        }
+      ]
+    },
+    {
       "topicId": "topic-8a5a34f4e9a1afc5fd7b702d",
       "inputHash": "0aa855471b5c41c5c915c793dddc429041754949c97ffb58cdfe3d1e13b69fb6",
       "generatedAt": "",
@@ -27336,6 +28230,63 @@
           "observedAt": "2026-10-26T18:50:00Z",
           "fetchedAt": "2026-10-26T19:21:22Z",
           "observationId": "c97c78d1423bd200bd5de073"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-8d7d5397f8842b4181d38bc5",
+      "inputHash": "6b1240f89d495ac51b5306a924ce887593e74a7a424e21fac93e15e95a6708a2",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-be278da8d1ec0ee4c6430fa5",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "turkey",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "be278da8d1ec0ee4c6430fa5"
+        },
+        {
+          "id": "news-be278da8d1ec0ee4c6430fa5-0",
+          "url": "https://www.reuters.com/world/europe/greek-pm-calls-turkey-libya-maritime-deal-void-calls-global-truce-after-black-2026-10-29/",
+          "title": "EXCLUSIVE: Greek PM calls Turkey-Libya maritime deal 'void;' calls for global truce after Black Sea attacks",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "be278da8d1ec0ee4c6430fa5"
+        },
+        {
+          "id": "news-be278da8d1ec0ee4c6430fa5-1",
+          "url": "https://www.aljazeera.com/news-analysis/2026/10/29/can-turkiyes-libya-breakthrough-reshape-eastern-mediterranean-diplomacy",
+          "title": "Can Turkiye’s Libya breakthrough reshape Eastern Mediterranean diplomacy?",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "be278da8d1ec0ee4c6430fa5"
+        },
+        {
+          "id": "news-be278da8d1ec0ee4c6430fa5-2",
+          "url": "https://www.ekathimerini.com/politics/foreign-policy/1319664/mitsotakis-calls-turkish-libyan-maritime-memorandum-flagrant-violation-of-international-law/",
+          "title": "Mitsotakis calls Turkish-Libyan maritime memorandum ‘flagrant violation’ of international law",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "be278da8d1ec0ee4c6430fa5"
         }
       ]
     },
@@ -27642,6 +28593,63 @@
           "observedAt": "2026-10-24T05:40:00Z",
           "fetchedAt": "2026-10-24T05:56:27Z",
           "observationId": "b9bd5cc71652a8858a5809bf"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-90229c2f49f585a2194277f1",
+      "inputHash": "eb56f9d427066b590404f9f77808d691d0bd044a27a01b15fb4553c7ea8d3f2f",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-78afa7e51364b7e2f5480cb4",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "逆賊 の 幕臣",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:30:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "78afa7e51364b7e2f5480cb4"
+        },
+        {
+          "id": "news-78afa7e51364b7e2f5480cb4-0",
+          "url": "https://www.nhk.jp/g/ts/YPLNUWTT1W/blog/bl/pq3nZlAKej/bp/pr9zBxjn1P/",
+          "title": "2027年大河ドラマ「逆賊の幕臣」 新たな出演者発表 第８弾【薩摩・長州の人々】",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:30:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "78afa7e51364b7e2f5480cb4"
+        },
+        {
+          "id": "news-78afa7e51364b7e2f5480cb4-1",
+          "url": "https://topics.smt.docomo.ne.jp/article/eventbank/region/eventbank-10652007?utm_source=dnews&utm_medium=article&utm_campaign=contentsmatch5",
+          "title": "歴史講演会「小栗上野介忠順の夢とその生き方」",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:30:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "78afa7e51364b7e2f5480cb4"
+        },
+        {
+          "id": "news-78afa7e51364b7e2f5480cb4-2",
+          "url": "https://www.nikkei.com/article/DGXZQOCC277C70X21C26A0000000/",
+          "title": "群馬・高崎市、大河ドラマ「小栗上野介」催しに応募10倍 出演者ら登壇",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:30:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "78afa7e51364b7e2f5480cb4"
         }
       ]
     },
@@ -28894,6 +29902,63 @@
       ]
     },
     {
+      "topicId": "topic-94be61a73763ee4ccdbedf8b",
+      "inputHash": "4dc0895a674330b4a6aa3a987fed689ead8efbc94cd563abd08c46e432cad33b",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-fbeed2093761c32314e33797",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "택시",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "fbeed2093761c32314e33797"
+        },
+        {
+          "id": "news-fbeed2093761c32314e33797-0",
+          "url": "https://www.yna.co.kr/view/AKR20261030048700063",
+          "title": "홍성군 효도택시 8천400명 시범운행 신청…내년 1월 정식 시행",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "fbeed2093761c32314e33797"
+        },
+        {
+          "id": "news-fbeed2093761c32314e33797-1",
+          "url": "https://www.munhwa.com/article/11627523",
+          "title": "“병원 가고 장보기 편해졌다”… 홍성 ‘어르신 효도택시’ 8400명 몰리며 폭발적 호응",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "fbeed2093761c32314e33797"
+        },
+        {
+          "id": "news-fbeed2093761c32314e33797-2",
+          "url": "https://www.gukjenews.com/news/articleView.html?idxno=3737147",
+          "title": "\"연 20만원 택시비 지원\"…홍성군 '어르신 효도택시' 26일부터 시범운행",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "fbeed2093761c32314e33797"
+        }
+      ]
+    },
+    {
       "topicId": "topic-9515155dc3bec4d43c185bdb",
       "inputHash": "c43d2ae6969d275a83be8b9d25ba2616a5e43fa88b4f3b72277cd3cf4d4ea57d",
       "generatedAt": "",
@@ -29095,6 +30160,99 @@
           "observedAt": "2026-10-29T18:00:00Z",
           "fetchedAt": "2026-10-29T18:58:18Z",
           "observationId": "ba8dce8a97b718fe882f2f74"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-95de4fd45366518ecb0f5e2d",
+      "inputHash": "0496d797cbb8503bcddb939caff7f184a05ff0bbbe6dc443adb4dd1af2672718",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-699603ceec73fe8b214e48ce",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "nz vs ind",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "699603ceec73fe8b214e48ce"
+        },
+        {
+          "id": "news-699603ceec73fe8b214e48ce-0",
+          "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-4th-t20i-1539435/match-preview",
+          "title": "New Zealand seek answers as India's batting juggernaut rolls on",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "699603ceec73fe8b214e48ce"
+        },
+        {
+          "id": "news-699603ceec73fe8b214e48ce-1",
+          "url": "https://betting.betfair.com/cricket/india-cricket/new-zealand-v-india-fourth-t20-tips-india-to-dominate-again-in-another-runfest-291026-194.html",
+          "title": "New Zealand v India Fourth T20 Tips: India to dominate again in another runfest",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "699603ceec73fe8b214e48ce"
+        },
+        {
+          "id": "news-699603ceec73fe8b214e48ce-2",
+          "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/india-drop-vaibhav-sooryavanshi-and-bhuvneshwar-kumar-as-ishan-kishan-returns-for-fourth-t20i-vs-new-zealand/articleshow/135348223.cms",
+          "title": "India drop Vaibhav Sooryavanshi and Bhuvneshwar Kumar as Ishan Kishan returns for fourth T20I vs New Zeal",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "699603ceec73fe8b214e48ce"
+        },
+        {
+          "id": "obs-9b73724015709dcd4576cd4a",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "nz vs ind",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "9b73724015709dcd4576cd4a"
+        },
+        {
+          "id": "news-9b73724015709dcd4576cd4a-0",
+          "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-4th-t20i-1539435/match-preview",
+          "title": "New Zealand seek answers as India's batting juggernaut rolls on",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "9b73724015709dcd4576cd4a"
+        },
+        {
+          "id": "news-9b73724015709dcd4576cd4a-1",
+          "url": "https://sports.yahoo.com/articles/zealand-vs-india-live-score-063546929.html",
+          "title": "New Zealand vs. India live score, win probability, chances of victory for 4th T20I in Auckland",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "9b73724015709dcd4576cd4a"
+        },
+        {
+          "id": "news-9b73724015709dcd4576cd4a-2",
+          "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/india-drop-vaibhav-sooryavanshi-and-bhuvneshwar-kumar-as-ishan-kishan-returns-for-fourth-t20i-vs-new-zealand/articleshow/135348223.cms",
+          "title": "India drop Vaibhav Sooryavanshi and Bhuvneshwar Kumar as Ishan Kishan returns for fourth T20I vs New Zeal",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "9b73724015709dcd4576cd4a"
         }
       ]
     },
@@ -30273,6 +31431,63 @@
       ]
     },
     {
+      "topicId": "topic-9c661ea87aae12674692380f",
+      "inputHash": "374a8a28e7e9d2b0fc57bb5d78c9961400aed15e41c321cefcaac75a166fc829",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-6e441bd93fd5c9ac8b6481fe",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "fixed bond",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6e441bd93fd5c9ac8b6481fe"
+        },
+        {
+          "id": "news-6e441bd93fd5c9ac8b6481fe-0",
+          "url": "https://www.morningstar.com/bonds/dont-overlook-income-side-fixed-income",
+          "title": "Don’t Overlook the Income Side of Fixed Income",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6e441bd93fd5c9ac8b6481fe"
+        },
+        {
+          "id": "news-6e441bd93fd5c9ac8b6481fe-1",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/yields-too-high-to-ignore-lure-investors-back-to-long-dated-debt",
+          "title": "Yields Too High to Ignore Lure Investors Back to Long-Dated Debt",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6e441bd93fd5c9ac8b6481fe"
+        },
+        {
+          "id": "news-6e441bd93fd5c9ac8b6481fe-2",
+          "url": "https://seekingalpha.com/news/4659176-amid-worst-bear-market-in-history-bonds-earn-place-in-portfolio-ben-carlson",
+          "title": "Amid worst bear market in history, bonds earn place in portfolio - Ben Carlson (TLT:NASDAQ)",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "6e441bd93fd5c9ac8b6481fe"
+        }
+      ]
+    },
+    {
       "topicId": "topic-9d846abdd5a1d3b834e3ff09",
       "inputHash": "8605137319f808538ff925d5f5e621f5b07d7a82f5173a37d9f0b73f16251852",
       "generatedAt": "",
@@ -31115,6 +32330,63 @@
       ]
     },
     {
+      "topicId": "topic-a10513b3e1e128f8bc66e915",
+      "inputHash": "f910384f14bd328ba9ca61a2b03915cc95b8be6ed76e88dab4e5cda4e6f55f6b",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-2760bbca9bc1f9de88d1520c",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "휘발유",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "2760bbca9bc1f9de88d1520c"
+        },
+        {
+          "id": "news-2760bbca9bc1f9de88d1520c-0",
+          "url": "https://www.yna.co.kr/view/AKR20261029205000073",
+          "title": "日, 겨울 전기·가스요금 보조키로…휘발유보조금은 단계적 축소",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "2760bbca9bc1f9de88d1520c"
+        },
+        {
+          "id": "news-2760bbca9bc1f9de88d1520c-1",
+          "url": "https://www.newsis.com/view/NISX20261030_0003847482",
+          "title": "日정부, 올 겨울 전기·가스 요금 보조금 지급…휘발유 보조금은 축소",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "2760bbca9bc1f9de88d1520c"
+        },
+        {
+          "id": "news-2760bbca9bc1f9de88d1520c-2",
+          "url": "https://www.imaeil.com/page/view/2026102922383349288",
+          "title": "다카이치 \"전기·가스 3개월 보조\"…휘발유는 12월부터 매월 5엔 인상",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "2760bbca9bc1f9de88d1520c"
+        }
+      ]
+    },
+    {
       "topicId": "topic-a15ddc0f700836bfdfc61bc6",
       "inputHash": "7c1e69816ed41b301234fa5fa41c073a11e70fb168314576a4850356a8c5f183",
       "generatedAt": "",
@@ -31430,6 +32702,63 @@
       ]
     },
     {
+      "topicId": "topic-a27ac783b007aab93dfa83d7",
+      "inputHash": "bd5c1beb2afcac4c362af3ddb9dd232b1ad025ced2c25b24296fb1551fd60570",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-1832175b34994864a79fb22e",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "고속철도",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "1832175b34994864a79fb22e"
+        },
+        {
+          "id": "news-1832175b34994864a79fb22e-0",
+          "url": "https://www.dongascience.com/ko/news/80621",
+          "title": "서울서 부산까지 1시간 주파…시속 400km 고속철 핵심기술 개발 추진",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "1832175b34994864a79fb22e"
+        },
+        {
+          "id": "news-1832175b34994864a79fb22e-1",
+          "url": "https://www.electimes.com/news/articleView.html?idxno=374127",
+          "title": "(2026 철도학회 추계학술대회) 철도 관제, 경험 의존 관제서 AI 기반 경합 예측·의사결정 지원으로 전환",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "1832175b34994864a79fb22e"
+        },
+        {
+          "id": "news-1832175b34994864a79fb22e-2",
+          "url": "https://www.newspim.com/news/view/20261030000212",
+          "title": "시속 400㎞ 고속열차 시대 준비…철도연, 더 가볍고 작은 ′대차′ 개발",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "1832175b34994864a79fb22e"
+        }
+      ]
+    },
+    {
       "topicId": "topic-a2ee1bc2f2acc304409a3fd8",
       "inputHash": "40f8131921d6f369f009cb19f84086feb535e360c415251c7aedfe044b51b627",
       "generatedAt": "",
@@ -31540,6 +32869,63 @@
           "observedAt": "2026-10-25T04:50:00Z",
           "fetchedAt": "2026-10-25T06:10:31Z",
           "observationId": "e9308ffa787c43c038a66072"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-a36c443337b53097a1ba3231",
+      "inputHash": "09268297f585bf15031965b438c0fac9a84f79f14f04e96179f6856d5b5606d8",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-cfbfea6c1553617d1586b842",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "diet",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "cfbfea6c1553617d1586b842"
+        },
+        {
+          "id": "news-cfbfea6c1553617d1586b842-0",
+          "url": "https://www.nature.com/articles/s41586-026-11181-4",
+          "title": "Diet at disease onset determines tissue inflammatory memory",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "cfbfea6c1553617d1586b842"
+        },
+        {
+          "id": "news-cfbfea6c1553617d1586b842-1",
+          "url": "https://ua.news/en/health/chotiri-dni-visokozhirovogo-ratsionu-posilili-zapalennia-u-mishei-news-medical",
+          "title": "Four days of a high-fat diet increased inflammation in mice — News-Medical",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "cfbfea6c1553617d1586b842"
+        },
+        {
+          "id": "news-cfbfea6c1553617d1586b842-2",
+          "url": "https://www.insideprecisionmedicine.com/topics/precision-medicine/short-term-low-fat-diet-has-lasting-inflammatory-disease-benefits/",
+          "title": "Short-Term Low-Fat Diet Has Lasting Inflammatory Disease Benefits",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "cfbfea6c1553617d1586b842"
         }
       ]
     },
@@ -32240,6 +33626,63 @@
           "observedAt": "2026-10-26T17:40:00Z",
           "fetchedAt": "2026-10-26T19:21:22Z",
           "observationId": "c39d9c045eca0a9cb48253d2"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-abccbdd43b8a8015f2a96a62",
+      "inputHash": "0d7f5b5305d7f9ccece06cb157c0ad830194ed8dbc5c9bbdb477035de97961bf",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-3e423637644a4985ccb6c589",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "인천공항",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "3e423637644a4985ccb6c589"
+        },
+        {
+          "id": "news-3e423637644a4985ccb6c589-0",
+          "url": "https://www.yonhapnewstv.co.kr/news/MYH20261030143325P5W",
+          "title": "[속보] 인천공항 항공사 네트워크 일부 장애…출국수속 지연",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "3e423637644a4985ccb6c589"
+        },
+        {
+          "id": "news-3e423637644a4985ccb6c589-1",
+          "url": "https://www.khan.co.kr/article/202610301407001",
+          "title": "인천공항 항공권 발권 시스템 ‘오류’···체크인 지연에 승객 ‘발동동’",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "3e423637644a4985ccb6c589"
+        },
+        {
+          "id": "news-3e423637644a4985ccb6c589-2",
+          "url": "https://imnews.imbc.com/news/2026/society/article/6861985_36918.html",
+          "title": "인천공항 항공사 네트워크 장애‥일부 항공사 발권 중단",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "3e423637644a4985ccb6c589"
         }
       ]
     },
@@ -33376,7 +34819,7 @@
     },
     {
       "topicId": "topic-b10d260e360e25677e93832b",
-      "inputHash": "a876c83cea41768b4c8377d24e42a53f0bdd93a7dd418155518d09bdc3a81a8f",
+      "inputHash": "59af856891d79ff14b822fcb7a2b7fa755b008aedd852d394488475e5947074b",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -33428,6 +34871,42 @@
           "observedAt": "2026-10-22T05:30:00Z",
           "fetchedAt": "2026-10-22T06:08:14Z",
           "observationId": "48f03bc1f1e60e6ad4ad3771"
+        },
+        {
+          "id": "obs-f93e72de0503f54bc8b8c1e6",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "black friday 2026",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "f93e72de0503f54bc8b8c1e6"
+        },
+        {
+          "id": "news-f93e72de0503f54bc8b8c1e6-0",
+          "url": "https://www.euronews.com/2026/10/28/black-friday-or-travel-tuesday-how-to-secure-the-best-deals-on-hotels-and-flights-in-2026",
+          "title": "Black Friday 2026: Tips for securing the best flight and hotel deals",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "f93e72de0503f54bc8b8c1e6"
+        },
+        {
+          "id": "news-f93e72de0503f54bc8b8c1e6-1",
+          "url": "https://www.travelpulse.ca/news/features/black-friday-travel-deals-and-promotions",
+          "title": "Black Friday Travel Deals and Promotions",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "f93e72de0503f54bc8b8c1e6"
+        },
+        {
+          "id": "news-f93e72de0503f54bc8b8c1e6-2",
+          "url": "https://travelweekly.co.uk/news/black-friday-2026-travel-companies-unveil-deals-and-incentives-for-agents",
+          "title": "Black Friday 2026: Travel companies unveil deals and incentives for agents",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "f93e72de0503f54bc8b8c1e6"
         }
       ]
     },
@@ -37851,6 +39330,63 @@
       ]
     },
     {
+      "topicId": "topic-c33b8509979e2639ffc32184",
+      "inputHash": "5f4bc0f53bc820a48a046fd956bef965be5ac5b1eab3056da1c4c37eecbcf9c1",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-09b88e4957e6ab708fa16cd8",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "우주",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "09b88e4957e6ab708fa16cd8"
+        },
+        {
+          "id": "news-09b88e4957e6ab708fa16cd8-0",
+          "url": "https://www.newstown.co.kr/news/articleView.html?idxno=720259",
+          "title": "인천시교육청, 최초 우주인 이소연 박사와 만나는 우주과학 교실",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "09b88e4957e6ab708fa16cd8"
+        },
+        {
+          "id": "news-09b88e4957e6ab708fa16cd8-1",
+          "url": "https://www.gukjenews.com/news/articleView.html?idxno=3737509",
+          "title": "인천교육청, 500여 명 대상 우주과학특강 개최",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "09b88e4957e6ab708fa16cd8"
+        },
+        {
+          "id": "news-09b88e4957e6ab708fa16cd8-2",
+          "url": "https://sports.donga.com/region/article/all/20261030/134938333/1",
+          "title": "인천시교육청, 대한민국 첫 ‘우주인’과 함께 ‘미래 과학의 꿈’을 열다",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "09b88e4957e6ab708fa16cd8"
+        }
+      ]
+    },
+    {
       "topicId": "topic-c35289ea833b2d9f06899631",
       "inputHash": "6b9addaf265d39e90eb86390898786a74d8f9de646cce37db08f1069dc0e5ca3",
       "generatedAt": "",
@@ -37904,6 +39440,63 @@
           "observedAt": "2026-10-22T17:40:00Z",
           "fetchedAt": "2026-10-22T17:59:28Z",
           "observationId": "08344b9e408bfc9dfeeea323"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-c3b3b8d1ee3084f12aaf7397",
+      "inputHash": "525367fcc73a2f151edf5fe1da4134283a661b1b21f910abf7371b5c0d525421",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-51f260efbf37bd7e99cde7ea",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "차예련",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "51f260efbf37bd7e99cde7ea"
+        },
+        {
+          "id": "news-51f260efbf37bd7e99cde7ea-0",
+          "url": "https://www.mk.co.kr/news/hot-issues/12191552",
+          "title": "“뺨 때리고 고막 찢어져”…차예련, 학폭 의혹에 “사실무근” 반박 [공식]",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "51f260efbf37bd7e99cde7ea"
+        },
+        {
+          "id": "news-51f260efbf37bd7e99cde7ea-1",
+          "url": "https://www.mt.co.kr/society/2026/10/30/2026103013593434577",
+          "title": "뺨 때려 고막 찢고 '좋은 엄마'로 TV에…유명 여배우 학폭 폭로 - 머니투데이",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "51f260efbf37bd7e99cde7ea"
+        },
+        {
+          "id": "news-51f260efbf37bd7e99cde7ea-2",
+          "url": "https://sports.khan.co.kr/article/202610301511003",
+          "title": "[종합] 차예련, “고막 찢어질 때까지 폭행” 학폭 의혹…“사실무근”",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "51f260efbf37bd7e99cde7ea"
         }
       ]
     },
@@ -38018,6 +39611,63 @@
           "observedAt": "2026-10-28T06:00:00Z",
           "fetchedAt": "2026-10-28T06:52:51Z",
           "observationId": "a17e790ccebd1c69a7548d98"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-c493ef1260b0356b6e8c0507",
+      "inputHash": "7756aca428f3bdf7937b8439c1b7bf9ef5af047f0ddf33a35b9537e31748e3e1",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-05834085bab5c19e48733af6",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "rybakina",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "05834085bab5c19e48733af6"
+        },
+        {
+          "id": "news-05834085bab5c19e48733af6-0",
+          "url": "https://www.reuters.com/sports/tennis/rybakina-clinches-year-end-top-ranking-with-tokyo-second-round-win-2026-10-29/",
+          "title": "Rybakina clinches year-end top ranking with Tokyo second-round win",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "05834085bab5c19e48733af6"
+        },
+        {
+          "id": "news-05834085bab5c19e48733af6-1",
+          "url": "https://www.bbc.com/sport/tennis/articles/c6x2qr1v11xyo",
+          "title": "Elena Rybakina secures year-end WTA number one ranking with Tokyo win",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "05834085bab5c19e48733af6"
+        },
+        {
+          "id": "news-05834085bab5c19e48733af6-2",
+          "url": "https://www.wtatennis.com/news/4599060/rankings-watch-rybakina-one-win-from-securing-year-end-world-no-1",
+          "title": "Rankings Watch: Rybakina one win from securing year-end World No. 1",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:10:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "05834085bab5c19e48733af6"
         }
       ]
     },
@@ -38573,6 +40223,63 @@
           "observedAt": "2026-10-29T18:40:00Z",
           "fetchedAt": "2026-10-29T18:58:18Z",
           "observationId": "784577e4658e387c20f20b18"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-c7c2965abd66bfb28a37f5fe",
+      "inputHash": "bae603e3961e3a3140582b26e26df7a22ee1e58870071a030e760b32a841fe48",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-d915470e3ce5095fd2d64181",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "ロサンゼルス ドジャース",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T07:00:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "d915470e3ce5095fd2d64181"
+        },
+        {
+          "id": "news-d915470e3ce5095fd2d64181-0",
+          "url": "https://news.yahoo.co.jp/articles/ec734cddcf900ef4aa78830cbf2033f8fbd1f04e",
+          "title": "ドジャースとエンジェルスの3対1のトレード案、スター候補ネトの対価は佐々木朗希ら3選手？「まさに破格のパッケージ」「大胆なプラン」（THE DIGEST）",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T07:00:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "d915470e3ce5095fd2d64181"
+        },
+        {
+          "id": "news-d915470e3ce5095fd2d64181-1",
+          "url": "https://topics.smt.docomo.ne.jp/article/sponichi/sports/sponichi-spngoo-20261030-0098",
+          "title": "今オフのトレード候補筆頭はエンゼルスのデトマーズ　レイズのラスムセン、エ軍ネトも上位に",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T07:00:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "d915470e3ce5095fd2d64181"
+        },
+        {
+          "id": "news-d915470e3ce5095fd2d64181-2",
+          "url": "https://www.tokyo-sports.co.jp/articles/-/408166",
+          "title": "【ドジャース】ザック・ネト獲得案…佐々木朗希ら放出の〝１対３〟仰天トレードの実現性＝米報道",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T07:00:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "d915470e3ce5095fd2d64181"
         }
       ]
     },
@@ -39553,6 +41260,63 @@
       ]
     },
     {
+      "topicId": "topic-cce5648f73044901e082ad0c",
+      "inputHash": "b4071e5ee306dd6c1069c84d20550ead4073dc90f4e1e6d98819c963bfba6d0d",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-3a5b1900f64176e7d88f363f",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "ysbyty glan clwyd running tap waste",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "3a5b1900f64176e7d88f363f"
+        },
+        {
+          "id": "news-3a5b1900f64176e7d88f363f-0",
+          "url": "https://www.bbc.co.uk/news/articles/ck87zwzn25l2o",
+          "title": "Broken hospital tap wastes a million litres of water",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "3a5b1900f64176e7d88f363f"
+        },
+        {
+          "id": "news-3a5b1900f64176e7d88f363f-1",
+          "url": "https://wrexham.com/news/health-board-slammed-for-broken-tap-running-for-two-months-301487.html",
+          "title": "Health Board slammed for “broken tap running for two months”",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "3a5b1900f64176e7d88f363f"
+        },
+        {
+          "id": "news-3a5b1900f64176e7d88f363f-2",
+          "url": "https://www.rhyljournal.co.uk/news/26676915.broken-tap-ysbyty-glan-clwyd-fixed-two-months/",
+          "title": "Broken tap ran for two months at North Wales hospital before being fixed",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T05:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "3a5b1900f64176e7d88f363f"
+        }
+      ]
+    },
+    {
       "topicId": "topic-cd3478109cff73d4eb4b2a33",
       "inputHash": "f1d11b4a91577de5446ea96f0f79e2b96264b136d5478b5a087efeafc50d51bd",
       "generatedAt": "",
@@ -40138,6 +41902,63 @@
       ]
     },
     {
+      "topicId": "topic-d04f9bac212ef59c0cdb7eff",
+      "inputHash": "b5cf569e83f4c8b2fa8f0bd5301c3fa0f6301c4d743e7d667b249774ec49277c",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-004a30a7e8970d03706a87e0",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "決算速報",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "004a30a7e8970d03706a87e0"
+        },
+        {
+          "id": "news-004a30a7e8970d03706a87e0-0",
+          "url": "https://kabutan.jp/news/marketnews/?b=n202610300845",
+          "title": "★本日13時30分までの【サプライズ決算】場中速報 (10月30日) ［プレミアム専用］",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "004a30a7e8970d03706a87e0"
+        },
+        {
+          "id": "news-004a30a7e8970d03706a87e0-1",
+          "url": "https://finance.yahoo.co.jp/news/detail/57fa0cc771399601d61abc877b1415bd77d24d2c",
+          "title": "明日の決算発表予定 住友商、京セラなど46社 (10月30日)(株探ニュース)",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "004a30a7e8970d03706a87e0"
+        },
+        {
+          "id": "news-004a30a7e8970d03706a87e0-2",
+          "url": "https://shikiho.toyokeizai.net/news/0/962701",
+          "title": "10月27日に業績・配当予想を修正した会社はこちら",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "004a30a7e8970d03706a87e0"
+        }
+      ]
+    },
+    {
       "topicId": "topic-d058d3f1743455992dadf1bc",
       "inputHash": "081f863158e35391f7674d760a0a8f4f10b7a8b523baf40d33dbc84347f23612",
       "generatedAt": "",
@@ -40191,6 +42012,63 @@
           "observedAt": "2026-10-22T17:30:00Z",
           "fetchedAt": "2026-10-22T17:59:28Z",
           "observationId": "78e3ff481a40167d9a7d75b8"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-d09ec0366e3bc3988f9b03f6",
+      "inputHash": "691da38a51b3bed41ad0b2bdbbbbb7a58d1beca2a1e0872de68be1b33b82ffa0",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-a450ac34dfcb9d21fc94fb8c",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "midterm election predictions",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "a450ac34dfcb9d21fc94fb8c"
+        },
+        {
+          "id": "news-a450ac34dfcb9d21fc94fb8c-0",
+          "url": "https://www.nytimes.com/2026/10/29/technology/polymarket-kalshi-midterm-election-betting-wagers.html",
+          "title": "Polymarket and Kalshi Turn Midterm Elections Into a Multimillion Dollar Market",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "a450ac34dfcb9d21fc94fb8c"
+        },
+        {
+          "id": "news-a450ac34dfcb9d21fc94fb8c-1",
+          "url": "https://www.nbcnews.com/tech/internet/election-betting-odds-became-less-accurate-primaries-neared-report-fin-rcna605775",
+          "title": "Election betting odds became less accurate as primaries neared, report finds",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "a450ac34dfcb9d21fc94fb8c"
+        },
+        {
+          "id": "news-a450ac34dfcb9d21fc94fb8c-2",
+          "url": "https://www.cnbc.com/2026/10/28/democrats-prediction-markets-cftc-midterms.html",
+          "title": "A Democratic win in midterms could put prediction markets and the CFTC in the hot seat",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "a450ac34dfcb9d21fc94fb8c"
         }
       ]
     },
@@ -41842,6 +43720,63 @@
       ]
     },
     {
+      "topicId": "topic-dd0299f5b1adba7595d611db",
+      "inputHash": "c012db66b95df98afa449af99eb633beb8799f7baa285a5d1dfe41061654fcc0",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-0df9b2e00b892e35b02057a6",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "steve hilton",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "0df9b2e00b892e35b02057a6"
+        },
+        {
+          "id": "news-0df9b2e00b892e35b02057a6-0",
+          "url": "https://abc7.com/post/california-gubernatorial-candidate-steve-hilton-tells-voters-its-ok-to-vote-republican/19991314/",
+          "title": "California gubernatorial candidate Steve Hilton tells voters 'it's OK to vote Republican'; touts homelessness plan",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "0df9b2e00b892e35b02057a6"
+        },
+        {
+          "id": "news-0df9b2e00b892e35b02057a6-1",
+          "url": "https://abc30.com/post/steve-hilton-fresno-county-promote-3-gas-plan-election-nears/19996017/",
+          "title": "Steve Hilton in Fresno County promotes $3 gas plan as election nears",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "0df9b2e00b892e35b02057a6"
+        },
+        {
+          "id": "news-0df9b2e00b892e35b02057a6-2",
+          "url": "https://www.10news.com/california-governors-race-becerra-and-hilton-offer-competing-visions-for-the-states-future",
+          "title": "California governor's race: Becerra and Hilton offer competing visions for the state's future",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:50:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "0df9b2e00b892e35b02057a6"
+        }
+      ]
+    },
+    {
       "topicId": "topic-ddbb53db3609f5f5b0de6562",
       "inputHash": "47372ba685fb82bcf31e8e37320d5014dd1da8e0dbd59b5052cd0e01fd62633a",
       "generatedAt": "",
@@ -42557,6 +44492,63 @@
           "observedAt": "2026-10-24T15:50:00Z",
           "fetchedAt": "2026-10-24T16:36:49Z",
           "observationId": "b2ab810d3a20d48bda5498db"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-e23746e6dd2b24ff13da0405",
+      "inputHash": "3796898238fc867a8043cf0c4eaf9262fec1a0070d8ba69fe70382e9c7554cca",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-81a3583ee1042fecc148f22b",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "의정부시",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "81a3583ee1042fecc148f22b"
+        },
+        {
+          "id": "news-81a3583ee1042fecc148f22b-0",
+          "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261028.99099008394",
+          "title": "동래구노인복지관, 노인 일자리 및 사회활동 지원사업 참여자 대상 문화 활동 나들이 실시",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "81a3583ee1042fecc148f22b"
+        },
+        {
+          "id": "news-81a3583ee1042fecc148f22b-1",
+          "url": "https://www.gukjenews.com/news/articleView.html?idxno=3737646",
+          "title": "의정부시 노인일자리 참여 어르신 651명, 문화활동 행사 열려",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "81a3583ee1042fecc148f22b"
+        },
+        {
+          "id": "news-81a3583ee1042fecc148f22b-2",
+          "url": "http://www.chungnamilbo.co.kr/news/articleView.html?idxno=917830",
+          "title": "대한노인회 서산시지회, 노인일자리 참여자 평가회 및 문화활동 행사 개최",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T04:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "81a3583ee1042fecc148f22b"
         }
       ]
     },
@@ -43895,6 +45887,63 @@
       ]
     },
     {
+      "topicId": "topic-eb816c8b71bd1843d94c5ea1",
+      "inputHash": "a7e265671a68604a1213867e79166ab9f324ab4f896dbac58baeccb0d9dca308",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-eb2d40b45c4f79a980efe355",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "flash flood warning",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:30:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "eb2d40b45c4f79a980efe355"
+        },
+        {
+          "id": "news-eb2d40b45c4f79a980efe355-0",
+          "url": "https://www.hawaiinewsnow.com/2026/10/29/flash-flood-warning-extended-maui-flood-advisory-hawaii-island-districts/",
+          "title": "Flash flood warning extended for Maui, flood advisory for Hawaii Island districts",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:30:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "eb2d40b45c4f79a980efe355"
+        },
+        {
+          "id": "news-eb2d40b45c4f79a980efe355-1",
+          "url": "https://www.staradvertiser.com/2026/10/29/breaking-news/flood-advisories-posted-for-parts-of-maui-as-rain-soaks-valley-isle/",
+          "title": "Hawaii can expect better weather for Halloween as rains ease",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:30:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "eb2d40b45c4f79a980efe355"
+        },
+        {
+          "id": "news-eb2d40b45c4f79a980efe355-2",
+          "url": "https://mauinow.com/2026/10/28/pi%CA%BBilani-hwy-closed-at-mile-51-in-hana-due-to-high-water/",
+          "title": "Temporary Evacuation Site opened in Hāna amid increased rainfall, flooding; multiple road closures due to high water",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:30:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "eb2d40b45c4f79a980efe355"
+        }
+      ]
+    },
+    {
       "topicId": "topic-ec0f2ef767bccc601d4d7f77",
       "inputHash": "3e31892e934025c252d451fcf1582fa23dc53c07182376591c5cfeeafe91e80a",
       "generatedAt": "",
@@ -44203,6 +46252,63 @@
           "observedAt": "2026-10-28T06:20:00Z",
           "fetchedAt": "2026-10-28T06:52:51Z",
           "observationId": "8a43e6f217a090f5aa3f9fca"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-ef72180b3fa72ff45f107ee1",
+      "inputHash": "c4e04c8508c0a92fa3423d8b429613cffd091e756383d855a7c65d1e915ede12",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-de11ec11ab29a264c92594c7",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "index funds",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "de11ec11ab29a264c92594c7"
+        },
+        {
+          "id": "news-de11ec11ab29a264c92594c7-0",
+          "url": "https://www.morningstar.com/funds/trick-or-treat-index-funds-beat-their-benchmarks-more-often-than-active-funds-over-past-decade",
+          "title": "Trick or Treat? Index Funds Beat Their Benchmarks More Often Than Active Funds Over the Past Decade",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "de11ec11ab29a264c92594c7"
+        },
+        {
+          "id": "news-de11ec11ab29a264c92594c7-1",
+          "url": "https://seekingalpha.com/article/4958329-fpe-better-than-preferred-stock-index-funds-but-inflation-is-a-real-risk",
+          "title": "FPE: Better Than Preferred Stock Index Funds, But Inflation Is A Real Risk (NYSEARCA:FPE)",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "de11ec11ab29a264c92594c7"
+        },
+        {
+          "id": "news-de11ec11ab29a264c92594c7-2",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/were-20s-id-buy-1-180500854.html",
+          "title": "If I Were in My 20s, I'd Buy This 1 ETF Warren Buffett Recommended and Hold It for Decades",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:20:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "de11ec11ab29a264c92594c7"
         }
       ]
     },
@@ -44746,6 +46852,63 @@
           "observedAt": "2026-10-25T03:20:00Z",
           "fetchedAt": "2026-10-25T06:10:31Z",
           "observationId": "785d918da595a30cae5eb1e2"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-f1f2702db34310b508103529",
+      "inputHash": "3004486610374ceb3a2811b54abe23b0c4ce6602603f3893149bb693ec5d9755",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-3af07666ae7a067db2b7d0bc",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "隠し 球",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "3af07666ae7a067db2b7d0bc"
+        },
+        {
+          "id": "news-3af07666ae7a067db2b7d0bc-0",
+          "url": "https://news.yahoo.co.jp/articles/d3c6629528348297de042b446686ae5c833b2a14",
+          "title": "覚えてる？VIVANT野球シーンの“隠し球”プレー、やっぱ伏線だった！「ああっ」「ここにつながるの」（スポニチアネックス）",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "3af07666ae7a067db2b7d0bc"
+        },
+        {
+          "id": "news-3af07666ae7a067db2b7d0bc-1",
+          "url": "https://topics.smt.docomo.ne.jp/article/sponichi/entertainment/sponichi-spngoo-20261030-0122?page=3",
+          "title": "覚えてる？VIVANT野球シーンの“隠し球”プレー、やっぱ伏線だった！「ああっ」「ここにつながるの」",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "3af07666ae7a067db2b7d0bc"
+        },
+        {
+          "id": "news-3af07666ae7a067db2b7d0bc-2",
+          "url": "https://news.livedoor.com/article/detail/32682322/",
+          "title": "VIVANT、一瞬だけ映った「AIハヤト」拡大すると…まさかの“伏線”あった！ 「この説は深すぎる」",
+          "source": "google-trends",
+          "observedAt": "2026-10-30T06:40:00Z",
+          "fetchedAt": "2026-10-30T07:10:08Z",
+          "observationId": "3af07666ae7a067db2b7d0bc"
         }
       ]
     },
