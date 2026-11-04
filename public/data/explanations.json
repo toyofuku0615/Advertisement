@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T07:32:53Z",
+  "generatedAt": "2026-11-04T20:28:05Z",
   "providerStatus": {
     "status": "disabled",
     "provider": "none",
     "model": "",
     "message": "新しい話題のAI解説は未生成です。保存済み解説と、見出しからの手がかりを利用できます。",
-    "checkedAt": "2026-11-04T07:32:53Z"
+    "checkedAt": "2026-11-04T20:28:05Z"
   },
   "explanations": [
     {
@@ -597,6 +597,63 @@
           "observedAt": "2023-01-01T00:00:00Z",
           "fetchedAt": "2026-10-21T09:37:19Z",
           "observationId": "ee87d96ed6965d00d540c8b6"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-00c4ae86e8e53ca353fea0bb",
+      "inputHash": "7f2a3b72a2d9bc6b5bfb9704bd5dfe1bfa33c8d5c6ed81fa0cd5f386551659f9",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-5002cd3cc3652854e8ed4086",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "에코프로",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:20:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "5002cd3cc3652854e8ed4086"
+        },
+        {
+          "id": "news-5002cd3cc3652854e8ed4086-0",
+          "url": "https://www.etnews.com/20261103000052",
+          "title": "특구재단, 에코프로와 오픈이노베이션 성과…지역기업 3곳에 55억원 투자 연계",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:20:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "5002cd3cc3652854e8ed4086"
+        },
+        {
+          "id": "news-5002cd3cc3652854e8ed4086-1",
+          "url": "https://www.veritas-a.com/news/articleView.html?idxno=635266",
+          "title": "충북대 에코프로 파트너스 민간부담금 1억원 확보 …강소특구 자립화 기반 강화",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:20:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "5002cd3cc3652854e8ed4086"
+        },
+        {
+          "id": "news-5002cd3cc3652854e8ed4086-2",
+          "url": "https://view.asiae.co.kr/article/2026110314245753772",
+          "title": "특구재단 \"오픈이노베이션으로 기업 성장 지원…55억원 투자연계\"",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:20:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "5002cd3cc3652854e8ed4086"
         }
       ]
     },
@@ -4033,6 +4090,63 @@
       ]
     },
     {
+      "topicId": "topic-0bb08acc04f2a75cb4fb309a",
+      "inputHash": "fe82a5ef70202114c099674e6b18e978ce2f8ab1ae5066d37fe8a1aa3c009c2b",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-491407bb4175e7b11980894c",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "jeff stelling",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "491407bb4175e7b11980894c"
+        },
+        {
+          "id": "news-491407bb4175e7b11980894c-0",
+          "url": "https://www.mirror.co.uk/tv/tv-news/jeff-stelling-shares-one-big-37841808",
+          "title": "Jeff Stelling shares 'one big problem' while filming Celebrity Race Across the World",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "491407bb4175e7b11980894c"
+        },
+        {
+          "id": "news-491407bb4175e7b11980894c-1",
+          "url": "https://www.magzter.com/stories/newspaper/Derby-Telegraph/STELLING-TELLS-US-THE-SCORE",
+          "title": "Stelling tells us the score | Derby Telegraph - newspaper",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "491407bb4175e7b11980894c"
+        },
+        {
+          "id": "news-491407bb4175e7b11980894c-2",
+          "url": "https://www.bbc.co.uk/news/articles/cr74pvn3x933o",
+          "title": "'I had football withdrawals during TV race show'",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "491407bb4175e7b11980894c"
+        }
+      ]
+    },
+    {
       "topicId": "topic-0bbd553e17fb7f6c014ac397",
       "inputHash": "a6d3219b136a68b72dd5d76b4e31828b2dd0982b330e8876ae141edbca7ac867",
       "generatedAt": "",
@@ -4086,6 +4200,63 @@
           "observedAt": "2026-11-03T07:20:00Z",
           "fetchedAt": "2026-11-03T07:56:39Z",
           "observationId": "8152a2985c2e3f2c438e866b"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-0bf7c898d30c4e29fbc0e1cd",
+      "inputHash": "a2130b299961688c557a6fb9839b78793d08f10295979accaccb890938b15e66",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-395398b99dceb3612ca6acd0",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "チンギス 俳優",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "395398b99dceb3612ca6acd0"
+        },
+        {
+          "id": "news-395398b99dceb3612ca6acd0-0",
+          "url": "https://news.yahoo.co.jp/articles/7aee820b0fff02be563f261b03369aa3398d2398",
+          "title": "VIVANT「どんどん好きに」チンギス人気上昇に「アクスタが売り切れでしたー」ファン悲鳴（日刊スポーツ）",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "395398b99dceb3612ca6acd0"
+        },
+        {
+          "id": "news-395398b99dceb3612ca6acd0-1",
+          "url": "https://topics.smt.docomo.ne.jp/article/encount/entertainment/encount-1091691",
+          "title": "『VIVANT』チンギスに似てる人物を人気芸人が推奨「僕はクリソツだと思ってるんですが」",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "395398b99dceb3612ca6acd0"
+        },
+        {
+          "id": "news-395398b99dceb3612ca6acd0-2",
+          "url": "https://news.infoseek.co.jp/article/magmix_383899/",
+          "title": "VIVANT・チンギス役俳優（40） 和室でのオフショットに「似合い過ぎ」「かっこよ」「サムライみたい」「大河出てほしい」",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "395398b99dceb3612ca6acd0"
         }
       ]
     },
@@ -5327,7 +5498,7 @@
     },
     {
       "topicId": "topic-0ef266ceb56018c7f9686615",
-      "inputHash": "d1b4e35eb42fc508f5ed86cef7f80348feab2b5877f2e6b0e5c0133868ada3ea",
+      "inputHash": "c2b75dd095fddfa2dace6e8154ef00390ccf8592e991f905da4878f88db1667b",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -5379,6 +5550,42 @@
           "observedAt": "2026-11-01T16:00:00Z",
           "fetchedAt": "2026-11-01T18:26:15Z",
           "observationId": "85c200b0edcd9c70871d547f"
+        },
+        {
+          "id": "obs-f7b1109a6a056587bd6fe526",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "레알마드리드",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "f7b1109a6a056587bd6fe526"
+        },
+        {
+          "id": "news-f7b1109a6a056587bd6fe526-0",
+          "url": "https://www.chosun.com/sports/world-football/2026/11/05/GI2DKNJQHAYTSMDCGYYDQOJSGY/",
+          "title": "'맨유, 미래의 재능까지 빼앗겼다' 9월 팀 이탈한 '최고 재능' JJ 가브리엘, 레알 마드리드와 구두 합의→1월 이적 마무리 확실..'맨유, 받을 보상금도 적다'",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "f7b1109a6a056587bd6fe526"
+        },
+        {
+          "id": "news-f7b1109a6a056587bd6fe526-1",
+          "url": "https://sports.khan.co.kr/article/202611050446003",
+          "title": "‘단독 보도’ 등장! 맨유 ‘16살-1806억’ 괴물 유망주, 결국 레알 마드리드가 품나 “이적 마무리 절차 들...",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "f7b1109a6a056587bd6fe526"
+        },
+        {
+          "id": "news-f7b1109a6a056587bd6fe526-2",
+          "url": "https://www.besteleven.com/news/articleView.html?idxno=313742",
+          "title": "‘맨유야 잘 있어라’ JJ 가브리엘, 결국 레알 마드리드로 가나 “이적 초근접”… 이미 마드리드서 훈련 중, 바르셀로나는 철수",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "f7b1109a6a056587bd6fe526"
         }
       ]
     },
@@ -5769,6 +5976,120 @@
           "observedAt": "2026-11-03T04:50:00Z",
           "fetchedAt": "2026-11-03T07:56:39Z",
           "observationId": "72c399e1507db06c55a16bbf"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-112ec3169265240f569498cb",
+      "inputHash": "a74b333aaedf10ba77a0ac119e1eaaee92030095f0f28ab568e12edb3f0f32f9",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-f2cfb4cc0e3a6d3ea2350d3b",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "ミゲル ロハス",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:20:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "f2cfb4cc0e3a6d3ea2350d3b"
+        },
+        {
+          "id": "news-f2cfb4cc0e3a6d3ea2350d3b-0",
+          "url": "https://news.yahoo.co.jp/articles/318eb1ceea7f0b5e1b80897eaf4090f48adbe644",
+          "title": "大谷翔平から突如“申し出” 引退ロハス「感情的に」…2文字に込められた思いに涙（Full-Count）",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:20:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "f2cfb4cc0e3a6d3ea2350d3b"
+        },
+        {
+          "id": "news-f2cfb4cc0e3a6d3ea2350d3b-1",
+          "url": "https://www.sponichi.co.jp/baseball/news/2026/11/04/gazo/20261104s10001007089000p.html",
+          "title": "ドジャースのミゲル・ロハス",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:20:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "f2cfb4cc0e3a6d3ea2350d3b"
+        },
+        {
+          "id": "news-f2cfb4cc0e3a6d3ea2350d3b-2",
+          "url": "https://topics.smt.docomo.ne.jp/article/sponichi/sports/sponichi-spngoo-20261104-0135",
+          "title": "大谷翔平の“心遣い”に感謝　父が他界後の行動に「ここまで心を寄せてくれた」ロハスが明かすスターの人柄",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:20:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "f2cfb4cc0e3a6d3ea2350d3b"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-1162170ace40efd2cf109d02",
+      "inputHash": "af96909e48d068134cb3d180b5855ccbbe56256ff3d353359ce6245f0283c953",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-4e1019a5c97104841b4673d7",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "psv vs club brugge",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "4e1019a5c97104841b4673d7"
+        },
+        {
+          "id": "news-4e1019a5c97104841b4673d7-0",
+          "url": "https://www.espn.com/soccer/team-stats/_/gameId/401915382/league/uefa.champions",
+          "title": "Fenerbahce vs. Liverpool (Nov 4, 2026) Team Stats",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "4e1019a5c97104841b4673d7"
+        },
+        {
+          "id": "news-4e1019a5c97104841b4673d7-1",
+          "url": "https://www.espn.com/video/clip/_/id/50359520",
+          "title": "Jerzy Robinson's lob attempt ends up going in for a South Carolina trey",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "4e1019a5c97104841b4673d7"
+        },
+        {
+          "id": "news-4e1019a5c97104841b4673d7-2",
+          "url": "https://www.espn.com/soccer/team-stats/_/gameId/401915301/league/uefa.champions",
+          "title": "FC Porto vs. Napoli (Nov 4, 2026) Team Stats",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "4e1019a5c97104841b4673d7"
         }
       ]
     },
@@ -6225,6 +6546,63 @@
           "observedAt": "2026-10-26T05:30:00Z",
           "fetchedAt": "2026-10-26T06:17:09Z",
           "observationId": "886329f31305e19fcaa53a58"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-13b380a9a44ea9f89fc7390d",
+      "inputHash": "34a279f35d2bd58806b8b4e55dc60bac3923fc7eeb29c55b31e73b4fd4e2262d",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-3caa9fe4aee40632b64c40c5",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "champions league standings",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "3caa9fe4aee40632b64c40c5"
+        },
+        {
+          "id": "news-3caa9fe4aee40632b64c40c5-0",
+          "url": "https://www.espn.com/soccer/story/_/id/50372373/did-man-united-champions-league-comeback-save-carrick-job",
+          "title": "Did Man United's Champions League comeback save Carrick's job?",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "3caa9fe4aee40632b64c40c5"
+        },
+        {
+          "id": "news-3caa9fe4aee40632b64c40c5-1",
+          "url": "https://sports.yahoo.com/articles/haven-t-done-shea-lacey-181300375.html",
+          "title": "“Haven’t done it before”: Shea Lacey opens up on surprise role change in Man United’s 3-2 win over AS Roma",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "3caa9fe4aee40632b64c40c5"
+        },
+        {
+          "id": "news-3caa9fe4aee40632b64c40c5-2",
+          "url": "https://www.bbc.com/sport/football/articles/cqx28zjxdxxzo",
+          "title": "Man Utd: Michael Carrick run has echoes of Jose Mourinho and Ole Gunnar Solskjaer",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "3caa9fe4aee40632b64c40c5"
         }
       ]
     },
@@ -7896,6 +8274,63 @@
           "observedAt": "2026-10-27T15:10:00Z",
           "fetchedAt": "2026-10-27T18:43:14Z",
           "observationId": "d9e37ac2228061394aef420f"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-184ef9a37572455f734c7b54",
+      "inputHash": "bfa15db7ce3a28eccac38826980e90b74b606a793287978fa1b3397478b45124",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-470471ff757b2f64a6c5fc98",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "슬라비아 프라하 대 아스널",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:20:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "470471ff757b2f64a6c5fc98"
+        },
+        {
+          "id": "news-470471ff757b2f64a6c5fc98-0",
+          "url": "https://ko.laodong.vn/bong-da-quoc-te/du-doan-ti-so-slavia-prague-vs-arsenal-tai-champions-league-1794591.ldo",
+          "title": "챔피언스 리그 슬라비아 프라하 대 아스날 경기 점수 예측",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:20:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "470471ff757b2f64a6c5fc98"
+        },
+        {
+          "id": "news-470471ff757b2f64a6c5fc98-1",
+          "url": "https://www.vietnam.vn/ko/slavia-praha-vs-arsenal-3h-ngay-5-11-link-xem-truc-tiep-nhan-dinh-du-doan",
+          "title": "슬라비아 프라하 vs 아스널, 11월 5일 새벽 3시: 생중계 링크, 분석 및 예측.",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:20:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "470471ff757b2f64a6c5fc98"
+        },
+        {
+          "id": "news-470471ff757b2f64a6c5fc98-2",
+          "url": "https://www.vietnam.vn/ko/nhan-dinh-slavia-praha-vs-arsenal-03h00-ngay-5-11-noi-dai-mach-bat-bai",
+          "title": "슬라비아 프라하 vs 아스널 경기 예측, 11월 5일 오전 3시: 무패 행진 연장 가능성",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:20:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "470471ff757b2f64a6c5fc98"
         }
       ]
     },
@@ -11231,6 +11666,63 @@
       ]
     },
     {
+      "topicId": "topic-26bac31bff41823c18b91255",
+      "inputHash": "721a2f10ff1dca588fa6909eccb8120acb898a7707f81be9bc9231ed50a6112f",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-abf2a43061c32058cd6e3677",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "trader joe's mystery bag release",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "abf2a43061c32058cd6e3677"
+        },
+        {
+          "id": "news-abf2a43061c32058cd6e3677-0",
+          "url": "https://www.ctinsider.com/news/article/trader-joes-mystery-bag-pack-22509500.php",
+          "title": "Trader Joe’s brings back its viral mystery tote packs, featuring two new designs",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "abf2a43061c32058cd6e3677"
+        },
+        {
+          "id": "news-abf2a43061c32058cd6e3677-1",
+          "url": "https://people.com/trader-joes-is-bringing-back-mystery-bag-packs-with-new-designs-heres-when-12207740",
+          "title": "Trader Joe’s Is Bringing Back Mystery Packs (with New Bag Designs) — Here’s When",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "abf2a43061c32058cd6e3677"
+        },
+        {
+          "id": "news-abf2a43061c32058cd6e3677-2",
+          "url": "https://www.cleveland.com/business/2026/11/why-trader-joes-3-mystery-bags-have-shoppers-buying-armfuls-every-single-time-they-hit-shelves.html",
+          "title": "The Trader Joe's mystery bags that cause a frenzy every November are almost here",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "abf2a43061c32058cd6e3677"
+        }
+      ]
+    },
+    {
       "topicId": "topic-273c0991e51bdc47937f6e7c",
       "inputHash": "e2bb6523964e0f99ef6bcfa0dc95e32f67ea3f7a0b95334fb7037d1523352491",
       "generatedAt": "",
@@ -11341,6 +11833,63 @@
           "observedAt": "2026-10-24T15:00:00Z",
           "fetchedAt": "2026-10-24T16:36:49Z",
           "observationId": "576715a1e67bcb801449c46f"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-27506f964740ff0e7de27fee",
+      "inputHash": "da2bed1029a270f26dc86ff5cd250ef4507e32ad10b71e5a7673237520ee8e9a",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-b6582e7caa1b85bb46aef013",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "antonio nusa",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "b6582e7caa1b85bb46aef013"
+        },
+        {
+          "id": "news-b6582e7caa1b85bb46aef013-0",
+          "url": "https://www.skysports.com/football/news/13605575/maxime-esteve-interview-rb-leipzig-defender-on-his-erling-haaland-reunion-after-two-own-goals-against-man-city",
+          "title": "Maxime Esteve interview: RB Leipzig defender on his Erling Haaland reunion after two own goals against Man City",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "b6582e7caa1b85bb46aef013"
+        },
+        {
+          "id": "news-b6582e7caa1b85bb46aef013-1",
+          "url": "https://www.espn.co.uk/football/story/_/id/50367841/maxime-esteve-erling-haaland-etihad-best-striker",
+          "title": "RB Leipzig's Maxime Estève on the challenges posed by 'best striker' Erling Haaland",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "b6582e7caa1b85bb46aef013"
+        },
+        {
+          "id": "news-b6582e7caa1b85bb46aef013-2",
+          "url": "https://www.flashscore.com/news/soccer-premier-league-why-antonio-nusa-has-the-chance-to-outshine-erling-haaland-as-leipzig-face-man-city/zVx2QQm2/",
+          "title": "Why Antonio Nusa has the chance to outshine Erling Haaland as Leipzig face Man City",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "b6582e7caa1b85bb46aef013"
         }
       ]
     },
@@ -12253,6 +12802,63 @@
           "observedAt": "2026-10-29T18:40:00Z",
           "fetchedAt": "2026-10-29T18:58:18Z",
           "observationId": "e928c22d9699679f546e232e"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-2a8548b84f90ad92039d37b7",
+      "inputHash": "a08bf1bc56cd01a3877b4037a60e62a0a4c5dbd852c5334ee66bf490022b02d1",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-fe7a780ec142a7a58f6f710d",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "住宅",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "fe7a780ec142a7a58f6f710d"
+        },
+        {
+          "id": "news-fe7a780ec142a7a58f6f710d-0",
+          "url": "https://newsdig.tbs.co.jp/articles/-/3061802",
+          "title": "JR長岡駅近く 長岡市今朝白で住宅火災 住宅の所有者と連絡取れず",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "fe7a780ec142a7a58f6f710d"
+        },
+        {
+          "id": "news-fe7a780ec142a7a58f6f710d-1",
+          "url": "https://www.niigata-nippo.co.jp/articles/-/936677",
+          "title": "長岡市今朝白1で空き家火災、焼け跡から男性遺体見つかる",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "fe7a780ec142a7a58f6f710d"
+        },
+        {
+          "id": "news-fe7a780ec142a7a58f6f710d-2",
+          "url": "https://news.yahoo.co.jp/articles/e82a2e9f69eb95022c64767394df06d9ee38b000",
+          "title": "【火事】「一緒に外に出られなかったようだ」焼け跡から遺体…高齢女性と連絡取れず 見附市で住宅火災（午後6時15分放送）《新潟》（TeNYテレビ新潟）",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "fe7a780ec142a7a58f6f710d"
         }
       ]
     },
@@ -13398,6 +14004,63 @@
       ]
     },
     {
+      "topicId": "topic-2d14016e35aa2817d69fb7be",
+      "inputHash": "6450e4d76d0bc16a3e632e8834cfd1d43fc42818556ccaf5aa58a67efa9666b2",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-ef6b6cf8b0a2df0fa0772853",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "도깨비",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ef6b6cf8b0a2df0fa0772853"
+        },
+        {
+          "id": "news-ef6b6cf8b0a2df0fa0772853-0",
+          "url": "https://www.yna.co.kr/view/AKR20261104026600527",
+          "title": "카카오게임즈 3분기 영업손실 263억원…적자 확대",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ef6b6cf8b0a2df0fa0772853"
+        },
+        {
+          "id": "news-ef6b6cf8b0a2df0fa0772853-1",
+          "url": "https://it.chosun.com/news/articleView.html?idxno=3000000000209",
+          "title": "카겜 \"3분기가 실적 바닥… 내년 1분기 흑자 전환 달성\"",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ef6b6cf8b0a2df0fa0772853"
+        },
+        {
+          "id": "news-ef6b6cf8b0a2df0fa0772853-2",
+          "url": "https://view.asiae.co.kr/article/2026110410191592372",
+          "title": "'적자 지속' 카겜, 도깨비의세계로 4분기 반등 모색(종합)",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ef6b6cf8b0a2df0fa0772853"
+        }
+      ]
+    },
+    {
       "topicId": "topic-2d4a044c4354c9fddd02c2d9",
       "inputHash": "2c25ee228ed1b808fc3d9d5632cd72962f99f0a5a793e70490d19ed208dc1642",
       "generatedAt": "2026-10-21T10:22:15Z",
@@ -14361,6 +15024,63 @@
           "observedAt": "2026-10-23T15:30:00Z",
           "fetchedAt": "2026-10-23T17:53:32Z",
           "observationId": "faffa7b6ac76e09a2e767ead"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-3393c050cb3f43c5704c7824",
+      "inputHash": "a459e92fcbca5c843f675c914d0ca313da49d03ac67a1d7655974c810c7f7f7b",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-354d927107359cb749cc1809",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "jude bellingham",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "354d927107359cb749cc1809"
+        },
+        {
+          "id": "news-354d927107359cb749cc1809-0",
+          "url": "https://www.tntsports.co.uk/football/champions-league/2026-2027/jude-bellingham-incredible-finish-real-madrid-equalise-aek-athens_vid60105657/video.shtml",
+          "title": "Bellingham equalises for Madrid with 'ridiculous' backheel finish",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "354d927107359cb749cc1809"
+        },
+        {
+          "id": "news-354d927107359cb749cc1809-1",
+          "url": "https://www.bbc.com/sport/football/videos/c6gr8klll9r7o",
+          "title": "La Liga: Real Madrid midfielder Jude Bellingham scores a counter attack against Racing Santander",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "354d927107359cb749cc1809"
+        },
+        {
+          "id": "news-354d927107359cb749cc1809-2",
+          "url": "https://www.thesun.co.uk/sport/40917433/jude-bellingham-stuns-real-madrid-fans-amazing-backheel-goal/",
+          "title": "Jude Bellingham stuns fans with amazing backheel flick to level for Real Madrid",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "354d927107359cb749cc1809"
         }
       ]
     },
@@ -16591,6 +17311,63 @@
       ]
     },
     {
+      "topicId": "topic-3b40a15eae878abc556f4183",
+      "inputHash": "5d8abb0cbfdde9f73038c1b17aa1b73e12738aefd21983977f3ff34e7a3d4b6c",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-0ddae07c0079a9644feb2ff9",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "raising cane's new store openings",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "0ddae07c0079a9644feb2ff9"
+        },
+        {
+          "id": "news-0ddae07c0079a9644feb2ff9-0",
+          "url": "https://nypost.com/2026/11/04/lifestyle/raising-canes-opening-12-new-stores-this-month/",
+          "title": "Cult favorite fried chicken chain opening 12 new stores this month",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "0ddae07c0079a9644feb2ff9"
+        },
+        {
+          "id": "news-0ddae07c0079a9644feb2ff9-1",
+          "url": "https://www.usatoday.com/story/money/food/2026/11/03/raising-canes-openings-list-new-states/92566655007/",
+          "title": "Raising Cane's has 12 new restaurants opening this November",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "0ddae07c0079a9644feb2ff9"
+        },
+        {
+          "id": "news-0ddae07c0079a9644feb2ff9-2",
+          "url": "https://shorebeat.com/brick/2026/11/raising-canes-opens-first-jersey-shore-store-in-brick-monday/",
+          "title": "Raising Cane’s Opens First Jersey Shore Store in Brick Monday",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "0ddae07c0079a9644feb2ff9"
+        }
+      ]
+    },
+    {
       "topicId": "topic-3b5c9b412219f75d5738a753",
       "inputHash": "7adde1471b5b1cb7ef4753ae55d806f9a5509ee4782d4b25e5539989d7958e48",
       "generatedAt": "",
@@ -17278,6 +18055,63 @@
       ]
     },
     {
+      "topicId": "topic-3e6958a7720967dfc93f5314",
+      "inputHash": "b91ecad04226c8896d13418d446a651ffbfb48c4b607ac5ee4598bce731df4dc",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-37777fb4b3a9a1e79b5ad527",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "leipzig",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "37777fb4b3a9a1e79b5ad527"
+        },
+        {
+          "id": "news-37777fb4b3a9a1e79b5ad527-0",
+          "url": "https://www.dazn.com/de-DE/news/fussball/wer-zeigt-uebertraegt-rb-leipzig-mancity-tv-live-stream-champions-league-fussball/fqpajpi3b8t41wxc73iy46dti",
+          "title": "Wer zeigt / überträgt RB Leipzig - ManCity im TV und LIVE-STREAM?",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "37777fb4b3a9a1e79b5ad527"
+        },
+        {
+          "id": "news-37777fb4b3a9a1e79b5ad527-1",
+          "url": "https://www.zdfheute.de/sport/fussball-champions-league/fussball-champions-league-rb-leipzig-manchester-city-ausblick-100.html",
+          "title": "Champions League: Hält Leipzigs Heimbilanz auch gegen City?",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "37777fb4b3a9a1e79b5ad527"
+        },
+        {
+          "id": "news-37777fb4b3a9a1e79b5ad527-2",
+          "url": "https://leipzig.t-online.de/region/leipzig/id_101512424/champions-league-in-leipzig-sperrungen-parken-bahn-tipps-zur-anreise.html",
+          "title": "Straßen vor Champions-League-Spiel gesperrt: Das müssen Fans in Leipzig beachten",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "37777fb4b3a9a1e79b5ad527"
+        }
+      ]
+    },
+    {
       "topicId": "topic-3e8a13475a434768d0aa5553",
       "inputHash": "9fc3f5b3e0ca926fc9cda33e5caad7358e71851efea2ff991b5521a49f5200e7",
       "generatedAt": "",
@@ -17450,7 +18284,7 @@
     },
     {
       "topicId": "topic-3ecd51adbe3a1c30f58b63e3",
-      "inputHash": "9ba3e5024f4fd5e2646257439f400665990c7990d64e1051a09fa1e1dfc19368",
+      "inputHash": "8a99c320bccbcdd4fcfe5c672476b28c7504ec5fbb897b9c644a597da2bf875a",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -18339,6 +19173,24 @@
           "observedAt": "2026-10-26T07:15:00Z",
           "fetchedAt": "2026-10-26T19:21:22Z",
           "observationId": "b0f7ffeb94ae6c2a530c61c5"
+        },
+        {
+          "id": "obs-174fc82a5b4085b26e614b4b",
+          "url": "https://pic.hangzhou.com.cn/hzyx/content/content_9366848.html",
+          "title": "农博会下周召开 今年有什么亮点 - 杭州影像 - 杭州网",
+          "source": "gdelt",
+          "observedAt": "2026-11-04T01:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "174fc82a5b4085b26e614b4b"
+        },
+        {
+          "id": "obs-1c266f4486267677deea0f88",
+          "url": "https://hznews.hangzhou.com.cn/chengshi/content/2026-11/04/content_9366844.htm",
+          "title": "农博会下周召开 今年有什么亮点",
+          "source": "gdelt",
+          "observedAt": "2026-11-04T01:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "1c266f4486267677deea0f88"
         }
       ]
     },
@@ -19978,6 +20830,63 @@
       ]
     },
     {
+      "topicId": "topic-4633d7732e20091f3d994844",
+      "inputHash": "33d9374df432c25151cb9ed637cb93791240e8a07866c0522cf84b47b8143d58",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-ff35d6b67db9ccb6bae39c7a",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "champions league schedule",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ff35d6b67db9ccb6bae39c7a"
+        },
+        {
+          "id": "news-ff35d6b67db9ccb6bae39c7a-0",
+          "url": "https://www.nytimes.com/athletic/7747489/2026/11/03/psg-villa-liverpool-madrid-betis-champions-league-analysis/",
+          "title": "PSG, Aston Villa, Liverpool, Real Madrid and Betis: The Champions League’s flawless five - The Athletic",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ff35d6b67db9ccb6bae39c7a"
+        },
+        {
+          "id": "news-ff35d6b67db9ccb6bae39c7a-1",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-21fc4afdbe57-11bbecf54b40-1000--champions-league-highlights-and-round-up-paris-remain-per/",
+          "title": "Champions League highlights and round-up: Paris remain perfect as Barcelona, Manchester United and Bayern win",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ff35d6b67db9ccb6bae39c7a"
+        },
+        {
+          "id": "news-ff35d6b67db9ccb6bae39c7a-2",
+          "url": "https://onefootball.com/en/news/man-utd-barcelona-psg-in-ucl-action-galatasaray-sporting-win-43719685",
+          "title": "Man Utd, Barcelona, PSG in UCL action; Galatasaray & Sporting win",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ff35d6b67db9ccb6bae39c7a"
+        }
+      ]
+    },
+    {
       "topicId": "topic-464e746183eba66d4b703c3c",
       "inputHash": "054bc8d993436e452b833674a96675534f2908415be76b139f10627e84674ce1",
       "generatedAt": "",
@@ -20784,6 +21693,63 @@
           "observedAt": "2026-10-22T15:40:00Z",
           "fetchedAt": "2026-10-22T17:59:28Z",
           "observationId": "b1f8d13ba78826df32d8720c"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-49ffa0597506d25557a2f436",
+      "inputHash": "7a057f1609d29a1347747680e244cc62c1411df4b4fcfa22904f6af126328b13",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-88395aa12340480e814dceb3",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "dortmund",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "88395aa12340480e814dceb3"
+        },
+        {
+          "id": "news-88395aa12340480e814dceb3-0",
+          "url": "https://www.kicker.de/dortmund-gegen-betis-2026-champions-league-5264399/ticker",
+          "title": "Liveticker | Borussia Dortmund - Real Betis Sevilla 0:0 | 4. Spieltag | Champions League 2026/27",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "88395aa12340480e814dceb3"
+        },
+        {
+          "id": "news-88395aa12340480e814dceb3-1",
+          "url": "https://www.bild.de/sport/fussball/bvb-aufstellungen-da-niko-kovac-mit-3-aenderungen-in-der-startelf-6aeb805099c6bf1f5f1ab27c",
+          "title": "BVB: Aufstellungen da! Niko Kovac mit 3 Änderungen in der Startelf",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "88395aa12340480e814dceb3"
+        },
+        {
+          "id": "news-88395aa12340480e814dceb3-2",
+          "url": "https://www.n-tv.de/sport/mediathek/videos/sport/BVB-Profi-Marc-Bartra-schildert-im-Prozess-Todesangst-nach-Anschlag-id31496400.html",
+          "title": "BVB-Anschlag: Bartra schilderte im Prozess seine Todesangst",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "88395aa12340480e814dceb3"
         }
       ]
     },
@@ -25175,6 +26141,63 @@
       ]
     },
     {
+      "topicId": "topic-5a75412dcc75e66ad2a07f5d",
+      "inputHash": "55eec0a822892f387401871f166573e0d902cfa87d66323b068526782055b7ad",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-99195fa1bc934040d9c915d5",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "vinícius júnior",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "99195fa1bc934040d9c915d5"
+        },
+        {
+          "id": "news-99195fa1bc934040d9c915d5-0",
+          "url": "https://www.uol.com.br/splash/noticias/2026/11/03/vini-jr-convida-sadie-sink-a-camarote-e-recebe-resposta-negativa.ghtm",
+          "title": "Vini Jr. leva fora de atriz de 'Stranger Things', diz jornal",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "99195fa1bc934040d9c915d5"
+        },
+        {
+          "id": "news-99195fa1bc934040d9c915d5-1",
+          "url": "https://entretenimento.r7.com/prisma/fabiola-reipert/xaveco-deu-errado-vini-jr-leva-toco-da-atriz-sadie-sink-03112026/",
+          "title": "Xaveco deu errado! Vini Jr. leva toco da atriz Sadie Sink",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "99195fa1bc934040d9c915d5"
+        },
+        {
+          "id": "news-99195fa1bc934040d9c915d5-2",
+          "url": "https://revistamonet.globo.com/celebridades/noticia/2026/11/o-que-tem-de-verdade-nos-rumores-de-que-vini-jr-teria-tomado-um-fora-da-atriz-sadie-sink-de-stranger-things.ghtml",
+          "title": "O que tem de verdade nos rumores de que Vini Jr. teria tomado um fora da atriz Sadie Sink, de 'Stranger Things'",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "99195fa1bc934040d9c915d5"
+        }
+      ]
+    },
+    {
       "topicId": "topic-5abc5df7d0f72bb948662aeb",
       "inputHash": "b73dfabc42b355537db06e5b79dbec5ffffc527517515dff592d000d55fef417",
       "generatedAt": "",
@@ -26527,6 +27550,63 @@
       ]
     },
     {
+      "topicId": "topic-5fcb1bee874d07282e9daf89",
+      "inputHash": "0a9b1e46e88d84e51bd79a1ad4a761f49a6b5e12500eb26612a317489496659e",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-ade3de917db52dadd7ba45dd",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "ホンダf1",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ade3de917db52dadd7ba45dd"
+        },
+        {
+          "id": "news-ade3de917db52dadd7ba45dd-0",
+          "url": "https://news.yahoo.co.jp/articles/36c639b69c1f48ab6ab02d1df0e43f63c251500d",
+          "title": "【Ｆ１】アストンＭ メキシコＧＰ失態に「ホンダがまたやった」「問題を見落としていた」（東スポWEB）",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ade3de917db52dadd7ba45dd"
+        },
+        {
+          "id": "news-ade3de917db52dadd7ba45dd-1",
+          "url": "https://www.as-web.jp/f1/1369402",
+          "title": "「ERSの冷却システムに想定以上の負荷」とホンダF1折原GM。高地メキシコでの連続ストップは「厳しい結果」",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ade3de917db52dadd7ba45dd"
+        },
+        {
+          "id": "news-ade3de917db52dadd7ba45dd-2",
+          "url": "https://topnews.jp/2026/11/04/news/f1/f1drivers/fernando-alonso/261147.html",
+          "title": "アロンソ、走れないもどかしさ「十分な周回を重ねられません」 逃した好機とホンダの課題／F1メキシコシティGP",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ade3de917db52dadd7ba45dd"
+        }
+      ]
+    },
+    {
       "topicId": "topic-607b00503c7e5203980e2f65",
       "inputHash": "5b20039870e31d1d4359ee7d1f7463e85e84b4a1610f77ef41e23c763de101c5",
       "generatedAt": "",
@@ -27050,7 +28130,7 @@
     },
     {
       "topicId": "topic-61ae7e7d96079b41c14d07f0",
-      "inputHash": "fddc43f1e7c56877b58589b3a7a1a2549537e982b7fb0f3ff4dfdcd2b79f4ad0",
+      "inputHash": "666bfc6d17b2e628ff8d65d11dcd02b409e176abc1602d26006302170eed1c31",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -27102,6 +28182,42 @@
           "observedAt": "2026-10-25T14:40:00Z",
           "fetchedAt": "2026-10-25T17:04:05Z",
           "observationId": "a486ad939fee48d28fc86886"
+        },
+        {
+          "id": "obs-c59a0e190fa3050eb1b2ce82",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "리버풀",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T17:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "c59a0e190fa3050eb1b2ce82"
+        },
+        {
+          "id": "news-c59a0e190fa3050eb1b2ce82-0",
+          "url": "https://www.vietnam.vn/ko/nhan-dinh-fenerbahce-vs-liverpool-ban-linh-san-khach-duoc-thu-lua",
+          "title": "페네르바체 vs 리버풀 예측: 원정 경기에서의 경기력이 시험대에 오를 것이다",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T17:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "c59a0e190fa3050eb1b2ce82"
+        },
+        {
+          "id": "news-c59a0e190fa3050eb1b2ce82-1",
+          "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=99975",
+          "title": "[오피셜] 김민재 前 소속팀 페네르바체에서 김민재 지도하고, ‘승점 99점’ 준우승했던 감독 자진 사임",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T17:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "c59a0e190fa3050eb1b2ce82"
+        },
+        {
+          "id": "news-c59a0e190fa3050eb1b2ce82-2",
+          "url": "https://www.besteleven.com/news/articleView.html?idxno=313544",
+          "title": "[오피셜] ‘리버풀 출신’ 디르크 카윗, 페네르바체 임시 감독으로… 선수로 뛰던 친정팀 지휘한다",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T17:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "c59a0e190fa3050eb1b2ce82"
         }
       ]
     },
@@ -29227,6 +30343,63 @@
       ]
     },
     {
+      "topicId": "topic-69356fda9aa09e23fe5cbb10",
+      "inputHash": "aaa037f58b7a319856410c3671052843585713bed807cd57a6a042f60df3404e",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-ee5829d8a4dab25ff7cf652e",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "강호동",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ee5829d8a4dab25ff7cf652e"
+        },
+        {
+          "id": "news-ee5829d8a4dab25ff7cf652e-0",
+          "url": "https://imnews.imbc.com/news/2026/society/article/6863214_36918.html",
+          "title": "경찰, '뇌물 수수 의혹' 강호동 농협중앙회장 구속영장 신청",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ee5829d8a4dab25ff7cf652e"
+        },
+        {
+          "id": "news-ee5829d8a4dab25ff7cf652e-1",
+          "url": "https://www.khan.co.kr/article/202611042059045",
+          "title": "강호동 농협회장 1억대 금품수수…경찰, 수사 1년 만에 구속영장 신청",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ee5829d8a4dab25ff7cf652e"
+        },
+        {
+          "id": "news-ee5829d8a4dab25ff7cf652e-2",
+          "url": "https://www.greened.kr/news/articleView.html?idxno=353883",
+          "title": "강호동 농협중앙회장 구속영장 신청...개인 사법리스크 넘어 농협 개혁 시험대",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ee5829d8a4dab25ff7cf652e"
+        }
+      ]
+    },
+    {
       "topicId": "topic-698f9984c853a6155b08a57b",
       "inputHash": "43b5396d191d8fcddf213a8dd6aee1391a157284f96fcf9bfd1608d2d2a34b4e",
       "generatedAt": "",
@@ -29793,6 +30966,36 @@
           "observedAt": "2026-10-24T15:50:00Z",
           "fetchedAt": "2026-10-24T16:36:49Z",
           "observationId": "c5fe3f36100623e9160640c3"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-6c0caf23aee1ecc82c427b0b",
+      "inputHash": "bdc4d1a8ca0af95f226df2cd447b917e28198ef72351f75a89def5b660494890",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-b3f8083020b4f7a09a9cfc45",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "klasemen aek athens vs real madrid",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "b3f8083020b4f7a09a9cfc45"
         }
       ]
     },
@@ -30982,6 +32185,63 @@
           "observedAt": "2026-10-26T18:40:00Z",
           "fetchedAt": "2026-10-26T19:21:22Z",
           "observationId": "5b08ea3a044a4546fed83e09"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-70e3595cd7862194931789c3",
+      "inputHash": "14b4b8b59e2fe996dd4c6ca5dfe5ecacf7ba60faa5b7d254c6bc5ebfe10c3008",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-33e17a6061273a7a9643afcb",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "소유진",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "33e17a6061273a7a9643afcb"
+        },
+        {
+          "id": "news-33e17a6061273a7a9643afcb-0",
+          "url": "https://www.donga.com/news/Entertainment/article/all/20261104/134964397/1",
+          "title": "‘백종원♥’ 소유진, 미술관 뺨치는 대저택 공개…고가 작품만 수십 점",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "33e17a6061273a7a9643afcb"
+        },
+        {
+          "id": "news-33e17a6061273a7a9643afcb-1",
+          "url": "https://www.sportschosun.com/entertainment/2026-11-03/202611030100020250001913",
+          "title": "'백종원♥' 소유진, 연일 집자랑..보드게임 카페 뺨치는 규모 '깜짝'",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "33e17a6061273a7a9643afcb"
+        },
+        {
+          "id": "news-33e17a6061273a7a9643afcb-2",
+          "url": "https://www.koreaes.com/news/articleView.html?idxno=407021",
+          "title": "소유진, 집 곳곳 채운 미술품 공개…그림에 담긴 육아 시절의 마음",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "33e17a6061273a7a9643afcb"
         }
       ]
     },
@@ -32913,6 +34173,63 @@
           "observedAt": "2026-10-31T05:50:00Z",
           "fetchedAt": "2026-10-31T07:00:13Z",
           "observationId": "48ec77c7d273f4a1c346c1cf"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-786061897c369d45a1f168a0",
+      "inputHash": "059017f96d9974ba6b0563a1c39a1ccd13e87e4bb37506006b5e3f37a386eecb",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-cd37163d1021fe6b9238a856",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "cardinals depth chart",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "cd37163d1021fe6b9238a856"
+        },
+        {
+          "id": "news-cd37163d1021fe6b9238a856-0",
+          "url": "https://sports.yahoo.com/articles/arizona-cardinals-week-9-depth-123132946.html",
+          "title": "Arizona Cardinals Week 9 depth chart vs. Seattle Seahawks",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "cd37163d1021fe6b9238a856"
+        },
+        {
+          "id": "news-cd37163d1021fe6b9238a856-1",
+          "url": "https://www.thefantasyfootballers.com/news/645807/simi-fehoko-climbs-up-depth-chart/",
+          "title": "Simi Fehoko Climbs up depth chart",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "cd37163d1021fe6b9238a856"
+        },
+        {
+          "id": "news-cd37163d1021fe6b9238a856-2",
+          "url": "https://raisingzona.com/simi-fehoko-wr2-shows-cardinals-receiver-problem-keeps-getting-worse",
+          "title": "Simi Fehoko at WR2 shows Cardinals’ receiver problem just keeps getting worse",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "cd37163d1021fe6b9238a856"
         }
       ]
     },
@@ -41152,6 +42469,63 @@
       ]
     },
     {
+      "topicId": "topic-8be8bf69d0e4d95999408432",
+      "inputHash": "0b59ed1eb778e376e139f8c7ff20e8efb65188e079df31001eca2c576057321e",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-780106ffad4ddfd2caf6db90",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "池袋線",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "780106ffad4ddfd2caf6db90"
+        },
+        {
+          "id": "news-780106ffad4ddfd2caf6db90-0",
+          "url": "https://news.yahoo.co.jp/articles/fafc03f55a3b4098bc946f9a529580b0e817f683",
+          "title": "【速報】西武池袋線が運転見合わせ 駅で人身事故（埼玉新聞）",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "780106ffad4ddfd2caf6db90"
+        },
+        {
+          "id": "news-780106ffad4ddfd2caf6db90-1",
+          "url": "https://newsdig.tbs.co.jp/articles/-/3046077",
+          "title": "【速報】西武池袋線・西武有楽町線などで運転見合わせ 西所沢駅で発生した人身事故の影響 午前8時ごろ再開見込み 午前7時10分現在",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "780106ffad4ddfd2caf6db90"
+        },
+        {
+          "id": "news-780106ffad4ddfd2caf6db90-2",
+          "url": "https://www.saitama-np.co.jp/articles/221705",
+          "title": "【速報】西武池袋線が運転見合わせ 駅で人身事故",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "780106ffad4ddfd2caf6db90"
+        }
+      ]
+    },
+    {
       "topicId": "topic-8d5053c8f86dc366d966f0a9",
       "inputHash": "a06c34a5551044d35b2e07a4687f357eda1b41290db3538b9a8de402834be15b",
       "generatedAt": "",
@@ -43023,6 +44397,36 @@
           "observedAt": "2026-10-21T09:00:00Z",
           "fetchedAt": "2026-10-21T09:31:21Z",
           "observationId": "8fb03c84aa97620a79e415f7"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-93b0a1cee37a851aef5a6d5a",
+      "inputHash": "49f5584ad2ad8e353c433794756fdfd652c3c50804a92fe967e5ba26247bc376",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-79835dfaa4fd16aa439dd12a",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "園田彩乃",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "79835dfaa4fd16aa439dd12a"
         }
       ]
     },
@@ -45615,6 +47019,63 @@
       ]
     },
     {
+      "topicId": "topic-9cbecd52d8bdc73114745630",
+      "inputHash": "801cdfd12dc19f469b22113d6779dbf160548425d8d0928ecfe0f5210526ab3f",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-972c5fb94bc750b4cad7dff5",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "michael jackson family trust funding",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "972c5fb94bc750b4cad7dff5"
+        },
+        {
+          "id": "news-972c5fb94bc750b4cad7dff5-0",
+          "url": "https://www.nytimes.com/2026/11/03/arts/paris-jackson-michael-jackson-estate.html",
+          "title": "Paris Jackson Asks Father’s Estate to Fund $600M to Family Trust",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "972c5fb94bc750b4cad7dff5"
+        },
+        {
+          "id": "news-972c5fb94bc750b4cad7dff5-1",
+          "url": "https://ca.news.yahoo.com/michael-jackson-daughter-seeks-600-070203962.html",
+          "title": "Michael Jackson’s Daughter Seeks $600 Million From His Estate, Says Trust Remains Unfunded",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "972c5fb94bc750b4cad7dff5"
+        },
+        {
+          "id": "news-972c5fb94bc750b4cad7dff5-2",
+          "url": "https://www.cbc.ca/news/entertainment/paris-jackson-michael-jackson-estate-trust-fund-9.7407499",
+          "title": "Paris Jackson asks court to move $600M US from Michael Jackson estate into family trust",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "972c5fb94bc750b4cad7dff5"
+        }
+      ]
+    },
+    {
       "topicId": "topic-9cf6743e5c395d5953a4d39f",
       "inputHash": "2fb31a64be7d50c05b17f08a3a174510534a3a3b7f912f6a3d95abb61bad0d06",
       "generatedAt": "",
@@ -45782,6 +47243,63 @@
           "observedAt": "2026-10-31T17:20:00Z",
           "fetchedAt": "2026-10-31T17:46:29Z",
           "observationId": "c2297933e5d1833c25fb8517"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-9d78bfe6a2d5ad12ea2d7a4c",
+      "inputHash": "85b32ef17071376b14882d8a96cd695133ad4d300cfc916eac1a6edfce76b4ed",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-787f53a66ce6ff3a3e422541",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "noni madueke",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "787f53a66ce6ff3a3e422541"
+        },
+        {
+          "id": "news-787f53a66ce6ff3a3e422541-0",
+          "url": "https://www.espn.co.uk/football/story/_/id/50358475/noni-madueke-alexis-mac-allister-liverpool-arsenal-red-card-headbutt-vara-premier-league",
+          "title": "Noni Madueke: Alexis Mac Allister tried to 'bait me' into red card",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "787f53a66ce6ff3a3e422541"
+        },
+        {
+          "id": "news-787f53a66ce6ff3a3e422541-1",
+          "url": "https://www.skysports.com/football/news/13606793/liverpool-0-1-arsenal-alexander-isak-jurrien-timber-shirt-pull-and-noni-madueke-alexis-mac-allister-headbutt-show-good-and-bad-sides-of-var",
+          "title": "Liverpool 0-1 Arsenal: Alexander Isak-Jurrien Timber shirt pull and Noni Madueke-Alexis Mac Allister 'headbutt' show good and bad sides of VAR",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "787f53a66ce6ff3a3e422541"
+        },
+        {
+          "id": "news-787f53a66ce6ff3a3e422541-2",
+          "url": "https://www.nytimes.com/athletic/7744900/2026/11/01/alexis-mac-allister-embarrassing-carragher-neville-liverpool-arsenal-madueke/",
+          "title": "Liverpool’s Alexis Mac Allister labelled ’embarrassing’ for Noni Madueke clash in Arsenal defeat - The Athletic",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "787f53a66ce6ff3a3e422541"
         }
       ]
     },
@@ -46681,6 +48199,63 @@
           "observedAt": "2026-10-23T15:40:00Z",
           "fetchedAt": "2026-10-23T17:53:32Z",
           "observationId": "7c3bb6e85f7c4a168cc17ada"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-9efcad0b4036dc4314fd21a0",
+      "inputHash": "7f58dc7d2a55f9dae6d7caa30313cb49965fb7d5b6a6c57973234b87fb5cd000",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-ab37f1ae879fc4388cd7711e",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "rbライプツィヒ 対 マンc",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ab37f1ae879fc4388cd7711e"
+        },
+        {
+          "id": "news-ab37f1ae879fc4388cd7711e-0",
+          "url": "https://news.yahoo.co.jp/articles/2db9a7bd4a330a5efa2f59ae1c74c294fe459ea4",
+          "title": "ハーランド、ウーデゴーに続くノルウェーの怪物へ すでに昨季の成績を超えたA・ヌサがライプツィヒで躍動中",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ab37f1ae879fc4388cd7711e"
+        },
+        {
+          "id": "news-ab37f1ae879fc4388cd7711e-1",
+          "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/rb%E3%83%A9%E3%82%A4%E3%83%95%E3%82%9A%E3%83%84%E3%82%A3%E3%83%92%E3%81%AE%E6%96%B0%E6%98%9F%E3%82%A2%E3%83%B3%E3%83%88%E3%83%8B%E3%82%AA-%E3%83%8C%E3%82%B5-%E3%83%9E%E3%83%B3%E3%83%81%E3%82%A7%E3%82%B9%E3%82%BF%E3%83%BC-%E3%82%B7%E3%83%86%E3%82%A3%E3%81%A8%E3%81%AE%E3%83%81%E3%83%A3%E3%83%B3%E3%83%92%E3%82%9A%E3%82%AA%E3%83%B3%E3%82%B9%E3%82%99%E3%83%AA%E3%83%BC%E3%82%AF%E3%82%99%E6%88%A6%E3%82%92%E5%89%8D%E3%81%AB-%E3%82%A2%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%99-%E3%83%8F%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%88%E3%82%99%E3%82%92%E6%AD%A2%E3%82%81%E3%82%8B%E8%8C%B6%E7%9B%AE%E3%81%A3%E6%B0%97%E3%81%9F%E3%81%A3%E3%81%B5%E3%82%9A%E3%82%8A%E3%81%AE%E4%BD%9C%E6%88%A6%E3%82%92%E6%98%8E%E3%81%8B%E3%81%99/bltd4ff69ce942682d3",
+          "title": "RBライプツィヒの新星アントニオ・ヌサ、マンチェスター・シティとのチャンピオンズリーグ戦を前に、アーリング・ハーランドを止める茶目っ気たっぷりの作戦を明かす",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ab37f1ae879fc4388cd7711e"
+        },
+        {
+          "id": "news-ab37f1ae879fc4388cd7711e-2",
+          "url": "https://ja.laodong.vn/bong-da-quoc-te/nhan-dinh-bong-da-leipzig-vs-man-city-tai-champions-league-1794782.ldo",
+          "title": "チャンピオンズリーグ ライプツィヒ対マンチェスター・シティのサッカー予想",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:30:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "ab37f1ae879fc4388cd7711e"
         }
       ]
     },
@@ -49740,6 +51315,63 @@
       ]
     },
     {
+      "topicId": "topic-aa7d5951523a5e0bee0528f2",
+      "inputHash": "054f603a59cfdc45d44975fbe279b30fea3e965b206412cc0b351d9a1b9edd60",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-405a7325e8d99c8290511832",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "혈당",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "405a7325e8d99c8290511832"
+        },
+        {
+          "id": "news-405a7325e8d99c8290511832-0",
+          "url": "https://news.hidoc.co.kr/news/articleView.html?idxno=69643",
+          "title": "연인·가족과 함께할 때 몸도 편안해진다… “혈당 변동 폭 줄고 스트레스 완화”",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "405a7325e8d99c8290511832"
+        },
+        {
+          "id": "news-405a7325e8d99c8290511832-1",
+          "url": "https://health.chosun.com/site/data/html_dir/2026/11/04/2026110401962.html",
+          "title": "“식사 30분 전 ‘20g’ 먹어보세요”… 식후 혈당 급상승 막는 가장 쉬운 방법",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "405a7325e8d99c8290511832"
+        },
+        {
+          "id": "news-405a7325e8d99c8290511832-2",
+          "url": "https://health.chosun.com/site/data/html_dir/2026/11/03/2026110302219.html",
+          "title": "“혈당 스파이크 막는다” 채정안이 식사 전 ‘깻잎’ 먼저 먹는 이유",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:50:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "405a7325e8d99c8290511832"
+        }
+      ]
+    },
+    {
       "topicId": "topic-aaf030aac8b548a2a216b06b",
       "inputHash": "c5558bd849e37bac105f8509c485d14514faf70e21c4382172ba7ffbe88203f6",
       "generatedAt": "",
@@ -51977,6 +53609,36 @@
           "observedAt": "2026-11-03T19:20:00Z",
           "fetchedAt": "2026-11-03T20:07:50Z",
           "observationId": "a000c2937b061a90b6a12c99"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-b3db2d7d302d81daaf6d38d9",
+      "inputHash": "6faa8192852349fe7696bd089ec1ba4d34ea78b8a9d3e91779b328fa6f2912fc",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-2039252626768e855d8e7dcf",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "永野芽郁",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "2039252626768e855d8e7dcf"
         }
       ]
     },
@@ -57201,6 +58863,63 @@
       ]
     },
     {
+      "topicId": "topic-c28012b35f38db5ee3ecd4ca",
+      "inputHash": "9eba2b8d138cceb4d6127929fc7b160c51adde9b7f516fd114afcb37158515eb",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-7cc07873031f6f46915bfd78",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "戸井零士",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "7cc07873031f6f46915bfd78"
+        },
+        {
+          "id": "news-7cc07873031f6f46915bfd78-0",
+          "url": "https://news.yahoo.co.jp/articles/e60f8740a9dfae854e1efcdf0dcfafab2d3fc368",
+          "title": "阪神、今オフにまさかの戦力外となった選手（1）21歳で衝撃の“戦力外”…タイガースの超有望株だが（ベースボールチャンネル）",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "7cc07873031f6f46915bfd78"
+        },
+        {
+          "id": "news-7cc07873031f6f46915bfd78-1",
+          "url": "https://www.jprime.jp/articles/-/44372?page=2",
+          "title": "巨人“ドラフト1位”の浅野翔吾に戦力外通告、2025年は169人が「戦力外・引退選手」中には進路“未定・不明”者も出たセカンドキャリア（2ページ目）",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "7cc07873031f6f46915bfd78"
+        },
+        {
+          "id": "news-7cc07873031f6f46915bfd78-2",
+          "url": "https://news.yahoo.co.jp/articles/e64d3ff18e0d30ef247d2b94249c419f3840b974",
+          "title": "【ヤフコメで話題】「自由契約やFAを巡る球団編成の難しさ」「選手の進路選択に揺れる声」 - プロ野球の契約事情に注目集まる",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "7cc07873031f6f46915bfd78"
+        }
+      ]
+    },
+    {
       "topicId": "topic-c33b8509979e2639ffc32184",
       "inputHash": "5f4bc0f53bc820a48a046fd956bef965be5ac5b1eab3056da1c4c37eecbcf9c1",
       "generatedAt": "",
@@ -57881,6 +59600,63 @@
           "observedAt": "2026-11-01T17:50:00Z",
           "fetchedAt": "2026-11-01T18:26:15Z",
           "observationId": "590c40d92104d257ea4b01f2"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-c53a06f62f1da3c845ee1b95",
+      "inputHash": "ba21537e170290e6ad78a519ccc6502064ff96b8c4baf11621da53c3f1b9a499",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-a73eb096312dbb259abbdfa1",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "leipzig fc",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "a73eb096312dbb259abbdfa1"
+        },
+        {
+          "id": "news-a73eb096312dbb259abbdfa1-0",
+          "url": "https://www.transfermarkt.de/sportwetten/tipps/rb-leipzig-vs-fc-augsburg-wett-tipp-07-11-2026/",
+          "title": "RB Leipzig - FC Augsburg Wett Tipp & Quoten 07.11.2026",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "a73eb096312dbb259abbdfa1"
+        },
+        {
+          "id": "news-a73eb096312dbb259abbdfa1-1",
+          "url": "https://www.augsburger-allgemeine.de/mediathek/a-tv/video-115632358",
+          "title": "Video: Nach 6 Spielen mal wieder ein Sieg für den FCA?",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "a73eb096312dbb259abbdfa1"
+        },
+        {
+          "id": "news-a73eb096312dbb259abbdfa1-2",
+          "url": "https://www.welt.de/sport/fussball/bundesliga/article6aeb529909e0301c03e7f72b/rb-leipzig-fc-augsburg-bricht-augsburg-den-bann-bundesliga.html",
+          "title": "RB Leipzig - FC Augsburg: Bricht Augsburg den Bann? - Bundesliga",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "a73eb096312dbb259abbdfa1"
         }
       ]
     },
@@ -60997,6 +62773,63 @@
       ]
     },
     {
+      "topicId": "topic-d0a800b5857c393719b487ff",
+      "inputHash": "edaef1e180c4620cd553bbdbcf5167a16c88d8c7301d4c0cfb021422e46cbae8",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-e40eeb1202e591e12377e1e8",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "westham",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "e40eeb1202e591e12377e1e8"
+        },
+        {
+          "id": "news-e40eeb1202e591e12377e1e8-0",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cq3dj37m1kddo",
+          "title": "Scott Parker: West Ham United confirm ex-midfielder as head coach",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "e40eeb1202e591e12377e1e8"
+        },
+        {
+          "id": "news-e40eeb1202e591e12377e1e8-1",
+          "url": "https://www.theguardian.com/football/2026/nov/04/west-ham-took-too-long-to-sack-nuno-and-now-must-trust-parker-to-do-what-he-does-best",
+          "title": "West Ham took too long to sack Nuno and now must trust Parker to do what he does best | Jacob Steinberg",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "e40eeb1202e591e12377e1e8"
+        },
+        {
+          "id": "news-e40eeb1202e591e12377e1e8-2",
+          "url": "https://www.nytimes.com/athletic/7747522/2026/11/04/inside-sacking-nuno-west-ham/",
+          "title": "How West Ham eventually ended up sacking Nuno at the third time of asking - The Athletic",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "e40eeb1202e591e12377e1e8"
+        }
+      ]
+    },
+    {
       "topicId": "topic-d0b0f1cc4d408ce5f8d01414",
       "inputHash": "d87e37c83c253f7acf4f34f9232e2865d375931ab697639cc9c664fc36c18127",
       "generatedAt": "",
@@ -61909,6 +63742,63 @@
       ]
     },
     {
+      "topicId": "topic-d41a4efedc7a471b870a58d6",
+      "inputHash": "ae09bf30511659aa2d593dcc618616d3f0abc553a95e8be657728fa8408da619",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-8d5b072959951d5c27b2cd73",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "jacoby brissett",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "8d5b072959951d5c27b2cd73"
+        },
+        {
+          "id": "news-8d5b072959951d5c27b2cd73-0",
+          "url": "https://www.espn.com/nfl/story/_/id/50381318/sources-ravens-finalizing-trade-cardinals-qb-brissett",
+          "title": "Sources - Ravens finalizing trade with Cardinals for QB Brissett",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "8d5b072959951d5c27b2cd73"
+        },
+        {
+          "id": "news-8d5b072959951d5c27b2cd73-1",
+          "url": "https://sports.yahoo.com/nfl/article/ravens-reportedly-acquire-qb-jacoby-brissett-from-cardinals-to-make-up-for-lamar-jackson-tyler-huntley-injuries-194702705.html",
+          "title": "Ravens reportedly acquire QB Jacoby Brissett from Cardinals to make up for Lamar Jackson, Tyler Huntley injuries",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "8d5b072959951d5c27b2cd73"
+        },
+        {
+          "id": "news-8d5b072959951d5c27b2cd73-2",
+          "url": "https://www.nfl.com/news/jacoby-brissett-trade-ravens-cardinals",
+          "title": "NFL Network: Cardinals to trade QB Jacoby Brissett to Ravens",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "8d5b072959951d5c27b2cd73"
+        }
+      ]
+    },
+    {
       "topicId": "topic-d44330a466b99090af9a73ed",
       "inputHash": "e2c56f380e5021a56bfc76bb060500a09896811b8532de227f3fc875e0a04784",
       "generatedAt": "",
@@ -62591,6 +64481,63 @@
           "observedAt": "2026-10-23T16:40:00Z",
           "fetchedAt": "2026-10-23T17:53:32Z",
           "observationId": "c87d11b86282f841a7fa53c3"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-d8053b5dd1b500e6e04bf86e",
+      "inputHash": "b15719eacf533b4e958418cbc8f40b56add7f7f05fceba04d98ba234f5e1dd94",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-5a79554875b416cb11712ff6",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "라이프치히 대 맨 시티",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "5a79554875b416cb11712ff6"
+        },
+        {
+          "id": "news-5a79554875b416cb11712ff6-0",
+          "url": "https://www.bbc.com/sport/football/live/cq1kd2r14z8rt",
+          "title": "RB Leipzig vs Manchester City: UEFA Champions League stats & head-to-head",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "5a79554875b416cb11712ff6"
+        },
+        {
+          "id": "news-5a79554875b416cb11712ff6-1",
+          "url": "https://www.skysports.com/football/live-blog/13607406/rb-leipzig-vs-man-city-live-champions-league-match-updates-team-news-score-and-analysis",
+          "title": "RB Leipzig vs Man City LIVE! Champions League match updates, team news, score and analysis",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "5a79554875b416cb11712ff6"
+        },
+        {
+          "id": "news-5a79554875b416cb11712ff6-2",
+          "url": "https://www.cbssports.com/soccer/news/champions-league-expert-picks-predictions-best-bets-manchester-city-aim-for-turnaround-vs-rb-leipzi/",
+          "title": "Champions League expert picks, predictions, best bets: Manchester City aim for turnaround vs. RB Leipzig",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:10:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "5a79554875b416cb11712ff6"
         }
       ]
     },
@@ -63677,6 +65624,63 @@
           "observedAt": "2026-10-21T17:10:00Z",
           "fetchedAt": "2026-10-21T18:04:45Z",
           "observationId": "2a27f83ef534e970005d11a3"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-ddbb5b0a2676a424cf79eecd",
+      "inputHash": "cad96e4e7a4cbfac97a64deb654d568fcb44e4fea649beec11ac1f386adb3293",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-8bf9c33d086ae40b57520fa7",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "martin demichelis",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "8bf9c33d086ae40b57520fa7"
+        },
+        {
+          "id": "news-8bf9c33d086ae40b57520fa7-0",
+          "url": "https://es.mancity.com/news/mens/rb-leipzig-manchester-city-cambios-63929415",
+          "title": "Haaland capitanea a un City con cuatro cambios",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "8bf9c33d086ae40b57520fa7"
+        },
+        {
+          "id": "news-8bf9c33d086ae40b57520fa7-1",
+          "url": "https://www.si.com/es-us/a-que-hora-es-el-partido-leipzig-vs-manchester-city-y-como-verlo-en-tv-y-streaming-online",
+          "title": "¿A qué hora es el partido Leipzig vs Manchester City y cómo verlo en TV y streaming online?",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "8bf9c33d086ae40b57520fa7"
+        },
+        {
+          "id": "news-8bf9c33d086ae40b57520fa7-2",
+          "url": "https://www.tycsports.com/champions-league/la-confesion-de-demichelis-antes-de-enfrentar-a-manchester-city-somos-casi-como-hermanos-id770267.html",
+          "title": "La confesión de Demichelis antes de enfrentar a Manchester City: \"Somos casi como hermanos\"",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "8bf9c33d086ae40b57520fa7"
         }
       ]
     },
@@ -66035,6 +68039,63 @@
       ]
     },
     {
+      "topicId": "topic-e85400f38c98a451f25ef3f0",
+      "inputHash": "2c1b1beefa1866d802ae975c7b899d0e7f05ce0960d16f3a33f70f4e5d348b2c",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-99cd2add32515c300a10d540",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "fc lausanne sport manager sacked",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "99cd2add32515c300a10d540"
+        },
+        {
+          "id": "news-99cd2add32515c300a10d540-0",
+          "url": "https://www.goal.com/en/news/manchester-united-co-owners-ineos-sack-manager-five-months-pressure-michael-carrick/bltd144e69e62995625",
+          "title": "Manchester United co-owners INEOS sack manager after just five months in charge amid growing pressure on Michael Carrick",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "99cd2add32515c300a10d540"
+        },
+        {
+          "id": "news-99cd2add32515c300a10d540-1",
+          "url": "https://www.dailystar.co.uk/sport/football/man-utd-owners-ineos-sack-37843822",
+          "title": "Man Utd owners INEOS sack manager as Sir Jim Ratcliffe 'looks to sell club'",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "99cd2add32515c300a10d540"
+        },
+        {
+          "id": "news-99cd2add32515c300a10d540-2",
+          "url": "https://www.standard.co.uk/sport/football/man-utd-ineos-sack-manager-b1303517.html",
+          "title": "Man Utd co-owners sack manager as official statement released",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T19:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "99cd2add32515c300a10d540"
+        }
+      ]
+    },
+    {
       "topicId": "topic-e879f69331359b5de79b47ca",
       "inputHash": "4ba712e26dfc1cc9ec662353f50204f27110c08bceb07f145d0431e4c492368e",
       "generatedAt": "",
@@ -66735,6 +68796,63 @@
           "observedAt": "2026-11-01T15:30:00Z",
           "fetchedAt": "2026-11-01T18:26:15Z",
           "observationId": "6485b506c4627dbe084e4872"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-eaf217b5a16a6cf4c3c82e4d",
+      "inputHash": "53197dc05ea6abc4aca3ea5e4fa18d69d2da29ab3ad008abd2ab8f0678e8225f",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-0af0d55c7fc6c14f1485e70c",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "race across the world",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "0af0d55c7fc6c14f1485e70c"
+        },
+        {
+          "id": "news-0af0d55c7fc6c14f1485e70c-0",
+          "url": "https://www.radiotimes.com/tv/entertainment/ella-eyre-nana-celebrity-race-across-world-2026-profile/",
+          "title": "Who are Ella Eyre and friend Nana? Meet Celebrity Race Across the World 2026 contestants",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "0af0d55c7fc6c14f1485e70c"
+        },
+        {
+          "id": "news-0af0d55c7fc6c14f1485e70c-1",
+          "url": "https://www.ipswichstar.co.uk/news/26694423.bbc-celebrity-race-across-world-stars-ipswich-link/",
+          "title": "The surprising link Celebrity Race Across the World stars have to Ipswich",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "0af0d55c7fc6c14f1485e70c"
+        },
+        {
+          "id": "news-0af0d55c7fc6c14f1485e70c-2",
+          "url": "https://www.telegraph.co.uk/tv/2026/10/28/celebrity-race-across-the-world-bbc-one-review/",
+          "title": "Each year I vow to ignore Celebrity Race Across the World, but it sucks me in",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T20:00:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "0af0d55c7fc6c14f1485e70c"
         }
       ]
     },
@@ -69936,6 +72054,36 @@
           "observedAt": "2026-11-01T17:50:00Z",
           "fetchedAt": "2026-11-01T18:26:15Z",
           "observationId": "67b0fd4a61164781ea53015e"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-fa5ca3870a9f46ca6d7b17ca",
+      "inputHash": "f99ac698ac3a1cbd7f9a7542841e2b242cb19074ce0429aeabac084e435ba509",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-3fb87311a5b59097b001a4aa",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "김보연",
+          "source": "google-trends",
+          "observedAt": "2026-11-04T18:40:00Z",
+          "fetchedAt": "2026-11-04T20:26:39Z",
+          "observationId": "3fb87311a5b59097b001a4aa"
         }
       ]
     },
