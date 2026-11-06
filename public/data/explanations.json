@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T20:43:22Z",
+  "generatedAt": "2026-11-06T07:58:27Z",
   "providerStatus": {
     "status": "disabled",
     "provider": "none",
     "model": "",
     "message": "新しい話題のAI解説は未生成です。保存済み解説と、見出しからの手がかりを利用できます。",
-    "checkedAt": "2026-11-05T20:43:22Z"
+    "checkedAt": "2026-11-06T07:58:27Z"
   },
   "explanations": [
     {
@@ -1906,6 +1906,63 @@
       ]
     },
     {
+      "topicId": "topic-05bb78db56b901bdc00e212e",
+      "inputHash": "2b564e4f379a04e76022be12a0594b9d714c2b4cacc87b4084bfe4cad5d6af96",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-0814554ce3c800f600020cee",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "東京電力",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:50:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "0814554ce3c800f600020cee"
+        },
+        {
+          "id": "news-0814554ce3c800f600020cee-0",
+          "url": "https://news.yahoo.co.jp/articles/676873f90f5889b5d8126d769279f767888261c6",
+          "title": "【図解】納税・消費者の負担12兆円超＝国費、電気料金で東電支え―賠償なお続く・原発事故15年（時事通信）",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:50:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "0814554ce3c800f600020cee"
+        },
+        {
+          "id": "news-0814554ce3c800f600020cee-1",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261106de71317",
+          "title": "原発賠償で国から東電への支援15兆円余 回収に最長39年と試算",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:50:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "0814554ce3c800f600020cee"
+        },
+        {
+          "id": "news-0814554ce3c800f600020cee-2",
+          "url": "https://mainichi.jp/articles/20261105/k00/00m/040/001000c",
+          "title": "廃炉、賠償…東電、厳しい経営環境 会計検査院が懸念にじませ",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:50:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "0814554ce3c800f600020cee"
+        }
+      ]
+    },
+    {
       "topicId": "topic-05bc7cc270589531b8f2a161",
       "inputHash": "c93d77051e59a4dc42c4fbf3858f5fc4eeebb76e8c70412b5f1b96eeb9ee8863",
       "generatedAt": "",
@@ -3703,6 +3760,63 @@
           "observedAt": "2026-11-01T18:10:00Z",
           "fetchedAt": "2026-11-01T18:26:15Z",
           "observationId": "4b3cf2f7d96bb2a22ad2ebff"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-09eeb0e0145d03e9a3aed1ee",
+      "inputHash": "9c9de880b2ab3fd1ca997940ee5f7e3ce43db4330350bfe9f123ced5fa5c7e67",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-bcd3af69096efef7ff10205c",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "monsterz mate",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "bcd3af69096efef7ff10205c"
+        },
+        {
+          "id": "news-bcd3af69096efef7ff10205c-0",
+          "url": "https://www.moguravr.com/monsterz-mate-anjo-end/",
+          "title": "男性VTuberユニットMonsterZ MATE、アンジョーが活動終了",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "bcd3af69096efef7ff10205c"
+        },
+        {
+          "id": "news-bcd3af69096efef7ff10205c-1",
+          "url": "https://kai-you.net/article/97072/page/2",
+          "title": "(2/2) MonsterZ MATEアンジョー、心身の負担により活動終了 コーサカは引き続き活動継続",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "bcd3af69096efef7ff10205c"
+        },
+        {
+          "id": "news-bcd3af69096efef7ff10205c-2",
+          "url": "https://panora.tokyo/archives/162117",
+          "title": "MonsterZ MATE アンジョーが11月5日付で活動終了「心身の負担が大きく、続けることは困難と判断」",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "bcd3af69096efef7ff10205c"
         }
       ]
     },
@@ -8074,6 +8188,63 @@
       ]
     },
     {
+      "topicId": "topic-1738823a7ba5ebe5e39ea730",
+      "inputHash": "3099d5fe669f321c2fed521316806648d04433337b8cacb0d62a2ebf03eaa495",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-e8df6aabf7c72ca5f3e93e41",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "ヴァンフォーレ甲府",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "e8df6aabf7c72ca5f3e93e41"
+        },
+        {
+          "id": "news-e8df6aabf7c72ca5f3e93e41-0",
+          "url": "https://news.yahoo.co.jp/articles/c80cda876eb947441d7cc0c8a8e55a7114693d32",
+          "title": "J2最下位の甲府が“今後の取り組み”を発表…「編成・戦力の見直し」や「練習負荷の管理強化」など（サッカーキング）",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "e8df6aabf7c72ca5f3e93e41"
+        },
+        {
+          "id": "news-e8df6aabf7c72ca5f3e93e41-1",
+          "url": "https://topics.smt.docomo.ne.jp/article/football_zone/sports/football_zone-683034",
+          "title": "J2最下位の甲府が声明を発表　15戦3勝と低迷…巻き返しへ「降格圏からの脱出を最優先」",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "e8df6aabf7c72ca5f3e93e41"
+        },
+        {
+          "id": "news-e8df6aabf7c72ca5f3e93e41-2",
+          "url": "https://web.gekisaka.jp/news/jleague/detail/?462615-462615-fl",
+          "title": "J2最下位の甲府が声明「まず降格圏からの脱出を最優先の目標として掲げ…」",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "e8df6aabf7c72ca5f3e93e41"
+        }
+      ]
+    },
+    {
       "topicId": "topic-17569e0bf1d27d5e975e9393",
       "inputHash": "550b3e98977dbcb5e42495f04a6cf1a1b3beb8153670fa54f2cf65816fe29d1b",
       "generatedAt": "",
@@ -8427,6 +8598,36 @@
           "observedAt": "2026-10-23T05:40:00Z",
           "fetchedAt": "2026-10-23T06:03:27Z",
           "observationId": "f4dc4d24205f12f15b119d99"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-17cade1e7d4351531f5a0fc6",
+      "inputHash": "762aa943e5b69eaf0ea30a074e5fb8fc2a1cc9e1c3ab32e08d76478ce722061d",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-57784a8c3ed32510f8eb45b4",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "경국대",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "57784a8c3ed32510f8eb45b4"
         }
       ]
     },
@@ -9115,6 +9316,63 @@
       ]
     },
     {
+      "topicId": "topic-19db96db74ef53ff811c11b8",
+      "inputHash": "dde694842774aa4518476b6e64a489d0db69f0240a715ee9c4b8a426c83d0843",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-ea52f70c614693d984650583",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "雇用",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:10:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "ea52f70c614693d984650583"
+        },
+        {
+          "id": "news-ea52f70c614693d984650583-0",
+          "url": "https://news.yahoo.co.jp/articles/e2c5ce7bd88bf5638ce5042ff1b0ddde97593ab1?page=3",
+          "title": "【障害者手帳と雇用】週30時間以上働く精神障がいのある人「平均賃金は月19.3万円」企業の63.3％が勤務時間などに配慮",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:10:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "ea52f70c614693d984650583"
+        },
+        {
+          "id": "news-ea52f70c614693d984650583-1",
+          "url": "https://www.yomiuri.co.jp/life/20261104-GYT8T00154/",
+          "title": "働く障害者の能力 引き出す企業増加",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:10:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "ea52f70c614693d984650583"
+        },
+        {
+          "id": "news-ea52f70c614693d984650583-2",
+          "url": "https://topics.smt.docomo.ne.jp/article/nikkan_spa/trend/nikkan_spa-2193320",
+          "title": "「数合わせ採用では定着しない」中小企業の6割が未達成の障害者雇用。乙武洋匡が訴える“数字の罠”",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:10:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "ea52f70c614693d984650583"
+        }
+      ]
+    },
+    {
       "topicId": "topic-1a36db563fcc34c39bebd8db",
       "inputHash": "25b73e594396f179975c1bbec9c27eccfcea3d8683e82c9d3201acb0efa2ca91",
       "generatedAt": "",
@@ -9453,6 +9711,63 @@
           "observedAt": "2026-11-05T17:00:00Z",
           "fetchedAt": "2026-11-05T20:41:19Z",
           "observationId": "5431cd45ad45fb526ae78ae0"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-1b16dd50b7ab16d77abef07f",
+      "inputHash": "75388b9897b23a20e7fb93d4ffbe79a2c81dead83d8e51cdc746d51ee9734967",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-04bdfdc78d166df5a48928c1",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "래미안 원베일리",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "04bdfdc78d166df5a48928c1"
+        },
+        {
+          "id": "news-04bdfdc78d166df5a48928c1-0",
+          "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611041530490450645",
+          "title": "[르포] 강남 은마아파트 가보니 “분담금에 세금 겹쳐 급락했지만… 매수는 현금부자만”",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "04bdfdc78d166df5a48928c1"
+        },
+        {
+          "id": "news-04bdfdc78d166df5a48928c1-1",
+          "url": "https://www.ytn.co.kr/_ln/0102_202611052305343897",
+          "title": "강남권 조정, 외곽으로 번질까?...\"전월세난 주목해야\"",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "04bdfdc78d166df5a48928c1"
+        },
+        {
+          "id": "news-04bdfdc78d166df5a48928c1-2",
+          "url": "https://www.mt.co.kr/estate/2026/11/06/2026110520014280170",
+          "title": "강남3구 '집값' 떨어졌지만 서울 외곽은 무섭게 올랐다 - 머니투데이",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "04bdfdc78d166df5a48928c1"
         }
       ]
     },
@@ -11058,6 +11373,63 @@
           "observedAt": "2026-10-25T03:50:00Z",
           "fetchedAt": "2026-10-25T06:10:31Z",
           "observationId": "33b6e30914d8b7762acc6197"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-20618f7db5ac816dc29aa80c",
+      "inputHash": "e11ee7642e3810c9852ec6484bb6a0abbd09603f9e9e67046092008e404efe60",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-58841de0996f21f2f2ceda55",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "伏見 寅威",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "58841de0996f21f2f2ceda55"
+        },
+        {
+          "id": "news-58841de0996f21f2f2ceda55-0",
+          "url": "https://news.yahoo.co.jp/articles/220232a247c2c422109d1f827a4792e257ff7a9b",
+          "title": "午前10時に球団発表…阪神に届いた朗報「これはデカい」 虎党歓喜「嬉しくて涙出た」（Full-Count）",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "58841de0996f21f2f2ceda55"
+        },
+        {
+          "id": "news-58841de0996f21f2f2ceda55-1",
+          "url": "https://topics.smt.docomo.ne.jp/article/nikkansports/sports/f-bb-tp0-261106-202611060000553",
+          "title": "【阪神】今年も新規FA取得の全４選手が残留　FA流出少ない球団　最後はライバル球団移籍の名手",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "58841de0996f21f2f2ceda55"
+        },
+        {
+          "id": "news-58841de0996f21f2f2ceda55-2",
+          "url": "https://www.nikkansports.com/baseball/news/202611060000725.html",
+          "title": "【阪神】伏見寅威２年契約で推定年俸１億円で残留「高橋遥人と多く組んで勝ってくれた」球団評価",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "58841de0996f21f2f2ceda55"
         }
       ]
     },
@@ -22228,6 +22600,63 @@
       ]
     },
     {
+      "topicId": "topic-46254de449aa5a5d7f413649",
+      "inputHash": "fadf920b348010aac264b58c16dd0aadf8cce0110b84fc7c81561da5cece4767",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-21815ceaf425c7a9b03cfb44",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "michelle obama",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "21815ceaf425c7a9b03cfb44"
+        },
+        {
+          "id": "news-21815ceaf425c7a9b03cfb44-0",
+          "url": "https://www.jta.org/2026/11/05/ideas/rabbi-capers-funnye-skillfully-navigated-a-jewish-world-wary-of-hebrew-israelites",
+          "title": "Rabbi Capers Funnye skillfully navigated a Jewish world wary of Hebrew Israelites",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "21815ceaf425c7a9b03cfb44"
+        },
+        {
+          "id": "news-21815ceaf425c7a9b03cfb44-1",
+          "url": "https://chicago.suntimes.com/obituaries/2026/11/02/rabbi-capers-funnye-obituary-michelle-obama-cousin-beth-shalom-bnai-zaken-dies-74",
+          "title": "Rabbi Capers Funnye, Michelle Obama's cousin who ran South Side synagogue, broke racial barriers, dies at 74",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "21815ceaf425c7a9b03cfb44"
+        },
+        {
+          "id": "news-21815ceaf425c7a9b03cfb44-2",
+          "url": "https://forward.com/opinion/860060/capers-funnye-remembrance-black-jewish-chicago-beth-shalom-bnai-zaken/",
+          "title": "A ‘unique 20th Century Israelite’ who always made sure we got it right",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "21815ceaf425c7a9b03cfb44"
+        }
+      ]
+    },
+    {
       "topicId": "topic-4633d7732e20091f3d994844",
       "inputHash": "33d9374df432c25151cb9ed637cb93791240e8a07866c0522cf84b47b8143d58",
       "generatedAt": "",
@@ -22895,7 +23324,7 @@
     },
     {
       "topicId": "topic-497c4ba11f015ff415743596",
-      "inputHash": "1c37641318b0c5c10e04086fe0ce35502fdf705e98fa434e2842ef35762e6f60",
+      "inputHash": "0aeb5c15059aff2a05099c870bfa7202203d56f7f127ee3c1aa6cbeb3271c46a",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -22947,6 +23376,42 @@
           "observedAt": "2026-10-30T05:50:00Z",
           "fetchedAt": "2026-10-30T07:10:08Z",
           "observationId": "4c3f9344bd30f5290d6e4cf1"
+        },
+        {
+          "id": "obs-4e7407f90378a478203a95ad",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "when is black friday",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:50:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "4e7407f90378a478203a95ad"
+        },
+        {
+          "id": "news-4e7407f90378a478203a95ad-0",
+          "url": "https://www.nbcnews.com/select/shopping/home-depot-early-black-friday-sale-2026-rcna607717",
+          "title": "The 18+ best home improvement deals from Home Depot’s early Black Friday sale, starting at just $9",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:50:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "4e7407f90378a478203a95ad"
+        },
+        {
+          "id": "news-4e7407f90378a478203a95ad-1",
+          "url": "https://www.gearpatrol.com/home/home-depot-milwaukee-tool-early-black-friday-deals/",
+          "title": "Home Depot Is Selling a Bunch of Milwaukee Tools Way Below Retail",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:50:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "4e7407f90378a478203a95ad"
+        },
+        {
+          "id": "news-4e7407f90378a478203a95ad-2",
+          "url": "https://www.slashgear.com/2307034/milwaukee-tools-with-deep-discounts-in-november-2026/",
+          "title": "4 Milwaukee Tools With Deep Discounts In November 2026",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:50:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "4e7407f90378a478203a95ad"
         }
       ]
     },
@@ -25682,6 +26147,63 @@
       ]
     },
     {
+      "topicId": "topic-526b447a9360ad2638e803fa",
+      "inputHash": "7aadec8e8454a216819ddc6993dd73e4129438f4a0e22c27ffb8fc4ea90ad4c5",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-f6bd5eb6acfca4cf34635f46",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "windows 12",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f6bd5eb6acfca4cf34635f46"
+        },
+        {
+          "id": "news-f6bd5eb6acfca4cf34635f46-0",
+          "url": "https://www.theverge.com/tech/1027621/where-is-windows-12-notepad",
+          "title": "Where is Windows 12?",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f6bd5eb6acfca4cf34635f46"
+        },
+        {
+          "id": "news-f6bd5eb6acfca4cf34635f46-1",
+          "url": "https://www.neowin.net/news/windows-11-27h2-could-be-major-upgrade-with-64-bit-performance-boost-new-default-wallpapers/",
+          "title": "Windows 11 27H2 could be major upgrade with 64-bit performance boost, new default wallpapers",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f6bd5eb6acfca4cf34635f46"
+        },
+        {
+          "id": "news-f6bd5eb6acfca4cf34635f46-2",
+          "url": "https://mezha.net/eng/news/mezha-c98432e34fefdf81647b089a_where_is_windows/",
+          "title": "Where is Windows 12?",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f6bd5eb6acfca4cf34635f46"
+        }
+      ]
+    },
+    {
       "topicId": "topic-527cc184930dfd3c35c89b75",
       "inputHash": "d36eb706f9d44cbae5848862b3381a336bf86e9e4f88ba38e38592cab21476f5",
       "generatedAt": "",
@@ -25967,6 +26489,63 @@
       ]
     },
     {
+      "topicId": "topic-53a3bee01485f1695949e3ff",
+      "inputHash": "e0652a307740930b5990bfc260a93b15de6e4b60f5cde98d7a9cee238000f3b1",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-45613161356e3373c75f5201",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "stranger things day",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "45613161356e3373c75f5201"
+        },
+        {
+          "id": "news-45613161356e3373c75f5201-0",
+          "url": "https://parade.com/news/millie-bobby-brown-ross-duffer-posts-resurrect-stranger-things-conformity-gate-from-the-dead",
+          "title": "Millie Bobby Brown, Ross Duffer Posts Resurrect ‘Stranger Things’ Conformity Gate From the Dead",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "45613161356e3373c75f5201"
+        },
+        {
+          "id": "news-45613161356e3373c75f5201-1",
+          "url": "https://www.imdb.com/it/news/ni66097912/?ref_=nwc_art_perm",
+          "title": "Are Finn Wolfhard & Caleb McLaughlin Filming a New ‘Stranger Things’ Episode? What We Know",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "45613161356e3373c75f5201"
+        },
+        {
+          "id": "news-45613161356e3373c75f5201-2",
+          "url": "https://www.cbr.com/stranger-things-conformitygate-revived-stars-film-mystery-project/",
+          "title": "Stranger Things' ConformityGate Revived 11 Months Later as Stars Film Mystery Project",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "45613161356e3373c75f5201"
+        }
+      ]
+    },
+    {
       "topicId": "topic-53cac5d5ce8bd18e7f4391fe",
       "inputHash": "a1250826eedea3c55e0aa47ae732fa864b82c82e26ebc11d2f04c8995d5de0e3",
       "generatedAt": "",
@@ -26077,6 +26656,63 @@
           "observedAt": "2026-10-28T18:40:00Z",
           "fetchedAt": "2026-10-28T18:53:02Z",
           "observationId": "06b569ef317a0bd6ad81d7c9"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-542647a9792a4ca39e01687c",
+      "inputHash": "015f22c5c13a1453f31f4a2335f52b8dcd37958516d997cf374c16bb9745f6b8",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-5d2c2c5ee35c19e06e5ace3c",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "prince william country life cover",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "5d2c2c5ee35c19e06e5ace3c"
+        },
+        {
+          "id": "news-5d2c2c5ee35c19e06e5ace3c-0",
+          "url": "https://www.the-independent.com/news/uk/home-news/prince-william-country-life-magazine-kate-children-b3079845.html",
+          "title": "Prince William opens up about private life in special edition of Country Life",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "5d2c2c5ee35c19e06e5ace3c"
+        },
+        {
+          "id": "news-5d2c2c5ee35c19e06e5ace3c-1",
+          "url": "https://people.com/prince-william-behind-the-scenes-magazine-guest-editor-country-life-12238672",
+          "title": "Prince William Gives a Look Behind the Scenes as Magazine Guest Editor, Following in His Father’s Footsteps",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "5d2c2c5ee35c19e06e5ace3c"
+        },
+        {
+          "id": "news-5d2c2c5ee35c19e06e5ace3c-2",
+          "url": "https://www.telegraph.co.uk/royal-family/2026/11/06/royal-cider-prince-wales-william-country-life-guest-editor/",
+          "title": "Royal in-cider! Prince of Wales to reveal favourite tipple in Country Life",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "5d2c2c5ee35c19e06e5ace3c"
         }
       ]
     },
@@ -26932,6 +27568,63 @@
           "observedAt": "2026-10-31T06:40:00Z",
           "fetchedAt": "2026-10-31T07:00:13Z",
           "observationId": "995c61f94513ec07296c6094"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-56c5af3d9d609751e57cd8ed",
+      "inputHash": "a724f976a9f65938f10a93c52285f996a1b8fb20c72d0d31caaf6ab65e66fc81",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-8fdc6cc68ec0eb0070792273",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "nifty 50",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "8fdc6cc68ec0eb0070792273"
+        },
+        {
+          "id": "news-8fdc6cc68ec0eb0070792273-0",
+          "url": "https://www.reuters.com/world/india/indian-stocks-set-pullback-after-sharp-rally-oil-slide-foreign-inflows-2026-11-06/",
+          "title": "India bucks Asia tech rout as oil slide reverses market fortunes",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "8fdc6cc68ec0eb0070792273"
+        },
+        {
+          "id": "news-8fdc6cc68ec0eb0070792273-1",
+          "url": "https://m.economictimes.com/markets/stocks/news/bloodbath-in-nasdaq-kospi-and-nikkei-but-why-nifty-is-an-oasis-of-peace-amid-global-rout/articleshow/135594762.cms",
+          "title": "Bloodbath in Nasdaq, Kospi and Nikkei but why Nifty is an oasis of peace amid global rout",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "8fdc6cc68ec0eb0070792273"
+        },
+        {
+          "id": "news-8fdc6cc68ec0eb0070792273-2",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-06/overbought-nifty-may-find-fresh-fuel-as-ai-stocks-tumble-globally",
+          "title": "Overbought Nifty May Find Fresh Fuel as AI Stocks Tumble Globally",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "8fdc6cc68ec0eb0070792273"
         }
       ]
     },
@@ -28431,6 +29124,63 @@
           "observedAt": "2026-10-27T18:20:00Z",
           "fetchedAt": "2026-10-27T18:43:14Z",
           "observationId": "39fa268052893f93169680db"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-5ca9d8ef4e0cee6b67f8f5a7",
+      "inputHash": "12ce4f3b5958113cd61beadfca7c708135e0df317ae12d906e3aae3bb2d8c510",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-97353aed1852afc1d40ec080",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "이용철",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "97353aed1852afc1d40ec080"
+        },
+        {
+          "id": "news-97353aed1852afc1d40ec080-0",
+          "url": "https://www.hani.co.kr/arti/politics/bluehouse/1286136.html",
+          "title": "[속보] 법무부 장관 후보자에 이용철 방위사업청장 지명",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "97353aed1852afc1d40ec080"
+        },
+        {
+          "id": "news-97353aed1852afc1d40ec080-1",
+          "url": "https://www.yna.co.kr/view/AKR20261106086000001",
+          "title": "홍익표 靑정무수석 사의…후임에 '친노·친문' 최인호 유력검토",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "97353aed1852afc1d40ec080"
+        },
+        {
+          "id": "news-97353aed1852afc1d40ec080-2",
+          "url": "https://www.hankyung.com/article/202611061119i",
+          "title": "[속보] 李대통령, 법무장관 이용철…국세청장 안덕수 지명",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "97353aed1852afc1d40ec080"
         }
       ]
     },
@@ -35216,6 +35966,63 @@
       ]
     },
     {
+      "topicId": "topic-73f381e31e823f6e43a9503c",
+      "inputHash": "262f109426eb0fd2c15e9ed29f650722cde6ae3fe27d3dbc82c8b44400c47852",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-12055d1c21387ba855261b2f",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "죽음",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "12055d1c21387ba855261b2f"
+        },
+        {
+          "id": "news-12055d1c21387ba855261b2f-0",
+          "url": "https://tv.edaily.co.kr/News/NewsRead?NewsId=01912246645643096&Kind=257",
+          "title": "[단독]잇단 정신질환자 흉기 난동…정부, '비자의 입원' 제도 손질",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "12055d1c21387ba855261b2f"
+        },
+        {
+          "id": "news-12055d1c21387ba855261b2f-1",
+          "url": "https://www.news1.kr/bio/welfare-medical/6343251",
+          "title": "우울증 약값 낮추고 위기 환자 이송까지…정신건강 안전망 손본다",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "12055d1c21387ba855261b2f"
+        },
+        {
+          "id": "news-12055d1c21387ba855261b2f-2",
+          "url": "https://m.newsprime.co.kr/section_view.html?no=753812&menu=index",
+          "title": "하루 38.8명 죽음이 던진 과제",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "12055d1c21387ba855261b2f"
+        }
+      ]
+    },
+    {
       "topicId": "topic-741446b07ec0f5366d619da9",
       "inputHash": "c5832d29b4059d6e97ec2d0331be534cd0386929dcefaf717cf2f8ca8efddc52",
       "generatedAt": "",
@@ -36709,6 +37516,54 @@
       ]
     },
     {
+      "topicId": "topic-7989457864a92139d3990a31",
+      "inputHash": "914f50f0e7d75c2f11ea015a5a0a88dc97a90d65f7c36b7195eca69b9acfc3a6",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-18a53351651560aabcbfe3c3",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "mike farrell",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "18a53351651560aabcbfe3c3"
+        },
+        {
+          "id": "news-18a53351651560aabcbfe3c3-0",
+          "url": "https://parade.com/entertainment/mike-farrell-revealed-why-alan-alda-asked-him-to-grow-a-mustache-on-mash",
+          "title": "Mike Farrell Revealed Why Alan Alda Asked Him to Grow a Mustache on ‘M*A*S*H’",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "18a53351651560aabcbfe3c3"
+        },
+        {
+          "id": "news-18a53351651560aabcbfe3c3-1",
+          "url": "https://www.yahoo.com/entertainment/tv/articles/mike-farrell-reflects-m-hs-005917950.html",
+          "title": "Mike Farrell Reflects on M*A*S*H's Impact and Emotional Viewer Reactions",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "18a53351651560aabcbfe3c3"
+        }
+      ]
+    },
+    {
       "topicId": "topic-79adb2a2fce5c6ba215fe5f2",
       "inputHash": "2f18107c12341186a2a0f19912671cb11f21849af9980a24c32f17200bc6dfd3",
       "generatedAt": "",
@@ -38060,7 +38915,7 @@
     },
     {
       "topicId": "topic-803b3eb2b6af027151950019",
-      "inputHash": "ed578906102e5f430548487846192791dcd838b3741ba8e0d0a9dd05bfd801a7",
+      "inputHash": "80dc507b045c88200b43745f5d9617e04a3c33a9da01ea080b01fca4d3bc0029",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -41559,6 +42414,456 @@
           "observedAt": "2026-11-05T07:15:00Z",
           "fetchedAt": "2026-11-05T20:41:19Z",
           "observationId": "f6547cbe46f6086324604dc6"
+        },
+        {
+          "id": "obs-190cbb7071270037d25b2f96",
+          "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-new-york-schluss-tech-flucht-angst-vor-ki-regulierung-16041945",
+          "title": "ROUNDUP / Aktien New York Schluss : Tech - Flucht - Angst vor KI - Regulierung",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T22:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "190cbb7071270037d25b2f96"
+        },
+        {
+          "id": "obs-3e9bba7c3b0d5b14d1f64209",
+          "url": "https://www.reflex.cz/clanek/veda/139178/umela-inteligence-valcuje-matematiky-prichazime-o-podstatu-lidstvi.html",
+          "title": "Umělá inteligence válcuje matematiky : Přicházíme o podstatu lidství ? ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T22:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "3e9bba7c3b0d5b14d1f64209"
+        },
+        {
+          "id": "obs-4025ee2c77e79aa5cfdbc9a5",
+          "url": "https://www.cadena3.com/noticia/viva-la-radio/tension-y-protesta-en-un-colegio-de-jesus-maria-por-presuntas-imagenes-sexuales-creadas-con-ia_610592",
+          "title": "Tensión y protesta en un colegio de Jesús María por presuntas imágenes sexuales creadas con IA",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T22:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "4025ee2c77e79aa5cfdbc9a5"
+        },
+        {
+          "id": "obs-7086ceeef9f6648e553845c7",
+          "url": "https://www.haberturk.com/ekonomi/abd-borsalarinda-yapay-zeka-depremi-3925268",
+          "title": "ABD borsalarında yapay zeka depremi",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T22:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "7086ceeef9f6648e553845c7"
+        },
+        {
+          "id": "obs-ef0ba046e3b9e47ba7e972b9",
+          "url": "https://adevarul.ro/economie/bursele-americane-in-cadere-libera-dupa-victoria-2569318.html",
+          "title": "Bursele americane , în cădere liberă după victoria democraților în Congres . Cel mai afectat sector",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T22:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "ef0ba046e3b9e47ba7e972b9"
+        },
+        {
+          "id": "obs-df8a57eb1cdf285d5b1077f4",
+          "url": "https://telegrafi.com/nvidia-dhe-spacex-humbasin-miliarda-dollare-ne-vlere-tregu-nje-dite-pasi-demokratet-korren-nje-fitore-te-thelle-ne-zgjedhjet-e-mesmandatit-ne-shba/",
+          "title": "Nvidia dhe SpaceX humbasin miliarda dollarë në vlerë tregu , një ditë pasi demokratët korrën një fitore të thellë në zgjedhjet e mesmandatit në SHBA",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T22:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "df8a57eb1cdf285d5b1077f4"
+        },
+        {
+          "id": "obs-e58aa7944ad3cbff9f560e21",
+          "url": "https://stirileprotv.ro/stiri/ilikeit/inteligenta-artificiala-incepe-sa-si-accelereze-propria-dezvoltare-modelele-anthropic-evolueaza-de-doua-ori-mai-rapid.html",
+          "title": "Inteligența artificială începe să - și accelereze propria dezvoltare . Modelele Anthropic evoluează de două ori mai rapid",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T22:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "e58aa7944ad3cbff9f560e21"
+        },
+        {
+          "id": "obs-344baf6895d15c8eb1c38b6f",
+          "url": "https://www.onvista.de/news/2026/11-05-roundup-aktien-new-york-schluss-tech-flucht-angst-vor-ki-regulierung-0-10-26573186",
+          "title": "ROUNDUP / Aktien New York Schluss : Tech - Flucht - Angst vor KI - Regulierung",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "344baf6895d15c8eb1c38b6f"
+        },
+        {
+          "id": "obs-591a7db4fa1911b5bcab6021",
+          "url": "https://www.quadratin.com.mx/salud/ia-debe-apoyar-no-sustituir-al-medico-secretario-de-salud-de-jalisco/",
+          "title": "IA debe apoyar , no sustituir al médico : secretario de Salud de Jalisco - Quadratín",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T00:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "591a7db4fa1911b5bcab6021"
+        },
+        {
+          "id": "obs-185a05b80a62faded9eec4fa",
+          "url": "https://lb.ua/world/2026/11/05/778892_amerikanskiy_fondoviy_rinok.html",
+          "title": "Ринок США втратив 32 трлн на тлі падіння техакцій і Nasdaq 100",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T00:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "185a05b80a62faded9eec4fa"
+        },
+        {
+          "id": "obs-443619d6d4d849dbcdb48c1e",
+          "url": "https://www.newsway.co.kr/news/view?ud=2026110607393346752",
+          "title": "  검은 목요일  덮친 뉴욕증시나스닥 5 . 52 % 급락",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T00:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "443619d6d4d849dbcdb48c1e"
+        },
+        {
+          "id": "obs-96b9def3867723e84f50c217",
+          "url": "https://www.pulzo.com/economia/wall-street-perdio-us3-billones-jornada-por-desplome-tecnologico-PP5349924",
+          "title": "Wall Street perdió hasta US$3 billones en una jornada por desplome tecnológico",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T00:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "96b9def3867723e84f50c217"
+        },
+        {
+          "id": "obs-0ca316241f54b9db540a567b",
+          "url": "https://www.brasil247.com/brasil/lula-promete-priorizar-economia-digital-e-inteligencia-artificial-no-novo-mandato/",
+          "title": "Lula promete priorizar economia digital e inteligência artificial no novo mandato",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "0ca316241f54b9db540a567b"
+        },
+        {
+          "id": "obs-64daaf403d30e222c334f1e2",
+          "url": "https://www.ottopagine.it/campania/attualita/443245/pediatria-d-urgenza-schillaci-cure-sicure-per-i-bambini-ovunque-vivano.shtml",
+          "title": "Pediatria durgenza , Schillaci :  Cure sicure per i bambini , ovunque vivano  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "64daaf403d30e222c334f1e2"
+        },
+        {
+          "id": "obs-ab422d3d1f249fe67931867d",
+          "url": "https://www.emirates247.com/uae/dubai-to-link-all-traffic-signals-to-an-ai-run-control-centre-by-early-2027-aiming-to-cut-congestion-by-at-least-10/7500",
+          "title": "Dubai to link all traffic signals to an AI - run control centre by early 2027 , aiming to cut congestion by at least 10 % ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "ab422d3d1f249fe67931867d"
+        },
+        {
+          "id": "obs-75a6636fcf4d59f4094ffb30",
+          "url": "https://www.munhwa.com:443/article/11629173",
+          "title": " [ 속보 ] 블루쓰나미에 뉴욕증시 AI주 급락 … 나스닥 5 . 52 % ↓",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "75a6636fcf4d59f4094ffb30"
+        },
+        {
+          "id": "obs-846a918f1ee7f98f51095015",
+          "url": "https://www.donanimhaber.com/tencent-yapay-zekada-halusinasyon-oranini-yuzde-7-2-ye-indirdi--212539",
+          "title": "Tencent , yapay zekada halüsinasyon oranını yüzde 7 , 2  ye indirdi",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "846a918f1ee7f98f51095015"
+        },
+        {
+          "id": "obs-887fea36ef15fa038f35676b",
+          "url": "https://www.munhwa.com:443/article/11629237",
+          "title": " [ 속보 ] 코스피 5000선 무너졌다 … 3분만에 서킷브레이커 발동 , 하닉 11 % 대 급락",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "887fea36ef15fa038f35676b"
+        },
+        {
+          "id": "obs-b19d3b7647b51bdc9827bf6a",
+          "url": "https://www.elcorreo.com/alava/araba/ia-aprende-saber-empresa-20261106002908-nt.html",
+          "title": "La IA que aprende del saber de cada empresa",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "b19d3b7647b51bdc9827bf6a"
+        },
+        {
+          "id": "obs-c61c86ccc455b210920daa8f",
+          "url": "https://www.almanar.com.lb/article/1327947/",
+          "title": "غوغل توقف التشغيل التلقائي لأدوات الذكاء الإصطناعي لطلاب المدارس الأميركية – قناة المنار",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "c61c86ccc455b210920daa8f"
+        },
+        {
+          "id": "obs-d203d93944f71e6a4aea55f3",
+          "url": "https://allafrica.com/stories/202611050685.html",
+          "title": "Africa : Icair 2026 - Africa Risks Economic Dependence Without Home - Grown Ai Technologies , Experts Warn",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "d203d93944f71e6a4aea55f3"
+        },
+        {
+          "id": "obs-0106884f259b843df7e03df5",
+          "url": "https://www.hani.co.kr/arti/economy/finance/1286080.html",
+          "title": "미 중간선거 결과에  금값  뛴다 … 1주일 전보다 5 % 넘게 올라",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T02:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "0106884f259b843df7e03df5"
+        },
+        {
+          "id": "obs-4e63b0b56f153b2ae80696f6",
+          "url": "https://biz.heraldcorp.com/article/10928268",
+          "title": "부산시 - 해군 - 방사청 , 해양함정사업 AX 선도",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T02:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "4e63b0b56f153b2ae80696f6"
+        },
+        {
+          "id": "obs-45ef43da992e7035f2d9206d",
+          "url": "http://internetua.com/aktivisti-po-vsii-yevropi-gotuuatsya-do-dvodennih-akcii-protestu-proti-data-centriv",
+          "title": "Активісти по всій Європі готуються до дводенних акцій протесту проти дата - центрів",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T02:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "45ef43da992e7035f2d9206d"
+        },
+        {
+          "id": "obs-6d60a9363a441130a60f78ef",
+          "url": "https://oglobo.globo.com/economia/financas/noticia/2026/11/05/bolsas-asiaticas-seguem-debacle-americana-e-abrem-pregao-de-sexta-feira-em-forte-queda.ghtml",
+          "title": "Bolsas asiáticas seguem tombo americano e abrem pregão de sexta - feira em forte queda",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T02:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "6d60a9363a441130a60f78ef"
+        },
+        {
+          "id": "obs-a7eac1019a764560719ed860",
+          "url": "https://www.cadena3.com/noticia/mundo/el-nikkei-de-japon-se-desploma-mas-de-6-tras-caidas-en-el-mercado-estadounidense_610708",
+          "title": "El Nikkei de Japón se desploma más de 6 % tras caídas en el mercado estadounidense",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T02:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "a7eac1019a764560719ed860"
+        },
+        {
+          "id": "obs-76979a7e38c0596f076af6d5",
+          "url": "https://hotnews.ro/pietele-bursiere-de-la-petrecere-la-corectii-masive-in-24-de-ore-nasdaq-scade-cu-5-pierderi-de-19-trilioane-de-dolari-2396390",
+          "title": "Piețele bursiere : De la petrecere la corecții masive în 24 de ore : Nasdaq scade cu 5 %, pierderi de 1 , 9 trilioane de dolari",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T03:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "76979a7e38c0596f076af6d5"
+        },
+        {
+          "id": "obs-94afc2299c962fd122e35fe6",
+          "url": "https://finance.sina.com.cn/jjxw/2026-11-06/doc-inixuize5496803.shtml",
+          "title": "AI 赋能制造业 临沂亮出三年行动方案",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T03:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "94afc2299c962fd122e35fe6"
+        },
+        {
+          "id": "obs-e9e210f3edfaa3d1ea2e2d7a",
+          "url": "http://hsbnoticias.com/noticias/nasdaq-se-acerca-a-una-correccion-tras-desplome-de-las-acciones-tecnologicas",
+          "title": "Nasdaq se acerca a una corrección tras desplome de las acciones tecnológicas",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T03:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "e9e210f3edfaa3d1ea2e2d7a"
+        },
+        {
+          "id": "obs-5620b9754809a54701bf9450",
+          "url": "https://knews.kg/2026/11/06/aktsii-vedushhih-tehnologicheskih-kompanij-rezko-upali-na-fone-promezhutochnyh-vyborov-v-ssha-kotorye-usilili-opaseniya-po-povodu-zamedleniya-razvitiya-ii/",
+          "title": "Акции ведущих технологических компаний резко упали на фоне промежуточных выборов в США , которые усилили опасения по поводу замедления развития ИИ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T04:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "5620b9754809a54701bf9450"
+        },
+        {
+          "id": "obs-87cbdec1dc7af53cfea8d51c",
+          "url": "https://www.semana.com/tecnologia/articulo/bill-gates-advierte-sobre-un-cambio-que-podria-transformar-para-siempre-el-mundo-laboral/202630/",
+          "title": "Bill Gates advierte sobre un cambio que podría transformar para siempre el mundo laboral",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T04:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "87cbdec1dc7af53cfea8d51c"
+        },
+        {
+          "id": "obs-e9c6762cc5f6217cc4a8ab6f",
+          "url": "https://wek.ru/kitaj-ne-zaxotel-otdavat-robotov-pochemu-sdelka-na-54-mlrd-okazalas-pod-ugrozoj",
+          "title": "Китай заблокировал сделку ABB и SoftBank на $5 , 4 млрд",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T04:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "e9c6762cc5f6217cc4a8ab6f"
+        },
+        {
+          "id": "obs-0c7f78c4caf8633e6a9b3160",
+          "url": "https://www.tagesanzeiger.ch/ki-in-der-arbeitswelt-was-du-wissen-musst-267938861700",
+          "title": "KI in der Arbeitswelt : Was du wissen musst",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T05:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "0c7f78c4caf8633e6a9b3160"
+        },
+        {
+          "id": "obs-931b908a78e5adb7c9c96712",
+          "url": "https://shiftdelete.net/abd-secimi-teknoloji-piyasa-degeri-kaybi",
+          "title": "ABD seçimi sonrası Nasdaqta 2 , 5 trilyon dolar silindi",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T05:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "931b908a78e5adb7c9c96712"
+        },
+        {
+          "id": "obs-c11f475c225858fcefa04ca5",
+          "url": "https://www.trthaber.com/haber/dunya/yapay-zeka-ile-sirket-yoneticilerini-taklit-eden-3-kisiden-130-milyon-dolarlik-dolandiricilik-962400.html",
+          "title": "Yapay zeka ile şirket yöneticilerini taklit eden 3 kişiden 130 milyon dolarlık dolandırıcılık",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T05:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "c11f475c225858fcefa04ca5"
+        },
+        {
+          "id": "obs-d90c63b3faf986a3d05773e7",
+          "url": "https://www.trthaber.com/haber/dunya/abd-secimleri-kuresel-teknoloji-hisselerinde-sert-dususe-yol-acti-962394.html",
+          "title": "ABD seçimleri küresel teknoloji hisselerinde sert düşüşe yol açtı",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T05:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "d90c63b3faf986a3d05773e7"
+        },
+        {
+          "id": "obs-e984378fdf542c4d1309dde9",
+          "url": "https://www.trthaber.com/haber/dunya/yapay-zeka-modelleri-kendi-kendini-daha-hizli-egitmeye-basladi-962402.html",
+          "title": "Yapay zeka modelleri kendi kendini daha hızlı eğitmeye başladı",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T05:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "e984378fdf542c4d1309dde9"
+        },
+        {
+          "id": "obs-f7fe3a7d513f83f31696ed23",
+          "url": "https://www.derbund.ch/ki-in-der-arbeitswelt-was-du-wissen-musst-267938861700",
+          "title": "KI in der Arbeitswelt : Was du wissen musst",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T05:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f7fe3a7d513f83f31696ed23"
+        },
+        {
+          "id": "obs-0700265ede6701f4d1c20c61",
+          "url": "https://www.eltiempo.com/justicia/cortes/un-gran-aplauso-a-la-inteligencia-artificial-seria-desmedido-magistrado-juan-carlos-campo-del-tribunal-constitucional-de-espana-3598879",
+          "title": "  Un gran aplauso a la inteligencia artificial sería desmedido : magistrado Juan Carlos Campo , del Tribunal Constitucional de España",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T05:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "0700265ede6701f4d1c20c61"
+        },
+        {
+          "id": "obs-41170c29d7c7595d4a79be39",
+          "url": "https://www.standartnews.com/biznes/cherna-borsova-sesiya-v-sasht-novata-vlast-uplashi-investitorite-652356.html",
+          "title": "Черна борсова сесия в САЩ . Новата власт уплаши инвеститорите - Бизнес Новини Стандарт",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T05:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "41170c29d7c7595d4a79be39"
+        },
+        {
+          "id": "obs-49b35759856c04cf3f6bc9fe",
+          "url": "https://www.lavozdegalicia.es/noticia/pontevedra/2026/11/03/javier-martinez-experto-inteligencia-artificial-pagas-ia-olvidate-fiable-estas-trabajando-/00031793712696698527978.htm",
+          "title": "Javier Martínez , experto en inteligencia artificial : « Si no pagas por la IA olvídate de que sea fiable . Estás trabajando para ellos » ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T05:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "49b35759856c04cf3f6bc9fe"
+        },
+        {
+          "id": "obs-637f6f4fee54707e8f96616a",
+          "url": "https://www.hani.co.kr/arti/economy/finance/1286112.html",
+          "title": "코스피 , AI 투심 악화에 붕괴 … 미 데이터센터 규제에 신용 · 투자 잡음까지",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T05:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "637f6f4fee54707e8f96616a"
+        },
+        {
+          "id": "obs-faeaada9a92dd17c211d10f0",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/why-did-us-stocks-crash-trump-blames-democrats-as-ai-regulation-fears-rattle-markets/articleshow/135594140.cms",
+          "title": "Why did US stocks crash ? Trump blames Democrats as AI regulation fears rattle markets",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T05:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "faeaada9a92dd17c211d10f0"
+        },
+        {
+          "id": "obs-1e81644d3a9dba772c8cf883",
+          "url": "https://www.haberler.com/ekonomi/yapay-zeka-duzenleme-endisesi-kuresel-borsalarda-4-20400497-haberi/",
+          "title": "Yapay zeka düzenleme endişesi küresel borsalarda 4 trilyon dolarlık erimeye yol açtı",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "1e81644d3a9dba772c8cf883"
+        },
+        {
+          "id": "obs-63eb86c936d539289f4ab5be",
+          "url": "https://www.iefimerida.gr/oikonomia/hrimatistiriakos-seismos-se-ipa-kai-asia",
+          "title": "Χρηματιστηριακός σεισμός σε ΗΠΑ και Ασία : Βουτιά στις μετοχές τεχνολογίας , « φταίνε οι Δημοκρατικοί » λέει ο Τραμπ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "63eb86c936d539289f4ab5be"
+        },
+        {
+          "id": "obs-e9f516e96a58b7bebb48ba8b",
+          "url": "https://www.ilsole24ore.com/art/borse-tsunami-dell-onda-blu-arriva-asia-crollano-tokyo-seul-e-taipei-AJTF5m6B",
+          "title": "Borse , lo tsunami dellOnda blu arriva in Asia : crollano Tokyo , Seul e Taipei",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "e9f516e96a58b7bebb48ba8b"
+        },
+        {
+          "id": "obs-f03c9427175bcf8de18e2ecc",
+          "url": "https://www.wnp.pl/rynki/niebieskie-tsunami-w-usa-czerwona-fala-na-wall-street-tak-zle-na-gieldzie-nie-bylo-dawno,1116909.html",
+          "title": "Niebieskie tsunami w united states , czerwona fala na Wall Street . Tak źle na giełdzie nie było dawno",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f03c9427175bcf8de18e2ecc"
+        },
+        {
+          "id": "obs-42a8cf5fae0edb7e59149cad",
+          "url": "https://naslovi.net/2026-11-06/blic/ostar-pad-na-volstritu-tehnoloski-sektor-u-zoni-korekcije-akcije-vestacke-inteligencije-pod-pritiskom-politike/42574026",
+          "title": "Oštar pad na Volstritu : Tehnološki sektor u zoni korekcije , akcije veštačke inteligencije pod pritiskom politike",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "42a8cf5fae0edb7e59149cad"
+        },
+        {
+          "id": "obs-59ff8d37ce62014a5fb36e2c",
+          "url": "https://news.bg/int-economics/tehnologichnite-giganti-zagubiha-2-5-triliona-dolara-sled-pobedata-na-demokratite-v-sasht.html",
+          "title": "Технологичните гиганти загубиха 2 , 5 трилиона долара след победата на демократите в САЩ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "59ff8d37ce62014a5fb36e2c"
+        },
+        {
+          "id": "obs-b8e33b6126e006e7d82e66df",
+          "url": "https://www.turkiyegazetesi.com.tr/tasarruf-ortagim/yapay-zeka-cokusu-muhtesem-yedilide-trilyon-dolarlik-sok-1827518",
+          "title": "Yapay zekâ küşü !  Muhteşem Yedilide trilyon dolarlık şok",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "b8e33b6126e006e7d82e66df"
         }
       ]
     },
@@ -41881,6 +43186,63 @@
           "observedAt": "2026-10-21T08:30:00Z",
           "fetchedAt": "2026-10-21T09:31:21Z",
           "observationId": "9a4a543b94ca1a2693c7fff1"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-815e2b438ffe986889115d13",
+      "inputHash": "5c12e3ddead291d69678b9be37b3598c13c71950ed0be5b31ed803a61f93fba0",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-83910d90d5a0a926c1bcc92c",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "サンリオ 決算",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "83910d90d5a0a926c1bcc92c"
+        },
+        {
+          "id": "news-83910d90d5a0a926c1bcc92c-0",
+          "url": "https://s.kabutan.jp/news/k202611060186/",
+          "title": "サンリオ、上期経常が8％増益で着地・7-9月期も5％増益",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "83910d90d5a0a926c1bcc92c"
+        },
+        {
+          "id": "news-83910d90d5a0a926c1bcc92c-1",
+          "url": "https://gamebiz.jp/news/435178",
+          "title": "【速報】サンリオ、2Q(4～9月)決算は売上高22％増、営業益9％増に 戦略投資を実行しつつも売上高と営業益は過去最高を記録",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "83910d90d5a0a926c1bcc92c"
+        },
+        {
+          "id": "news-83910d90d5a0a926c1bcc92c-2",
+          "url": "https://finance.yahoo.co.jp/news/detail/d6601a2806c591a29103d80fb2d210a6116cd2e4",
+          "title": "【決算速報】サンリオ、上期経常が8％増益で着地・7-9月期も5％増益(株探ニュース)",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "83910d90d5a0a926c1bcc92c"
         }
       ]
     },
@@ -48469,6 +49831,63 @@
       ]
     },
     {
+      "topicId": "topic-9854ae00d2827793b379fea5",
+      "inputHash": "e8d04279c608939c53ec51422e29b670a45a21f767222718d954804f0eeabdf2",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-b73ddbfdb7bde2b87785c3f2",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "남대문시장",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "b73ddbfdb7bde2b87785c3f2"
+        },
+        {
+          "id": "news-b73ddbfdb7bde2b87785c3f2-0",
+          "url": "https://www.mt.co.kr/society/2026/11/05/2026110514064120180",
+          "title": "남대문 스카프 아저씨 \"경찰까지 출동\"…영업 재개 하루 만에 또 휴업 - 머니투데이",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "b73ddbfdb7bde2b87785c3f2"
+        },
+        {
+          "id": "news-b73ddbfdb7bde2b87785c3f2-1",
+          "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6863584_37012.html",
+          "title": "말 없는 출근길 영상인데‥조회 수 300만",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "b73ddbfdb7bde2b87785c3f2"
+        },
+        {
+          "id": "news-b73ddbfdb7bde2b87785c3f2-2",
+          "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/05/JY7PUGBGINGDHHRQNZRRALSWEQ/",
+          "title": "[르포] 스카프 아저씨에 외국인까지… 남대문 상가 임대료는 올랐다",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "b73ddbfdb7bde2b87785c3f2"
+        }
+      ]
+    },
+    {
       "topicId": "topic-985cbb89686696af5524dfa6",
       "inputHash": "7b6715718d0ea99ee81eb9f2940d91230530e11e0b1ebd21870b924da5504d38",
       "generatedAt": "",
@@ -48921,6 +50340,54 @@
           "observedAt": "2026-11-02T22:00:00Z",
           "fetchedAt": "2026-11-02T22:20:39Z",
           "observationId": "f2745343bc4443013c0b6b82"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-99d8edfa4b24c836e4d67d98",
+      "inputHash": "3d46663b55162406b9d448e8f09ac3cd78285e72dcb7cfcaffb6bf87012bcdf5",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-7f85e82fba58eb4b05591921",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "m20 traffic",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "7f85e82fba58eb4b05591921"
+        },
+        {
+          "id": "news-7f85e82fba58eb4b05591921-0",
+          "url": "https://www.kentonline.co.uk/folkestone/news/long-delays-on-m20-amid-police-incident-347059/",
+          "title": "Miles of M20 traffic as emergency services called to dog on loose",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "7f85e82fba58eb4b05591921"
+        },
+        {
+          "id": "news-7f85e82fba58eb4b05591921-1",
+          "url": "https://www.kentonline.co.uk/maidstone/news/long-delays-on-m20-after-vehicle-overturns-in-early-hours-347043/",
+          "title": "Long delays on M20 after vehicle overturns in early hours",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "7f85e82fba58eb4b05591921"
         }
       ]
     },
@@ -49568,6 +51035,63 @@
           "observedAt": "2026-10-23T05:10:00Z",
           "fetchedAt": "2026-10-23T06:03:27Z",
           "observationId": "bdf19876ae893f68c93ae758"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-9c0adb278da2e0919fe0598b",
+      "inputHash": "e6b3f934c7b75089192b350f9bfe90419a97ef8513dfc241fad6fc4a808498be",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-f9ccc67a3b547603abcf46c2",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "골드만삭스",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f9ccc67a3b547603abcf46c2"
+        },
+        {
+          "id": "news-f9ccc67a3b547603abcf46c2-0",
+          "url": "https://kr.investing.com/news/stock-market-news/article-2162894",
+          "title": "“전화가 폭주한다”…골드만삭스가 분석한 월가의 역사적 폭락",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f9ccc67a3b547603abcf46c2"
+        },
+        {
+          "id": "news-f9ccc67a3b547603abcf46c2-1",
+          "url": "https://www.ytn.co.kr/_ln/0545_202611061220021270",
+          "title": "AI주 폭락에 불나는 전화통…공포에 문의 폭증 [지금이뉴스]",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f9ccc67a3b547603abcf46c2"
+        },
+        {
+          "id": "news-f9ccc67a3b547603abcf46c2-2",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443369",
+          "title": "[블루쓰나미 긴급진단] 월가 \"기관은 매수 파업\"…진짜 패닉이 왔다",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f9ccc67a3b547603abcf46c2"
         }
       ]
     },
@@ -52010,6 +53534,63 @@
       ]
     },
     {
+      "topicId": "topic-a1c8f4590a8806551ea4331f",
+      "inputHash": "ed9969e10a30758dd08c1245ea3fc5fe92070abf24430d029d2f90045336db02",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-656525278c024c2413747842",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "tanker",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "656525278c024c2413747842"
+        },
+        {
+          "id": "news-656525278c024c2413747842-0",
+          "url": "https://www.reuters.com/business/energy/new-jersey-governor-warns-ports-against-accepting-russian-diesel-2026-11-03/",
+          "title": "New Jersey governor warns ports against accepting Russian diesel",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "656525278c024c2413747842"
+        },
+        {
+          "id": "news-656525278c024c2413747842-1",
+          "url": "https://www.pbs.org/newshour/world/tankers-carrying-russian-diesel-change-course-raising-doubts-about-shipments-to-u-s",
+          "title": "Tankers carrying Russian diesel change course, raising doubts about shipments to U.S.",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "656525278c024c2413747842"
+        },
+        {
+          "id": "news-656525278c024c2413747842-2",
+          "url": "https://www.ft.com/content/f66ebf48-6d09-4a91-9af5-8bf7adca65ba?syn-25a6b1a6=1",
+          "title": "Trump diesel deal with Russia falters as US fuel supplies hit 20-year low",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "656525278c024c2413747842"
+        }
+      ]
+    },
+    {
       "topicId": "topic-a1e3ec2766c5287eaafd45a1",
       "inputHash": "001b78fc94873f74d9d74675a520f45f2c5c825d8b25fd79d8284c5b237e43a5",
       "generatedAt": "",
@@ -53841,6 +55422,63 @@
       ]
     },
     {
+      "topicId": "topic-a72ee2ce95a69a578e4cad1a",
+      "inputHash": "02feb115807293b9aba8cf11171dae4f5d0d7e259e3823ca8c48ed63be6f0ea6",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-f2afa0bd00e86e08df6105bf",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "9984",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f2afa0bd00e86e08df6105bf"
+        },
+        {
+          "id": "news-f2afa0bd00e86e08df6105bf-0",
+          "url": "https://www.reuters.com/business/media-telecom/softbank-cds-softbank-cds-2026-11-06/",
+          "title": "SoftBank credit risk jumps to 4-year high as AI fears roil market",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f2afa0bd00e86e08df6105bf"
+        },
+        {
+          "id": "news-f2afa0bd00e86e08df6105bf-1",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/softbank-leads-asia-bond-losses-ai-rout-spreads-credit",
+          "title": "SoftBank Leads Asia Bond Losses as AI Rout Spreads to Credit",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f2afa0bd00e86e08df6105bf"
+        },
+        {
+          "id": "news-f2afa0bd00e86e08df6105bf-2",
+          "url": "https://breakingthenews.net/Article/SoftBank-plunges-11-as-Asian-stocks-drop/67500726",
+          "title": "SoftBank plunges 11% as Asian stocks drop",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f2afa0bd00e86e08df6105bf"
+        }
+      ]
+    },
+    {
       "topicId": "topic-a73ac2fa81a0c3e442b439a2",
       "inputHash": "2bac65c4e0ff9c70ff1748bf3d0f5724783beccd919dced0cfb8a18603b0c9b5",
       "generatedAt": "",
@@ -54411,6 +56049,63 @@
       ]
     },
     {
+      "topicId": "topic-aa14e601c7edd460e91988e0",
+      "inputHash": "f56041171ef1e63fbb61e22eb7532bbbbfcd0810ac85cf2b3a0182f6c7360554",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-e35d61516c9f19cfaaefc478",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "짜장면",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:10:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "e35d61516c9f19cfaaefc478"
+        },
+        {
+          "id": "news-e35d61516c9f19cfaaefc478-0",
+          "url": "https://www.lawissue.co.kr/view.php?ud=2026110610194868719a8c8bf58f_12",
+          "title": "경북북부제1교도소, 수용자 특식(짜장면) 제공",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:10:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "e35d61516c9f19cfaaefc478"
+        },
+        {
+          "id": "news-e35d61516c9f19cfaaefc478-1",
+          "url": "https://www.gukjenews.com/news/articleView.html?idxno=3744219",
+          "title": "\"짜장면 1,100그릇 쏟아졌다\"…교도소 수용자들에 특별한 점심 선물",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:10:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "e35d61516c9f19cfaaefc478"
+        },
+        {
+          "id": "news-e35d61516c9f19cfaaefc478-2",
+          "url": "https://www.donga.com/news/Society/article/all/20261106/134975922/1",
+          "title": "“배달기사가 음식 몰래 빼먹어” vs 배달앱 “파손 음식 폐기 오해”",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:10:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "e35d61516c9f19cfaaefc478"
+        }
+      ]
+    },
+    {
       "topicId": "topic-aa7d5951523a5e0bee0528f2",
       "inputHash": "054f603a59cfdc45d44975fbe279b30fea3e965b206412cc0b351d9a1b9edd60",
       "generatedAt": "",
@@ -54560,6 +56255,63 @@
           "observedAt": "2026-10-30T05:20:00Z",
           "fetchedAt": "2026-10-30T07:10:08Z",
           "observationId": "3e423637644a4985ccb6c589"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-abd67378ec2587bfc7cf05c3",
+      "inputHash": "f22defb3b28f38c9868c649c627e216afdc9419b7828474ccd55e3808c34cd48",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-bc679b302e2a935991bccd68",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "martin mcdonagh",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "bc679b302e2a935991bccd68"
+        },
+        {
+          "id": "news-bc679b302e2a935991bccd68-0",
+          "url": "https://www.wsj.com/arts-culture/film/wild-horse-nine-review-martin-mcdonaghs-black-comic-beauty-6f232d16",
+          "title": "‘Wild Horse Nine’ Review: Martin McDonagh’s Black-Comic Beauty",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "bc679b302e2a935991bccd68"
+        },
+        {
+          "id": "news-bc679b302e2a935991bccd68-1",
+          "url": "https://www.nytimes.com/2026/11/05/movies/wild-horse-nine-review.html",
+          "title": "‘Wild Horse Nine’ Review: A C.I.A. Holiday",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "bc679b302e2a935991bccd68"
+        },
+        {
+          "id": "news-bc679b302e2a935991bccd68-2",
+          "url": "https://slate.com/culture/2026/11/wild-horse-nine-oscars-john-malkovich-sam-rockwell-movie.html",
+          "title": "There’s Only One Man I Want to See Win Best Actor This Year",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "bc679b302e2a935991bccd68"
         }
       ]
     },
@@ -54857,6 +56609,63 @@
           "observedAt": "2026-10-21T07:50:00Z",
           "fetchedAt": "2026-10-21T09:31:21Z",
           "observationId": "5ca38ec4ab1534c7a986864b"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-acef8afb235fdaffa667b9f3",
+      "inputHash": "f506aca0c925f58ed95601089abbcaf3061e02fef9aee92e65f7902c2df30e3c",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-a0936ce480c51b336b71807b",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "ファミマ パンどろぼう",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "a0936ce480c51b336b71807b"
+        },
+        {
+          "id": "news-a0936ce480c51b336b71807b-0",
+          "url": "https://www.family.co.jp/company/news_releases/2026/20261106_02.html",
+          "title": "シリーズ累計620万部突破の大人気絵本『パンどろぼう』が はじめてファミマにやって来る！ 『パンどろぼう』限定パッケージのコラボパン2種が登場！ パンの袋が留められるオリジナルクリップがもらえるキャンペーンも開催！",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "a0936ce480c51b336b71807b"
+        },
+        {
+          "id": "news-a0936ce480c51b336b71807b-1",
+          "url": "https://news.yahoo.co.jp/articles/a7a7a40ed71b138ea66565dc679c9592ca25a346",
+          "title": "ファミマで「パンどろぼう」コラボが11月10日開催！パンクリップなどのグッズや、限定フードとして“オリジナルパン”も展開",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "a0936ce480c51b336b71807b"
+        },
+        {
+          "id": "news-a0936ce480c51b336b71807b-2",
+          "url": "https://www.fashion-press.net/news/152982",
+          "title": "ファミリーマート×絵本「パンどろぼう」限定パケのパン・オ・ショコラやタンブラー付きフルーツカップ",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "a0936ce480c51b336b71807b"
         }
       ]
     },
@@ -55406,6 +57215,36 @@
           "observedAt": "2026-11-03T07:40:00Z",
           "fetchedAt": "2026-11-03T07:56:39Z",
           "observationId": "4103206a7e28ad5d1a294c03"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-aea1836dc9bdb8706ebe7f62",
+      "inputHash": "bb7850a7b37c4c75f7268b206675c00f12b967a3019e1e8a1b754d1ec6cf9ec3",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-c6682a8e97b4ddbbb6065e44",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "西村博之",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "c6682a8e97b4ddbbb6065e44"
         }
       ]
     },
@@ -58203,6 +60042,63 @@
       ]
     },
     {
+      "topicId": "topic-b821596486b679d842f1a0de",
+      "inputHash": "cf6f993850caf50923586b6298b6342fa67a4b68a795f5e52c4e437bd7108312",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-ad072cf6c9306d490b62094d",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "scott mctominay",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "ad072cf6c9306d490b62094d"
+        },
+        {
+          "id": "news-ad072cf6c9306d490b62094d-0",
+          "url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/scott-mctominay-napoli-contract-angry-34868336",
+          "title": "Scott McTominay's furious rant as contract talks linger and Napoli stars clash - 'I'm angry'",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "ad072cf6c9306d490b62094d"
+        },
+        {
+          "id": "news-ad072cf6c9306d490b62094d-1",
+          "url": "https://www.goal.com/en/news/rasmus-hojlund-massimiliano-allegri-napoli-porto-champions-league/blt9e5c5d64fde6818e",
+          "title": "'We are in a dark place!' - Rasmus Hojlund openly defies Massimiliano Allegri as Napoli crisis deepens after Porto collapse",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "ad072cf6c9306d490b62094d"
+        },
+        {
+          "id": "news-ad072cf6c9306d490b62094d-2",
+          "url": "https://football-italia.net/video-lucca-confronts-de-bruyne-napoli-tension/",
+          "title": "Video: Furious Lucca confronts De Bruyne on the pitch as Napoli tension escalates",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "ad072cf6c9306d490b62094d"
+        }
+      ]
+    },
+    {
       "topicId": "topic-b86135be4c7917ae1b35930b",
       "inputHash": "76f5f329d6192e47d00c0fee026dc41cfd1b8576d4f580cd21044aaf7a2ee1be",
       "generatedAt": "",
@@ -58375,7 +60271,7 @@
     },
     {
       "topicId": "topic-b87a5d266161a92fc30e7ab0",
-      "inputHash": "8690bf463dd9945cf850e47a1dce81ff19b3cd605d2bf85edd83e48c412b2f7f",
+      "inputHash": "e4719ec7f563e95f4617944065f27762f2fb74f01e2f321bcb190e95551ba3b9",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -60011,6 +61907,456 @@
           "observedAt": "2026-11-03T02:15:00Z",
           "fetchedAt": "2026-11-03T07:56:39Z",
           "observationId": "c096708e71d25a748b9fef7e"
+        },
+        {
+          "id": "obs-a310c784442027d1ebb936d3",
+          "url": "https://6abc.com/post/best-skincare-deals-2026-nordstrom-early-black-friday-sale-are-happening-now/20017923/",
+          "title": "Best skincare deals at the 2026 Nordstrom early Black Friday sale are happening now",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T22:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "a310c784442027d1ebb936d3"
+        },
+        {
+          "id": "obs-e73d38822e5a7f4928632468",
+          "url": "https://abc7ny.com/post/best-skincare-deals-2026-nordstrom-early-black-friday-sale-are-happening-now/20017923/",
+          "title": "Best skincare deals at the 2026 Nordstrom early Black Friday sale are happening now",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T22:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "e73d38822e5a7f4928632468"
+        },
+        {
+          "id": "obs-fdbe20a78f7917b53422c7b5",
+          "url": "https://921thebeat.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "fdbe20a78f7917b53422c7b5"
+        },
+        {
+          "id": "obs-069be5b67bdfe4ba47cf5b4a",
+          "url": "https://beatcolorado.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "069be5b67bdfe4ba47cf5b4a"
+        },
+        {
+          "id": "obs-178788ee6b51ddce585b527e",
+          "url": "https://bismarcksmix.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "178788ee6b51ddce585b527e"
+        },
+        {
+          "id": "obs-1846f81d852821fd57d4380f",
+          "url": "https://961kiss.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "1846f81d852821fd57d4380f"
+        },
+        {
+          "id": "obs-1bda3323d99431b4f8292d5e",
+          "url": "https://wbbq.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "1bda3323d99431b4f8292d5e"
+        },
+        {
+          "id": "obs-31ae13a191651e0dc4328d16",
+          "url": "https://925thebreeze.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "31ae13a191651e0dc4328d16"
+        },
+        {
+          "id": "obs-661acc5a3adbe90c1e1fed36",
+          "url": "https://radiosunny.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "661acc5a3adbe90c1e1fed36"
+        },
+        {
+          "id": "obs-8197222720a6f233ea1f0c16",
+          "url": "https://kiss981.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "8197222720a6f233ea1f0c16"
+        },
+        {
+          "id": "obs-86a663af2a25872fb47424c0",
+          "url": "https://sl100.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "86a663af2a25872fb47424c0"
+        },
+        {
+          "id": "obs-aabae5743cd9b03d9d1153e6",
+          "url": "https://mix1077.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "aabae5743cd9b03d9d1153e6"
+        },
+        {
+          "id": "obs-b924548a8c579c648ba861a8",
+          "url": "https://kz103.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "b924548a8c579c648ba861a8"
+        },
+        {
+          "id": "obs-be30bf1ae6aae2b0f0d0a00c",
+          "url": "https://kiss983.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "be30bf1ae6aae2b0f0d0a00c"
+        },
+        {
+          "id": "obs-c197f09b2e0d7e4889665cf4",
+          "url": "https://1045snx.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "c197f09b2e0d7e4889665cf4"
+        },
+        {
+          "id": "obs-c1dbda5253226436f2a537fc",
+          "url": "https://mix981fm.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "c1dbda5253226436f2a537fc"
+        },
+        {
+          "id": "obs-ce173dafdc3159d0854963a5",
+          "url": "https://majic959.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "ce173dafdc3159d0854963a5"
+        },
+        {
+          "id": "obs-ed024e3ab59d152e023338dc",
+          "url": "https://995theriver.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "ed024e3ab59d152e023338dc"
+        },
+        {
+          "id": "obs-faca5a97d6f47d1e5dedccdd",
+          "url": "https://1075kissfm.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "faca5a97d6f47d1e5dedccdd"
+        },
+        {
+          "id": "obs-fed36154591137cd83c92e51",
+          "url": "https://my103q.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-05T23:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "fed36154591137cd83c92e51"
+        },
+        {
+          "id": "obs-047cae2a3279cbdc4743c734",
+          "url": "https://z100portland.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T00:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "047cae2a3279cbdc4743c734"
+        },
+        {
+          "id": "obs-41785912700eb9308f1c55f1",
+          "url": "https://kisslima.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T00:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "41785912700eb9308f1c55f1"
+        },
+        {
+          "id": "obs-659ed08d976258d667783ea8",
+          "url": "https://kgot.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T00:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "659ed08d976258d667783ea8"
+        },
+        {
+          "id": "obs-8f380c11b7b75e5f10cfb17b",
+          "url": "https://g105.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T00:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "8f380c11b7b75e5f10cfb17b"
+        },
+        {
+          "id": "obs-bddebb813456fa4f3cf3e2b5",
+          "url": "https://939beat.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "bddebb813456fa4f3cf3e2b5"
+        },
+        {
+          "id": "obs-056bbd4f3e152873746809bd",
+          "url": "https://967kissfm.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "056bbd4f3e152873746809bd"
+        },
+        {
+          "id": "obs-243db315108ea2d67f171a9f",
+          "url": "https://q105fm.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "243db315108ea2d67f171a9f"
+        },
+        {
+          "id": "obs-3833438b873a0a3087d9bdec",
+          "url": "https://z104fm.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "3833438b873a0a3087d9bdec"
+        },
+        {
+          "id": "obs-4a8ddfdc31549ddf48120e3f",
+          "url": "https://hits957.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "4a8ddfdc31549ddf48120e3f"
+        },
+        {
+          "id": "obs-4b0432390ae93bed162c53bb",
+          "url": "https://magic107.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  | Magic 107 . 7",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "4b0432390ae93bed162c53bb"
+        },
+        {
+          "id": "obs-5cdb1adab7af1757ce419b81",
+          "url": "https://kzbb.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "5cdb1adab7af1757ce419b81"
+        },
+        {
+          "id": "obs-62cfd13aa821beabbb4b57a9",
+          "url": "https://hot1079.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "62cfd13aa821beabbb4b57a9"
+        },
+        {
+          "id": "obs-85fea1b68daabb7827178fa3",
+          "url": "https://lake1023.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "85fea1b68daabb7827178fa3"
+        },
+        {
+          "id": "obs-8b5c19b7e28d5bcc38667b22",
+          "url": "https://wnok.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "8b5c19b7e28d5bcc38667b22"
+        },
+        {
+          "id": "obs-c23c274a5f1f15c2857a75f5",
+          "url": "https://975online.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "c23c274a5f1f15c2857a75f5"
+        },
+        {
+          "id": "obs-e48332e309602b20098a9217",
+          "url": "https://now1051.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "e48332e309602b20098a9217"
+        },
+        {
+          "id": "obs-e62c896a29fd050d0f69bd2d",
+          "url": "https://mix1033.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T01:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "e62c896a29fd050d0f69bd2d"
+        },
+        {
+          "id": "obs-0f2cbbe1e3347e68a61642a9",
+          "url": "https://999xtc.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T02:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "0f2cbbe1e3347e68a61642a9"
+        },
+        {
+          "id": "obs-4f8af1491f46311a087e260c",
+          "url": "https://wild104.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T02:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "4f8af1491f46311a087e260c"
+        },
+        {
+          "id": "obs-65168351ecb09719fa2b46a4",
+          "url": "https://xl93.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T02:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "65168351ecb09719fa2b46a4"
+        },
+        {
+          "id": "obs-712e632661a138ef5b3d06f4",
+          "url": "https://kisslouisville.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T02:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "712e632661a138ef5b3d06f4"
+        },
+        {
+          "id": "obs-aa28077f09cf8afada0d5e5f",
+          "url": "https://kee100.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T02:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "aa28077f09cf8afada0d5e5f"
+        },
+        {
+          "id": "obs-c4cc5052daf9aa6b0d582c1d",
+          "url": "https://mix969.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T02:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "c4cc5052daf9aa6b0d582c1d"
+        },
+        {
+          "id": "obs-d113bb579ef558dca55753b8",
+          "url": "https://mix995triad.iheart.com/content/2026-11-05-hailey-bieber-explains-why-she-hates-the-term-anti-aging/",
+          "title": "Hailey Bieber Explains Why She Hates The Term  Anti - Aging  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T02:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "d113bb579ef558dca55753b8"
+        },
+        {
+          "id": "obs-524475f6310d2db2571e97bd",
+          "url": "https://www.hindustantimes.com/lifestyle/fashion/clean-beauty-in-2026-what-does-it-really-mean-and-are-your-skincare-products-as-safe-as-they-claim-101793786151056.html",
+          "title": "Clean beauty in 2026 : What does it really mean , and are your skincare products as safe as they claim ? ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T04:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "524475f6310d2db2571e97bd"
+        },
+        {
+          "id": "obs-798d053f26649e8cab0a7857",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70053668-bioscience-health-innovations-announces-two-key-developments-supporting-diversified-growth-and-expansion-strategy-200.htm",
+          "title": "BioScience Health Innovations Announces Two Key Developments Supporting Diversified Growth and Expansion Strategy",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T04:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "798d053f26649e8cab0a7857"
+        },
+        {
+          "id": "obs-342e217e9149a807832bfc2b",
+          "url": "https://www.walesonline.co.uk/whats-on/shopping/boots-eye-cream-no7-deal-34859541",
+          "title": "Woman over 50 says £28 Boots cream now £5  really reversed wrinkles around eyes  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T05:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "342e217e9149a807832bfc2b"
+        },
+        {
+          "id": "obs-5d4e774447361ab6cdec297a",
+          "url": "https://www.somersetlive.co.uk/whats-on/shopping/boots-eye-cream-no7-deal-11226565",
+          "title": "Woman over 50 says £28 Boots cream now £5  really reversed wrinkles around eyes  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T05:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "5d4e774447361ab6cdec297a"
+        },
+        {
+          "id": "obs-86c16ed2c886d3061da309c4",
+          "url": "https://www.gazettelive.co.uk/whats-on/shopping/boots-eye-cream-no7-deal-34859541",
+          "title": "Woman over 50 says £28 Boots cream now £5  really reversed wrinkles around eyes  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T05:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "86c16ed2c886d3061da309c4"
+        },
+        {
+          "id": "obs-a50ce422d70e64ccc8c64bc5",
+          "url": "https://www.cambridge-news.co.uk/whats-on/shopping/boots-eye-cream-no7-deal-34859541",
+          "title": "Woman over 50 says £28 Boots cream now £5  really reversed wrinkles around eyes  ",
+          "source": "gdelt",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "a50ce422d70e64ccc8c64bc5"
         }
       ]
     },
@@ -61149,6 +63495,63 @@
       ]
     },
     {
+      "topicId": "topic-bcf79c473a4256a563ee5516",
+      "inputHash": "ea9186c8c62c8fe041de95f567df0165f2e6aec114351f3e19404de5b53feca7",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-ddeabdb697195d771f679141",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "arsenal transfer news",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "ddeabdb697195d771f679141"
+        },
+        {
+          "id": "news-ddeabdb697195d771f679141-0",
+          "url": "https://www.standard.co.uk/sport/football/arsenal-fc-transfer-news-nusa-b1303771.html",
+          "title": "Arsenal 'track new forward signing' after transfer targets revealed",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "ddeabdb697195d771f679141"
+        },
+        {
+          "id": "news-ddeabdb697195d771f679141-1",
+          "url": "https://www.thesun.co.uk/sport/40928604/arsenal-target-antonio-nusa-transfer/",
+          "title": "Arsenal track Norway wonderkid Antonio Nusa who scored against Man City but face hurdle to January transfer",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "ddeabdb697195d771f679141"
+        },
+        {
+          "id": "news-ddeabdb697195d771f679141-2",
+          "url": "https://www.teamtalk.com/arsenal/confident-signing-bundesliga-wing-wizard-antonio-nusa-rival-tottenham-interest",
+          "title": "Arsenal ‘confident’ of signing Bundesliga wing wizard amid rival Tottenham interest",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "ddeabdb697195d771f679141"
+        }
+      ]
+    },
+    {
       "topicId": "topic-bcf7daa670c97acc2b61d68d",
       "inputHash": "33e74b72bfa2a33538b95fc5254f391a049ea2a395dc18d75a613ae6ac4b1102",
       "generatedAt": "",
@@ -61316,6 +63719,63 @@
           "observedAt": "2026-10-29T05:50:00Z",
           "fetchedAt": "2026-10-29T07:09:04Z",
           "observationId": "82dca5bd028e30d3066e6c8c"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-bdfbbbb5aa1b8f8823b63e3d",
+      "inputHash": "575db077dd685a64ebad6aba263bee24deab24c93aa76ca1a93d0be796419862",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-4840f22e5aa94979c9268c01",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "hms queen elizabeth",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "4840f22e5aa94979c9268c01"
+        },
+        {
+          "id": "news-4840f22e5aa94979c9268c01-0",
+          "url": "https://www.navylookout.com/hms-queen-elizabeth-demonstrates-drone-strike-capability/",
+          "title": "HMS Queen Elizabeth demonstrates drone strike capability",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "4840f22e5aa94979c9268c01"
+        },
+        {
+          "id": "news-4840f22e5aa94979c9268c01-1",
+          "url": "https://interestingengineering.com/military/72000-ton-british-aircraft-carrier-launches-attack-drones-in-historic-naval-first",
+          "title": "72,000-ton British aircraft carrier launches attack drones in historic naval first",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "4840f22e5aa94979c9268c01"
+        },
+        {
+          "id": "news-4840f22e5aa94979c9268c01-2",
+          "url": "https://www.royalnavy.mod.uk/news/2026/november/05/20261105-qe-drones",
+          "title": "Strike drones launched from British aircraft carrier for the first time",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "4840f22e5aa94979c9268c01"
         }
       ]
     },
@@ -62639,6 +65099,63 @@
           "observedAt": "2026-10-30T05:10:00Z",
           "fetchedAt": "2026-10-30T07:10:08Z",
           "observationId": "51f260efbf37bd7e99cde7ea"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-c3f326056ff072e3a02c6672",
+      "inputHash": "9130bb7ae08c6956b3ff1ce462e99e46a6c43b6fba6f3781b33623e20b2d0cda",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-30b194d28488b871bc83d65d",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "kylie arellano",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "30b194d28488b871bc83d65d"
+        },
+        {
+          "id": "news-30b194d28488b871bc83d65d-0",
+          "url": "https://www.oregonlive.com/crime/2026/11/oregon-man-who-kidnapped-utah-teen-girl-kept-her-in-a-basement-for-over-a-year-assaulted-her-fbi-says.html",
+          "title": "Oregon man who kidnapped Utah teen girl kept her in a basement for over a year, assaulted her, FBI says",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "30b194d28488b871bc83d65d"
+        },
+        {
+          "id": "news-30b194d28488b871bc83d65d-1",
+          "url": "https://www.actionnews5.com/2026/11/05/teen-missing-over-year-found-home-man-who-sexually-assaulted-her-removed-braces-with-pliers-police-say/",
+          "title": "Teen missing for over a year found at home of man who sexually assaulted her, removed braces with pliers, police say",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "30b194d28488b871bc83d65d"
+        },
+        {
+          "id": "news-30b194d28488b871bc83d65d-2",
+          "url": "https://kutv.com/news/local/utah-teens-recovery-revives-oregon-familys-concerns-about-suspect-missing-federal-court-charged",
+          "title": "Utah teen's recovery revives Oregon family's concerns about suspect",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:20:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "30b194d28488b871bc83d65d"
         }
       ]
     },
@@ -64479,6 +66996,63 @@
       ]
     },
     {
+      "topicId": "topic-c95b8fd1d473a1cb02088195",
+      "inputHash": "5717be99967def63394f42a11c728b450ac8cf0e93c42f1e8c5fb2ef53cf5bd3",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-acee84035c746d585bbc57f5",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "古川禎久",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:50:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "acee84035c746d585bbc57f5"
+        },
+        {
+          "id": "news-acee84035c746d585bbc57f5-0",
+          "url": "https://news.yahoo.co.jp/pickup/6601525",
+          "title": "消費税減税法案 衆院本会議で可決",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:50:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "acee84035c746d585bbc57f5"
+        },
+        {
+          "id": "news-acee84035c746d585bbc57f5-1",
+          "url": "https://www.sankei.com/article/20261106-UXFB2TJZDVLFFLFW7GRI226L5M/?outputType=asynd",
+          "title": "石破茂、小渕優子、古川禎久、船田元の自民4氏、消費減税法案採決を退席 それぞれの理由",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:50:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "acee84035c746d585bbc57f5"
+        },
+        {
+          "id": "news-acee84035c746d585bbc57f5-2",
+          "url": "https://news.tv-asahi.co.jp/news_politics/articles/000545732.html",
+          "title": "【速報】食料品の消費税減税法案 2年間1％に引き下げ 衆院の委員会で可決",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:50:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "acee84035c746d585bbc57f5"
+        }
+      ]
+    },
+    {
       "topicId": "topic-c98e8c0ddfe738faf68c9c25",
       "inputHash": "43744c4764ae5242ff0f1924dc7e805f8620d4f3f04a2994f252f2d25ddc310f",
       "generatedAt": "",
@@ -64790,6 +67364,63 @@
           "observedAt": "2026-10-29T07:00:00Z",
           "fetchedAt": "2026-10-29T07:09:04Z",
           "observationId": "4c9004b52ef3aa575fac3652"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-cb58d4d75d62b57727accd1b",
+      "inputHash": "0d06ab5800ab28c63d49d344d8c2d50a99b4b39e6f47e5060586a13dc433f199",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-f338a99ee09649dcc051bb64",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "dolly parton",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f338a99ee09649dcc051bb64"
+        },
+        {
+          "id": "news-f338a99ee09649dcc051bb64-0",
+          "url": "https://www.theguardian.com/music/2026/nov/05/dolly-parton-nephew-harassment",
+          "title": "Dolly Parton’s manager drops complaint accusing nephew of harassment",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f338a99ee09649dcc051bb64"
+        },
+        {
+          "id": "news-f338a99ee09649dcc051bb64-1",
+          "url": "https://www.nbcnews.com/news/us-news/dolly-parton-estate-files-dismiss-lawsuit-nephew-rcna607787",
+          "title": "Dolly Parton estate files to dismiss lawsuit against her nephew",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f338a99ee09649dcc051bb64"
+        },
+        {
+          "id": "news-f338a99ee09649dcc051bb64-2",
+          "url": "https://www.telegraph.co.uk/us/news/2026/11/06/dolly-parton-manager-drops-extortion-lawsuit-against-nephew/",
+          "title": "Dolly Parton’s manager drops lawsuit accusing singer’s nephew of extortion",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f338a99ee09649dcc051bb64"
         }
       ]
     },
@@ -68995,7 +71626,7 @@
     },
     {
       "topicId": "topic-db11340d589d6fe23066ddb4",
-      "inputHash": "15353f2144ed47f1ff3456ee238ff06528591e0b2dcb8f7367279e8720b3a2ac",
+      "inputHash": "07da3c76e19a82541f355e55d8086e5321f8986b79555da80cab230b90d7ba52",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -69047,6 +71678,42 @@
           "observedAt": "2026-11-03T07:20:00Z",
           "fetchedAt": "2026-11-03T07:56:39Z",
           "observationId": "deda8fad8b1995dac8116d65"
+        },
+        {
+          "id": "obs-f03126513bcf12b84163c6c9",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "zeynep sonmez",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:10:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f03126513bcf12b84163c6c9"
+        },
+        {
+          "id": "news-f03126513bcf12b84163c6c9-0",
+          "url": "https://www.24saatgazetesi.com/milli-tenisci-zeynep-sonmez-hong-kongda-ceyrek-finalde",
+          "title": "Milli tenisçi Zeynep Sönmez Hong Kong'da çeyrek finalde",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:10:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f03126513bcf12b84163c6c9"
+        },
+        {
+          "id": "news-f03126513bcf12b84163c6c9-1",
+          "url": "https://mansethaber.com/spor/milli-tenisciden-wta-250de-basarili-ilk-mac",
+          "title": "Milli tenisçiden WTA 250'de başarılı ilk maç!",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:10:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f03126513bcf12b84163c6c9"
+        },
+        {
+          "id": "news-f03126513bcf12b84163c6c9-2",
+          "url": "https://www.yenisafak.com/spor/zeynep-sonmez-hong-kongda-ceyrek-finale-yukseldi-4870069",
+          "title": "Zeynep Sönmez Hong Kong'da çeyrek finale yükseldi",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:10:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "f03126513bcf12b84163c6c9"
         }
       ]
     },
@@ -70931,6 +73598,63 @@
       ]
     },
     {
+      "topicId": "topic-e3a5463b259892d8615bb337",
+      "inputHash": "fa82e0d0b46a6fa049efc77bfdc9144511d457c9a32a4361ab4e689619a300ad",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-cc15745438c49a1d488afcfb",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "동티모르",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "cc15745438c49a1d488afcfb"
+        },
+        {
+          "id": "news-cc15745438c49a1d488afcfb-0",
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148975198",
+          "title": "이 대통령 \"한·동티모르 협력 확대…미래 위한 동행으로 발전\"",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "cc15745438c49a1d488afcfb"
+        },
+        {
+          "id": "news-cc15745438c49a1d488afcfb-1",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443502",
+          "title": "노벨평화상 수상자 오르타 \"韓 빛의 혁명, 노벨상 후보로 적극 추천\"",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "cc15745438c49a1d488afcfb"
+        },
+        {
+          "id": "news-cc15745438c49a1d488afcfb-2",
+          "url": "https://www.newsis.com/view/NISI20261106_0021521796",
+          "title": "치안협력을 위한 기술약정 체결식 참석한 김종철 경찰청장 직무대행",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "cc15745438c49a1d488afcfb"
+        }
+      ]
+    },
+    {
       "topicId": "topic-e3c317bf4c3a6ba61c8ba9b2",
       "inputHash": "9288c2975bb0be7c0d03608c0c35915ade5e24846ea4b513aa827e529594cde0",
       "generatedAt": "",
@@ -71356,6 +74080,63 @@
           "observedAt": "2026-10-24T02:30:00Z",
           "fetchedAt": "2026-10-24T05:56:27Z",
           "observationId": "7a7a5e991f7519c666d8b237"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-e5add99ada3e8ca850f23584",
+      "inputHash": "401d95b1213959b89777e0cf8b9460426b00940b420e10eceb07cea9d1fab23d",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-eb5aabcf1e2465beeb7a8531",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "수익률",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "eb5aabcf1e2465beeb7a8531"
+        },
+        {
+          "id": "news-eb5aabcf1e2465beeb7a8531-0",
+          "url": "https://www.hankyung.com/article/2026110585586",
+          "title": "반도체 꺾이자 돈 몰렸다…수익률 상위 10개 중 7개가 '이것' [이수의 ETF줌인]",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "eb5aabcf1e2465beeb7a8531"
+        },
+        {
+          "id": "news-eb5aabcf1e2465beeb7a8531-1",
+          "url": "https://www.mt.co.kr/stock/2026/11/03/2026110315394457288",
+          "title": "마이크론도 삼전닉스도 미끌…반도체 대신 이 ETF 뛰었다 - 머니투데이",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "eb5aabcf1e2465beeb7a8531"
+        },
+        {
+          "id": "news-eb5aabcf1e2465beeb7a8531-2",
+          "url": "https://www.etoday.co.kr/news/view/2644559",
+          "title": "퇴직연금 3년 새 '두 배' 불렸다…한국투자증권, 디폴트옵션 수익률 전체 1위 달성",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "eb5aabcf1e2465beeb7a8531"
         }
       ]
     },
@@ -73201,6 +75982,63 @@
       ]
     },
     {
+      "topicId": "topic-ebf782e2181d0c9c8aca1aef",
+      "inputHash": "82b289bf5ef7dc40c8ecdc391f48786a2def2f2c215ea0449987583316a9203e",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-2c831ca6ab93ddb3bfaba2f4",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "lewis moody",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "2c831ca6ab93ddb3bfaba2f4"
+        },
+        {
+          "id": "news-2c831ca6ab93ddb3bfaba2f4-0",
+          "url": "https://www.walesonline.co.uk/sport/rugby/rugby-news/tearful-lewis-moody-tells-kids-34848588",
+          "title": "Tearful Lewis Moody tells kids heartbreaking truth as wife makes promise",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "2c831ca6ab93ddb3bfaba2f4"
+        },
+        {
+          "id": "news-2c831ca6ab93ddb3bfaba2f4-1",
+          "url": "https://www.mirror.co.uk/tv/tv-news/lewis-moody-moment-told-kids-37846692",
+          "title": "Lewis Moody on moment he told kids of MND diagnosis as wife called it 'horrendous'",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "2c831ca6ab93ddb3bfaba2f4"
+        },
+        {
+          "id": "news-2c831ca6ab93ddb3bfaba2f4-2",
+          "url": "https://www.express.co.uk/sport/rugby-union/2262421/lewis-moody-mnd-diagnosis-wife",
+          "title": "Lewis Moody's wife makes heartbreaking promise as they share fears over future",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "2c831ca6ab93ddb3bfaba2f4"
+        }
+      ]
+    },
+    {
       "topicId": "topic-ec0f2ef767bccc601d4d7f77",
       "inputHash": "3e31892e934025c252d451fcf1582fa23dc53c07182376591c5cfeeafe91e80a",
       "generatedAt": "",
@@ -73566,6 +76404,63 @@
           "observedAt": "2026-10-22T05:20:00Z",
           "fetchedAt": "2026-10-22T06:08:14Z",
           "observationId": "2f81f3a0ff56f8dd8679575b"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-ee488a636544e5f463024994",
+      "inputHash": "3ee87c356753084b447a37479a9ddd74216cd3effe7b1490c88b444f70b0c3c6",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-9c7504254548d984b172e7ef",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "농구",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:10:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "9c7504254548d984b172e7ef"
+        },
+        {
+          "id": "news-9c7504254548d984b172e7ef-0",
+          "url": "https://www.yna.co.kr/view/AKR20261106082900007",
+          "title": "아시안게임 금메달 이정현 등 농구 월드컵 아시아 예선 출전",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:10:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "9c7504254548d984b172e7ef"
+        },
+        {
+          "id": "news-9c7504254548d984b172e7ef-1",
+          "url": "https://www.mt.co.kr/sports/2026/11/06/2026110614350616921",
+          "title": "금메달 주역 8명에 허훈·안영준까지 합류! 마줄스호 월드컵 예선 최종 12인 발표... 카타르 원정 2연전 나선다 - 머니투데이",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:10:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "9c7504254548d984b172e7ef"
+        },
+        {
+          "id": "news-9c7504254548d984b172e7ef-2",
+          "url": "https://news.kbs.co.kr/news/view.do?ncd=8705919",
+          "title": "‘AG 금메달’ 남자 농구, 월드컵 출전 명단 12인 확정…이현중은 제외",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:10:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "9c7504254548d984b172e7ef"
         }
       ]
     },
@@ -74964,6 +77859,63 @@
           "observedAt": "2026-10-24T05:30:00Z",
           "fetchedAt": "2026-10-24T05:56:27Z",
           "observationId": "1a075dc08c9a71ab6566c1f9"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-f4ca0e84b52c62891bf9e388",
+      "inputHash": "fdb77b2d7e6ce4c1135519b6ec5b6ac019af5da29bab7f5e69484c043694888e",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-2f4fee67a90fc8cd1414c0fa",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "anthony santander",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "2f4fee67a90fc8cd1414c0fa"
+        },
+        {
+          "id": "news-2f4fee67a90fc8cd1414c0fa-0",
+          "url": "https://sports.yahoo.com/mlb/article/blue-jays-distance-themselves-from-of-anthony-santanders-anti-islam-instagram-posts-225839601.html",
+          "title": "Blue Jays distance themselves from OF Anthony Santander's anti-Islam Instagram posts",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "2f4fee67a90fc8cd1414c0fa"
+        },
+        {
+          "id": "news-2f4fee67a90fc8cd1414c0fa-1",
+          "url": "https://www.nytimes.com/athletic/7757158/2026/11/05/anthony-santander-instagram-story-adbul-el-sayed/",
+          "title": "Blue Jays distance themselves from Anthony Santander’s Islamophobic Instagram story",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "2f4fee67a90fc8cd1414c0fa"
+        },
+        {
+          "id": "news-2f4fee67a90fc8cd1414c0fa-2",
+          "url": "https://www.foxnews.com/outkick-sports/mlb-outfielder-anthony-santander-faces-backlash-abdul-el-sayed-video-blue-jays-respond",
+          "title": "MLB outfielder Anthony Santander faces backlash over Abdul El-Sayed video, Blue Jays respond",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T06:40:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "2f4fee67a90fc8cd1414c0fa"
         }
       ]
     },
@@ -76651,6 +79603,63 @@
       ]
     },
     {
+      "topicId": "topic-faaaba9af268f83be83ac6fe",
+      "inputHash": "9075fab49cd7f49f1f02a11d7df2de730ed22203b23832580c69f70ecd14e257",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-b106481caf68f1c7ed297d88",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "anya taylor-joy",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "b106481caf68f1c7ed297d88"
+        },
+        {
+          "id": "news-b106481caf68f1c7ed297d88-0",
+          "url": "https://www.nytimes.com/2026/11/04/movies/dune-part-three-timothee-chalamet-zendaya-robert-pattinson.html",
+          "title": "‘Dune’ Reunion: Timothée Chalamet, Zendaya and Friends Can Take the Heat",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "b106481caf68f1c7ed297d88"
+        },
+        {
+          "id": "news-b106481caf68f1c7ed297d88-1",
+          "url": "https://www.yahoo.com/entertainment/movies/articles/dune-3-star-anya-taylor-152023239.html",
+          "title": "Dune 3 star Anya Taylor-Joy didn't realize Alia Atreides is a \"bad guy\" in the sequel until the end of the movie",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "b106481caf68f1c7ed297d88"
+        },
+        {
+          "id": "news-b106481caf68f1c7ed297d88-2",
+          "url": "https://variety.com/2026/film/news/dune-3-changes-books-cast-1236939217/",
+          "title": "‘Dune 3’ Cast Says the Movie Takes ‘Departures’ From the Books, but ‘You’re Crazy If You’re Going to Pick Fault’ With It",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:30:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "b106481caf68f1c7ed297d88"
+        }
+      ]
+    },
+    {
       "topicId": "topic-faccf34ca201c8ab979a0242",
       "inputHash": "0d2a57c014d600af1d2ea5b4839438472c2c28eceb17e8f58a6c2c34ede6037f",
       "generatedAt": "",
@@ -77308,6 +80317,63 @@
           "observedAt": "2026-11-01T05:40:00Z",
           "fetchedAt": "2026-11-01T07:35:25Z",
           "observationId": "990ae3900a9e91fc93cf6004"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-fc5775b3d6c3be788f8c5bac",
+      "inputHash": "3b6a94803b7cb00c94ec050859255d7d3b0aed22a1179fe3ead33d847e09d89a",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-d5aa83e1128fa26b41ec0b74",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "chris pratt",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "d5aa83e1128fa26b41ec0b74"
+        },
+        {
+          "id": "news-d5aa83e1128fa26b41ec0b74-0",
+          "url": "https://deadline.com/2026/11/the-terminal-list-franchise-amazon-savage-son-chris-pratt-1237215033/",
+          "title": "‘The Terminal List’ Franchise Continues At Amazon With ‘Savage Son’",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "d5aa83e1128fa26b41ec0b74"
+        },
+        {
+          "id": "news-d5aa83e1128fa26b41ec0b74-1",
+          "url": "https://www.hollywoodreporter.com/tv/tv-news/chris-pratt-terminal-list-savage-son-1236748924/",
+          "title": "Prime Video’s ‘Terminal List’ Franchise Expands With ‘Savage Son’ Series",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "d5aa83e1128fa26b41ec0b74"
+        },
+        {
+          "id": "news-d5aa83e1128fa26b41ec0b74-2",
+          "url": "https://www.imdb.com/news/ni66087983/?ref_=nmnw_art_perm",
+          "title": "'The Terminal List' Season 3 Gets Exciting Update as Creators Tease Next Book Adaptation",
+          "source": "google-trends",
+          "observedAt": "2026-11-06T07:00:00Z",
+          "fetchedAt": "2026-11-06T07:56:59Z",
+          "observationId": "d5aa83e1128fa26b41ec0b74"
         }
       ]
     },
