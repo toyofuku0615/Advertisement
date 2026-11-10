@@ -282,6 +282,51 @@ class GitIsolationTest(unittest.TestCase):
 
 
 class RunStateTest(unittest.TestCase):
+    def test_selected_unavailable_topic_is_partial_without_inventing_provider_failure(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'settings.json'
+            updater.atomic_json(path, config())
+            data = demo_data()
+            data['observations'][0]['publicationRestriction'] = {'publicAllowed': True, 'aiAllowed': False}
+            bundle = reconcile(data)
+            self.assertEqual(bundle['providerStatus']['status'], 'disabled')
+            self.assertEqual(bundle['explanations'][0]['status'], 'unavailable')
+            with patch.object(updater, 'check_model'), patch.object(updater, 'ensure_checkout', return_value=(Path(directory), None)), patch.object(updater, 'run_pipeline', return_value=(data, bundle)), patch.object(updater, 'publish', return_value=True) as publish:
+                self.assertEqual(updater.run_once(path, topic_ids=['demo']), 1)
+            publish.assert_called_once()
+            state = updater.read_status(updater.runtime_dir(path))
+            self.assertEqual(state['state'], 'partial')
+            self.assertEqual(state['aiStatus'], 'disabled')
+            self.assertNotIn('lastSuccessAt', state)
+            self.assertIn('指定した話題のAI解説は未生成', state['message'])
+
+    def test_selected_topic_is_forwarded_through_once_with_configured_model(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'settings.json'
+            updater.atomic_json(path, config())
+            with patch.object(updater, 'check_model'), patch.object(updater, 'ensure_checkout', return_value=(Path(directory), None)), patch.object(updater, 'run_pipeline', return_value=(demo_data(), demo_bundle())) as pipeline, patch.object(updater, 'publish', return_value=True):
+                self.assertEqual(updater.run_once(path, topic_ids=['demo']), 0)
+            self.assertEqual(pipeline.call_args.kwargs['topic_ids'], ['demo'])
+
+    def test_pipeline_checks_selection_after_collection_and_before_inference(self):
+        with tempfile.TemporaryDirectory() as directory:
+            repository = Path(directory)
+            write_public(repository)
+            with patch.object(updater, 'run_command') as command, patch.object(updater, 'validate_public_files', return_value=(demo_data(), demo_bundle())):
+                updater.run_pipeline(config(), repository, None, topic_ids=['demo'])
+            generated = command.call_args_list[-1].args[0]
+            self.assertIn('--topic-id', generated)
+            self.assertEqual(generated[generated.index('--topic-id') + 1], 'demo')
+            self.assertEqual(generated[generated.index('--model') + 1], config()['model'])
+            with patch.object(updater, 'run_command') as command, self.assertRaises(updater.UpdaterError):
+                updater.run_pipeline(config(), repository, None, topic_ids=['missing'])
+            self.assertEqual(command.call_count, 2)  # collect + public preparation, no inference
+
+    def test_topic_selection_is_rejected_for_background_watch(self):
+        with patch.object(updater, 'watch') as watch, self.assertRaises(SystemExit):
+            updater.main(['--watch', '--topic-id', 'demo'])
+        watch.assert_not_called()
+
     def test_ai_failure_publishes_valid_data_but_returns_failure_and_retries(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / 'settings.json'

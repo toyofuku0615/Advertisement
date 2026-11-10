@@ -77,6 +77,7 @@ export interface TopicExplanation {
   topicId: string; inputHash: string; generatedAt: string; provider: string; model: string;
   status: 'ready' | 'stale' | 'unavailable'; overview: Claim; contexts: Claim[];
   attention: Claim | null; marketing: Claim | null; caveats: string[]; evidence: ExplanationEvidence[];
+  generationAttempt?: { inputHash: string; attemptedAt: string; status: 'success' | 'error' };
 }
 export interface ExplanationBundle {
   schemaVersion: 1; generatedAt: string;

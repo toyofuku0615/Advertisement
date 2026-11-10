@@ -4,6 +4,8 @@
 
 **自分とは違う人が見ている世界を知る。**
 
+**取得した見出しから内容・文脈をまとめる:** `coin`の実取得3見出しに基づく、出典付き日本語解説を追加しました。未生成の場合は、原文と指示をAIへ手動で渡すコピー操作、またはPCのOllamaで選択した話題だけを生成する操作を利用できます。[解説の生成方法](docs/AI_EXPLANATIONS.md)を参照してください。変更は`feature/grounded-context-generation`で、公開サイトへの反映は別途必要です。
+
 **CULTURE RADAR 2.0の第1段階:** [観測窓の基盤とPR 2〜6の計画](docs/CULTURE_RADAR_2_ROADMAP.md)を追加しました。[6つの観測窓の設定](config/culture_windows.json)は、実取得履歴のある既存Google Trends/GDELTを基準線として再利用します。新しいコミュニティ固有のRSS・SNSは未検証のため有効化していません。窓名から年代・コミュニティ所属・属性別人気を推定しません。既存7画面・IndexedDB・JSONの `schemaVersion: 1` を維持します。
 
 収集は従来どおり `python3 scripts/collect.py` で、追加のHTTP要求なしに `cultureWindows`・`windowObservations`・`windowCollectionRuns` を生成します。設定・日時・原典・公開条件を検証し、非公開の元観測とそれを使った古いAI解説を配信前に除外します。旧形式だけを出力する場合は `--no-culture-windows`、別設定には `--culture-windows-config PATH` を使います。詳しい運用方法は [config/README.md](config/README.md) を参照してください。

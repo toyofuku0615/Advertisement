@@ -2,6 +2,10 @@
 import copy
 import io
 import json
+from pathlib import Path
+import subprocess
+import sys
+import tempfile
 import unittest
 from urllib.error import HTTPError, URLError
 from scripts.generate_explanations import (ExplanationError, MAX_INFERENCE_BYTES, SYSTEM_PROMPT, build_evidence, call_ollama, inference_evidence, input_fingerprint, reconcile, validate_content)
@@ -24,6 +28,114 @@ def previous(data=None):
 
 
 class ExplanationTest(unittest.TestCase):
+    def multi_topic_data(self):
+        data = dataset()
+        data['topics'].append({'id': 'selected-topic', 'title': 'DEMO rare coin'})
+        data['observations'].append({**data['observations'][0], 'id': 'selected-observation', 'topicId': 'selected-topic'})
+        return data
+
+    def grounded_demo(self, topic, evidence, **kwargs):
+        value = content()
+        for claim in [value['overview'], *value['contexts']]:
+            claim['evidenceIds'] = [evidence[0]['id']]
+        return value
+
+    def test_selected_topic_is_generated_without_attempting_earlier_topic(self):
+        data = self.multi_topic_data()
+        calls = []
+        def infer(topic, evidence, **kwargs):
+            calls.append(topic['id'])
+            self.assertEqual(topic['id'], 'selected-topic')
+            return self.grounded_demo(topic, evidence)
+        result = reconcile(data, provider='ollama', model='DEMO', topic_ids=['selected-topic'], max_topics=1, infer=infer)
+        self.assertEqual(calls, ['selected-topic'])
+        self.assertEqual([row['topicId'] for row in result['explanations']], ['demo-topic', 'selected-topic'])
+        self.assertEqual([row['status'] for row in result['explanations']], ['unavailable', 'ready'])
+        self.assertEqual(result['explanations'][1]['generationAttempt']['status'], 'success')
+
+    def test_force_is_limited_to_selected_topic_and_other_ready_cache_is_preserved(self):
+        data = self.multi_topic_data()
+        old = reconcile(data, provider='ollama', model='DEMO', infer=self.grounded_demo)
+        calls = []
+        def infer(topic, evidence, **kwargs):
+            calls.append(topic['id'])
+            return self.grounded_demo(topic, evidence)
+        result = reconcile(data, old, provider='ollama', model='DEMO', force=True, topic_ids=['selected-topic'], infer=infer)
+        self.assertEqual(calls, ['selected-topic'])
+        self.assertEqual(result['explanations'][0], old['explanations'][0])
+
+    def test_failed_attempt_survives_no_model_reconciliation_and_does_not_starve_next_topic(self):
+        data = self.multi_topic_data()
+        first = []
+        def fail(topic, evidence, **kwargs):
+            first.append(topic['id'])
+            raise ExplanationError('DEMO generation failure')
+        failed = reconcile(data, provider='ollama', model='DEMO', max_topics=1, infer=fail)
+        self.assertEqual(first, ['demo-topic'])
+        item = failed['explanations'][0]
+        self.assertEqual(item['generatedAt'], '')
+        self.assertEqual(item['generationAttempt']['status'], 'error')
+        cached = reconcile(data, failed)
+        self.assertEqual(cached['explanations'][0]['generationAttempt'], item['generationAttempt'])
+        calls = []
+        def infer(topic, evidence, **kwargs):
+            calls.append(topic['id'])
+            return self.grounded_demo(topic, evidence)
+        result = reconcile(data, cached, provider='ollama', model='DEMO', max_topics=1, infer=infer)
+        self.assertEqual(calls, ['selected-topic'])
+        self.assertEqual(result['explanations'][1]['status'], 'ready')
+
+    def test_newest_unattempted_topic_is_prioritized_without_reordering_public_output(self):
+        data = self.multi_topic_data()
+        data['observations'][1]['observedAt'] = '2026-10-22T00:00:00Z'
+        calls = []
+        def infer(topic, evidence, **kwargs):
+            calls.append(topic['id'])
+            return self.grounded_demo(topic, evidence)
+        result = reconcile(data, provider='ollama', model='DEMO', max_topics=1, infer=infer)
+        self.assertEqual(calls, ['selected-topic'])
+        self.assertEqual([row['topicId'] for row in result['explanations']], [row['id'] for row in data['topics']])
+
+    def test_selection_never_bypasses_privacy_cleanup_of_unselected_topic(self):
+        data = self.multi_topic_data()
+        old = reconcile(data, provider='ollama', model='DEMO', infer=self.grounded_demo)
+        old['explanations'][1]['overview']['text'] = 'DEMO_PRIVATE_TEXT'
+        data['observations'][1]['publicationRestriction'] = {'publicAllowed': False, 'aiAllowed': False}
+        result = reconcile(data, old, provider='ollama', model='DEMO', topic_ids=['demo-topic'], infer=self.grounded_demo)
+        self.assertEqual(result['explanations'][1]['status'], 'unavailable')
+        self.assertNotIn('DEMO_PRIVATE_TEXT', json.dumps(result))
+
+    def test_invalid_or_unknown_selection_cannot_replace_cache(self):
+        root = Path(__file__).resolve().parents[1]
+        with tempfile.TemporaryDirectory() as temporary:
+            data_path, cache_path = Path(temporary) / 'dataset.json', Path(temporary) / 'cache.json'
+            data_path.write_text(json.dumps(dataset()), encoding='utf-8')
+            cache_path.write_text(json.dumps(previous()), encoding='utf-8')
+            before = cache_path.read_bytes()
+            for selected in ['missing-topic', 'bad;command']:
+                result = subprocess.run([sys.executable, 'scripts/generate_explanations.py', '--dataset', str(data_path), '--cache', str(cache_path), '--provider', 'ollama', '--model', 'DEMO', '--topic-id', selected], cwd=root, capture_output=True, timeout=30)
+                self.assertNotEqual(result.returncode, 0)
+                self.assertEqual(cache_path.read_bytes(), before)
+
+    def test_strict_selected_missing_evidence_fails_without_calling_model_or_inventing_provider_error(self):
+        from unittest.mock import Mock, patch
+        from scripts import generate_explanations as generator
+        data = dataset()
+        data['observations'][0]['publicationRestriction'] = {'publicAllowed': True, 'aiAllowed': False}
+        with tempfile.TemporaryDirectory() as temporary:
+            data_path, cache_path = Path(temporary) / 'dataset.json', Path(temporary) / 'cache.json'
+            data_path.write_text(json.dumps(data), encoding='utf-8')
+            inference = Mock(side_effect=AssertionError('A blocked source must not invoke a model'))
+            args = ['generate_explanations.py', '--dataset', str(data_path), '--cache', str(cache_path), '--provider', 'ollama', '--model', 'DEMO', '--topic-id', 'demo-topic']
+            for extra, expected in [([], 0), (['--strict'], 1)]:
+                with patch.object(sys, 'argv', [*args, *extra]), patch.dict(reconcile.__kwdefaults__, {'infer': inference}):
+                    self.assertEqual(generator.main(), expected)
+                result = json.loads(cache_path.read_text(encoding='utf-8'))
+                self.assertEqual(result['providerStatus']['status'], 'disabled')
+                self.assertEqual(result['explanations'][0]['status'], 'unavailable')
+                self.assertEqual(result['explanations'][0]['generatedAt'], '')
+            inference.assert_not_called()
+
     def test_explicit_publication_and_ai_denials_do_not_preserve_stale_private_claims(self):
         policy = {'visibility': 'public', 'aiAllowed': True, 'termsUrl': 'https://example.org/terms', 'license': 'DEMO', 'allowedFields': ['metadata', 'headline', 'link'], 'checkedAt': '2026-11-10T00:00:00Z', 'note': 'DEMO only'}
         for patch in ({'visibility': 'private'}, {'visibility': 'unknown'}, {'aiAllowed': False}, {'allowedFields': ['metadata', 'link']}):

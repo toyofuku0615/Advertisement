@@ -8,6 +8,13 @@ const observation:Observation={id:'DEMO-observation',topicId:topic.id,source:'go
 const dataset:Dataset={schemaVersion:1,generatedAt:observation.fetchedAt,topics:[topic],observations:[observation],geoObservations:[],collectionRuns:[],sources:[{id:'google-trends',name:'DEMO Google Trends',kind:'search',url:'https://trends.google.com',termsUrl:'https://support.google.com',metricDescription:'DEMO',license:'DEMO',enabled:true}]};
 async function fixture():Promise<ExplanationBundle>{const evidence=buildContextEvidence(topic,dataset);return {schemaVersion:1,generatedAt:observation.fetchedAt,providerStatus:{status:'ready',provider:'DEMO LLM',model:'DEMO',message:'DEMO',checkedAt:observation.fetchedAt},explanations:[{topicId:topic.id,inputHash:await contextFingerprint(topic,evidence),generatedAt:observation.fetchedAt,provider:'DEMO LLM',model:'DEMO',status:'ready',overview:{text:'DEMOの番組出演に関する見出し。',kind:'source_summary',evidenceIds:[evidence[1].id]},contexts:[{text:'番組出演を確かめる場面が考えられる。',kind:'interpretation',evidenceIds:[evidence[1].id]}],attention:{text:'番組への関心が背景にある可能性。未検証。',kind:'interpretation',evidenceIds:[evidence[1].id]},marketing:null,caveats:['DEMO: 見出しのみ、本文は未確認。'],evidence}]};}
 describe('grounded context cache',()=>{
+ it('validates real generation-attempt metadata separately from the generated explanation date',async()=>{
+  const b=await fixture();const generatedAt=b.explanations[0].generatedAt;
+  b.explanations[0].generationAttempt={inputHash:b.explanations[0].inputHash,attemptedAt:'2026-11-10T00:00:00Z',status:'error'};
+  expect(parseExplanationBundle(b).explanations[0].generatedAt).toBe(generatedAt);
+  b.explanations[0].generationAttempt!.inputHash='DEMO-invalid-hash';
+  expect(()=>parseExplanationBundle(b)).toThrow('生成試行');
+ });
  it('bounds long-running context and keeps an unavailable cache unavailable when inputs change',async()=>{
   const observations=Array.from({length:560},(_,index)=>({...observation,id:`DEMO-${String(index).padStart(4,'0')}`,relatedLinks:[]}));
   const long={...dataset,observations};const evidence=buildContextEvidence(topic,long);

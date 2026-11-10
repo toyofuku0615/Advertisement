@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-10T08:28:51Z",
+  "topics": [
+    {
+      "id": "topic-b3a1984ba0b1d8ad7f9dc881",
+      "title": "coin",
+      "category": "未分類",
+      "aliases": [
+        {
+          "id": "8e2a6765af282eb1f77586cd",
+          "text": "coin",
+          "language": "en"
+        }
+      ],
+      "observationIds": [
+        "957d6e966a7befa67a0f58fd"
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "id": "957d6e966a7befa67a0f58fd",
+      "topicId": "topic-b3a1984ba0b1d8ad7f9dc881",
+      "source": "google-trends",
+      "sourceId": "GB:coin:2026-11-10T08:00:00Z",
+      "sourceUrl": "https://trends.google.com/trending/rss?geo=GB",
+      "title": "coin",
+      "publishedAt": "2026-11-10T08:00:00Z",
+      "observedAt": "2026-11-10T08:00:00Z",
+      "fetchedAt": "2026-11-10T08:27:11Z",
+      "regionCode": "GB",
+      "regionMeaning": "search-market",
+      "metric": {
+        "name": "RSS検索トラフィック（概数下限）",
+        "value": 200.0,
+        "unit": "searches-lower-bound",
+        "normalization": "RSSが公開する概数。0–100指数ではなく、RSSの対象期間は原典に依存。"
+      },
+      "population": "Google Trends 急上昇検索 / GB",
+      "reliability": "observed",
+      "method": "公式 Trending Now RSS。pubDateはRSS話題公開時刻であり急上昇開始時刻の保証なし。カテゴリーはルール推定C。",
+      "license": "Google Terms of Service; publisher/news content rights remain with owners",
+      "status": "fresh",
+      "relatedLinks": [
+        {
+          "title": "Kent Roman hoard found during A2 roadworks in 1964 to be sold",
+          "url": "https://www.bbc.co.uk/news/articles/ckd7q75p2q39o"
+        },
+        {
+          "title": "Your 50p coin could be worth 'big money' - not Kew Gardens or Atlantic Salmon",
+          "url": "https://www.aol.co.uk/articles/50p-coin-could-worth-big-195600000.html"
+        },
+        {
+          "title": "Rare Royal Mint 50p coin sells for more than 420 times face value on eBay",
+          "url": "https://www.huntspost.co.uk/news/26710358.rare-royal-mint-50p-coin-sells-220-ebay/"
+        }
+      ]
+    }
+  ],
+  "geoObservations": [],
+  "collectionRuns": [],
+  "sources": [
+    {
+      "id": "google-trends",
+      "name": "Google Trends · 急上昇RSS",
+      "kind": "search",
+      "url": "https://trends.google.com/trending",
+      "termsUrl": "https://support.google.com/trends/answer/4365533",
+      "metricDescription": "急上昇RSSの公開検索トラフィック概数。任意語句の0–100関心指数とは異なる。",
+      "license": "Google Terms of Service; publisher/news content rights remain with owners",
+      "enabled": true
+    },
+    {
+      "id": "bluesky",
+      "name": "Bluesky · 公開投稿",
+      "kind": "social",
+      "url": "https://bsky.app",
+      "termsUrl": "https://bsky.social/about/support/tos",
+      "metricDescription": "公開版では未有効化。運用者の連絡先・削除窓口の整備後に再開。原典URLの手動保存は利用可能。",
+      "license": "Bluesky developer guidelines / original authors retain content rights",
+      "enabled": false
+    },
+    {
+      "id": "gdelt",
+      "name": "GDELT · ニュース",
+      "kind": "news",
+      "url": "https://www.gdeltproject.org",
+      "termsUrl": "https://www.gdeltproject.org/about.html",
+      "metricDescription": "DOC APIが返した最大50件の記事標本。所在国は報道機関の国であり出来事の場所ではない。",
+      "license": "GDELT open data; underlying articles remain publishers' copyright",
+      "enabled": true
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube · 地域別人気動画",
+      "kind": "social",
+      "url": "https://www.youtube.com",
+      "termsUrl": "https://developers.google.com/youtube/terms/developer-policies",
+      "metricDescription": "mostPopular公開動画の取得時点再生数。Shorts専用・属性別ランキングではない。",
+      "license": "YouTube API Services Terms; refresh/delete cached API data within 30 days",
+      "enabled": false
+    },
+    {
+      "id": "google-trends-archive",
+      "name": "Google Trends · 公式履歴データ 2012–2023",
+      "kind": "search",
+      "url": "https://github.com/googletrends/data",
+      "termsUrl": "https://github.com/googletrends/data/blob/44ce5e8cdb786b6bd5257dd5e9ea6af58fcffe16/LICENSE",
+      "metricDescription": "Google公開の年次 index_trends。正規化の詳細未詳、国間比較不可。最新トレンドではない。0値は低量・欠損を区別できないため地図では未表示。",
+      "license": "CC BY 4.0; Google Trends; selected/reformatted, no endorsement; https://creativecommons.org/licenses/by/4.0/",
+      "enabled": true
+    }
+  ]
+}

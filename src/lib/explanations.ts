@@ -41,6 +41,7 @@ export function parseExplanationBundle(value:unknown):ExplanationBundle {
  for(const item of value.explanations){
   requireValue(row(item)&&str(item.topicId)&&!topicIds.has(item.topicId)&&str(item.inputHash)&&/^[a-f0-9]{64}$/.test(item.inputHash)&&(date(item.generatedAt)||(item.status==='unavailable'&&item.generatedAt===''))&&str(item.provider)&&str(item.model)&&['ready','stale','unavailable'].includes(String(item.status)),'話題・生成日時・入力ハッシュが不正です');
   topicIds.add(item.topicId);requireValue(Array.isArray(item.evidence)&&(item.evidence.length>0||item.status==='unavailable'),'根拠のない解説です');
+  if(item.generationAttempt!==undefined){const attempt=item.generationAttempt;requireValue(row(attempt)&&str(attempt.inputHash)&&/^[a-f0-9]{64}$/.test(attempt.inputHash)&&date(attempt.attemptedAt)&&['success','error'].includes(String(attempt.status)),'生成試行の記録が不正です');}
   const ids=new Set<string>();
   for(const e of item.evidence){requireValue(row(e)&&str(e.id)&&!ids.has(e.id)&&str(e.url)&&permittedUrl(e.url)&&str(e.title)&&str(e.source)&&date(e.observedAt)&&date(e.fetchedAt)&&str(e.observationId),'原典・日時が不正です');ids.add(e.id);}
   if(item.status==='unavailable'){requireValue(item.provider==='none'&&item.model===''&&item.generatedAt===''&&row(item.overview)&&str(item.overview.text)&&Array.isArray(item.overview.evidenceIds)&&item.overview.evidenceIds.length===0&&Array.isArray(item.contexts)&&item.contexts.length===0&&item.attention===null&&item.marketing===null&&Array.isArray(item.caveats)&&item.caveats.length>0&&item.caveats.every(str),'未生成状態にAIの主張を混在できません');continue;}

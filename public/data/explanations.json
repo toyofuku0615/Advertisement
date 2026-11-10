@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T08:28:52Z",
+  "generatedAt": "2026-11-10T13:36:43Z",
   "providerStatus": {
     "status": "disabled",
     "provider": "none",
@@ -72524,20 +72524,55 @@
     {
       "topicId": "topic-b3a1984ba0b1d8ad7f9dc881",
       "inputHash": "c1beb1857447ad95223c860228fb00a0a499f71267960ca88d3663c623998afd",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
+      "generatedAt": "2026-11-10T13:36:43Z",
+      "provider": "OpenAI Codex",
+      "model": "Codex",
+      "status": "ready",
       "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
+        "text": "古銭の売却と、希少な50ペンス硬貨の価値を扱う記事が集まっています。出土品の売却、手元の硬貨の価値、高額取引という別々の話題を、同じ「coin」の語で観測しています。",
+        "kind": "source_summary",
+        "evidenceIds": [
+          "news-957d6e966a7befa67a0f58fd-0",
+          "news-957d6e966a7befa67a0f58fd-1",
+          "news-957d6e966a7befa67a0f58fd-2"
+        ]
       },
-      "contexts": [],
-      "attention": null,
+      "contexts": [
+        {
+          "text": "出土品の売却。見出しは、道路工事で見つかったローマ時代の出土品が売却される予定だと伝えています。",
+          "kind": "source_summary",
+          "evidenceIds": [
+            "news-957d6e966a7befa67a0f58fd-0"
+          ]
+        },
+        {
+          "text": "手元の硬貨の価値。別の見出しは、特定の50ペンス硬貨に高値がつく可能性を紹介しています。実際の鑑定額は見出しだけでは分かりません。",
+          "kind": "source_summary",
+          "evidenceIds": [
+            "news-957d6e966a7befa67a0f58fd-1"
+          ]
+        },
+        {
+          "text": "高額取引。希少な50ペンス硬貨がeBayで額面を大きく上回る価格で売れたとする見出しです。取引の成立や一般的な相場は未確認です。",
+          "kind": "source_summary",
+          "evidenceIds": [
+            "news-957d6e966a7befa67a0f58fd-2"
+          ]
+        }
+      ],
+      "attention": {
+        "text": "身近な硬貨に思わぬ価値があるかもしれないという期待が、記事を読む動機になる可能性があります。これは検索理由や読者心理を実測した結果ではありません。",
+        "kind": "interpretation",
+        "evidenceIds": [
+          "news-957d6e966a7befa67a0f58fd-1",
+          "news-957d6e966a7befa67a0f58fd-2"
+        ]
+      },
       "marketing": null,
       "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+        "収集した見出しのAI要約・解釈です。記事本文や実際の検索意図を確認した結果ではありません。",
+        "同じ検索語に複数の別のニュースが含まれます。同じ出来事や共通の流行原因だとは確認できません。",
+        "記事本文、実際の検索理由、取引記録は未取得です。報道があることから人気・購買意向・投資価値を断定しません。"
       ],
       "evidence": [
         {

@@ -48,7 +48,7 @@ test('real Japanese AI context connects a foreign trend to cited original headli
   await card.getByRole('button', { name: `${topicTitle}の文脈を読む`, exact: true }).click();
   const dialog = page.getByRole('dialog');
   await expect(dialog.getByRole('heading', { name: '何の話？', exact: true })).toBeVisible();
-  await expect(dialog.getByRole('heading', { name: 'どんな場面で使われる？', exact: true })).toBeVisible();
+  await expect(dialog.getByRole('heading', { name: 'どんな文脈で話題になっている？', exact: true })).toBeVisible();
   await expect(dialog.locator('.context-what .context-kind')).toHaveText('原典情報のAI要約');
   await expect(dialog.locator('.context-attention .context-kind')).toHaveText('AIの解釈・仮説');
   await expect(dialog.locator('.context-headlines')).toContainText('取得した原文');

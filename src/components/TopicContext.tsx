@@ -4,6 +4,7 @@ import { useApp } from '../lib/store';
 import { formatDate, safeUrl } from '../lib/utils';
 import type { Claim, ExplanationEvidence, Observation, Topic, TopicExplanation } from '../types';
 import { Dialog } from './ui/dialog';
+import ContextGenerationActions from './ContextGenerationActions';
 import './TopicContext.css';
 
 interface TopicContextProps { topic: Topic; observation?: Observation; variant: 'card' | 'full' }
@@ -19,7 +20,7 @@ function ClaimLabel({ claim }: { claim: Claim }) { return <span className={`cont
 function ExplanationBody({ explanation, historical = false }: { explanation: TopicExplanation; historical?: boolean }) {
   return <div className={`context-explanation-body ${historical ? 'context-historical' : ''}`}>
     <section className="context-what"><div className="context-section-label"><BookOpenText size={15} /><h3>何の話？</h3><ClaimLabel claim={explanation.overview} /></div><ClaimText claim={explanation.overview} evidence={explanation.evidence} /></section>
-    <div className="context-reading-grid"><section className="context-situations"><div className="context-section-label"><MessageCircleMore size={15} /><h3>どんな場面で使われる？</h3></div>{explanation.contexts.length ? explanation.contexts.map((claim, index) => <div className="context-situation" key={`${index}-${claim.text}`}><ClaimLabel claim={claim} /><ClaimText claim={claim} evidence={explanation.evidence} /></div>) : <p className="context-no-context">利用場面まで判断できる根拠はありません。下の見出し・原典から確認してください。</p>}</section>
+    <div className="context-reading-grid"><section className="context-situations"><div className="context-section-label"><MessageCircleMore size={15} /><h3>どんな文脈で話題になっている？</h3></div>{explanation.contexts.length ? explanation.contexts.map((claim, index) => <div className="context-situation" key={`${index}-${claim.text}`}><ClaimLabel claim={claim} /><ClaimText claim={claim} evidence={explanation.evidence} /></div>) : <p className="context-no-context">文脈まで判断できる根拠はありません。下の見出し・原典から確認してください。</p>}</section>
       {explanation.attention && <section className="context-attention"><div className="context-section-label"><Lightbulb size={15} /><h3>注目の背景をどう読むか</h3></div><ClaimLabel claim={explanation.attention} /><ClaimText claim={explanation.attention} evidence={explanation.evidence} /><p className="context-small-note">検索が増えた理由を証明したものではありません。</p></section>}
     </div>
     {explanation.marketing && <section className="context-marketing"><div className="context-section-label"><Lightbulb size={15} /><h3>マーケターが考えたいこと</h3><ClaimLabel claim={explanation.marketing} /></div><ClaimText claim={explanation.marketing} evidence={explanation.evidence} /></section>}
@@ -49,6 +50,7 @@ export default function TopicContext({ topic, observation, variant }: TopicConte
   function fullBody() {
     return <div className="topic-context-body"><div className="context-intro"><span className="context-ai-mark"><Sparkles size={17} /></span><div><span className="context-eyebrow">CONTEXT EXPLAINER</span><h2>この話題を、ひとことで。</h2></div>{ready && <span className="context-ready-label">AI解説</span>}</div>
       {ready ? <><p className="context-scope">検索語や関連記事の見出しをつなぎ、読むための手がかりを整理しています。原典の要約と、利用場面についての仮説を分けて表示します。</p><ExplanationBody explanation={ready} /></> : <div className="context-unavailable" role="status">{explanationsLoading ? <><span className="context-loading-dot" />保存済みの解説を読み込んでいます。</> : stale ? <><Clock3 size={15} /><span>原典が更新されたため、以前のAI解説は参考表示にしています。最新の文脈は下の原典から確認できます。</span></> : explanationsError ? <><BookOpenText size={15} /><span>AI解説を読み込めませんでした。取得済みの見出し・原典は引き続き確認できます。</span></> : <><BookOpenText size={15} /><span>この話題のAI解説はまだありません。関連記事から文脈を確かめられます。</span></>}</div>}
+      {!ready && !explanationsLoading && <ContextGenerationActions topic={topic} dataset={dataset}/>}
       {headlineList()}
       {stale && <details className="context-old-explanation"><summary>以前のAI解説を参考として読む <span>更新前</span></summary><p className="context-stale-note">以下は更新前の原典に基づく説明です。現在の話題の説明として断定しないでください。</p><ExplanationBody explanation={stale} historical /></details>}
     </div>;

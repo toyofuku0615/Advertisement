@@ -26,8 +26,10 @@ from urllib.request import Request, urlopen
 
 if __package__:
     from .culture_windows import WindowValidationError, publication_allowed, validate_window_data
+    from .generate_explanations import ExplanationError, validate_topic_ids
 else:
     from culture_windows import WindowValidationError, publication_allowed, validate_window_data
+    from generate_explanations import ExplanationError, validate_topic_ids
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = ROOT / '.local/pc-updater.json'
@@ -384,11 +386,18 @@ def validate_public_files(repository: Path) -> tuple[dict, dict]:
     return dataset, bundle
 
 
-def run_pipeline(config: dict, repository: Path, retained: Path | None) -> tuple[dict, dict]:
+def run_pipeline(config: dict, repository: Path, retained: Path | None, topic_ids: list[str] | None = None) -> tuple[dict, dict]:
     run_command([sys.executable, str(repository / 'scripts/collect.py'), '--sources', 'google-trends', 'gdelt', 'youtube'], cwd=repository, timeout=900)
     run_command([sys.executable, str(repository / 'scripts/prepare_public.py')], cwd=repository)
+    try:
+        selected = validate_topic_ids(topic_ids, read_json(repository / PUBLIC_FILES[0]))
+    except ExplanationError:
+        raise UpdaterError('指定した話題が現在の公開可能な取得データにありません。話題IDを確認してください。') from None
     merge_retained_cache(repository, retained)
-    run_command([sys.executable, str(repository / 'scripts/generate_explanations.py'), '--provider', 'ollama', '--model', config['model'], '--max-topics', str(config['maxTopics']), '--timeout', str(config['timeoutSeconds'])], cwd=repository, timeout=config['maxTopics'] * config['timeoutSeconds'] + 120)
+    command = [sys.executable, str(repository / 'scripts/generate_explanations.py'), '--provider', 'ollama', '--model', config['model'], '--max-topics', str(config['maxTopics']), '--timeout', str(config['timeoutSeconds'])]
+    for topic_id in selected or []:
+        command.extend(['--topic-id', topic_id])
+    run_command(command, cwd=repository, timeout=config['maxTopics'] * config['timeoutSeconds'] + 120)
     return validate_public_files(repository)
 
 
@@ -416,9 +425,13 @@ def doctor(config: dict, *, checkout: Path | None = None) -> None:
     print('書き込み権限と公開完了は、--once による実際の更新で確認します。')
 
 
-def run_once(config_path: Path, *, force: bool = True) -> int:
+def run_once(config_path: Path, *, force: bool = True, topic_ids: list[str] | None = None) -> int:
     runtime = runtime_dir(config_path)
     config = load_config(config_path)
+    try:
+        selected = validate_topic_ids(topic_ids)
+    except ExplanationError:
+        raise UpdaterError('話題IDは安全な形式で1〜20件指定してください。') from None
     try:
         with single_instance(runtime / 'update.lock'):
             state = read_status(runtime)
@@ -435,10 +448,18 @@ def run_once(config_path: Path, *, force: bool = True) -> int:
                 if retained:
                     log(runtime, '前回の未公開データを保持し、最新の公開データを元に再試行します。')
                     state['retainedCheckout'] = retained.name
-                dataset, bundle = run_pipeline(config, repository, retained)
+                dataset, bundle = run_pipeline(config, repository, retained, topic_ids=selected) if selected is not None else run_pipeline(config, repository, retained)
                 changed = publish(repository, config['branch'])
-                ai_failed = bundle['providerStatus']['status'] == 'error'
-                state.update({'state': 'partial' if ai_failed else 'success', 'lastDataUpdatedAt': timestamp(), 'message': 'データをGitHubに保存しましたが、AI解説の生成に失敗した項目があります。前回の解説と未生成表示を保持し、15分後に再試行します。' if ai_failed else ('GitHubへの保存が完了しました。公開処理には数分かかる場合があります。' if changed else '検証済みデータに公開対象の変更はありませんでした。'), 'topicCount': len(dataset['topics']), 'readyExplanations': sum(item['status'] == 'ready' for item in bundle['explanations']), 'aiStatus': bundle['providerStatus']['status']})
+                ready_ids = {item['topicId'] for item in bundle['explanations'] if item['status'] == 'ready'}
+                selection_incomplete = selected is not None and not set(selected) <= ready_ids
+                ai_failed = bundle['providerStatus']['status'] == 'error' or selection_incomplete
+                if selection_incomplete:
+                    message = '公開可能なデータの保存処理は完了しましたが、指定した話題のAI解説は未生成です。根拠の利用可否・モデル・生成上限を確認してください。生成済みの解説と未生成表示を保持しています。'
+                elif ai_failed:
+                    message = 'データをGitHubに保存しましたが、AI解説の生成に失敗した項目があります。前回の解説と未生成表示を保持し、15分後に再試行します。'
+                else:
+                    message = 'GitHubへの保存が完了しました。公開処理には数分かかる場合があります。' if changed else '検証済みデータに公開対象の変更はありませんでした。'
+                state.update({'state': 'partial' if ai_failed else 'success', 'lastDataUpdatedAt': timestamp(), 'message': message, 'topicCount': len(dataset['topics']), 'readyExplanations': len(ready_ids), 'aiStatus': bundle['providerStatus']['status']})
                 if not ai_failed:
                     state['lastSuccessAt'] = timestamp()
                 if changed:
@@ -479,7 +500,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument('--model')
     parser.add_argument('--interval-hours', type=float, default=6)
     parser.add_argument('--max-topics', type=int, default=12)
+    parser.add_argument('--topic-id', action='append', dest='topic_ids', help='--once専用: この話題だけAI解説を生成（最大20件）')
     args = parser.parse_args(argv)
+    if args.topic_ids is not None and not args.once:
+        parser.error('--topic-id は --once と一緒に指定してください。')
     path = args.config.expanduser().resolve()
     try:
         if args.initialize:
@@ -495,7 +519,7 @@ def main(argv: list[str] | None = None) -> int:
         if args.doctor:
             doctor(config)
             return 0
-        return watch(path) if args.watch else run_once(path)
+        return watch(path) if args.watch else run_once(path, topic_ids=args.topic_ids)
     except KeyboardInterrupt:
         return 130
     except (UpdaterError, OSError, ValueError) as error:

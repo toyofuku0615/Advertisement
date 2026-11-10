@@ -59,6 +59,9 @@ py scripts/setup_windows_updates.py --check
 # 今すぐ1回更新。自動更新と重なった場合は二重実行しない
 py scripts/pc_updater.py --once
 
+# 新実装のマージ後、最新のコードで選択した話題だけを生成・保存
+py scripts/pc_updater.py --once --topic-id topic-b3a1984ba0b1d8ad7f9dc881
+
 # 最終状態とログ（自分のPC内にだけ保存）
 Get-Content .local\pc-updater\status.json -Encoding UTF8
 Get-Content .local\pc-updater\updater.log -Encoding UTF8 -Tail 20
