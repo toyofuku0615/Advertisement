@@ -24,6 +24,26 @@ def previous(data=None):
 
 
 class ExplanationTest(unittest.TestCase):
+    def test_explicit_publication_and_ai_denials_do_not_preserve_stale_private_claims(self):
+        policy = {'visibility': 'public', 'aiAllowed': True, 'termsUrl': 'https://example.org/terms', 'license': 'DEMO', 'allowedFields': ['metadata', 'headline', 'link'], 'checkedAt': '2026-11-10T00:00:00Z', 'note': 'DEMO only'}
+        for patch in ({'visibility': 'private'}, {'visibility': 'unknown'}, {'aiAllowed': False}, {'allowedFields': ['metadata', 'link']}):
+            data = dataset()
+            cache = previous(data)
+            cache['explanations'][0]['overview']['text'] = 'DEMO_PRIVATE_DERIVED_TEXT'
+            data['observations'][0]['publication'] = {**policy, **patch}
+            self.assertEqual(build_evidence(data['topics'][0], data), [])
+            result = reconcile(data, cache)
+            self.assertEqual(result['explanations'][0]['status'], 'unavailable')
+            self.assertNotIn('DEMO_PRIVATE_DERIVED_TEXT', json.dumps(result))
+
+    def test_removed_evidence_is_not_retained_in_stale_ai_output_for_mixed_topics(self):
+        data = dataset()
+        cache = previous(data)
+        data['observations'] = [{**data['observations'][0], 'id': 'public-replacement', 'relatedLinks': []}]
+        result = reconcile(data, cache)
+        self.assertEqual(result['explanations'][0]['status'], 'unavailable')
+        self.assertEqual({row['observationId'] for row in result['explanations'][0]['evidence']}, {'public-replacement'})
+
     def test_evidence_order_ids_and_source_rights(self):
         data = dataset()
         data['observations'].append({**data['observations'][0], 'id': 'second', 'source': 'youtube'})
@@ -206,6 +226,18 @@ class ExplanationTest(unittest.TestCase):
     def test_corrupt_cache_schema_is_not_silently_overwritten(self):
         with self.assertRaises(ExplanationError):
             reconcile(dataset(), {'schemaVersion': 2, 'explanations': []})
+
+    def test_long_running_topic_bounds_context_without_losing_canonical_observations(self):
+        data = dataset()
+        original = data['observations'][0]
+        data['observations'] = [{**original, 'id': f'DEMO-{index:04d}', 'relatedLinks': []} for index in range(560)]
+        evidence = build_evidence(data['topics'][0], data)
+        self.assertEqual(len(evidence), 500)
+        self.assertEqual(evidence[0]['id'], 'obs-DEMO-0060')
+        bundle = reconcile(data)
+        self.assertEqual(bundle['explanations'][0]['status'], 'unavailable')
+        self.assertEqual(len(bundle['explanations'][0]['evidence']), 500)
+        self.assertEqual(len(data['observations']), 560)
 
 
 if __name__ == '__main__':

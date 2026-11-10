@@ -28,6 +28,11 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import quote, urlencode, urlparse
 from urllib.request import Request, urlopen
 
+if __package__:
+    from .culture_windows import WindowValidationError, attach_windows, load_windows, publication_allowed, publication_key, validate_restrictions
+else:
+    from culture_windows import WindowValidationError, attach_windows, load_windows, publication_allowed, publication_key, validate_restrictions
+
 ROOT = Path(__file__).resolve().parents[1]
 UTC = timezone.utc
 USER_AGENT = "CultureRadar/1.0 (public metadata research; no full-text archiving)"
@@ -400,6 +405,22 @@ def empty_dataset() -> dict:
 
 def merge_dataset(previous: dict, batches: list[tuple[list, list, list]], runs: list[dict], now: datetime | None = None) -> dict:
     now = now or datetime.now(UTC)
+    validate_restrictions(previous)
+    restrictions = {row['key']: dict(row) for row in previous.get('publicationRestrictions', [])}
+    # Keep opaque denial rules after private records themselves have been removed
+    # from the public snapshot. A routine legacy fetch cannot undo a takedown.
+    reviewed_rows = [*previous.get('observations', []), *previous.get('geoObservations', [])]
+    reviewed_rows.extend(row for _, rows, geos in batches for row in [*rows, *geos])
+    for row in reviewed_rows:
+        if 'publication' not in row and 'publicationRestriction' not in row:
+            continue
+        public, ai = publication_allowed(row), publication_allowed(row, for_ai=True)
+        if public and ai:
+            continue
+        key = publication_key(row)
+        old = restrictions.get(key, {'publicAllowed': True, 'aiAllowed': True})
+        public = public and old['publicAllowed']
+        restrictions[key] = {'key': key, 'publicAllowed': public, 'aiAllowed': public and ai and old['aiAllowed']}
     cutoff = now - timedelta(days=30)
     failed_sources = {row["source"] for row in runs if row["status"] == "error"}
     # Public-social excerpts are a short-lived observation cache, not a permanent
@@ -428,21 +449,36 @@ def merge_dataset(previous: dict, batches: list[tuple[list, list, list]], runs: 
             continue
     observations = {row["id"]: row for row in old_observations}
     geos = {row["id"]: row for row in old_geos}
+    # A legacy refresh must not silently erase an explicitly reviewed rights tag.
+    reviewed_rights = {(row.get("source"), row.get("sourceId")): row["publication"] for row in previous.get("observations", []) if "publication" in row}
     topics = {row["id"]: {**row, "observationIds": []} for row in previous.get("topics", [])}
     for batch_topics, batch_observations, batch_geos in batches:
         for row in batch_topics:
             topics[row["id"]] = {**row, "observationIds": []}
         for row in batch_observations:
+            if "publication" not in row and (row.get("source"), row.get("sourceId")) in reviewed_rights:
+                row = {**row, "publication": reviewed_rights[(row.get("source"), row.get("sourceId"))]}
             observations[row["id"]] = row
         for row in batch_geos:
+            if "publication" not in row and row["id"] in geos and "publication" in geos[row["id"]]:
+                row = {**row, "publication": geos[row["id"]]["publication"]}
             geos[row["id"]] = row
+    if restrictions:
+        for rows in (observations, geos):
+            for key, row in list(rows.items()):
+                inherited = restrictions.get(publication_key(row))
+                if inherited is not None:
+                    rows[key] = {**row, 'publicationRestriction': {field: inherited[field] for field in ('publicAllowed', 'aiAllowed')}}
     # Rebuild all relationships after deduplication/retention.
     for row in observations.values():
         if row["topicId"] in topics:
             topics[row["topicId"]]["observationIds"].append(row["id"])
     geo_topic_ids = {row["topicId"] for row in geos.values()}
     topics = {key: row for key, row in topics.items() if row["observationIds"] or key in geo_topic_ids}
-    return {"schemaVersion": 1, "generatedAt": timestamp(now), "topics": sorted(topics.values(), key=lambda row: row["id"]), "observations": sorted(observations.values(), key=lambda row: row["observedAt"], reverse=True), "geoObservations": sorted(geos.values(), key=lambda row: (row["topicId"], row["date"], row["regionCode"])), "collectionRuns": (runs + previous.get("collectionRuns", []))[:160], "sources": SOURCES}
+    result = {"schemaVersion": 1, "generatedAt": timestamp(now), "topics": sorted(topics.values(), key=lambda row: row["id"]), "observations": sorted(observations.values(), key=lambda row: row["observedAt"], reverse=True), "geoObservations": sorted(geos.values(), key=lambda row: (row["topicId"], row["date"], row["regionCode"])), "collectionRuns": (runs + previous.get("collectionRuns", []))[:160], "sources": SOURCES}
+    if restrictions:
+        result['publicationRestrictions'] = sorted(restrictions.values(), key=lambda row: row['key'])
+    return result
 
 
 def atomic_json(path: Path, data: dict) -> None:
@@ -462,13 +498,20 @@ def main() -> int:
     parser.add_argument("--keywords", nargs="+", default=["matcha", "skincare", "artificial intelligence"])
     parser.add_argument("--bluesky-actors", nargs="*", default=["bsky.app"], help="Explicitly curated public account feeds; never described as keyword/popularity rankings")
     parser.add_argument("--sources", nargs="+", choices=["google-trends", "bluesky-search", "bluesky-author", "gdelt", "youtube"], default=["google-trends", "bluesky-search", "bluesky-author", "gdelt", "youtube"], help="Retry only diagnosed/changed source operations when needed")
+    parser.add_argument("--culture-windows-config", type=Path, default=ROOT / "config/culture_windows.json", help="Validated editorial windows over existing observations; performs no extra HTTP collection")
+    parser.add_argument("--no-culture-windows", action="store_true", help="Skip window projection; publication safeguards remain enabled")
     args = parser.parse_args()
+    try:
+        windows = None if args.no_culture_windows else load_windows(args.culture_windows_config)
+    except WindowValidationError:
+        raise SystemExit("Culture window configuration invalid; no sources requested and existing output not replaced") from None
     try:
         previous = json.loads(args.output.read_text(encoding="utf-8")) if args.output.exists() else empty_dataset()
     except (OSError, json.JSONDecodeError):
         raise SystemExit("Existing dataset unreadable; refusing to overwrite it")
     if previous.get("schemaVersion") != 1:
         raise SystemExit("Unsupported existing schemaVersion; refusing to overwrite")
+    validate_restrictions(previous)
     batches, runs = [], []
     fetched_at = timestamp()
 
@@ -533,6 +576,8 @@ def main() -> int:
         batches.append(batch)
         runs.append(record)
     dataset = merge_dataset(previous, batches, runs)
+    if windows is not None:
+        dataset = attach_windows(dataset, windows)
     atomic_json(args.output, dataset)
     live_errors = [row for row in runs if row["status"] == "error" and row["source"] != "google-trends-archive"]
     print(f"Saved {len(dataset['topics'])} topics, {len(dataset['observations'])} observations, {len(dataset['geoObservations'])} geo observations. Enabled live-source failures: {len(live_errors)}")

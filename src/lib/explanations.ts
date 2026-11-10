@@ -1,5 +1,8 @@
 import type { Claim, Dataset, ExplanationBundle, ExplanationEvidence, Topic, TopicExplanation } from '../types';
 import { safeUrl } from './utils';
+import { publicationAllowed } from './culture-windows';
+
+export const MAX_CONTEXT_EVIDENCE = 500;
 
 function permittedUrl(value:string):boolean {const safe=safeUrl(value);if(!safe)return false;const host=new URL(safe).hostname;return host!=='seikatsusoken.jp'&&!host.endsWith('.seikatsusoken.jp');}
 /** Canonical counterpart of Python build_evidence. Never fetches article bodies. */
@@ -7,12 +10,12 @@ export function buildContextEvidence(topic:Topic,dataset:Dataset):ExplanationEvi
  const sources=new Map(dataset.sources.map(s=>[s.id,s]));const result:ExplanationEvidence[]=[];
  const observations=dataset.observations.filter(o=>o.topicId===topic.id).slice().sort((a,b)=>a.observedAt<b.observedAt?-1:a.observedAt>b.observedAt?1:a.id<b.id?-1:a.id>b.id?1:0);
  for(const o of observations){
-  if(o.source.startsWith('youtube')||sources.get(o.source)?.enabled===false||!permittedUrl(o.sourceUrl))continue;
+  if(o.source.startsWith('youtube')||sources.get(o.source)?.enabled===false||!permittedUrl(o.sourceUrl)||!publicationAllowed(o,{forAI:true}))continue;
   const context={source:o.source,observedAt:o.observedAt,fetchedAt:o.fetchedAt,observationId:o.id};
   result.push({id:`obs-${o.id}`,url:o.sourceUrl,title:[...o.title].slice(0,500).join(''),...context});
   (o.relatedLinks||[]).forEach((link,index)=>{if(permittedUrl(link.url))result.push({id:`news-${o.id}-${index}`,url:link.url,title:[...link.title].slice(0,500).join(''),...context});});
  }
- return result;
+ return result.slice(-MAX_CONTEXT_EVIDENCE);
 }
 function canonicalJson(value:unknown):string {
  if(Array.isArray(value))return '['+value.map(canonicalJson).join(',')+']';
@@ -53,8 +56,12 @@ export function parseExplanationBundle(value:unknown):ExplanationBundle {
 /** Changing evidence makes cached claims stale, even when a topic ID stays the same. */
 export async function reconcileExplanations(bundle:ExplanationBundle,dataset:Dataset):Promise<ExplanationBundle>{
  const topics=new Map(dataset.topics.map(t=>[t.id,t]));
- const explanations=await Promise.all(bundle.explanations.filter(e=>topics.has(e.topicId)).map(async e=>{
+ const aiAllowedIds=new Set(dataset.observations.filter(o=>publicationAllowed(o,{forAI:true})&&!o.source.startsWith('youtube')&&dataset.sources.find(s=>s.id===o.source)?.enabled!==false&&permittedUrl(o.sourceUrl)).map(o=>o.id));
+ // Do not expose an old private/removed headline through the stale-cache view or
+ // through AppProvider's fallback after the latest cache request fails.
+ const explanations=await Promise.all(bundle.explanations.filter(e=>topics.has(e.topicId)&&e.evidence.every(ref=>aiAllowedIds.has(ref.observationId))).map(async e=>{
   const topic=topics.get(e.topicId)!;const current=buildContextEvidence(topic,dataset);const fingerprint=await contextFingerprint(topic,current);
+  if(e.status==='unavailable')return {...e,inputHash:fingerprint,evidence:current};
   if(fingerprint!==e.inputHash)return {...e,status:'stale' as const};
   // Refresh source retrieval metadata without rewriting generated text or its generation date.
   const latest=new Map(current.map(item=>[item.id,item]));

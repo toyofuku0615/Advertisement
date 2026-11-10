@@ -4,6 +4,10 @@
 
 **自分とは違う人が見ている世界を知る。**
 
+**CULTURE RADAR 2.0の第1段階:** [観測窓の基盤とPR 2〜6の計画](docs/CULTURE_RADAR_2_ROADMAP.md)を追加しました。[6つの観測窓の設定](config/culture_windows.json)は、実取得履歴のある既存Google Trends/GDELTを基準線として再利用します。新しいコミュニティ固有のRSS・SNSは未検証のため有効化していません。窓名から年代・コミュニティ所属・属性別人気を推定しません。既存7画面・IndexedDB・JSONの `schemaVersion: 1` を維持します。
+
+収集は従来どおり `python3 scripts/collect.py` で、追加のHTTP要求なしに `cultureWindows`・`windowObservations`・`windowCollectionRuns` を生成します。設定・日時・原典・公開条件を検証し、非公開の元観測とそれを使った古いAI解説を配信前に除外します。旧形式だけを出力する場合は `--no-culture-windows`、別設定には `--culture-windows-config PATH` を使います。詳しい運用方法は [config/README.md](config/README.md) を参照してください。
+
 **Windows PCで無料のAI自動更新:** [最初のセットアップ手順](docs/PC_UPDATES.md)。ログイン後に起動し、PCが起きている間は標準6時間ごとに収集・Ollama解説・GitHubへの保存を行います。利用者のPCでの初回設定が必要です。スマホでは公開済みの最新版を閲覧し、画面に戻ったときにも再確認します。PCの電源OFF・スリープ中には生成しません。
 
 検索・公開投稿・ニュース・生活者調査の根拠を確かめながら、文化の変化を広告の仮説につなげる静的 Web アプリです。React + TypeScript + Vite と Python 標準ライブラリで動き、サーバー・認証基盤・有料 LLM・有料地図 API は必要ありません。

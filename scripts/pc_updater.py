@@ -24,6 +24,11 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
+if __package__:
+    from .culture_windows import WindowValidationError, publication_allowed, validate_window_data
+else:
+    from culture_windows import WindowValidationError, publication_allowed, validate_window_data
+
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = ROOT / '.local/pc-updater.json'
 DEFAULT_REPOSITORY = 'https://github.com/toyofuku0615/Advertisement.git'
@@ -274,6 +279,12 @@ def validate_public_files(repository: Path) -> tuple[dict, dict]:
     """
     dataset = read_json(repository / PUBLIC_FILES[0])
     bundle = read_json(repository / PUBLIC_FILES[1])
+    try:
+        validate_window_data(dataset)
+        if any(not publication_allowed(row) for row in [*dataset.get('observations', []), *dataset.get('geoObservations', [])]):
+            raise UpdaterError('公開不可または権利不明の観測が残っているため公開を停止しました。')
+    except WindowValidationError:
+        raise UpdaterError('観測窓の形式・参照・公開条件を検証できません。公開を停止しました。') from None
     spec = importlib.util.spec_from_file_location('_pc_updater_explanation_validation', ROOT / 'scripts/generate_explanations.py')
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)

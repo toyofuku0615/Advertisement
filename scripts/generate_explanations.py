@@ -18,8 +18,17 @@ from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
+try:
+    # Also supports pc_updater's importlib file loader (no package context).
+    from scripts.culture_windows import publication_allowed
+except ModuleNotFoundError as error:
+    if error.name != 'scripts':
+        raise
+    from culture_windows import publication_allowed
+
 ROOT = Path(__file__).resolve().parents[1]
 MAX_RESPONSE_BYTES = 256 * 1024
+MAX_CONTEXT_EVIDENCE = 500
 PROMPT_VERSION = 'culture-context-v1'
 MAX_INFERENCE_EVIDENCE = 8
 MAX_INFERENCE_BYTES = 5_000
@@ -57,7 +66,7 @@ def build_evidence(topic: dict, dataset: dict) -> list[dict]:
     result = []
     for row in observations:
         source = row.get('source', '')
-        if source.startswith('youtube') or sources.get(source, {}).get('enabled') is False:
+        if source.startswith('youtube') or sources.get(source, {}).get('enabled') is False or not publication_allowed(row, for_ai=True):
             continue
         url = row.get('sourceUrl', '')
         if not safe_url(url) or urlparse(url).hostname.endswith('seikatsusoken.jp'):
@@ -69,7 +78,10 @@ def build_evidence(topic: dict, dataset: dict) -> list[dict]:
             if not safe_url(related_url) or urlparse(related_url).hostname.endswith('seikatsusoken.jp'):
                 continue
             result.append({'id': f"news-{row['id']}-{index}", 'url': related_url, 'title': str(related.get('title', ''))[:500], **context})
-    return result
+    # Match validate_evidence's cache limit even after months of collection.
+    # Canonical observations remain complete; only this context reference list
+    # is bounded, consistently with the static reader's fingerprint calculation.
+    return result[-MAX_CONTEXT_EVIDENCE:]
 
 
 def input_fingerprint(topic: dict, evidence: list[dict]) -> str:
@@ -267,6 +279,13 @@ def reconcile(dataset: dict, previous: dict | None = None, *, provider: str = 'n
         evidence = build_evidence(topic, dataset)
         fingerprint = input_fingerprint(topic, evidence)
         old = cache.get(topic['id'])
+        # A cached summary can contain a denied headline even when its topic also
+        # has public observations. Never keep it as historical/stale AI output.
+        # Missing evidence IDs also deny: a browser/collector can be holding an
+        # older cache after publication rules removed the underlying record.
+        allowed_ids = {row['observationId'] for row in evidence}
+        if old and (not isinstance(old.get('evidence'), list) or any(not isinstance(row, dict) or row.get('observationId') not in allowed_ids for row in old['evidence'])):
+            old = None
         valid_old = None
         if old and old.get('status') in ('ready', 'stale'):
             try:

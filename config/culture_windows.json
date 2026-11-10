@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 1,
+  "windows": [
+    {
+      "id": "us-campus-youth",
+      "name": "US Campus & Youth",
+      "description": "米国の学生・若者文化を調べるための観測窓。現在は米国検索市場全体の基準線を使い、学生・若者の実測とはしない。",
+      "countryCodes": [
+        "US"
+      ],
+      "languages": [
+        "en"
+      ],
+      "categories": [
+        "ライフスタイル",
+        "エンタメ",
+        "社会・ニュース"
+      ],
+      "sources": [
+        {
+          "id": "us-campus-youth-google-trends",
+          "source": "google-trends",
+          "adapter": "legacy-google-trends",
+          "enabled": true,
+          "endpoint": "https://trends.google.com/trending/rss?geo=US",
+          "countryCodes": [
+            "US"
+          ],
+          "verification": {
+            "status": "verified",
+            "method": "recorded-collection",
+            "checkedAt": "2026-11-10T04:12:39Z",
+            "evidenceUrl": "https://github.com/toyofuku0615/Advertisement/blob/182bfdde66ed56e30b95c00ce5d68c4fb39ae3c2/public/data/dataset.json",
+            "note": "既存パイプラインの実取得JSONで400観測を確認。該当範囲の最新取得は2026-11-09T22:59:45Z。今日の直接接続はプロキシCONNECT 403で原典の応答未確認。新規取得成功とは扱わない。"
+          },
+          "publication": {
+            "visibility": "public",
+            "aiAllowed": false,
+            "termsUrl": "https://support.google.com/trends/answer/4365533",
+            "license": "Google Terms of Service; publisher/news content rights remain with owners",
+            "allowedFields": [
+              "metadata",
+              "link",
+              "metrics"
+            ],
+            "checkedAt": "2026-11-10T04:12:39Z",
+            "note": "既存情報源のメタデータ・原典リンクのみを再利用。2026-10-21に確認した既存規約方針を継承。2026-11-10の原典規約再読はプロキシ制限で未確認。記事本文・画像の転載許諾ではなく、ライブRSSに固定履歴のCC BYを適用しない。"
+          },
+          "disabledReason": null
+        }
+      ],
+      "enabled": true,
+      "scopeNote": "この段階では既存の実取得データを地域の定義で関連付ける。窓名・関心カテゴリー・言語は編集上の観測目的であり、投稿者属性や人気の証拠ではない。カテゴリー・言語を推測して自動選別しない。コミュニティ固有RSS/SNSは未検証のため未登録・未有効化。"
+    },
+    {
+      "id": "k-beauty-lifestyle",
+      "name": "K-Beauty & Lifestyle",
+      "description": "韓国の美容・暮らし文化を調べるための観測窓。現在の検索基準線は美容コミュニティの標本や属性別人気を示さない。",
+      "countryCodes": [
+        "KR"
+      ],
+      "languages": [
+        "ko",
+        "en"
+      ],
+      "categories": [
+        "美容・ファッション",
+        "ライフスタイル"
+      ],
+      "sources": [
+        {
+          "id": "k-beauty-lifestyle-google-trends",
+          "source": "google-trends",
+          "adapter": "legacy-google-trends",
+          "enabled": true,
+          "endpoint": "https://trends.google.com/trending/rss?geo=KR",
+          "countryCodes": [
+            "KR"
+          ],
+          "verification": {
+            "status": "verified",
+            "method": "recorded-collection",
+            "checkedAt": "2026-11-10T04:12:39Z",
+            "evidenceUrl": "https://github.com/toyofuku0615/Advertisement/blob/182bfdde66ed56e30b95c00ce5d68c4fb39ae3c2/public/data/dataset.json",
+            "note": "既存パイプラインの実取得JSONで400観測を確認。該当範囲の最新取得は2026-11-09T22:59:45Z。今日の直接接続はプロキシCONNECT 403で原典の応答未確認。新規取得成功とは扱わない。"
+          },
+          "publication": {
+            "visibility": "public",
+            "aiAllowed": false,
+            "termsUrl": "https://support.google.com/trends/answer/4365533",
+            "license": "Google Terms of Service; publisher/news content rights remain with owners",
+            "allowedFields": [
+              "metadata",
+              "link",
+              "metrics"
+            ],
+            "checkedAt": "2026-11-10T04:12:39Z",
+            "note": "既存情報源のメタデータ・原典リンクのみを再利用。2026-10-21に確認した既存規約方針を継承。2026-11-10の原典規約再読はプロキシ制限で未確認。記事本文・画像の転載許諾ではなく、ライブRSSに固定履歴のCC BYを適用しない。"
+          },
+          "disabledReason": null
+        }
+      ],
+      "enabled": true,
+      "scopeNote": "この段階では既存の実取得データを地域の定義で関連付ける。窓名・関心カテゴリー・言語は編集上の観測目的であり、投稿者属性や人気の証拠ではない。カテゴリー・言語を推測して自動選別しない。コミュニティ固有RSS/SNSは未検証のため未登録・未有効化。"
+    },
+    {
+      "id": "uk-music-subculture",
+      "name": "UK Music & Subculture",
+      "description": "英国の音楽・サブカルチャーを調べるための観測窓。現在は英国の検索基準線であり、特定の音楽コミュニティを代表しない。",
+      "countryCodes": [
+        "GB"
+      ],
+      "languages": [
+        "en"
+      ],
+      "categories": [
+        "音楽",
+        "エンタメ",
+        "ライフスタイル"
+      ],
+      "sources": [
+        {
+          "id": "uk-music-subculture-google-trends",
+          "source": "google-trends",
+          "adapter": "legacy-google-trends",
+          "enabled": true,
+          "endpoint": "https://trends.google.com/trending/rss?geo=GB",
+          "countryCodes": [
+            "GB"
+          ],
+          "verification": {
+            "status": "verified",
+            "method": "recorded-collection",
+            "checkedAt": "2026-11-10T04:12:39Z",
+            "evidenceUrl": "https://github.com/toyofuku0615/Advertisement/blob/182bfdde66ed56e30b95c00ce5d68c4fb39ae3c2/public/data/dataset.json",
+            "note": "既存パイプラインの実取得JSONで400観測を確認。該当範囲の最新取得は2026-11-09T22:59:45Z。今日の直接接続はプロキシCONNECT 403で原典の応答未確認。新規取得成功とは扱わない。"
+          },
+          "publication": {
+            "visibility": "public",
+            "aiAllowed": false,
+            "termsUrl": "https://support.google.com/trends/answer/4365533",
+            "license": "Google Terms of Service; publisher/news content rights remain with owners",
+            "allowedFields": [
+              "metadata",
+              "link",
+              "metrics"
+            ],
+            "checkedAt": "2026-11-10T04:12:39Z",
+            "note": "既存情報源のメタデータ・原典リンクのみを再利用。2026-10-21に確認した既存規約方針を継承。2026-11-10の原典規約再読はプロキシ制限で未確認。記事本文・画像の転載許諾ではなく、ライブRSSに固定履歴のCC BYを適用しない。"
+          },
+          "disabledReason": null
+        }
+      ],
+      "enabled": true,
+      "scopeNote": "この段階では既存の実取得データを地域の定義で関連付ける。窓名・関心カテゴリー・言語は編集上の観測目的であり、投稿者属性や人気の証拠ではない。カテゴリー・言語を推測して自動選別しない。コミュニティ固有RSS/SNSは未検証のため未登録・未有効化。"
+    },
+    {
+      "id": "european-creative",
+      "name": "European Creative",
+      "description": "欧州の文化・表現を調べるための観測窓。現在は既存GDELT記事標本の報道機関所在国で絞った基準線。読者・出来事の場所・文化圏の実測ではない。",
+      "countryCodes": [
+        "FR",
+        "DE",
+        "IT",
+        "ES",
+        "NL"
+      ],
+      "languages": [
+        "fr",
+        "de",
+        "it",
+        "es",
+        "en"
+      ],
+      "categories": [
+        "美容・ファッション",
+        "ライフスタイル",
+        "テクノロジー"
+      ],
+      "sources": [
+        {
+          "id": "european-creative-gdelt",
+          "source": "gdelt",
+          "adapter": "legacy-gdelt",
+          "enabled": true,
+          "endpoint": "https://api.gdeltproject.org/api/v2/doc/doc",
+          "countryCodes": [
+            "FR",
+            "DE",
+            "IT",
+            "ES",
+            "NL"
+          ],
+          "verification": {
+            "status": "verified",
+            "method": "recorded-collection",
+            "checkedAt": "2026-11-10T04:12:39Z",
+            "evidenceUrl": "https://github.com/toyofuku0615/Advertisement/blob/182bfdde66ed56e30b95c00ce5d68c4fb39ae3c2/public/data/dataset.json",
+            "note": "既存パイプラインの実取得JSONで68観測を確認。該当範囲の最新取得は2026-11-08T18:22:36Z。今日の直接接続はプロキシCONNECT 403で原典の応答未確認。新規取得成功とは扱わない。"
+          },
+          "publication": {
+            "visibility": "public",
+            "aiAllowed": false,
+            "termsUrl": "https://www.gdeltproject.org/about.html",
+            "license": "GDELT open data; underlying articles remain publishers' copyright",
+            "allowedFields": [
+              "metadata",
+              "link",
+              "metrics"
+            ],
+            "checkedAt": "2026-11-10T04:12:39Z",
+            "note": "既存情報源のメタデータ・原典リンクのみを再利用。2026-10-21に確認した既存規約方針を継承。2026-11-10の原典規約再読はプロキシ制限で未確認。記事本文・画像の転載許諾ではなく、ライブRSSに固定履歴のCC BYを適用しない。"
+          },
+          "disabledReason": null
+        }
+      ],
+      "enabled": true,
+      "scopeNote": "この段階では既存の実取得データを地域の定義で関連付ける。窓名・関心カテゴリー・言語は編集上の観測目的であり、投稿者属性や人気の証拠ではない。カテゴリー・言語を推測して自動選別しない。コミュニティ固有RSS/SNSは未検証のため未登録・未有効化。"
+    },
+    {
+      "id": "southeast-asian-culture",
+      "name": "Southeast Asian Culture",
+      "description": "東南アジアの文化を調べるための観測窓。現在は既存GDELT記事標本の報道機関所在国で絞った基準線。古い取得も取得日時と状態を保って扱う。",
+      "countryCodes": [
+        "SG",
+        "TH",
+        "MY",
+        "VN",
+        "PH",
+        "ID"
+      ],
+      "languages": [
+        "en",
+        "th",
+        "ms",
+        "vi",
+        "fil",
+        "id"
+      ],
+      "categories": [
+        "食品・飲料",
+        "エンタメ",
+        "ライフスタイル"
+      ],
+      "sources": [
+        {
+          "id": "southeast-asian-culture-gdelt",
+          "source": "gdelt",
+          "adapter": "legacy-gdelt",
+          "enabled": true,
+          "endpoint": "https://api.gdeltproject.org/api/v2/doc/doc",
+          "countryCodes": [
+            "SG",
+            "TH",
+            "MY",
+            "VN",
+            "PH",
+            "ID"
+          ],
+          "verification": {
+            "status": "verified",
+            "method": "recorded-collection",
+            "checkedAt": "2026-11-10T04:12:39Z",
+            "evidenceUrl": "https://github.com/toyofuku0615/Advertisement/blob/182bfdde66ed56e30b95c00ce5d68c4fb39ae3c2/public/data/dataset.json",
+            "note": "既存パイプラインの実取得JSONで22観測を確認。該当範囲の最新取得は2026-11-03T20:07:50Z。今日の直接接続はプロキシCONNECT 403で原典の応答未確認。新規取得成功とは扱わない。"
+          },
+          "publication": {
+            "visibility": "public",
+            "aiAllowed": false,
+            "termsUrl": "https://www.gdeltproject.org/about.html",
+            "license": "GDELT open data; underlying articles remain publishers' copyright",
+            "allowedFields": [
+              "metadata",
+              "link",
+              "metrics"
+            ],
+            "checkedAt": "2026-11-10T04:12:39Z",
+            "note": "既存情報源のメタデータ・原典リンクのみを再利用。2026-10-21に確認した既存規約方針を継承。2026-11-10の原典規約再読はプロキシ制限で未確認。記事本文・画像の転載許諾ではなく、ライブRSSに固定履歴のCC BYを適用しない。"
+          },
+          "disabledReason": null
+        }
+      ],
+      "enabled": true,
+      "scopeNote": "この段階では既存の実取得データを地域の定義で関連付ける。窓名・関心カテゴリー・言語は編集上の観測目的であり、投稿者属性や人気の証拠ではない。カテゴリー・言語を推測して自動選別しない。コミュニティ固有RSS/SNSは未検証のため未登録・未有効化。"
+    },
+    {
+      "id": "japan-baseline",
+      "name": "Japan Baseline",
+      "description": "日本との比較に使う検索市場の基準線。特定の年代・性別・コミュニティ所属を推定しない。",
+      "countryCodes": [
+        "JP"
+      ],
+      "languages": [
+        "ja"
+      ],
+      "categories": [
+        "食品・飲料",
+        "美容・ファッション",
+        "エンタメ",
+        "音楽",
+        "ライフスタイル",
+        "テクノロジー",
+        "社会・ニュース"
+      ],
+      "sources": [
+        {
+          "id": "japan-baseline-google-trends",
+          "source": "google-trends",
+          "adapter": "legacy-google-trends",
+          "enabled": true,
+          "endpoint": "https://trends.google.com/trending/rss?geo=JP",
+          "countryCodes": [
+            "JP"
+          ],
+          "verification": {
+            "status": "verified",
+            "method": "recorded-collection",
+            "checkedAt": "2026-11-10T04:12:39Z",
+            "evidenceUrl": "https://github.com/toyofuku0615/Advertisement/blob/182bfdde66ed56e30b95c00ce5d68c4fb39ae3c2/public/data/dataset.json",
+            "note": "既存パイプラインの実取得JSONで400観測を確認。該当範囲の最新取得は2026-11-09T22:59:45Z。今日の直接接続はプロキシCONNECT 403で原典の応答未確認。新規取得成功とは扱わない。"
+          },
+          "publication": {
+            "visibility": "public",
+            "aiAllowed": false,
+            "termsUrl": "https://support.google.com/trends/answer/4365533",
+            "license": "Google Terms of Service; publisher/news content rights remain with owners",
+            "allowedFields": [
+              "metadata",
+              "link",
+              "metrics"
+            ],
+            "checkedAt": "2026-11-10T04:12:39Z",
+            "note": "既存情報源のメタデータ・原典リンクのみを再利用。2026-10-21に確認した既存規約方針を継承。2026-11-10の原典規約再読はプロキシ制限で未確認。記事本文・画像の転載許諾ではなく、ライブRSSに固定履歴のCC BYを適用しない。"
+          },
+          "disabledReason": null
+        }
+      ],
+      "enabled": true,
+      "scopeNote": "この段階では既存の実取得データを地域の定義で関連付ける。窓名・関心カテゴリー・言語は編集上の観測目的であり、投稿者属性や人気の証拠ではない。カテゴリー・言語を推測して自動選別しない。コミュニティ固有RSS/SNSは未検証のため未登録・未有効化。"
+    }
+  ]
+}

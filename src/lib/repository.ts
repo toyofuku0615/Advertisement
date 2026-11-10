@@ -1,5 +1,6 @@
 import type { Dataset, GeoObservation, Observation } from '../types';
 import { safeUrl } from './utils';
+import { validateCultureWindowData } from './culture-windows';
 
 /** Read model: evidence identity is separate from multilingual topic identity. */
 export interface Evidence {
@@ -39,6 +40,7 @@ export function parseDataset(value:unknown):Dataset {
   requireThat(g.layer==='search-interest'?g.regionMeaning==='search-market'&&g.value<=100:g.regionMeaning==='publisher-country','検索市場と報道機関所在国が混同されています');
  }
  for(const r of runs)requireThat(text(r.source)&&date(r.startedAt)&&date(r.finishedAt)&&['success','error','disabled'].includes(String(r.status))&&typeof r.count==='number'&&Number.isInteger(r.count)&&r.count>=0,'収集履歴の日時・状態が不正です');
+ validateCultureWindowData(value);
  return value as unknown as Dataset;
 }
 export async function loadDataset(url:string,signal?:AbortSignal):Promise<Dataset>{const response=await fetch(url,{signal,cache:'no-cache'});if(!response.ok)throw new Error(`データ読込 HTTP ${response.status}`);return parseDataset(await response.json());}
