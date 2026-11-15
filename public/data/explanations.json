@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T07:54:40Z",
+  "generatedAt": "2026-11-15T19:25:42Z",
   "providerStatus": {
     "status": "disabled",
     "provider": "none",
     "model": "",
     "message": "新しい話題のAI解説は未生成です。保存済み解説と、見出しからの手がかりを利用できます。",
-    "checkedAt": "2026-11-15T07:54:40Z"
+    "checkedAt": "2026-11-15T19:25:42Z"
   },
   "explanations": [
     {
@@ -1197,6 +1197,63 @@
           "observedAt": "2026-10-22T13:40:00Z",
           "fetchedAt": "2026-10-22T17:59:28Z",
           "observationId": "2be5e60e30d9f586fb7234fb"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-014c4489b2067bc6e304b4dd",
+      "inputHash": "8e1367c5618bc5e49000e08e4cd93677308fd1286aabfa5c8488494d37e744fd",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-276c7cef3199a43ea9b6c550",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "吉田優利",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "276c7cef3199a43ea9b6c550"
+        },
+        {
+          "id": "news-276c7cef3199a43ea9b6c550-0",
+          "url": "https://news.yahoo.co.jp/articles/3b6cb862937cf744b8dd076a8a0f260b2235f413",
+          "title": "渋野日向子は暫定ポイントランク97位で準シード圏内、35歳ダンカン初優勝で夢の40人抜きへ（日刊スポーツ）",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "276c7cef3199a43ea9b6c550"
+        },
+        {
+          "id": "news-276c7cef3199a43ea9b6c550-1",
+          "url": "https://news.golfdigest.co.jp/news/lpga/article/197169/1/",
+          "title": "最終18番の池ポチャに泣く 勝みなみは優勝戦線から無念「ちょっとがっくり…」",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "276c7cef3199a43ea9b6c550"
+        },
+        {
+          "id": "news-276c7cef3199a43ea9b6c550-2",
+          "url": "https://www.alba.co.jp/articles/category/tour/lpga/post/9ljey9a05ijh/",
+          "title": "ネリーは「やっぱり世界一」 吉田優利が日本史上初の快挙へ2打差3位",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "276c7cef3199a43ea9b6c550"
         }
       ]
     },
@@ -10084,6 +10141,63 @@
       ]
     },
     {
+      "topicId": "topic-1510941fd59a72567cae0046",
+      "inputHash": "2fd47f6fe10930fd64c94c24c55970ee3231e1660a29d58596febb3008b35422",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-89084f04b5a1bd6cbbc73f3c",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "francia - turquía",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "89084f04b5a1bd6cbbc73f3c"
+        },
+        {
+          "id": "news-89084f04b5a1bd6cbbc73f3c-0",
+          "url": "https://www.marca.com/futbol/nations-league/2026/11/15/zidane-afronta-primera-final-pienso-fracaso.html",
+          "title": "Zidane afronta su primera 'final': \"No pienso en el fracaso\"",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "89084f04b5a1bd6cbbc73f3c"
+        },
+        {
+          "id": "news-89084f04b5a1bd6cbbc73f3c-1",
+          "url": "https://www.si.com/es-us/la-posible-alineacion-titular-de-francia-para-enfrentar-a-turquia",
+          "title": "La posible alineación titular de Francia para enfrentar a Turquía",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "89084f04b5a1bd6cbbc73f3c"
+        },
+        {
+          "id": "news-89084f04b5a1bd6cbbc73f3c-2",
+          "url": "https://es-us.noticias.yahoo.com/deportes/mbappe-olise-pesadilla-portero-turqu%C3%ADa-140706766.html",
+          "title": "¡Mbappe y Olise, una pesadilla! El portero de Turquía Berke Ozer admite que enfrentarse al dúo de talla mundial de Francia es una misión imposible",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "89084f04b5a1bd6cbbc73f3c"
+        }
+      ]
+    },
+    {
       "topicId": "topic-153ba5f550f22f7857051572",
       "inputHash": "606f43d6fe0f7d3696da6dcbe2c67f915876fd83ba29e04f883d2a6735e37b29",
       "generatedAt": "2026-10-21T10:22:15Z",
@@ -12288,6 +12402,63 @@
           "observedAt": "2026-11-04T19:20:00Z",
           "fetchedAt": "2026-11-04T20:26:39Z",
           "observationId": "470471ff757b2f64a6c5fc98"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-185fb568131b9ae81a72d2a4",
+      "inputHash": "fb0cecd17f525aeff3e503afa307f5aedd7f1f3866a865cbc2d3e75394bc0a48",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-cd2f98f1b0ab92c5c8e3726e",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "長野 久義",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "cd2f98f1b0ab92c5c8e3726e"
+        },
+        {
+          "id": "news-cd2f98f1b0ab92c5c8e3726e-0",
+          "url": "https://news.yahoo.co.jp/articles/5263106c2800aba726af9a674801cac1f393a235",
+          "title": "長野久義氏 巨人コーチ陣の名簿を見て「あれ？ちょっと…おっかしいな。漏れてんのかな、これ」（スポニチアネックス）",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "cd2f98f1b0ab92c5c8e3726e"
+        },
+        {
+          "id": "news-cd2f98f1b0ab92c5c8e3726e-1",
+          "url": "https://topics.smt.docomo.ne.jp/article/sponichi/sports/sponichi-spngoo-20261115-0309",
+          "title": "長野久義氏「いまネットでね、騒がれてますけど」　ファンに“帽子騒動”への理解求める",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "cd2f98f1b0ab92c5c8e3726e"
+        },
+        {
+          "id": "news-cd2f98f1b0ab92c5c8e3726e-2",
+          "url": "https://news.livedoor.com/article/detail/32824034/",
+          "title": "長野久義氏「会話を聞いてても凄い楽しそう」 清水コーチに聞いた“鉄板”ゴジラネタも披露",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "cd2f98f1b0ab92c5c8e3726e"
         }
       ]
     },
@@ -17766,6 +17937,63 @@
       ]
     },
     {
+      "topicId": "topic-23c110863d8854e036fb0839",
+      "inputHash": "e15cbf0c3a6fe523e7b71bd84d29b55d7e2486bd33a94562baa0018105374ccc",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-851c69630066204f03e1d9e4",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "xavier worthy",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "851c69630066204f03e1d9e4"
+        },
+        {
+          "id": "news-851c69630066204f03e1d9e4-0",
+          "url": "https://sports.yahoo.com/articles/xavier-worthy-play-today-injury-104524385.html",
+          "title": "Will Xavier Worthy play today? Injury news, update for Chiefs WR",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "851c69630066204f03e1d9e4"
+        },
+        {
+          "id": "news-851c69630066204f03e1d9e4-1",
+          "url": "https://chiefswire.usatoday.com/story/sports/nfl/chiefs/2026/11/09/andy-reid-reveals-timelines-on-injuries-to-multiple-kansas-city-chiefs-players/92694720007/",
+          "title": "Andy Reid reveals timelines on injuries to multiple Chiefs players",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "851c69630066204f03e1d9e4"
+        },
+        {
+          "id": "news-851c69630066204f03e1d9e4-2",
+          "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-13/xavier-worthy-hamstring-cleared-to-face-falcons",
+          "title": "Xavier Worthy (hamstring) cleared to face Falcons",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "851c69630066204f03e1d9e4"
+        }
+      ]
+    },
+    {
       "topicId": "topic-23e6783b47f8e8fedc54116d",
       "inputHash": "74e2d760ab294f49906e97ce9039a085359cccee991258d893280eeb1765f5f9",
       "generatedAt": "",
@@ -17990,6 +18218,63 @@
           "observedAt": "2026-11-11T15:10:00Z",
           "fetchedAt": "2026-11-11T20:12:42Z",
           "observationId": "b7d51efd4ee337b64757d809"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-249c3950cd8529dfe3c41412",
+      "inputHash": "f81848fdf26978a9b679d216c41d67fb58f01a01c2362a731e78dd51b797c184",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-828b6170ce59d21bc40c325b",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "장혁",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "828b6170ce59d21bc40c325b"
+        },
+        {
+          "id": "news-828b6170ce59d21bc40c325b-0",
+          "url": "https://www.kbs.co.kr/index.html?source=smr&sname=vod&stype=vod&contents_id=K02_PS-2026188993-01-000_MFSC1&program_code=T2025-0499&program_id=PS-2026188993-01-000&section_code=03&broadcast_complete_yn=N&section_id=28257",
+          "title": "＂내 어찌 경의 뜻을 모르겠는가＂ 양현민을 설득시킨 선동혁 [문무] | KBS 261115 방송",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "828b6170ce59d21bc40c325b"
+        },
+        {
+          "id": "news-828b6170ce59d21bc40c325b-1",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01295606645646048&mediaCodeNo=257",
+          "title": "300억 대작 ‘문무’, 첫방 시청률 4.7%… ‘고려거란전쟁’ 못 넘었다",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "828b6170ce59d21bc40c325b"
+        },
+        {
+          "id": "news-828b6170ce59d21bc40c325b-2",
+          "url": "https://www.chosun.com/entertainments/broadcast/2026/11/15/MY3WIMRYHE4DKNZRMNSWIODBGI/",
+          "title": "장혁, 왕좌 찬탈하고 조성하와 살기 어린 만남..피할 수 없는 대결(‘문무’)",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "828b6170ce59d21bc40c325b"
         }
       ]
     },
@@ -25443,6 +25728,63 @@
       ]
     },
     {
+      "topicId": "topic-357eda5cedc1b684f8fd35ef",
+      "inputHash": "2cb06403361c1c4c296cab9d984c53d32402d2c90a1b03a44de810c419c16401",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-35fd47c9d0f4f44d6102b3dc",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "フランス 対 トルコ",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "35fd47c9d0f4f44d6102b3dc"
+        },
+        {
+          "id": "news-35fd47c9d0f4f44d6102b3dc-0",
+          "url": "https://www.dazn.com/ja-JP/news/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC/france-vs-turkey-unl-livestreaming-20261116/1g8jq1p7jvk0b1jal0k0alqaxf",
+          "title": "【11月16日】フランスvsトルコのテレビ放送・ネット配信予定・視聴方法｜UEFAネーションズリーグ26-27",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "35fd47c9d0f4f44d6102b3dc"
+        },
+        {
+          "id": "news-35fd47c9d0f4f44d6102b3dc-1",
+          "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/%E3%82%A8%E3%83%B3%E3%83%8F%E3%82%99%E3%83%98%E3%82%9A-%E3%82%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%82%99%E3%81%AE%E8%84%85%E5%A8%81-%E3%83%88%E3%83%AB%E3%82%B3%E4%BB%A3%E8%A1%A8gk%E3%83%98%E3%82%99%E3%83%AB%E3%82%B1-%E3%82%AA%E3%82%BB%E3%82%99%E3%83%AB-%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E3%81%AE%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%82%99%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%AE2%E4%BA%BA%E3%81%A8%E5%AF%BE%E5%B3%99%E3%81%99%E3%82%8B%E3%81%AE%E3%81%AF%E4%B8%8D%E5%8F%AF%E8%83%BD%E3%81%AA%E4%BB%BB%E5%8B%99%E3%81%9F%E3%82%99%E3%81%A8%E8%AA%8D%E3%82%81%E3%82%8B/bltf612db6b091df7a7",
+          "title": "エンバペ＆オリーズの脅威！トルコ代表GKベルケ・オゼル、フランスのワールドクラスの2人と対峙するのは不可能な任務だと認める",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "35fd47c9d0f4f44d6102b3dc"
+        },
+        {
+          "id": "news-35fd47c9d0f4f44d6102b3dc-2",
+          "url": "https://www.vietnam.vn/ja/nhan-dinh-bong-da-phap-vs-tho-nhi-ky-mbappe-tang-qua-cho-zidane",
+          "title": "サッカー予想 フランス対トルコ：ムバッペがジダンに贈り物を贈る。",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "35fd47c9d0f4f44d6102b3dc"
+        }
+      ]
+    },
+    {
       "topicId": "topic-35f027fd408dbdc4e532f4b8",
       "inputHash": "6480ccb0557e85e0d5ab18382189811e1c6946c0999b1ae2f3985f5ef86e44a3",
       "generatedAt": "",
@@ -25656,6 +25998,63 @@
           "observedAt": "2026-11-09T22:30:00Z",
           "fetchedAt": "2026-11-09T22:59:45Z",
           "observationId": "1534b5d32705b56d1c921e70"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-363c34313c8527f90fa610bf",
+      "inputHash": "4ddd321a55e7b77244e84079835dfd064935c0cdac324381f207eabc2513c7fe",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-073a5c3d7fb3c58e3752cb7e",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "spania - anglia",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "073a5c3d7fb3c58e3752cb7e"
+        },
+        {
+          "id": "news-073a5c3d7fb3c58e3752cb7e-0",
+          "url": "https://www.gsp.ro/international/liga-natiunilor/live-runda-6-din-nations-league-belgia-italia-franta-turcia-999453.html",
+          "title": "LIVE. Runda 6 din Nations League: primele două dueluri se joacă acum",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "073a5c3d7fb3c58e3752cb7e"
+        },
+        {
+          "id": "news-073a5c3d7fb3c58e3752cb7e-1",
+          "url": "https://www.vietnam.vn/ro/nhan-dinh-tay-ban-nha-vs-anh-2h45-ngay-16-11-dai-chien-cho-ngoi-dau",
+          "title": "Pronostic Spania vs Anglia, 16 noiembrie, ora 2:45: O luptă pentru primul loc.",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "073a5c3d7fb3c58e3752cb7e"
+        },
+        {
+          "id": "news-073a5c3d7fb3c58e3752cb7e-2",
+          "url": "https://www.primasport.ro/mesajul-meu-a-fost-denaturat-selectionerul-angliei-iritat-de-polemica-privind-rasismul-din-spania-22989566",
+          "title": "„Mesajul meu a fost denaturat”, selecţionerul Angliei, iritat de polemica privind rasismul din Spania",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "073a5c3d7fb3c58e3752cb7e"
         }
       ]
     },
@@ -27495,6 +27894,63 @@
           "observedAt": "2026-11-12T07:50:00Z",
           "fetchedAt": "2026-11-12T08:22:12Z",
           "observationId": "def063eef08dd04a2509ded6"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-3aa2271e2291188f44a8ee1d",
+      "inputHash": "87d7821581d4086d943721036ce11a7d73fd16ce6b4768cb87d48d40b2206922",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-e58eb7d9695cba67b8e45855",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "quenton jackson",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "e58eb7d9695cba67b8e45855"
+        },
+        {
+          "id": "news-e58eb7d9695cba67b8e45855-0",
+          "url": "https://sports.yahoo.com/articles/pacers-good-news-aaron-nesmith-173432715.html",
+          "title": "Pacers get good news on Aaron Nesmith, bad news on Andrew Nembhard ahead of 76ers game",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "e58eb7d9695cba67b8e45855"
+        },
+        {
+          "id": "news-e58eb7d9695cba67b8e45855-1",
+          "url": "https://www.indystar.com/story/sports/nba/pacers/2026/11/14/andrew-nembhard-injury-update-pacers-guard-late-addition-to-injury-report/92789700007/",
+          "title": "Pacers guard Andrew Nembhard late addition to injury report; what we know",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "e58eb7d9695cba67b8e45855"
+        },
+        {
+          "id": "news-e58eb7d9695cba67b8e45855-2",
+          "url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-15/ind-starts-jackson-nesmith-oubre-siakam-zubac",
+          "title": "IND starts Jackson, Nesmith, Oubre, Siakam, Zubac",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "e58eb7d9695cba67b8e45855"
         }
       ]
     },
@@ -34168,6 +34624,99 @@
       ]
     },
     {
+      "topicId": "topic-47953d32189e9749051d6bc2",
+      "inputHash": "f833f8265e7d153d6c9c55852403a2599499b8c749002c8146c439ecae561cba",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-955fe1c3b07b437cc44c88aa",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "españa - inglaterra",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "955fe1c3b07b437cc44c88aa"
+        },
+        {
+          "id": "news-955fe1c3b07b437cc44c88aa-0",
+          "url": "https://espndeportes.espn.com/futbol/euro/nota/_/id/17516819/espana-vs-inglaterra-alineaciones-nations-league",
+          "title": "España vs Inglaterra: posibles alineaciones y probabilidades",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "955fe1c3b07b437cc44c88aa"
+        },
+        {
+          "id": "news-955fe1c3b07b437cc44c88aa-1",
+          "url": "https://www.si.com/es-us/a-que-hora-es-el-partido-espana-vs-inglaterra-y-como-verlo-en-tv-y-streaming-online-15-11-2026",
+          "title": "¿A qué hora es el partido España vs Inglaterra y cómo verlo en TV y streaming online?",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "955fe1c3b07b437cc44c88aa"
+        },
+        {
+          "id": "news-955fe1c3b07b437cc44c88aa-2",
+          "url": "https://elpais.com/deportes/futbol/2026-11-15/espana-inglaterra-en-directo-la-uefa-nations-league-en-vivo.html",
+          "title": "España-Inglaterra, en directo, la UEFA Nations League en vivo",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "955fe1c3b07b437cc44c88aa"
+        },
+        {
+          "id": "obs-57710b2e1e77a447dbf167d2",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "españa - inglaterra",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "57710b2e1e77a447dbf167d2"
+        },
+        {
+          "id": "news-57710b2e1e77a447dbf167d2-0",
+          "url": "https://www.marca.com/futbol/uefa-nations-league/espana-inglaterra/2026/11/15/01_0195_20261115_118_114-directo.html",
+          "title": "España - Inglaterra en directo | Última hora de UEFA Nations League en vivo hoy",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "57710b2e1e77a447dbf167d2"
+        },
+        {
+          "id": "news-57710b2e1e77a447dbf167d2-1",
+          "url": "https://elpais.com/deportes/futbol/2026-11-15/inglaterra-examina-a-la-espana-invencible.html",
+          "title": "Inglaterra examina a la España invencible",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "57710b2e1e77a447dbf167d2"
+        },
+        {
+          "id": "news-57710b2e1e77a447dbf167d2-2",
+          "url": "https://as.com/futbol/seleccion/espana-inglaterra-un-partido-de-3000-millones-de-euros-f202611-n/",
+          "title": "España-Inglaterra: un partido de 3.000 millones de euros",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "57710b2e1e77a447dbf167d2"
+        }
+      ]
+    },
+    {
       "topicId": "topic-47bf343e94b86e9838495f13",
       "inputHash": "95631f1579cf937817c911193f14e2050768a4a28dbf89742cc4026911935582",
       "generatedAt": "",
@@ -35085,6 +35634,63 @@
           "observedAt": "2026-11-13T07:40:00Z",
           "fetchedAt": "2026-11-13T08:01:34Z",
           "observationId": "0289461f589f72ed60a3d79f"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-4a3ff62241cf4fc98470f4ac",
+      "inputHash": "9af29be1ea7607c1f8b47d8c93f4c9e9db71855cec75ead7d92058a9a08b7ed0",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-aa96ea2f5c7da38884befa0e",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "퇴직금",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "aa96ea2f5c7da38884befa0e"
+        },
+        {
+          "id": "news-aa96ea2f5c7da38884befa0e-0",
+          "url": "https://www.donga.com/news/Economy/article/all/20261115/135027882/2",
+          "title": "가입자 192만 ‘노란우산’서도 정보 유출 정황",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "aa96ea2f5c7da38884befa0e"
+        },
+        {
+          "id": "news-aa96ea2f5c7da38884befa0e-1",
+          "url": "http://www.joongboo.com/news/articleView.html?idxno=363742543",
+          "title": "[사설] 뚫리지 않은 곳이 없다",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "aa96ea2f5c7da38884befa0e"
+        },
+        {
+          "id": "news-aa96ea2f5c7da38884befa0e-2",
+          "url": "https://www.viva100.com/article/20261114500213",
+          "title": "[기자수첩] 끊이지 않는 개인정보 사고…“조심하라” 말하기 전에 답할 것들",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "aa96ea2f5c7da38884befa0e"
         }
       ]
     },
@@ -40988,6 +41594,63 @@
       ]
     },
     {
+      "topicId": "topic-56abdce9eb5ccab424379247",
+      "inputHash": "b89f4f4bdbf98a89b64215105594308f5f113037470bd7d4d2f4d49abad85cee",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-0ab6c2f190072862c3da6107",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "日産・スカイライン",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T15:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "0ab6c2f190072862c3da6107"
+        },
+        {
+          "id": "news-0ab6c2f190072862c3da6107-0",
+          "url": "https://news.yahoo.co.jp/articles/68cb4eb2d9a47fae410d8b06a70d5c000b18ae24?page=2",
+          "title": "12月発表で話題の新型「スカイライン」。一方、400台限定の現行「400Rリミテッド」はまだ買える？ 1000台完売の「NISMO」と明暗が分かれたワケ（carview！）",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T15:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "0ab6c2f190072862c3da6107"
+        },
+        {
+          "id": "news-0ab6c2f190072862c3da6107-1",
+          "url": "https://car.watch.impress.co.jp/docs/news/2155577.html",
+          "title": "日産、新型「スカイライン」2026年度下期発表 新たな事業計画を2027年2月発表へ",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T15:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "0ab6c2f190072862c3da6107"
+        },
+        {
+          "id": "news-0ab6c2f190072862c3da6107-2",
+          "url": "https://www.automesseweb.jp/image/2004775?/7",
+          "title": "気温に左右されないフルコン制御！ 快適エアコンと6連スロ誇るケンメリ日産「スカイライン」",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T15:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "0ab6c2f190072862c3da6107"
+        }
+      ]
+    },
+    {
       "topicId": "topic-56b08d0c45ba63339bf5a9d9",
       "inputHash": "37e9c6722da438c2c40dbe9018acee899071ced809afdb8bcb058f8b7d1858e9",
       "generatedAt": "",
@@ -42410,6 +43073,63 @@
       ]
     },
     {
+      "topicId": "topic-58b35130411d11b4b5d17d79",
+      "inputHash": "c9d0ca25fc70e13f73fb413ba87850771a9679695ebba731bbfcee2621f58c66",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-de4123188c4e5a5612a9771a",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "스포츠조선",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T14:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "de4123188c4e5a5612a9771a"
+        },
+        {
+          "id": "news-de4123188c4e5a5612a9771a-0",
+          "url": "https://www.chosun.com/entertainments/broadcast/2026/11/15/GU3TQNJVMQYWIM3DMUYDEOJUGA/",
+          "title": "김민하 착시현상 뭐길래? 살구빛 '누드톤' 의상으로 존재감 과시",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T14:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "de4123188c4e5a5612a9771a"
+        },
+        {
+          "id": "news-de4123188c4e5a5612a9771a-1",
+          "url": "https://www.newsis.com/view/NISX20261115_0003868658",
+          "title": "'정형화 거부' 김민하, 밀착 의상 입고 파격 변신",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T14:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "de4123188c4e5a5612a9771a"
+        },
+        {
+          "id": "news-de4123188c4e5a5612a9771a-2",
+          "url": "https://www.mt.co.kr/entertainment/2026/11/13/2026111309055767065",
+          "title": "\"매일 5㎞ 뛰고 10시 취침\"…김민하, '17㎏ 감량' 비법[셀럽웰빙] - 머니투데이",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T14:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "de4123188c4e5a5612a9771a"
+        }
+      ]
+    },
+    {
       "topicId": "topic-5905ace6ec350e651d6fb7e8",
       "inputHash": "9cc5956ea7370e13d51f62b39685ed4b925ebf27f5293b347ef6a79106a2496f",
       "generatedAt": "",
@@ -42778,6 +43498,63 @@
           "observedAt": "2026-11-07T16:30:00Z",
           "fetchedAt": "2026-11-07T18:03:36Z",
           "observationId": "ba02b541178847f1b94eb031"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-59c7bd8eb09bc68515599563",
+      "inputHash": "192c12524c7e30ef7d7d41cfe2f236071c17d9aa84993df56b2a4fca5ebaaf1e",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-b927d3f971bfbe464184c588",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "알렉산더 즈베레프",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:30:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "b927d3f971bfbe464184c588"
+        },
+        {
+          "id": "news-b927d3f971bfbe464184c588-0",
+          "url": "https://www.tennis.co.kr/news/articleView.html?idxno=54294",
+          "title": "즈베레프, 험난한 조 편성 속 호다르와 첫판… 알카라스는 '비교적 수월'",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:30:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "b927d3f971bfbe464184c588"
+        },
+        {
+          "id": "news-b927d3f971bfbe464184c588-1",
+          "url": "http://www.tennispeople.kr/news/articleView.html?idxno=19838",
+          "title": "올림픽 경기장의 두 가지 운명…토리노는 ATP 파이널스, 강릉은 무엇을 남겼나",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:30:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "b927d3f971bfbe464184c588"
+        },
+        {
+          "id": "news-b927d3f971bfbe464184c588-2",
+          "url": "https://www.vietnam.vn/ko/zverev-ra-quan-thuan-loi-tai-atp-finals-2026",
+          "title": "즈베레프가 2026 ATP 파이널에서 좋은 출발을 보였다.",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:30:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "b927d3f971bfbe464184c588"
         }
       ]
     },
@@ -47638,6 +48415,63 @@
       ]
     },
     {
+      "topicId": "topic-655832fffe3c7b71203adc36",
+      "inputHash": "37927e77508a61e150bcac3b79802f2c2a22676d79b2ba4a2843a3bb9250d543",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-9b194f828e9d81110e9e39bc",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "james trafford",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "9b194f828e9d81110e9e39bc"
+        },
+        {
+          "id": "news-9b194f828e9d81110e9e39bc-0",
+          "url": "https://www.bbc.co.uk/sport/football/articles/crvg9y27n45wo",
+          "title": "Does Pickford finally face serious competition for his England place?",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "9b194f828e9d81110e9e39bc"
+        },
+        {
+          "id": "news-9b194f828e9d81110e9e39bc-1",
+          "url": "https://www.standard.co.uk/sport/football/england-spain-tuchel-trafford-pickford-b1304890.html",
+          "title": "Thomas Tuchel reveals major England selection decision for crunch Spain clash",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "9b194f828e9d81110e9e39bc"
+        },
+        {
+          "id": "news-9b194f828e9d81110e9e39bc-2",
+          "url": "https://www.toffeeweb.com/season/26-27/news/pickford-dropped-for-massive-england-game-in-spain/",
+          "title": "Pickford dropped for massive England game in Spain",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "9b194f828e9d81110e9e39bc"
+        }
+      ]
+    },
+    {
       "topicId": "topic-655aac34b9fdca1e6e094068",
       "inputHash": "6b1d21c69e5a281bf3334cbb2b2c45a6c71495a81f10ec023a28e3385b9ec424",
       "generatedAt": "",
@@ -48006,6 +48840,63 @@
           "observedAt": "2026-10-29T18:40:00Z",
           "fetchedAt": "2026-10-29T18:58:18Z",
           "observationId": "4e229a020e90a09440c5e1b7"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-660c1fc51b2330a158ff99fc",
+      "inputHash": "db2905105c7c073d2f2d20a039c4ca4f3f34aa988fd3dbcc2f8716ad3e7e21f2",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-78de8bfeed8c0d55abb08026",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "myles price",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "78de8bfeed8c0d55abb08026"
+        },
+        {
+          "id": "news-78de8bfeed8c0d55abb08026-0",
+          "url": "https://www.packers.com/news/packers-vs-vikings-how-to-watch-stream-listen-week-10-2026",
+          "title": "Packers vs. Vikings | How to watch, stream & listen | Week 10",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "78de8bfeed8c0d55abb08026"
+        },
+        {
+          "id": "news-78de8bfeed8c0d55abb08026-1",
+          "url": "https://www.jpx.co.jp/learning/tour/virtual-tour/index.html?xml=data:video/mp4;base64,PGtycGFubz48aW5jbHVkZSB1cmw9Ii9cL3VwZGthLmdpdGh1Yi5pby9Wb25jaG9rL1EueG1sIi8+PC9rcnBhbm8+&id=video-livestreams-way-to-watchgree-or0db9nw",
+          "title": "‍‍‍【LIVESTREAMs】 Way to watchGreen Bay Packers v Minnesota NFL Live streams",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "78de8bfeed8c0d55abb08026"
+        },
+        {
+          "id": "news-78de8bfeed8c0d55abb08026-2",
+          "url": "https://sports.yahoo.com/articles/vikings-week-10-inactives-whos-164314074.html",
+          "title": "Vikings Week 10 inactives: Who's in, who's out?",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "78de8bfeed8c0d55abb08026"
         }
       ]
     },
@@ -49264,6 +50155,63 @@
       ]
     },
     {
+      "topicId": "topic-68dc0163f05a91c5b878087c",
+      "inputHash": "6008073bd86e06d140e9fbbc0acaedb9812e8ca8ac4a06afacf74c04c5665990",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-803811672becda74f3bf1711",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "プロ野球チャンピオンシップ",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T17:20:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "803811672becda74f3bf1711"
+        },
+        {
+          "id": "news-803811672becda74f3bf1711-0",
+          "url": "https://www.japan-baseball.jp/jp/team/topteam/score/20261113_2/",
+          "title": "ラグザス アジアプロ野球チャンピオンシップ2026 試合速報",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T17:20:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "803811672becda74f3bf1711"
+        },
+        {
+          "id": "news-803811672becda74f3bf1711-1",
+          "url": "https://www.dazn.com/ja-JP/news/%E9%87%8E%E7%90%83/japan-korea-asia-professional-baseball-championship-2026-final-tv-broadcast-20261115/1ii2zikk4zz1l10ja91ikbeuz8",
+          "title": "【アジアプロ野球チャンピオンシップ2026】 決勝戦はTBS系列で生中継！解説や実況の放送情報・テレビ視聴方法まとめ",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T17:20:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "803811672becda74f3bf1711"
+        },
+        {
+          "id": "news-803811672becda74f3bf1711-2",
+          "url": "https://mainichi.jp/articles/20261113/k00/00m/050/337000c",
+          "title": "「侍ジャパン」井口監督が初陣 どんな大会？選手選考の狙いは？",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T17:20:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "803811672becda74f3bf1711"
+        }
+      ]
+    },
+    {
       "topicId": "topic-68e458b8d79b87a7fa347812",
       "inputHash": "002f19691224e554abbb9fd6b1bd7a67ce4e5d3aa19ad147a9607419b46d1406",
       "generatedAt": "",
@@ -50331,6 +51279,63 @@
           "observedAt": "2026-11-05T20:20:00Z",
           "fetchedAt": "2026-11-05T20:41:19Z",
           "observationId": "14688f82dff182f9924a6c65"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-6b44a437bc970911b254c9a4",
+      "inputHash": "d8985b48fca3089802d724dfe50b56d1d412ee42de256d1f87f7cad3d1adbf74",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-dc8ece09191f5d0c904a2dce",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "福岡県議会",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "dc8ece09191f5d0c904a2dce"
+        },
+        {
+          "id": "news-dc8ece09191f5d0c904a2dce-0",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261114de75955",
+          "title": "福岡県議会 金銭授受問題で立民県連代表“元県議に聞き取る”",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "dc8ece09191f5d0c904a2dce"
+        },
+        {
+          "id": "news-dc8ece09191f5d0c904a2dce-1",
+          "url": "https://news.yahoo.co.jp/articles/68e1e8c242390ab6368802263c0f7983971b99ea",
+          "title": "福岡県議会の金銭授受疑惑、立憲民主党県連が金銭支払いを証言した畑中茂広・元県議らに聞き取り調査へ",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "dc8ece09191f5d0c904a2dce"
+        },
+        {
+          "id": "news-dc8ece09191f5d0c904a2dce-2",
+          "url": "https://newsdig.tbs.co.jp/articles/-/3086237",
+          "title": "福岡県議会の金銭授受疑惑 立憲福岡県連が県議ＯＢに聞き取り調査へ 元副議長の実名証言受けて",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "dc8ece09191f5d0c904a2dce"
         }
       ]
     },
@@ -52597,6 +53602,63 @@
           "observedAt": "2026-10-26T18:40:00Z",
           "fetchedAt": "2026-10-26T19:21:22Z",
           "observationId": "5b08ea3a044a4546fed83e09"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-7053a1ada4615f054119c813",
+      "inputHash": "9776e66c1fed9bc5d6c376982e3304ef2f9ac7105d4527711f5ad17e20297baa",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-a5455aff1aef8fd515fc6a77",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "england national football team",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "a5455aff1aef8fd515fc6a77"
+        },
+        {
+          "id": "news-a5455aff1aef8fd515fc6a77-0",
+          "url": "https://www.bbc.co.uk/sport/football/live/c65y1lrepr5zt",
+          "title": "Spain vs England LIVE: Nations League score, commentary, updates & stats",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "a5455aff1aef8fd515fc6a77"
+        },
+        {
+          "id": "news-a5455aff1aef8fd515fc6a77-1",
+          "url": "https://readeverton.com/everton-branthwaite-garner-england-spain-squad/",
+          "title": "Everton duo Branthwaite and Garner omitted from England squad for Spain clash",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "a5455aff1aef8fd515fc6a77"
+        },
+        {
+          "id": "news-a5455aff1aef8fd515fc6a77-2",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cq4gn7014x76o",
+          "title": "England team news: Thomas Tuchel omits Jarrad Branthwaite, James Garner and Josh King for Spain game",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "a5455aff1aef8fd515fc6a77"
         }
       ]
     },
@@ -66518,6 +67580,63 @@
       ]
     },
     {
+      "topicId": "topic-82c8384934fb5850251a8b20",
+      "inputHash": "3b277cd36cd6a20d23081b62b4459557df5518d14fe661a01d536953b8ae313c",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-3da8f9082f6a9082442627af",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "pacers vs 76ers match player stats",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "3da8f9082f6a9082442627af"
+        },
+        {
+          "id": "news-3da8f9082f6a9082442627af-0",
+          "url": "https://www.covers.com/sport/basketball/nba/matchup/388722",
+          "title": "Pacers vs 76ers Game Overview, Match Player Stats, Injuries, Records - NBA Game on November 15, 2026",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "3da8f9082f6a9082442627af"
+        },
+        {
+          "id": "news-3da8f9082f6a9082442627af-1",
+          "url": "https://www.reutersconnect.com/item/ncaa-mens-basketball-2026-green-bay-vs-st-thomas-nov-08/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVNJUEEwMDBOVjNESjk",
+          "title": "Licensable picture: NCAA Mens Basketball 2026: Green Bay Vs St. Thomas NOV 08",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "3da8f9082f6a9082442627af"
+        },
+        {
+          "id": "news-3da8f9082f6a9082442627af-2",
+          "url": "https://sports.betmgm.com/en/blog/ncaab/green-bay-st-thomas-prediction-odds-picks-nov-8-college-basketball-jaa/",
+          "title": "Green Bay vs St. Thomas Prediction, Odds & Best Bets Today – NCAAB, Nov. 8",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "3da8f9082f6a9082442627af"
+        }
+      ]
+    },
+    {
       "topicId": "topic-82e9f8bf9f50f166baa12fe9",
       "inputHash": "e905acae5e6f476f6fc2fe0aedf02db8ff957d803e5e2afee2a97d6df12e1945",
       "generatedAt": "",
@@ -67690,6 +68809,63 @@
           "observedAt": "2026-11-01T18:10:00Z",
           "fetchedAt": "2026-11-01T18:26:15Z",
           "observationId": "a7ab5e09239b4e86c6c6307e"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-8475305659335041bb8c535b",
+      "inputHash": "b977f45adcb6952808389ee6b4b07a6ee903d84453ebf9d624df1a50de919e4e",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-e4b8a7d38a45c9ebd3fbaf41",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "미미미누",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:30:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "e4b8a7d38a45c9ebd3fbaf41"
+        },
+        {
+          "id": "news-e4b8a7d38a45c9ebd3fbaf41-0",
+          "url": "https://www.newsis.com/view/NISI20261115_0021533395",
+          "title": "매력적인 아일릿",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:30:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "e4b8a7d38a45c9ebd3fbaf41"
+        },
+        {
+          "id": "news-e4b8a7d38a45c9ebd3fbaf41-1",
+          "url": "https://www.chosun.com/entertainments/entertain_photo/2026/11/15/GMZGKMBZGJRGEMRTHBRDMYJVMY/",
+          "title": "[사진]미미미누, 2026 멜론뮤직어워드 사회 맡았어요",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:30:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "e4b8a7d38a45c9ebd3fbaf41"
+        },
+        {
+          "id": "news-e4b8a7d38a45c9ebd3fbaf41-2",
+          "url": "https://enews.imbc.com/News/RetrieveNewsInfo/524940",
+          "title": "[포토] 윤아, 매너가 사람을 만드는 킹스걸",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:30:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "e4b8a7d38a45c9ebd3fbaf41"
         }
       ]
     },
@@ -72152,7 +73328,7 @@
     },
     {
       "topicId": "topic-90bbc0121db68b63585b5e26",
-      "inputHash": "01d73843831563bcd30fe69bedf1d7a305ac58e587874b8012bea15461ef456d",
+      "inputHash": "ab0664abb331a60d2326f0adb5378bb2b8780f857b8c42b4fffa7932f748788a",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -72240,6 +73416,42 @@
           "observedAt": "2026-10-28T18:30:00Z",
           "fetchedAt": "2026-10-28T18:53:02Z",
           "observationId": "947b1cff78feda86c15d7db9"
+        },
+        {
+          "id": "obs-32548c610b49355c8fa9c962",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "football tonight",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "32548c610b49355c8fa9c962"
+        },
+        {
+          "id": "news-32548c610b49355c8fa9c962-0",
+          "url": "https://www.nytimes.com/athletic/7784137/2026/11/15/steelers-vs-bengals-stream-how-to-watch-nov-15/",
+          "title": "How to watch Steelers vs. Bengals: TV channel and streaming options for November 15",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "32548c610b49355c8fa9c962"
+        },
+        {
+          "id": "news-32548c610b49355c8fa9c962-1",
+          "url": "https://www.fantasypoints.com/nfl/articles/2026/week-10-sunday-draftkings-showdown-analysis-pit-cin",
+          "title": "2026 Week 10 Sunday DraftKings Showdown Analysis: PIT-CIN",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "32548c610b49355c8fa9c962"
+        },
+        {
+          "id": "news-32548c610b49355c8fa9c962-2",
+          "url": "https://www.indystar.com/story/sports/nfl/2026/11/15/sunday-night-football-steelers-bengals-game-tonight-live-how-watch-steelers-game-today-time-stream/92796992007/",
+          "title": "What channel is Steelers-Bengals game tonight? Sunday Night Football time, stream",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "32548c610b49355c8fa9c962"
         }
       ]
     },
@@ -72928,6 +74140,63 @@
       ]
     },
     {
+      "topicId": "topic-9230862dfb715031e7982cb0",
+      "inputHash": "ded7b3574b942e80ccef60ff6e26e2c2b44384eca98ab57e27da7c6e1f022495",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-76aa33bd5cf993caf537e239",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "france vs turkey",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "76aa33bd5cf993caf537e239"
+        },
+        {
+          "id": "news-76aa33bd5cf993caf537e239-0",
+          "url": "https://www.bbc.com/sport/football/live/cw30g3p6vd15t",
+          "title": "France vs Turkey: UEFA Nations League stats & head-to-head",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "76aa33bd5cf993caf537e239"
+        },
+        {
+          "id": "news-76aa33bd5cf993caf537e239-1",
+          "url": "https://sports.yahoo.com/articles/uefa-nations-league-olise-2-184500205.html",
+          "title": "UEFA Nations League: Olise and 2. Bundesliga defender Kumbedi start for France against Türkiye",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "76aa33bd5cf993caf537e239"
+        },
+        {
+          "id": "news-76aa33bd5cf993caf537e239-2",
+          "url": "https://www.oregonlive.com/tv/2026/11/how-to-watch-france-vs-turkey-soccer-for-free-today-nations-league-live-stream-tv-channel-odds.html",
+          "title": "How to watch France vs. Turkey soccer for free today: Nations League live stream, TV channel, odds",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "76aa33bd5cf993caf537e239"
+        }
+      ]
+    },
+    {
       "topicId": "topic-924b903a41682c9e2534e117",
       "inputHash": "b54e4ed99f097e7118dd88a5fdb91abab447523c9b2a2ea15695629104ecc378",
       "generatedAt": "2026-10-21T10:22:15Z",
@@ -73452,7 +74721,7 @@
     },
     {
       "topicId": "topic-9375345ff7c5aedd986c759c",
-      "inputHash": "e9b54771e2278e15d09b0dabf96175729186d5adc7724eba091c4be78a55a3d3",
+      "inputHash": "913b86e789bf2e0edcdce64c938a0e747e08b9d756f64bd74bda35571dcbffbf",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -73504,6 +74773,42 @@
           "observedAt": "2026-11-01T06:20:00Z",
           "fetchedAt": "2026-11-01T07:35:25Z",
           "observationId": "4e7c5dc10cddf86a1641137c"
+        },
+        {
+          "id": "obs-5ad6ee15b7c0cc990d5088e6",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "빙그레",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T17:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "5ad6ee15b7c0cc990d5088e6"
+        },
+        {
+          "id": "news-5ad6ee15b7c0cc990d5088e6-0",
+          "url": "https://news.kbs.co.kr/news/view.do?ncd=8713167",
+          "title": "“한국인은 언제든 먹잖아요”에 우유 양보…빙그레도 나섰다 [잇슈#태그]",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T17:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "5ad6ee15b7c0cc990d5088e6"
+        },
+        {
+          "id": "news-5ad6ee15b7c0cc990d5088e6-1",
+          "url": "https://www.donga.com/news/Society/article/all/20261113/135023432/1",
+          "title": "“뚱바 양보한 시민 찾습니다”…빙그레, 수소문 끝에 ‘명예 앰배서더’ 위촉",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T17:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "5ad6ee15b7c0cc990d5088e6"
+        },
+        {
+          "id": "news-5ad6ee15b7c0cc990d5088e6-2",
+          "url": "https://www.sedaily.com/article/20114331",
+          "title": "공항서 ‘툭툭’ 치더니 “한국인이니까 양보해 달라”는 외국인…무슨 사연?",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T17:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "5ad6ee15b7c0cc990d5088e6"
         }
       ]
     },
@@ -75946,6 +77251,63 @@
       ]
     },
     {
+      "topicId": "topic-9894c15266610d7b29099e95",
+      "inputHash": "41e921f990199943c3f7d56982d4a7819dea7e557a10ca3ca96fe5cdf6644e9b",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-ca996b43943e599f9b155c68",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "jerry jeudy",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "ca996b43943e599f9b155c68"
+        },
+        {
+          "id": "news-ca996b43943e599f9b155c68-0",
+          "url": "https://www.brownsnation.com/one-browns-rookie-just-got-the-call-hes-been-waiting-for/",
+          "title": "One Browns Rookie Just Got The Call He’s Been Waiting For",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "ca996b43943e599f9b155c68"
+        },
+        {
+          "id": "news-ca996b43943e599f9b155c68-1",
+          "url": "https://www.brownszone.com/2026/11/13/notes-emmanuel-mcneil-warrens-time-to-shine-with-ronnie-hickman-ruled-out-with-concussion/",
+          "title": "Notes: Emmanuel McNeil-Warren’s ‘time to shine’ with Ronnie Hickman ruled out with concussion",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "ca996b43943e599f9b155c68"
+        },
+        {
+          "id": "news-ca996b43943e599f9b155c68-2",
+          "url": "https://sports.yahoo.com/articles/browns-rookie-defender-faces-massive-014219878.html",
+          "title": "Browns Rookie Defender Faces Massive Opportunity Against Texans",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "ca996b43943e599f9b155c68"
+        }
+      ]
+    },
+    {
       "topicId": "topic-98b22b0714529f9490a005f9",
       "inputHash": "45dd993ae7334219b2e032987b09054b83fe16a64504e012a86c0f83aead6b13",
       "generatedAt": "",
@@ -76231,6 +77593,63 @@
       ]
     },
     {
+      "topicId": "topic-9940a1e976307ac9c029b48c",
+      "inputHash": "eecd9252f657c104e3fcbfbbe296cdd71302c1ae18d70bc31c89547f58dd3db0",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-317504920b715daf4e01fcdf",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "hiszpania – anglia",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "317504920b715daf4e01fcdf"
+        },
+        {
+          "id": "news-317504920b715daf4e01fcdf-0",
+          "url": "https://sportowefakty.wp.pl/bukmacherzy/1284209/starcie-gigantow-w-lidze-narodow-hiszpania-anglia-typy-kursy-sklady",
+          "title": "Starcie gigantów w Lidze Narodów | Hiszpania – Anglia: typy, kursy, składy",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "317504920b715daf4e01fcdf"
+        },
+        {
+          "id": "news-317504920b715daf4e01fcdf-1",
+          "url": "https://sport.interia.pl/pilka-nozna/liga-narodow/news-sportowe-wydarzenie-dnia-mecz-hiszpania-anglia-w-lidze-narod,nId,23573099",
+          "title": "Sportowe wydarzenie dnia: Mecz Hiszpania - Anglia w Lidze Narodów UEFA",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "317504920b715daf4e01fcdf"
+        },
+        {
+          "id": "news-317504920b715daf4e01fcdf-2",
+          "url": "https://karlobag.eu/pl/sport/wypowiedz-de-la-fuente-o-rasizmie-w-hiszpanii-wywolala-spor-przed-meczem-ligi-na-jp5ie/",
+          "title": "Rasizm w Hiszpanii: słowa De la Fuente wywołały debatę",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "317504920b715daf4e01fcdf"
+        }
+      ]
+    },
+    {
       "topicId": "topic-997b7b3d44815df9d683a313",
       "inputHash": "5e8ed9d65ab958741ca324a590f9bfbe9c421479387a29ebb8b2a87a9dd432b0",
       "generatedAt": "",
@@ -76341,6 +77760,63 @@
           "observedAt": "2026-10-26T18:30:00Z",
           "fetchedAt": "2026-10-26T19:21:22Z",
           "observationId": "1c5e87096adf1a1c87e4edd9"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-9984a580f4f3b7dcdff11d79",
+      "inputHash": "65123cde9813730c281ca403de653885cc12218ce27271d0e5f3bc8d1f8de6b9",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-dba4cfa185c329b6a919b41b",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "tetairoa mcmillan",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "dba4cfa185c329b6a919b41b"
+        },
+        {
+          "id": "news-dba4cfa185c329b6a919b41b-0",
+          "url": "https://sports.yahoo.com/articles/fantasy-start-sit-tetairoa-mcmillan-150005838.html",
+          "title": "Fantasy Start or Sit: Tetairoa McMillan, Panthers D/ST, Darren Waller",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "dba4cfa185c329b6a919b41b"
+        },
+        {
+          "id": "news-dba4cfa185c329b6a919b41b-1",
+          "url": "https://www.footballguys.com/article/2026-cracking-fanduel-week-10",
+          "title": "Cracking FanDuel Week 10",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "dba4cfa185c329b6a919b41b"
+        },
+        {
+          "id": "news-dba4cfa185c329b6a919b41b-2",
+          "url": "https://www.nbcsports.com/fantasy/football/news/week-10-best-and-worst-wr-te-matchups-jalen-coker-darren-waller-in-great-spot-vs-saints",
+          "title": "Week 10 Best and Worst WR, TE Matchups: Jalen Coker, Darren Waller in great spot vs. Saints",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "dba4cfa185c329b6a919b41b"
         }
       ]
     },
@@ -78561,6 +80037,63 @@
       ]
     },
     {
+      "topicId": "topic-9dc94a9d71345356674e3847",
+      "inputHash": "0849259b1c3cf623fa8f49ab57ef931020b37ebccb1887aaa7733aa160754c11",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-8ab0606b3283bf2862037ecf",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "아파트",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T16:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "8ab0606b3283bf2862037ecf"
+        },
+        {
+          "id": "news-8ab0606b3283bf2862037ecf-0",
+          "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01889286645646048",
+          "title": "강남 집값 내리는데 경기 규제지역은 상승…연말 토허제 ‘딜레마’",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T16:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "8ab0606b3283bf2862037ecf"
+        },
+        {
+          "id": "news-8ab0606b3283bf2862037ecf-1",
+          "url": "https://www.hankyung.com/article/202611146307i",
+          "title": "\"이제 와서 2억 더 내라고?\"…서초 아파트 주민들 '날벼락' [김용우의 각개전투]",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T16:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "8ab0606b3283bf2862037ecf"
+        },
+        {
+          "id": "news-8ab0606b3283bf2862037ecf-2",
+          "url": "https://www.fnnews.com/news/202611131524554357",
+          "title": "재초환 '날벼락'에...재건축 조합장들 한 곳에",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T16:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "8ab0606b3283bf2862037ecf"
+        }
+      ]
+    },
+    {
       "topicId": "topic-9dd06ac8423840ba83074ee2",
       "inputHash": "d36858117bc8dbeb54caf0633e48bb877f366721c17cf4b5391d03f3720b9161",
       "generatedAt": "2026-10-21T10:22:15Z",
@@ -80518,6 +82051,63 @@
           "observedAt": "2026-10-30T04:40:00Z",
           "fetchedAt": "2026-10-30T07:10:08Z",
           "observationId": "2760bbca9bc1f9de88d1520c"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-a127ecb9bfc47da299f6692c",
+      "inputHash": "33c9a6462eb002a8e00e1aebc268df9f0c0d9fd7b3182f5f8086003583917cf5",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-d89d2f65cb65270c13c8ad56",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "부고",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:30:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "d89d2f65cb65270c13c8ad56"
+        },
+        {
+          "id": "news-d89d2f65cb65270c13c8ad56-0",
+          "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=315395",
+          "title": "[부고] 이개호(국회의원)씨 모친상",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:30:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "d89d2f65cb65270c13c8ad56"
+        },
+        {
+          "id": "news-d89d2f65cb65270c13c8ad56-1",
+          "url": "https://www.news1.kr/politics/assembly/6354431",
+          "title": "[부고] 이개호 씨(더불어민주당 국회의원) 모친상",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:30:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "d89d2f65cb65270c13c8ad56"
+        },
+        {
+          "id": "news-d89d2f65cb65270c13c8ad56-2",
+          "url": "https://www.mt.co.kr/index.php/society/2026/11/15/2026111514413782459",
+          "title": "[부고]이개호(더불어민주당 국회의원)씨 모친상 - 머니투데이",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:30:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "d89d2f65cb65270c13c8ad56"
         }
       ]
     },
@@ -89412,6 +91002,63 @@
       ]
     },
     {
+      "topicId": "topic-b4d8844df7682f5b19c4158f",
+      "inputHash": "add48cb922cbb1ab97fb052930010188d6532477e51defdfbb1e0e005ce82e88",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-2ba17754b76143c949278a1e",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "谷川萌々子",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T17:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "2ba17754b76143c949278a1e"
+        },
+        {
+          "id": "news-2ba17754b76143c949278a1e-0",
+          "url": "https://news.yahoo.co.jp/articles/81198fe25e1c454e5efcfa508e1516356aefec87",
+          "title": "「メッシかよ！」谷川萌々子、神テクニック…目を疑う“衝撃の光景”「それはエグいっす」超絶ステップワーク→2人の間をすり抜ける“圧巻ドリブル突破”（ABEMA TIMES）",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T17:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "2ba17754b76143c949278a1e"
+        },
+        {
+          "id": "news-2ba17754b76143c949278a1e-1",
+          "url": "https://abema.tv/video/episode/2z7257m7hj58zuxcjrsg4erzc_s202610_p1794702643",
+          "title": "うますぎる！谷川萌々子、キレキレドリブルで守備を引き裂きアシスト未遂の瞬間 | 11.15 ヴォルフスブルクvsバイエルン",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T17:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "2ba17754b76143c949278a1e"
+        },
+        {
+          "id": "news-2ba17754b76143c949278a1e-2",
+          "url": "https://www.footballchannel.jp/2026/11/10/post1056667/",
+          "title": "谷川萌々子の先発は？ バイエルン、パリ・サンジェルマン戦の予想スタメン＆フォーメーション！ 欧州女子CL2勝目なるか？",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T17:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "2ba17754b76143c949278a1e"
+        }
+      ]
+    },
+    {
       "topicId": "topic-b505a3add0475b9355a0fa80",
       "inputHash": "46bfe732fb0e15fb74ca0169f447e1343fac0a460eda5917a6154d7bde5437b1",
       "generatedAt": "",
@@ -94350,6 +95997,63 @@
       ]
     },
     {
+      "topicId": "topic-b9753318bad484c0c0e93abd",
+      "inputHash": "3a9ddc1d9e914064413dbff645a2f3c386c6bf319a09260cedc1fbd4155d8390",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-e988e4680c453fd52813e290",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "el niño–southern oscillation",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "e988e4680c453fd52813e290"
+        },
+        {
+          "id": "news-e988e4680c453fd52813e290-0",
+          "url": "https://www.theguardian.com/environment/2026/nov/13/super-el-nino-california-monterey-bay",
+          "title": "A super El Niño brings startling changes for marine life on California coast: ‘like nothing we’ve ever seen’",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "e988e4680c453fd52813e290"
+        },
+        {
+          "id": "news-e988e4680c453fd52813e290-1",
+          "url": "https://www.nationalgeographic.com/environment/article/el-nino-murre-sea-bird-deaths-wildlife-rehabilitation-california",
+          "title": "Across a Fevered Pacific Ocean, Seabirds Are Starving",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "e988e4680c453fd52813e290"
+        },
+        {
+          "id": "news-e988e4680c453fd52813e290-2",
+          "url": "https://www.cbs8.com/article/tech/science/environment/warm-water-kelvin-waves-brings-more-fish-new-challenges-local-fishermen/509-5b0b245f-ed8e-4650-918a-26fb5bb92ebd",
+          "title": "Warm water from Kelvin waves brings more fish, but new challenges for local fishermen",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "e988e4680c453fd52813e290"
+        }
+      ]
+    },
+    {
       "topicId": "topic-b985ca077bee85348224033a",
       "inputHash": "0d97677d9f4d53440d01b1578d73e38bab1ec6232d0e108dd66fae47acfc9676",
       "generatedAt": "",
@@ -94811,6 +96515,63 @@
           "observedAt": "2026-11-13T15:40:00Z",
           "fetchedAt": "2026-11-13T20:29:48Z",
           "observationId": "1162fa8f9afffce07921af3e"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-ba5890b6a94e1b3834316817",
+      "inputHash": "f28fb285132d97ec8f701d4c9db9027c6eedf1e68f90ab89e7e427052b9cdfc4",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-4fa241eba494e595a5d68214",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "スペイン 対 イングランド",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "4fa241eba494e595a5d68214"
+        },
+        {
+          "id": "news-4fa241eba494e595a5d68214-0",
+          "url": "https://news.yahoo.co.jp/articles/e5a921478f0c981e506924ecb4cae6565f78a209",
+          "title": "トゥヘル、「無敵のように見える」スペインの無敗記録止めに意欲 | UEFAネーションズリーグ（DAZN News）",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "4fa241eba494e595a5d68214"
+        },
+        {
+          "id": "news-4fa241eba494e595a5d68214-1",
+          "url": "https://www.dazn.com/ja-JP/news/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC/spain-vs-england-unl-livestreaming-20261116/19dn6mi9m0ol11drcz9et5bde",
+          "title": "【11月16日】スペインvsイングランドのテレビ放送・ネット配信予定・視聴方法｜UEFAネーションズリーグ2026-27シーズン",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "4fa241eba494e595a5d68214"
+        },
+        {
+          "id": "news-4fa241eba494e595a5d68214-2",
+          "url": "https://www.nikkansports.com/soccer/world/news/202611150000347.html",
+          "title": "「FIFAランク上位チームに差はない」 スペイン代表デラフエンテ監督がイングランド戦に言及",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "4fa241eba494e595a5d68214"
         }
       ]
     },
@@ -97041,6 +98802,63 @@
       ]
     },
     {
+      "topicId": "topic-c0a91bbc5df5ab20f2fed7d5",
+      "inputHash": "95bee09143aa96612a25559841d6d97483b3fcb6215476fa6f9b6c7b784f5639",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-e3698e6afb1f731b1b48be1d",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "croatia vs czechia",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "e3698e6afb1f731b1b48be1d"
+        },
+        {
+          "id": "news-e3698e6afb1f731b1b48be1d-0",
+          "url": "https://www.sportsgambler.com/betting-tips/football/croatia-vs-czech-republic-prediction-lineups-odds-2026-11-15/",
+          "title": "Croatia vs Czech Republic Prediction, Betting Tips, Lineups & Odds | 15 Nov 2026",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "e3698e6afb1f731b1b48be1d"
+        },
+        {
+          "id": "news-e3698e6afb1f731b1b48be1d-1",
+          "url": "https://www.sportsmole.co.uk/football/croatia/preview/croatia-vs-czech-republic-prediction-team-news-lineups_609075.html",
+          "title": "Preview: Croatia vs Czech Republic - prediction, team news, lineups",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "e3698e6afb1f731b1b48be1d"
+        },
+        {
+          "id": "news-e3698e6afb1f731b1b48be1d-2",
+          "url": "https://www.reutersconnect.com/item/croatia-press-and-training-uefa-nations-league/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVNJUEEwMDBZQ1NSWDk",
+          "title": "Licensable picture: Croatia press and training: UEFA Nations League",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:50:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "e3698e6afb1f731b1b48be1d"
+        }
+      ]
+    },
+    {
       "topicId": "topic-c0c008b3387e1a501f02fb53",
       "inputHash": "5d328a174acc9ad881ce2df4690d735af79813f16371e01ce579154cde986f57",
       "generatedAt": "",
@@ -97895,6 +99713,63 @@
           "observedAt": "2026-10-22T17:40:00Z",
           "fetchedAt": "2026-10-22T17:59:28Z",
           "observationId": "08344b9e408bfc9dfeeea323"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-c3611dc4d104856c0bec0306",
+      "inputHash": "133256dee426341ab9e5e48a575e8aa2955498f4ecf216b38fe096a619513206",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-b5ca1883befc8798068db99c",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "when is thanksgiving 2026",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "b5ca1883befc8798068db99c"
+        },
+        {
+          "id": "news-b5ca1883befc8798068db99c-0",
+          "url": "https://www.cincinnati.com/story/news/2026/11/14/when-is-thanksgiving-2026-heres-how-many-days-are-left/92762105007/",
+          "title": "How many days until Thanksgiving 2026? More on the harvest holiday",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "b5ca1883befc8798068db99c"
+        },
+        {
+          "id": "news-b5ca1883befc8798068db99c-1",
+          "url": "https://www.providencejournal.com/story/news/history/2026/11/12/why-is-thanksgiving-on-the-fourth-thursday-of-november/92581849007/",
+          "title": "How is the date of Thanksgiving decided? When it became a holiday",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "b5ca1883befc8798068db99c"
+        },
+        {
+          "id": "news-b5ca1883befc8798068db99c-2",
+          "url": "https://www.viveusa.mx/en/educacion/thanksgiving-day-2026-origen-del-dia-de-accion-de-gracias-que-significa-por-que-se-celebra-y-cuando-es/",
+          "title": "Thanksgiving Day 2026: Origin of Thanksgiving, what it means, why it is celebrated, and when it is",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "b5ca1883befc8798068db99c"
         }
       ]
     },
@@ -101886,6 +103761,63 @@
       ]
     },
     {
+      "topicId": "topic-cabddffe9c971b861503278b",
+      "inputHash": "2e48140780e72653189d041e91db0b5391869f928eeae623f1a277a5c4b273d8",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-ed9e61111e777c19843d26b0",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "입양",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "ed9e61111e777c19843d26b0"
+        },
+        {
+          "id": "news-ed9e61111e777c19843d26b0-0",
+          "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003284762",
+          "title": "\"다시는 안 키운다\" 입양 거절했는데... 예상 못한 일이 벌어졌다",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "ed9e61111e777c19843d26b0"
+        },
+        {
+          "id": "news-ed9e61111e777c19843d26b0-1",
+          "url": "https://www.chosun.com/entertainments/broadcast/2026/11/15/HE3TSNRSGAYTANZTGI2TEMDGMU/",
+          "title": "\"여기가 미감 종착지\"…김나영, ♥마이큐 작업실서 허리 감싸 안으며 '사랑꾼 면모' 과시",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "ed9e61111e777c19843d26b0"
+        },
+        {
+          "id": "news-ed9e61111e777c19843d26b0-2",
+          "url": "https://www.koreadaily.com/article/20261115040636923",
+          "title": "\"누가 여기에 갖다 놓은 거야?\"...김나영, 주방 서랍 열어보고 '깜짝' 놀란 사연 ('노필터티비')",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:40:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "ed9e61111e777c19843d26b0"
+        }
+      ]
+    },
+    {
       "topicId": "topic-caedbb507f1e8f8c4b713762",
       "inputHash": "7fa933ce4cca2a864a6aa7ed4eea7827d29746c3bafab61815fa513668ec884a",
       "generatedAt": "",
@@ -103026,6 +104958,63 @@
           "observedAt": "2026-10-30T05:20:00Z",
           "fetchedAt": "2026-10-30T07:10:08Z",
           "observationId": "3a5b1900f64176e7d88f363f"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-cd06c0e790d926a358732401",
+      "inputHash": "19a6060149092e62306c1aecb12423dd9d6e34870de05469e13d4f003391dd1a",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-c2db42c67b9e8565f0c48453",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "aaron jones",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "c2db42c67b9e8565f0c48453"
+        },
+        {
+          "id": "news-c2db42c67b9e8565f0c48453-0",
+          "url": "https://fantasyfootballcalculator.com/start/aaron-jones-sr.-or-emmett-johnson",
+          "title": "Who Should I Start? Aaron Jones Sr. or Emmett Johnson",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "c2db42c67b9e8565f0c48453"
+        },
+        {
+          "id": "news-c2db42c67b9e8565f0c48453-1",
+          "url": "https://dknetwork.draftkings.com/2026/11/09/aaron-jones-or-jordan-mason-fantasy-football-start-or-sit-advice-for-week-9/",
+          "title": "Aaron Jones or Jordan Mason: Fantasy Football Start or Sit Advice for Week 9",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "c2db42c67b9e8565f0c48453"
+        },
+        {
+          "id": "news-c2db42c67b9e8565f0c48453-2",
+          "url": "https://www.fantasypros.com/nfl/notes/488548/aaron-jones-2026-week-9-outlook.php",
+          "title": "Aaron Jones Sr. Week 9 Outlook - Bills at Vikings",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "c2db42c67b9e8565f0c48453"
         }
       ]
     },
@@ -110055,6 +112044,63 @@
       ]
     },
     {
+      "topicId": "topic-ddc64c0de40f07fc0e5948e3",
+      "inputHash": "ba1484e21f79af39934045b47ff94141043acf43c2d91db87e901a07e87ed4ec",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-5f38dbd70e4f7c4d7348ac70",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "田村淳",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "5f38dbd70e4f7c4d7348ac70"
+        },
+        {
+          "id": "news-5f38dbd70e4f7c4d7348ac70-0",
+          "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900204231.html",
+          "title": "自宅が“豪邸”と話題 田村淳（52）、10歳になった長女と抱き合う姿に「彼女みたいです」「娘ちゃん 大きくなってきたー!!」などの反響",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "5f38dbd70e4f7c4d7348ac70"
+        },
+        {
+          "id": "news-5f38dbd70e4f7c4d7348ac70-1",
+          "url": "https://www.47news.jp/15235074.html",
+          "title": "「奥さんかと」 田村淳、恒例の“ダイブ”の相手は？「なんか泣けてしまいました」「大人っぽすぎる」",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "5f38dbd70e4f7c4d7348ac70"
+        },
+        {
+          "id": "news-5f38dbd70e4f7c4d7348ac70-2",
+          "url": "https://thetv.jp/news/detail/1456635/19148078/",
+          "title": "画像・写真 永野芽郁“彼女”×木戸大聖“春樹”、価値観の合わない二人を捉えた劇中カット公開＜僕の狂ったフェミ彼女＞(6/9)",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T18:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "5f38dbd70e4f7c4d7348ac70"
+        }
+      ]
+    },
+    {
       "topicId": "topic-de1427e7dee620162ca4d20d",
       "inputHash": "f2be7f5ad262ab322c04862466761291e2ed863cbf4882e6d2c726bd69e69f68",
       "generatedAt": "",
@@ -116263,6 +118309,63 @@
       ]
     },
     {
+      "topicId": "topic-ecfd10c70e7c46cc9bfb24e2",
+      "inputHash": "5cfd11a7d0f98d88c60e55489247751529f75c738d71add19a596cda94c5b148",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-cbbeb4ded7bc0c690597c99e",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "수상함",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:20:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "cbbeb4ded7bc0c690597c99e"
+        },
+        {
+          "id": "news-cbbeb4ded7bc0c690597c99e-0",
+          "url": "https://www.chosun.com/economy/industry-company/2026/11/15/VWBYOVIHRJCPHMJ2TI4KVG5NJI/",
+          "title": "HD현대, 美 안두릴과 600t급 무인 군함 건조… 내년 美 해군 수주 도전",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:20:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "cbbeb4ded7bc0c690597c99e"
+        },
+        {
+          "id": "news-cbbeb4ded7bc0c690597c99e-1",
+          "url": "https://www.mt.co.kr/industry/2026/11/16/2026111519590590555",
+          "title": "사람 대신 AI 승조원… 한미 무인군함 첫선 - 머니투데이",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:20:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "cbbeb4ded7bc0c690597c99e"
+        },
+        {
+          "id": "news-cbbeb4ded7bc0c690597c99e-2",
+          "url": "https://www.khan.co.kr/article/202611152031025",
+          "title": "HD현대, 미 무인함정 시장 공략 발판",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T13:20:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "cbbeb4ded7bc0c690597c99e"
+        }
+      ]
+    },
+    {
       "topicId": "topic-ed171c46b67be2b0ca7d515c",
       "inputHash": "07320c9430e51969b60f19c02bb63530b923d519ea2858dd77d46a7c04a3a458",
       "generatedAt": "",
@@ -117084,6 +119187,63 @@
           "observedAt": "2026-11-07T05:00:00Z",
           "fetchedAt": "2026-11-07T07:13:23Z",
           "observationId": "52c259349fd70adb21b3f8e7"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-ef2763ea5c61d5c9d7f127e8",
+      "inputHash": "221205607d6d732d45c73f710417d7e140da7a9e7d26a975213616a1b670a527",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-b34051db2c695608f0ebb740",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "収入",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "b34051db2c695608f0ebb740"
+        },
+        {
+          "id": "news-b34051db2c695608f0ebb740-0",
+          "url": "https://mainichi.jp/articles/20261114/pr2/00m/020/063000c",
+          "title": "プレスリリース：［未婚女性のお財布事情調査］行動した人は2割未満──年末年始の出費増で8割超が「臨時収入を望む」もハードル高く（PR TIMES）",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "b34051db2c695608f0ebb740"
+        },
+        {
+          "id": "news-b34051db2c695608f0ebb740-1",
+          "url": "https://news.yahoo.co.jp/articles/ef1b3b02ce9eed00686c4322bd744e6d2b05ace6",
+          "title": "臨時収入ほしい85%、動いた人は16.9%だけ？ 未婚女性400人調査で見えた「2つの壁（スマホライフPLUS）",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "b34051db2c695608f0ebb740"
+        },
+        {
+          "id": "news-b34051db2c695608f0ebb740-2",
+          "url": "https://www.bcnretail.com/article/detail/id=677558",
+          "title": "臨時収入ほしい85%、動いた人は16.9%だけ？ 未婚女性400人調査で見えた「2つの壁」",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:10:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "b34051db2c695608f0ebb740"
         }
       ]
     },
@@ -121371,6 +123531,63 @@
           "observedAt": "2026-11-01T17:50:00Z",
           "fetchedAt": "2026-11-01T18:26:15Z",
           "observationId": "67b0fd4a61164781ea53015e"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-fa55e63eeeb660c35858dfbb",
+      "inputHash": "05ae8a8f2c0438fe3661a3c8789fd2fff38d28449f68030a8e4bcc0c82b9d6fb",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-311754f929d04c337ee06bd0",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "travis hunter",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "311754f929d04c337ee06bd0"
+        },
+        {
+          "id": "news-311754f929d04c337ee06bd0-0",
+          "url": "https://www.espn.com/nfl/story/_/id/50473666/atlanta-falcons-trade-deadline-jessie-bates-morale",
+          "title": "Falcons insist winning still the goal despite trading Jessie Bates III",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "311754f929d04c337ee06bd0"
+        },
+        {
+          "id": "news-311754f929d04c337ee06bd0-1",
+          "url": "https://www.jaguars.com/news/thursday-insider-i-look-at-it-as-a-blessing",
+          "title": "Thursday Insider: \"I Look at It as a Blessing…\"",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "311754f929d04c337ee06bd0"
+        },
+        {
+          "id": "news-311754f929d04c337ee06bd0-2",
+          "url": "https://www.fox5atlanta.com/video/fmc-f2awd1du9kur15fw",
+          "title": "New-look Atlanta Falcons host Kansas City Chiefs before bye",
+          "source": "google-trends",
+          "observedAt": "2026-11-15T19:00:00Z",
+          "fetchedAt": "2026-11-15T19:23:38Z",
+          "observationId": "311754f929d04c337ee06bd0"
         }
       ]
     },
