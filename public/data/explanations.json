@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T22:24:20Z",
+  "generatedAt": "2026-11-27T09:43:41Z",
   "providerStatus": {
     "status": "disabled",
     "provider": "none",
     "model": "",
     "message": "新しい話題のAI解説は未生成です。保存済み解説と、見出しからの手がかりを利用できます。",
-    "checkedAt": "2026-11-26T22:24:20Z"
+    "checkedAt": "2026-11-27T09:43:41Z"
   },
   "explanations": [
     {
@@ -659,7 +659,7 @@
     },
     {
       "topicId": "topic-00154761637ca746c354a6d9",
-      "inputHash": "211b4fccd63002fd0b68c921d3edf83011d81b902d181cc5eee0780908c23f0b",
+      "inputHash": "55ee05b092063c507fee8855dcd117cb81735b16a37ba5ffc3fb436fa1019b78",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -711,6 +711,42 @@
           "observedAt": "2026-11-24T09:50:00Z",
           "fetchedAt": "2026-11-24T10:57:51Z",
           "observationId": "55b2373b08ab3343318d8e84"
+        },
+        {
+          "id": "obs-96f35550ef4e0cc549a4584c",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "mirror",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "96f35550ef4e0cc549a4584c"
+        },
+        {
+          "id": "news-96f35550ef4e0cc549a4584c-0",
+          "url": "https://www.bbc.com/sport/football/articles/cwp809d7yp4go",
+          "title": "Manchester City charges: Owners should be forced to sell, say Premier League rivals",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "96f35550ef4e0cc549a4584c"
+        },
+        {
+          "id": "news-96f35550ef4e0cc549a4584c-1",
+          "url": "https://www.nytimes.com/athletic/7811952/2026/11/25/manchester-city-case-independent-football-regulator/",
+          "title": "Regulator chair insists body has the stomach to act against Manchester City owners",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "96f35550ef4e0cc549a4584c"
+        },
+        {
+          "id": "news-96f35550ef4e0cc549a4584c-2",
+          "url": "https://www.reuters.com/sports/soccer/english-regulator-wont-shy-away-action-against-man-city-says-kogan-2026-11-25/",
+          "title": "English regulator won't shy away from action against Man City, says Kogan",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "96f35550ef4e0cc549a4584c"
         }
       ]
     },
@@ -1569,6 +1605,63 @@
           "observedAt": "2026-11-23T08:10:00Z",
           "fetchedAt": "2026-11-23T09:08:25Z",
           "observationId": "66153bcd2773afdf53281b81"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-018fa96a44715c90bf93be14",
+      "inputHash": "61f6285441a4bb11957d2b9e00c54d3950d60f8223295ec0729a020f9f92ae7e",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-3a8d5f70f0dd7ec8b7d82397",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "white",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "3a8d5f70f0dd7ec8b7d82397"
+        },
+        {
+          "id": "news-3a8d5f70f0dd7ec8b7d82397-0",
+          "url": "https://www.foxnews.com/politics/look-trumps-spend-thanksgiving-holiday-through-years",
+          "title": "A look at how the Trumps spend their Thanksgiving holiday through the years",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "3a8d5f70f0dd7ec8b7d82397"
+        },
+        {
+          "id": "news-3a8d5f70f0dd7ec8b7d82397-1",
+          "url": "https://www.yahoo.com/news/videos/trump-tells-deployed-marine-thankful-235510817.html",
+          "title": "Trump Tells Deployed Marine He’s Thankful for ‘The Highest Stock Markets’",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "3a8d5f70f0dd7ec8b7d82397"
+        },
+        {
+          "id": "news-3a8d5f70f0dd7ec8b7d82397-2",
+          "url": "https://www.palmbeachpost.com/story/news/trump/2026/11/26/trump-hosts-lois-frankel-county-officials-at-mar-a-lago-on-thanksgiving/92974284007/",
+          "title": "Trump hosts Frankel, county officials at Mar-a-Lago on Thanksgiving",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "3a8d5f70f0dd7ec8b7d82397"
         }
       ]
     },
@@ -3546,63 +3639,6 @@
           "observedAt": "2026-11-03T19:30:00Z",
           "fetchedAt": "2026-11-03T20:07:50Z",
           "observationId": "5dca93b86ab1e17b415e038a"
-        }
-      ]
-    },
-    {
-      "topicId": "topic-05e60080d0a5280a9b9a70d0",
-      "inputHash": "701fb2e7dcab266ee263569f5c27ea603f29b42a1a191e8a2fb0aa68509fc568",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-d0305fa553f5e8397acb8e38",
-          "url": "https://trends.google.com/trending/rss?geo=JP",
-          "title": "bss",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "d0305fa553f5e8397acb8e38"
-        },
-        {
-          "id": "news-d0305fa553f5e8397acb8e38-0",
-          "url": "https://www.yomiuri.co.jp/local/kansai/news/20261025-GYO1T00017/",
-          "title": "鳥取県琴浦町金屋の風力発電機火災「羽根が燃えて落下しないか心配」…鎮火まで2時間半",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "d0305fa553f5e8397acb8e38"
-        },
-        {
-          "id": "news-d0305fa553f5e8397acb8e38-1",
-          "url": "https://news.yahoo.co.jp/articles/0c12c7d621ac2d2dd856292d7d549f8561abcae3",
-          "title": "風力発電機の羽根付近から出火・地上６０メートル超で消火できず…発電会社社長が謝罪、平井知事「火災想定しておらず残念」",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "d0305fa553f5e8397acb8e38"
-        },
-        {
-          "id": "news-d0305fa553f5e8397acb8e38-2",
-          "url": "https://tver.jp/episodes/eppo6e9geo",
-          "title": "琴浦町の風車火災 風力発電所の運営会社が謝罪 10月22日の定期点検では異常なし 原因究明を進める 鳥取県",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "d0305fa553f5e8397acb8e38"
         }
       ]
     },
@@ -5725,63 +5761,6 @@
       ]
     },
     {
-      "topicId": "topic-0a1c72db29338707974b8454",
-      "inputHash": "6ed2fba79b8288ec107026bf74566184c8583bdb1a738e0e699567a05c1f4a5d",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-13df4c45ef47db998b69f2b9",
-          "url": "https://trends.google.com/trending/rss?geo=GB",
-          "title": "ppt injunction",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "13df4c45ef47db998b69f2b9"
-        },
-        {
-          "id": "news-13df4c45ef47db998b69f2b9-0",
-          "url": "https://www.bbc.co.uk/news/articles/c6j47z0g4nwpo",
-          "title": "Unnamed celebrity accused of 'inappropriate sexual activities', court hears",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "13df4c45ef47db998b69f2b9"
-        },
-        {
-          "id": "news-13df4c45ef47db998b69f2b9-1",
-          "url": "https://www.theguardian.com/law/2026/oct/27/ppt-high-court-publication-sexual-offence-allegations",
-          "title": "‘Well-known’ public figure in bid to stop publication of allegations of inappropriate sexual activities",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "13df4c45ef47db998b69f2b9"
-        },
-        {
-          "id": "news-13df4c45ef47db998b69f2b9-2",
-          "url": "https://www.thetimes.com/uk/law/article/celebrity-abused-power-sexually-exploit-young-women-injunction-suicide-6hc0xfnnf",
-          "title": "Celebrity in secrecy battle ‘abused power to exploit young women’",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "13df4c45ef47db998b69f2b9"
-        }
-      ]
-    },
-    {
       "topicId": "topic-0a31d984482a28f171fb9cee",
       "inputHash": "0157c8bd660ea2e101efeaa378227bd9cd5e11502516e3aa96a4b4e4ea7251ab",
       "generatedAt": "",
@@ -5949,63 +5928,6 @@
           "observedAt": "2026-11-02T07:10:00Z",
           "fetchedAt": "2026-11-02T07:41:40Z",
           "observationId": "42e6dec9bdeb2b8ef581f73d"
-        }
-      ]
-    },
-    {
-      "topicId": "topic-0a560b7188a699bc0c8a631f",
-      "inputHash": "7fc65fe1a11b77711bbfa0a0be0e554c13dc3dbc6a766d3c4e82ca250af5552b",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-9f6d5e06c545c01fd08ff540",
-          "url": "https://trends.google.com/trending/rss?geo=GB",
-          "title": "black friday",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "9f6d5e06c545c01fd08ff540"
-        },
-        {
-          "id": "news-9f6d5e06c545c01fd08ff540-0",
-          "url": "https://www.pymnts.com/news/retail/2026/walmart-turns-black-friday-into-3-part-shopping-event/",
-          "title": "Walmart Turns Black Friday Into 3-Part Shopping Event",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "9f6d5e06c545c01fd08ff540"
-        },
-        {
-          "id": "news-9f6d5e06c545c01fd08ff540-1",
-          "url": "https://www.retail-insight-network.com/news/walmart-sets-three-holiday-sales-events/",
-          "title": "Walmart sets three holiday sales events and membership bundle",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "9f6d5e06c545c01fd08ff540"
-        },
-        {
-          "id": "news-9f6d5e06c545c01fd08ff540-2",
-          "url": "https://www.themainstreetmouse.com/2026/10/26/walmart-muppet-christmas-carol-stars-walton-goggins-as-scrooge/",
-          "title": "Walton Goggins Becomes Scrooge in Walmart’s New Muppet Christmas Carol, and It’s Fabulous",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "9f6d5e06c545c01fd08ff540"
         }
       ]
     },
@@ -8721,6 +8643,63 @@
           "observedAt": "2026-11-08T07:00:00Z",
           "fetchedAt": "2026-11-08T07:24:36Z",
           "observationId": "6ee2fff2f57bac2588b25475"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-0fc5f2dbd955ac57c319430f",
+      "inputHash": "b922d3a4313106f383cbf4fdf198477f8144600e356237232dce3bd4fafbf7dd",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-1d104990f333e5fae6750d30",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "russian ukraine war",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "1d104990f333e5fae6750d30"
+        },
+        {
+          "id": "news-1d104990f333e5fae6750d30-0",
+          "url": "https://www.politico.eu/article/donald-trump-diverges-from-nato-statement-emphasizing-ukraine-mustnt-expand-war/",
+          "title": "Trump diverges from NATO statement, emphasizing Ukraine mustn’t expand war",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "1d104990f333e5fae6750d30"
+        },
+        {
+          "id": "news-1d104990f333e5fae6750d30-1",
+          "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
+          "title": "Trump, NATO chief caution Russia as attacks on Ukraine’s energy infrastructure intensify",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "1d104990f333e5fae6750d30"
+        },
+        {
+          "id": "news-1d104990f333e5fae6750d30-2",
+          "url": "https://www.usatoday.com/story/news/politics/2026/11/26/trump-urges-putin-to-stop-military-aggression/92970086007/",
+          "title": "Trump urges Putin to stop 'military aggression' as he meets with NATO",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "1d104990f333e5fae6750d30"
         }
       ]
     },
@@ -12313,63 +12292,6 @@
       ]
     },
     {
-      "topicId": "topic-16d9726d68963a7d5a8fee63",
-      "inputHash": "d6a64eacb95b18aa3f49ee912f1229d961660a5760d34c0e6d5d682d6da1d6b9",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-e4e9a5356b1d0f5e9c67083a",
-          "url": "https://trends.google.com/trending/rss?geo=JP",
-          "title": "ドトール 福袋 2027",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "e4e9a5356b1d0f5e9c67083a"
-        },
-        {
-          "id": "news-e4e9a5356b1d0f5e9c67083a-0",
-          "url": "https://www.doutor.co.jp/news/newsrelease/detail/20261027152842.html",
-          "title": "ニュースリリース",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "e4e9a5356b1d0f5e9c67083a"
-        },
-        {
-          "id": "news-e4e9a5356b1d0f5e9c67083a-1",
-          "url": "https://news.yahoo.co.jp/articles/286459c0509ad200c417cb814c1f1e7a6809b1f6",
-          "title": "【nana's green tea】2027年福袋が11月10日よりWeb予約スタート!約2.2倍相当のお得な内容 店舗＆オンラインで使えるチケットも（めざましmedia）",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "e4e9a5356b1d0f5e9c67083a"
-        },
-        {
-          "id": "news-e4e9a5356b1d0f5e9c67083a-2",
-          "url": "https://mainichi.jp/articles/20261028/orc/00m/200/123000c",
-          "title": "［福袋2027］ドトール×シナモロール、10・30予約開始 実用性抜群なコーデュロイバッグなどかわいいアイテムずらり",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "e4e9a5356b1d0f5e9c67083a"
-        }
-      ]
-    },
-    {
       "topicId": "topic-1738823a7ba5ebe5e39ea730",
       "inputHash": "3099d5fe669f321c2fed521316806648d04433337b8cacb0d62a2ebf03eaa495",
       "generatedAt": "",
@@ -12954,6 +12876,63 @@
           "observedAt": "2026-11-03T07:10:00Z",
           "fetchedAt": "2026-11-03T07:56:39Z",
           "observationId": "4e9fd41aa83ad99b2ace55df"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-184452b246a1f2ce4534a9cd",
+      "inputHash": "ff9414a41fc52cabf92d71211f8f89dc4b65cd7431fe3d5750acace341244e37",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-dd748d6362a27965399cd276",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "arne slot",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "dd748d6362a27965399cd276"
+        },
+        {
+          "id": "news-dd748d6362a27965399cd276-0",
+          "url": "https://www.rousingthekop.com/2026/11/27/how-liverpool-bounced-back-from-slots-4-1-loss-to-psv-in-one-year/",
+          "title": "One year on: How Liverpool bounced back from Arne Slot’s PSV nadir",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "dd748d6362a27965399cd276"
+        },
+        {
+          "id": "news-dd748d6362a27965399cd276-1",
+          "url": "https://onefootball.com/en/news/one-year-on-how-liverpool-bounced-back-from-arne-slots-psv-nadir-43849765",
+          "title": "One year on: How Liverpool bounced back from Arne Slot’s PSV nadir",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "dd748d6362a27965399cd276"
+        },
+        {
+          "id": "news-dd748d6362a27965399cd276-2",
+          "url": "https://www.liverpoolfc.com/news/florian-wirtz-reaction-liverpool-victory-club-brugge",
+          "title": "'We showed our quality in the end' - Florian Wirtz praises Liverpool's win at Club Brugge",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "dd748d6362a27965399cd276"
         }
       ]
     },
@@ -16174,63 +16153,6 @@
       ]
     },
     {
-      "topicId": "topic-1e6b41f0261eed5acd27bd7d",
-      "inputHash": "a7bd08db9c2914b9ae950b5df1a72784c69321ede275d120f95d3f0e72e76eb2",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-605f5779d2a4af24c27c6a9d",
-          "url": "https://trends.google.com/trending/rss?geo=US",
-          "title": "cyberpunk",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "605f5779d2a4af24c27c6a9d"
-        },
-        {
-          "id": "news-605f5779d2a4af24c27c6a9d-0",
-          "url": "https://www.techpowerup.com/354180/cyberpunk-2-multiplayer-looks-likely",
-          "title": "Cyberpunk 2 Multiplayer Looks Likely",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "605f5779d2a4af24c27c6a9d"
-        },
-        {
-          "id": "news-605f5779d2a4af24c27c6a9d-1",
-          "url": "https://www.polygon.com/cyberpunk-2-multiplayer-quests-leak-cd-projekt-red/",
-          "title": "Cyberpunk 2 Listing Hints at Multiplayer Quests in CD Projekt Red Sequel",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "605f5779d2a4af24c27c6a9d"
-        },
-        {
-          "id": "news-605f5779d2a4af24c27c6a9d-2",
-          "url": "https://insider-gaming.com/new-cyberpunk-2-job-listing-further-supports-multiplayer-mode/",
-          "title": "New Cyberpunk 2 Job Listing Further Supports Multiplayer Mode",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "605f5779d2a4af24c27c6a9d"
-        }
-      ]
-    },
-    {
       "topicId": "topic-1e881e2f08fb48bee6491241",
       "inputHash": "ca31bcbd383f7d64644edb170d633d1a6ea3f8948dc44fd67c3d0dd66dc466ba",
       "generatedAt": "",
@@ -17646,6 +17568,63 @@
           "observedAt": "2026-11-04T05:50:00Z",
           "fetchedAt": "2026-11-04T07:30:23Z",
           "observationId": "0b32277b70e7f9189ff2d13d"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-222e9c63093afc8d1cd19733",
+      "inputHash": "6a070b8556e28d64137967700f47851b718778c69af2134f7b85e3502abcad0f",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-6480cf241b4781cb664c6d9c",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "seth meyers",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T06:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "6480cf241b4781cb664c6d9c"
+        },
+        {
+          "id": "news-6480cf241b4781cb664c6d9c-0",
+          "url": "https://www.nytimes.com/2026/11/26/arts/television/late-night-meyers-huang-therapy-fallon.html",
+          "title": "Seth Meyers Drags Jensen Huang’s Daily 90-Minute Therapy Sessions",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T06:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "6480cf241b4781cb664c6d9c"
+        },
+        {
+          "id": "news-6480cf241b4781cb664c6d9c-1",
+          "url": "https://www.businessinsider.com/jensen-huang-therapy-silicon-valley-couples-therapist-ceo-nvidia-2026-11",
+          "title": "I’m a Silicon Valley couples therapist. Here’s what Jensen Huang's daily therapy sessions might entail.",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T06:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "6480cf241b4781cb664c6d9c"
+        },
+        {
+          "id": "news-6480cf241b4781cb664c6d9c-2",
+          "url": "https://www.yahoo.com/news/us/articles/rabbi-schonbuch-newsmax-nvidia-ceo-160549558.html",
+          "title": "Rabbi Schonbuch to Newsmax: Nvidia CEO Faces Long Road to Rebuilding Trust",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T06:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "6480cf241b4781cb664c6d9c"
         }
       ]
     },
@@ -20665,63 +20644,6 @@
       ]
     },
     {
-      "topicId": "topic-273c0991e51bdc47937f6e7c",
-      "inputHash": "e2bb6523964e0f99ef6bcfa0dc95e32f67ea3f7a0b95334fb7037d1523352491",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-67ed7254f4d97679f2085734",
-          "url": "https://trends.google.com/trending/rss?geo=GB",
-          "title": "portreath",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "67ed7254f4d97679f2085734"
-        },
-        {
-          "id": "news-67ed7254f4d97679f2085734-0",
-          "url": "https://www.thetimes.com/uk/law/article/grief-campaigner-dies-on-same-beach-as-son-9pnhz9v6n",
-          "title": "Grief campaigner dies on same beach as son",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "67ed7254f4d97679f2085734"
-        },
-        {
-          "id": "news-67ed7254f4d97679f2085734-1",
-          "url": "https://www.telegraph.co.uk/news/2026/10/27/grief-campaigner-dies-same-cornwall-beach-son/",
-          "title": "Grief campaigner dies on same beach as son",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "67ed7254f4d97679f2085734"
-        },
-        {
-          "id": "news-67ed7254f4d97679f2085734-2",
-          "url": "https://www.news.com.au/lifestyle/real-life/news-life/grieving-mother-and-mental-health-campaigner-found-dead-on-exact-beach-where-teenage-son-died/news-story/9c3d6482d5587615fc7991f1184ae843",
-          "title": "Grieving mum dies after son’s death",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "67ed7254f4d97679f2085734"
-        }
-      ]
-    },
-    {
       "topicId": "topic-274ecb82cbde2598a9ce6d67",
       "inputHash": "b6948a266bab3f0fbf05df310b1c57c686ed9164c95f50147bfdf5a5dbd31a2e",
       "generatedAt": "",
@@ -23656,6 +23578,63 @@
       ]
     },
     {
+      "topicId": "topic-2d17bee6d31072e39bdfa065",
+      "inputHash": "edede14f27f5c33625b5f1d0b854e6315f0de97c2c9182abf803f8752f330704",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-3301b08179a32be368a3854d",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "디에이치 반포124",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T06:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "3301b08179a32be368a3854d"
+        },
+        {
+          "id": "news-3301b08179a32be368a3854d-0",
+          "url": "https://www.mt.co.kr/estate/2026/11/27/2026112711184216078",
+          "title": "12월 서울 일반분양 2725가구…'최대어' 디에이치 반포124 주목 - 머니투데이",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T06:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "3301b08179a32be368a3854d"
+        },
+        {
+          "id": "news-3301b08179a32be368a3854d-1",
+          "url": "https://re.mk.co.kr/news/news_detail.php?no=12220203",
+          "title": "연말 분양시장 -최초·최고·최대- 단지 잇따라 공급",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T06:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "3301b08179a32be368a3854d"
+        },
+        {
+          "id": "news-3301b08179a32be368a3854d-2",
+          "url": "https://www.donga.com/news/Economy/article/all/20261126/135091068/2",
+          "title": "입지만큼 중요한 브랜드… 연말 분양시장 달군다",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T06:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "3301b08179a32be368a3854d"
+        }
+      ]
+    },
+    {
       "topicId": "topic-2d42cda192216f85f4b80954",
       "inputHash": "033673872aec4c9514e9ec3c4d670d45079bde2cdcfdeacdfdd696905871ef43",
       "generatedAt": "",
@@ -25573,6 +25552,63 @@
       ]
     },
     {
+      "topicId": "topic-3103fa6c724ee7dbe66bd363",
+      "inputHash": "03fb1d94c8073b45ffe6abbcbfa5f461ef817f36a11ba855d64044adc91d2dc1",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-12bc37ddd679bad340b830b3",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "히샬리송",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T06:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "12bc37ddd679bad340b830b3"
+        },
+        {
+          "id": "news-12bc37ddd679bad340b830b3-0",
+          "url": "https://www.etoday.co.kr/news/view/2654076",
+          "title": "토트넘서 밀려난 히샬리송, 친정팀 에버턴 복귀 추진",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T06:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "12bc37ddd679bad340b830b3"
+        },
+        {
+          "id": "news-12bc37ddd679bad340b830b3-1",
+          "url": "https://www.sportschosun.com/football/2026-11-27/202611270100172420016017",
+          "title": "토트넘 대박 터진다, '최악의 말썽쟁이' 히샬리송 끝내 방출 가능...에이전트 폭탄 발언 \"사우디행 정말 원한다\"→\"150억이면 판매\"",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T06:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "12bc37ddd679bad340b830b3"
+        },
+        {
+          "id": "news-12bc37ddd679bad340b830b3-2",
+          "url": "https://www.besteleven.com/news/articleView.html?idxno=314393",
+          "title": "‘토트넘 금쪽이’ 히샬리송·‘맨유 87경기 11골’ 지르크제이 에버턴 영입망… 포체티노 구상이 변수",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T06:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "12bc37ddd679bad340b830b3"
+        }
+      ]
+    },
+    {
       "topicId": "topic-3118858916dd9f6337a46498",
       "inputHash": "9ad82d0fb2656bc715beffc53a1684370e439a6f82dcf5b90c770a8666953465",
       "generatedAt": "",
@@ -26139,6 +26175,63 @@
           "observedAt": "2026-11-14T07:10:00Z",
           "fetchedAt": "2026-11-14T07:37:24Z",
           "observationId": "2fa93e28fe80947a644bcdd2"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-326dd4cf21b25aecc96f797a",
+      "inputHash": "c1b7153e03c0e4be867be3806193932912b5fb5d7fd42f872885444329d4af16",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-173722e3139b7c3faf8e0e39",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "man city news",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "173722e3139b7c3faf8e0e39"
+        },
+        {
+          "id": "news-173722e3139b7c3faf8e0e39-0",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cwp809d7yp4go",
+          "title": "Man City owners should be forced to sell, say rival club chiefs",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "173722e3139b7c3faf8e0e39"
+        },
+        {
+          "id": "news-173722e3139b7c3faf8e0e39-1",
+          "url": "https://www.thetimes.com/sport/football/article/football-regulator-manchester-city-news-q0v2gtmbz",
+          "title": "We have the stomach to act against Man City owners, says football regulator",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "173722e3139b7c3faf8e0e39"
+        },
+        {
+          "id": "news-173722e3139b7c3faf8e0e39-2",
+          "url": "https://www.espn.co.uk/football/story/_/id/50592983/man-city-charges-independent-regulator",
+          "title": "Man City told regulator 'has the stomach' to challenge owners after charges",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "173722e3139b7c3faf8e0e39"
         }
       ]
     },
@@ -29053,6 +29146,45 @@
       ]
     },
     {
+      "topicId": "topic-384bb2461b96bac2b9bb61b2",
+      "inputHash": "3e2f4e7fdf2e2e3a271e0e5fe96a99654e786756eece7a06c5fbfb3340bb6741",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-5da6b401c40bc81ecf417f2f",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "shead",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "5da6b401c40bc81ecf417f2f"
+        },
+        {
+          "id": "news-5da6b401c40bc81ecf417f2f-0",
+          "url": "https://raptorsrapture.com/raptors-davion-mitchell-trade-looks-awful-as-he-emerges-as-the-point-guard-they-need",
+          "title": "Raptors' Davion Mitchell trade looks awful as he emerges as the point guard they need",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "5da6b401c40bc81ecf417f2f"
+        }
+      ]
+    },
+    {
       "topicId": "topic-3883cfc764c24a2ab085d53a",
       "inputHash": "b152091a1aca83c322dc69639c9103bcea80dc425599d86b185d287891a67f23",
       "generatedAt": "",
@@ -30270,6 +30402,120 @@
           "observedAt": "2026-11-18T08:20:00Z",
           "fetchedAt": "2026-11-18T08:34:13Z",
           "observationId": "6d53367184bbd3dd9db7e926"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-3aeec1196477879b2bc42c23",
+      "inputHash": "8ee998f0044929d6e83945064af0d4fe4866b15883dc8b786ebdfd07e349a069",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-5e9cd734ccbcaec60b56ae91",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "ブラッククローバー",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "5e9cd734ccbcaec60b56ae91"
+        },
+        {
+          "id": "news-5e9cd734ccbcaec60b56ae91-0",
+          "url": "https://heroaca.com/news/28920/",
+          "title": "アニメ『僕のヒーローアカデミア』",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "5e9cd734ccbcaec60b56ae91"
+        },
+        {
+          "id": "news-5e9cd734ccbcaec60b56ae91-1",
+          "url": "https://prtimes.jp/main/html/rd/p/000000894.000059072.html",
+          "title": "TVアニメ『ゴールデンカムイ』より、“割烹とおにぎり”がテーマの新規描き下ろしイラストを使用したグッズが「ジャンプフェスタ2027」で登場！中外鉱業ブースにて先行販売決定！",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "5e9cd734ccbcaec60b56ae91"
+        },
+        {
+          "id": "news-5e9cd734ccbcaec60b56ae91-2",
+          "url": "https://www.sankei.com/pressrelease/prtimes/MDC2DGX3LZOXHPFPL4CBVCB26A/",
+          "title": "『魁!!男塾』より、宮下あきら先生による描き下ろしイラストを使用した新作グッズや、直筆サイン入り複製原画が「ジャンプフェスタ2027」で登場！中外鉱業ブースにて先行販売決定！",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "5e9cd734ccbcaec60b56ae91"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-3af86ec5cfa9a404e99f89d0",
+      "inputHash": "2b9e9520ce10c849076395de1601e77d57944ed5c62f543865efb599782b0a2f",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-7bce04237a9f0003c96c541e",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "james coles",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:00:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "7bce04237a9f0003c96c541e"
+        },
+        {
+          "id": "news-7bce04237a9f0003c96c541e-0",
+          "url": "https://www.tntsports.co.uk/cricket/australia-v-england-2nd-t20i-fantastic-fielding-from-debutant-james-coles-has-hosts-three-down-with-direct-hit_vid60107971/video.shtml",
+          "title": "Australia v England 2nd T20I - Fantastic fielding from debutant James Coles has hosts three down with direct hit",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:00:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "7bce04237a9f0003c96c541e"
+        },
+        {
+          "id": "news-7bce04237a9f0003c96c541e-1",
+          "url": "https://inshorts.com/en/news/coles-becomes-2nd-england-spinner-to-open-bowling-on-his-t20i-debut-1795511784451",
+          "title": "Coles becomes 2nd England spinner to open bowling on his T20I debut | Australia won the first T20I by 3 wickets | Inshorts",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:00:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "7bce04237a9f0003c96c541e"
+        },
+        {
+          "id": "news-7bce04237a9f0003c96c541e-2",
+          "url": "https://www.crictracker.com/cricket-news/james-coles-makes-t20i-debut-as-england-replace-injured-will-jacks-at-carrara-oval/",
+          "title": "James Coles makes T20I debut as England replace injured Will Jacks at Carrara Oval",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:00:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "7bce04237a9f0003c96c541e"
         }
       ]
     },
@@ -32780,7 +33026,7 @@
     },
     {
       "topicId": "topic-3ecd51adbe3a1c30f58b63e3",
-      "inputHash": "965991ad1d654b12a8099810872d5215d8096df205e6c91fd8c95b384e587377",
+      "inputHash": "d1ab44cb30c719ca27dc712f4581ed017f231bfa1ffb23a5c669fd6eb6f45e86",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -33460,8 +33706,44 @@
           "title": "铜仁 ： 一叶抹茶  链  上一群人 - 新华网",
           "source": "gdelt",
           "observedAt": "2026-11-26T12:45:00Z",
-          "fetchedAt": "2026-11-26T22:22:24Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
           "observationId": "e70d0efaaddcf81a980284ad"
+        },
+        {
+          "id": "obs-90802e97bfe6fc7580aedf4d",
+          "url": "https://www.hellomagazine.com/us/937490/jennifer-aniston-boyfriend-jim-curtis-sends-her-cheeky-love-note/",
+          "title": "Jennifer Aniston boyfriend Jim Curtis sends her a cheeky public love note ahead of the holidays",
+          "source": "gdelt",
+          "observedAt": "2026-11-26T22:30:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "90802e97bfe6fc7580aedf4d"
+        },
+        {
+          "id": "obs-264a42a768d2d3ad97707b78",
+          "url": "https://www.setn.com/news/1945630",
+          "title": "十米高聖誕樹 ！ 台北君悅 「 星願點亮 ‧ 聖誕之夜 」 白嘉莉驚喜現身 | 旅遊 | 三立新聞網 SETN . COM",
+          "source": "gdelt",
+          "observedAt": "2026-11-27T00:45:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "264a42a768d2d3ad97707b78"
+        },
+        {
+          "id": "obs-3ccddff3a804ea3f688581c5",
+          "url": "https://www.wfmz.com/news/area/lehighvalley/northampton-county/easton-area/mother-and-daughter-merge-passions-at-new-lehigh-valley-bakeshop-curated-market/article_2d58d2f5-96e9-4a23-bdb6-610f70f61a80.html",
+          "title": "Mother and daughter merge passions at new Lehigh Valley bakeshop , curated market",
+          "source": "gdelt",
+          "observedAt": "2026-11-27T01:15:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "3ccddff3a804ea3f688581c5"
+        },
+        {
+          "id": "obs-b3f7dc5825705dcd8e08fd72",
+          "url": "https://supertaste.tvbs.com.tw/food/362656",
+          "title": "嘉義咖啡市集 「 開嘉 ・ 冬日咖啡城 」 12 / 12 - 13嘉義公園免費入場 ， 朝聖名單看這篇｜食尚玩家",
+          "source": "gdelt",
+          "observedAt": "2026-11-27T04:30:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "b3f7dc5825705dcd8e08fd72"
         }
       ]
     },
@@ -36184,63 +36466,6 @@
       ]
     },
     {
-      "topicId": "topic-4618934af0181465c8c2c943",
-      "inputHash": "9e49d404c1b5053679ace223930a77a59c10dd01438d3b6b2e9af21b31e7b616",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-9a91860cb3c956f7ca32fbbe",
-          "url": "https://trends.google.com/trending/rss?geo=JP",
-          "title": "テイラー スウィフト",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "9a91860cb3c956f7ca32fbbe"
-        },
-        {
-          "id": "news-9a91860cb3c956f7ca32fbbe-0",
-          "url": "https://news.yahoo.co.jp/articles/10a1a6fbbf6bfbe1390b01f75a3e5c608d6b5e1b",
-          "title": "テイラー・スウィフト、結婚式の装飾や備品48億円相当すべてを焼却処分「痕跡が残らないよう」（日刊スポーツ）",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "9a91860cb3c956f7ca32fbbe"
-        },
-        {
-          "id": "news-9a91860cb3c956f7ca32fbbe-1",
-          "url": "https://www.ellegirl.jp/celeb/a74265032/taylor-swift-burn-decoration-261028/",
-          "title": "テイラー・スウィフト、結婚式のセットはすべて焼却 「オークションサイトに出品されるのを阻止するため」と関係者",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "9a91860cb3c956f7ca32fbbe"
-        },
-        {
-          "id": "news-9a91860cb3c956f7ca32fbbe-2",
-          "url": "https://news.infoseek.co.jp/topics/nikkansports_202610280000261/",
-          "title": "テイラー・スウィフト、結婚式の装飾や備品48億円相当すべてを焼却処分「痕跡が残らないよう」",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "9a91860cb3c956f7ca32fbbe"
-        }
-      ]
-    },
-    {
       "topicId": "topic-46254de449aa5a5d7f413649",
       "inputHash": "fadf920b348010aac264b58c16dd0aadf8cce0110b84fc7c81561da5cece4767",
       "generatedAt": "",
@@ -36408,63 +36633,6 @@
           "observedAt": "2026-10-29T06:20:00Z",
           "fetchedAt": "2026-10-29T07:09:04Z",
           "observationId": "a8d8d12582ffadbafdd0b6a2"
-        }
-      ]
-    },
-    {
-      "topicId": "topic-466d59e0841f27c107fe1f03",
-      "inputHash": "1097923b981e30363987b5ef54bcb605d01664052d0f3ec0a6a89fe2ad9396ac",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-adcd1e5833d4918a14c96f6b",
-          "url": "https://trends.google.com/trending/rss?geo=US",
-          "title": "mortgage interest rates",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "adcd1e5833d4918a14c96f6b"
-        },
-        {
-          "id": "news-adcd1e5833d4918a14c96f6b-0",
-          "url": "https://www.mortgagenewsdaily.com/markets/mortgage-rates-10272026",
-          "title": "Mortgage Rates Hold Steady Yet Again",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "adcd1e5833d4918a14c96f6b"
-        },
-        {
-          "id": "news-adcd1e5833d4918a14c96f6b-1",
-          "url": "https://www.realtor.com/news/trends/treasury-yields-above-5-homeowners-savings-money-monday/",
-          "title": "Treasury Yields Rest Above 5%: How Homeowners—and Buyers—Can Take Advantage of the Moment",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "adcd1e5833d4918a14c96f6b"
-        },
-        {
-          "id": "news-adcd1e5833d4918a14c96f6b-2",
-          "url": "https://www.housingwire.com/articles/mortgage-rates-demand-stabilizes/",
-          "title": "Slightly lower mortgage rates finally pause slide in housing demand",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "adcd1e5833d4918a14c96f6b"
         }
       ]
     },
@@ -37795,6 +37963,63 @@
       ]
     },
     {
+      "topicId": "topic-490a18b084cd6f0e11b44f3d",
+      "inputHash": "2bf46f266af02dee7edfc65604841a9b17e55e6cc12f4893d45ea0e3ff58fb8b",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-02df7811e250e7edd7909c58",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "is the stock market open today",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "02df7811e250e7edd7909c58"
+        },
+        {
+          "id": "news-02df7811e250e7edd7909c58-0",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/is-the-stock-market-open-on-thanksgiving-and-black-friday-135419542.html",
+          "title": "Is the stock market open on Thanksgiving and Black Friday?",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "02df7811e250e7edd7909c58"
+        },
+        {
+          "id": "news-02df7811e250e7edd7909c58-1",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-thanksgiving-holiday-shortened-black-friday-trading",
+          "title": "Stock Market Today: Dow, S&P 500 and Nasdaq set to rally ahead of shortened Black Friday trading: live updates",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "02df7811e250e7edd7909c58"
+        },
+        {
+          "id": "news-02df7811e250e7edd7909c58-2",
+          "url": "https://www.investors.com/news/stock-market-hours-thanksgiving-black-friday-sp-500-nasdaq-dow-jones-nvidia/",
+          "title": "Stock Market Trading Hours For Thanksgiving And Black Friday",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "02df7811e250e7edd7909c58"
+        }
+      ]
+    },
+    {
       "topicId": "topic-491e90e7b653c9389615a9c2",
       "inputHash": "3bec2167d05456e8c6c5c1a86cb1be9852ad9ab300806d3d830445aae898f8cc",
       "generatedAt": "",
@@ -38340,6 +38565,36 @@
           "observedAt": "2026-11-03T19:30:00Z",
           "fetchedAt": "2026-11-03T20:07:50Z",
           "observationId": "a6a0b72251cfc1640f9413f9"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-49f74848d26347045831d574",
+      "inputHash": "e9718349175ffc1c6fa2bd69b0d7d7c3690d5e2b31d8a9a21bad4586f77e22de",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-4f75fa9d0dcc3812b1bd7fbe",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "한국노인인력개발원",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "4f75fa9d0dcc3812b1bd7fbe"
         }
       ]
     },
@@ -38946,6 +39201,63 @@
           "observedAt": "2026-11-09T22:30:00Z",
           "fetchedAt": "2026-11-09T22:59:45Z",
           "observationId": "ce2ea8c17b4ceb7bd3b21861"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-4b3ab4bb4462c51fb488d699",
+      "inputHash": "a9ef7ad2e9ea652bb266c013d15f6c53070b1cd3e8d9a3cdf0bcf839741ccd01",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-d5c6c48409be5b428c380c08",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "bros tickets",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "d5c6c48409be5b428c380c08"
+        },
+        {
+          "id": "news-d5c6c48409be5b428c380c08-0",
+          "url": "https://www.bbc.co.uk/news/articles/cklylrldzqm4o",
+          "title": "Bros announce first tour in a decade",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "d5c6c48409be5b428c380c08"
+        },
+        {
+          "id": "news-d5c6c48409be5b428c380c08-1",
+          "url": "https://www.express.co.uk/showbiz/tv-radio/2268947/itv-morning-viewers-all-say-same-thing-80s-legends-bros-appear-show",
+          "title": "ITV This Morning viewers say same thing as 80s legends Bros appear on sofa",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "d5c6c48409be5b428c380c08"
+        },
+        {
+          "id": "news-d5c6c48409be5b428c380c08-2",
+          "url": "https://www.facebook.com/ManchesterEveningNews/videos/bros-on-how-joyful-it-was-to-watch-oasis-reform/1177765554755062/",
+          "title": "Manchester Evening News. . It's not just the Gallagher brothers that have decided to reform - because Bros are back as well! 🙌 ‼️ The twins watched on as Oasis got back together - and even though it wasn't the catalyst to them reuniting, they told us how joyful",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "d5c6c48409be5b428c380c08"
         }
       ]
     },
@@ -39687,63 +39999,6 @@
           "observedAt": "2026-11-22T07:10:00Z",
           "fetchedAt": "2026-11-22T08:00:35Z",
           "observationId": "381ad1c92529c7fcbd7d67b3"
-        }
-      ]
-    },
-    {
-      "topicId": "topic-4c6a4839f83d20d276e7ba94",
-      "inputHash": "87f90bf46a4c681d249b20057c873a394eed365726004cdefad7f38b52719dff",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-21e6865a4a6f3a62843e07e6",
-          "url": "https://trends.google.com/trending/rss?geo=GB",
-          "title": "very",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "21e6865a4a6f3a62843e07e6"
-        },
-        {
-          "id": "news-21e6865a4a6f3a62843e07e6-0",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-28/trump-says-meeting-with-zelenskyy-and-putin-will-be-set-up-soon",
-          "title": "Trump Says Meeting With Zelenskyy and Putin Will Be Set Up Soon",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "21e6865a4a6f3a62843e07e6"
-        },
-        {
-          "id": "news-21e6865a4a6f3a62843e07e6-1",
-          "url": "https://globalnation.inquirer.net/344230/trump-says-putin-zelensky-meeting-to-be-set-up-very-soon",
-          "title": "Trump says Putin-Zelensky meeting to be set up ‘very soon’",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "21e6865a4a6f3a62843e07e6"
-        },
-        {
-          "id": "news-21e6865a4a6f3a62843e07e6-2",
-          "url": "https://ubn.news/trump-floats-200-tariffs-on-ukraine-and-russia-as-further-sanctions-relief-is-discussed/",
-          "title": "Trump Floats 200% Tariffs on Ukraine and Russia as Further Sanctions Relief Is Discussed.",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "21e6865a4a6f3a62843e07e6"
         }
       ]
     },
@@ -45886,8 +46141,8 @@
       ]
     },
     {
-      "topicId": "topic-587063d6e859b9d1423014bc",
-      "inputHash": "407af3371081b86dddd3a7fbfef251dcda99ee5afa54deebbe8f15d61722301e",
+      "topicId": "topic-585d62c6dd0466e0eefce18a",
+      "inputHash": "461a354527e362e81eea1c56053b5a9485ab5cf54582d445bd6178f83e1e8da0",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -45905,40 +46160,40 @@
       ],
       "evidence": [
         {
-          "id": "obs-a82fedad8199a110846e6be9",
-          "url": "https://trends.google.com/trending/rss?geo=US",
-          "title": "sofia vergara",
+          "id": "obs-efeca8186b4d8a15a5940546",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "북한이탈주민",
           "source": "google-trends",
-          "observedAt": "2026-10-28T06:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "a82fedad8199a110846e6be9"
+          "observedAt": "2026-11-27T08:30:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "efeca8186b4d8a15a5940546"
         },
         {
-          "id": "news-a82fedad8199a110846e6be9-0",
-          "url": "https://www.yahoo.com/entertainment/celebrity/articles/sof-vergara-holds-hands-imagine-192925152.html",
-          "title": "Sofía Vergara Holds Hands With Imagine Dragons’ Dan Reynolds at Dinner After His Minka Kelly Split",
+          "id": "news-efeca8186b4d8a15a5940546-0",
+          "url": "https://www.khan.co.kr/article/202611271445001",
+          "title": "술과 과자 든 가방들고···철원 민통선 넘어 GOP 향하던 30대 탈북민 여성 적발 신병 확보",
           "source": "google-trends",
-          "observedAt": "2026-10-28T06:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "a82fedad8199a110846e6be9"
+          "observedAt": "2026-11-27T08:30:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "efeca8186b4d8a15a5940546"
         },
         {
-          "id": "news-a82fedad8199a110846e6be9-1",
-          "url": "https://www.syracuse.com/us-news/2026/10/alt-rock-lead-singer-sparks-romance-rumors-with-popular-actress.html",
-          "title": "Alt-rock lead singer sparks romance rumors with popular actress",
+          "id": "news-efeca8186b4d8a15a5940546-1",
+          "url": "https://imnews.imbc.com/news/2026/politics/article/6869052_36911.html",
+          "title": "강원 철원 민통선 넘어 GOP 향하던 30대 탈북민 여성 붙잡혀",
           "source": "google-trends",
-          "observedAt": "2026-10-28T06:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "a82fedad8199a110846e6be9"
+          "observedAt": "2026-11-27T08:30:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "efeca8186b4d8a15a5940546"
         },
         {
-          "id": "news-a82fedad8199a110846e6be9-2",
-          "url": "https://www.hola.com/us/celebrities/20261027931644/sofia-vergara-imagine-dragons-singer-dan-reynolds-hold-hands/",
-          "title": "Sofía Vergara and Imagine Dragons singer Dan Reynolds hold hands in new photos from Beverly Hills dinner",
+          "id": "news-efeca8186b4d8a15a5940546-2",
+          "url": "https://news.jtbc.co.kr/article/NB12330160",
+          "title": "30대 탈북 여성, 술·간식 들고 GOP 철책 앞으로…왜?",
           "source": "google-trends",
-          "observedAt": "2026-10-28T06:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "a82fedad8199a110846e6be9"
+          "observedAt": "2026-11-27T08:30:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "efeca8186b4d8a15a5940546"
         }
       ]
     },
@@ -46185,6 +46440,63 @@
           "observedAt": "2026-11-15T14:40:00Z",
           "fetchedAt": "2026-11-15T19:23:38Z",
           "observationId": "de4123188c4e5a5612a9771a"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-58f99cd8b454c644ba053273",
+      "inputHash": "a7a98201558b8025378f45a9269b5c61a947498c358689d1f33cf4bb41b05f19",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-8389570b92d9576821dea07f",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "what time does old navy open on black friday",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "8389570b92d9576821dea07f"
+        },
+        {
+          "id": "news-8389570b92d9576821dea07f-0",
+          "url": "https://shopping.yahoo.com/deals/breaking-news/article/old-navys-black-friday-sale-has-nearly-everything-at-half-off-including-its-popular-wide-leg-jeans-212411652.html",
+          "title": "Old Navy's Black Friday sale has nearly everything at half off, including its popular wide-leg jeans",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "8389570b92d9576821dea07f"
+        },
+        {
+          "id": "news-8389570b92d9576821dea07f-1",
+          "url": "https://www.goodhousekeeping.com/what-to-buy/clothing/a74532607/old-navy-black-friday-sale-2026/",
+          "title": "Old Navy’s 50% Off for Black Friday–10 Deals to Shop on Thanksgiving",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "8389570b92d9576821dea07f"
+        },
+        {
+          "id": "news-8389570b92d9576821dea07f-2",
+          "url": "https://www.today.com/shop/old-navy-black-friday-2026-sale-rcna610928",
+          "title": "Shop Old Navy’s Black Friday Deals on Cozy Sweaters, Boots and More From $3",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "8389570b92d9576821dea07f"
         }
       ]
     },
@@ -46946,7 +47258,7 @@
     },
     {
       "topicId": "topic-5a1c0e4143fa974f7cae0788",
-      "inputHash": "d4c0773380e7eeeac4f3674c3ad3c9735cd75ba826ccd992bb615b6ac526ffd1",
+      "inputHash": "8a215355402a4d70fc1c0b415962e0925c35cefea8393c8c7a77abb9f1840d8a",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -46998,6 +47310,42 @@
           "observedAt": "2026-11-20T07:30:00Z",
           "fetchedAt": "2026-11-20T08:35:33Z",
           "observationId": "4af73909c1dadaacc0d072f5"
+        },
+        {
+          "id": "obs-50828dc0d2d7e83a39f859ce",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "daycare",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "50828dc0d2d7e83a39f859ce"
+        },
+        {
+          "id": "news-50828dc0d2d7e83a39f859ce-0",
+          "url": "https://www.local10.com/news/local/2026/11/24/ex-broward-daycare-worker-confesses-to-touching-7-year-old-girls-vagina-deputies-say/",
+          "title": "Ex-Broward daycare worker confesses to touching 7-year-old girl’s vagina, deputies say",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "50828dc0d2d7e83a39f859ce"
+        },
+        {
+          "id": "news-50828dc0d2d7e83a39f859ce-1",
+          "url": "https://wsvn.com/news/local/pompano-beach-daycare-worker-arrested/",
+          "title": "Former worker at Pompano Beach day care arrested after 7-year-old girl reports abuse, deputies say",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "50828dc0d2d7e83a39f859ce"
+        },
+        {
+          "id": "news-50828dc0d2d7e83a39f859ce-2",
+          "url": "https://www.tapinto.net/towns/pompano-beach/sections/police-and-fire/articles/former-pompano-beach-daycare-worker-arrested-on-child-molestation-charges",
+          "title": "Former Pompano Beach Daycare Worker Arrested on Child Molestation Charges",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "50828dc0d2d7e83a39f859ce"
         }
       ]
     },
@@ -47835,6 +48183,63 @@
           "observedAt": "2026-11-03T15:00:00Z",
           "fetchedAt": "2026-11-03T20:07:50Z",
           "observationId": "fb241c3688fe6c332075bd5f"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-5c2986e460f7fbd233ad3287",
+      "inputHash": "63c4d071e7de47e9994050dc13ed5b241746a6052f65aea858edbd6ae5c3a5e5",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-18f490531bf775bfc1c08d84",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "エナジックスポーツ高等学院",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "18f490531bf775bfc1c08d84"
+        },
+        {
+          "id": "news-18f490531bf775bfc1c08d84-0",
+          "url": "https://ryukyushimpo.jp/newspaper/entry-5617149.html",
+          "title": "【独自】エナジック前野球部監督が辞任へ 追加の謹慎処分受け 学園もコメント 高校野球",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "18f490531bf775bfc1c08d84"
+        },
+        {
+          "id": "news-18f490531bf775bfc1c08d84-1",
+          "url": "https://newsdig.tbs.co.jp/articles/-/3116903",
+          "title": "野球部員に体罰で謹慎中に指導→謹慎2年延長 エナジックスポーツ高の神谷監督が退職",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "18f490531bf775bfc1c08d84"
+        },
+        {
+          "id": "news-18f490531bf775bfc1c08d84-2",
+          "url": "https://www.nikkansports.com/baseball/highschool/news/202611270001098.html",
+          "title": "エナジック前監督が理事辞任　野球協会謹慎処分で",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "18f490531bf775bfc1c08d84"
         }
       ]
     },
@@ -48989,7 +49394,7 @@
     },
     {
       "topicId": "topic-5e5489b4cf3410af9ac80579",
-      "inputHash": "b15a0c0508eeaebeaf920e2b1854163d8b6d1feb627ac5c8502c5ecb91298ab2",
+      "inputHash": "8574ec1270d1141f10a1a12f859f4d9fde9738ca21f451185741eaff2ab11d8c",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -49041,6 +49446,42 @@
           "observedAt": "2026-11-26T07:30:00Z",
           "fetchedAt": "2026-11-26T09:33:12Z",
           "observationId": "f90b43863ec2fbaf7e9db22d"
+        },
+        {
+          "id": "obs-0995150b4c4d74fe2b3c02c1",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "코레일",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:30:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "0995150b4c4d74fe2b3c02c1"
+        },
+        {
+          "id": "news-0995150b4c4d74fe2b3c02c1-0",
+          "url": "https://www.newsis.com/view/NISX20261127_0003885713",
+          "title": "코레일, 폐안전모 재활용 '야간 안전우산' 500개 기부",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:30:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "0995150b4c4d74fe2b3c02c1"
+        },
+        {
+          "id": "news-0995150b4c4d74fe2b3c02c1-1",
+          "url": "https://www.mt.co.kr/estate/2026/11/27/2026112710040089861",
+          "title": "버려진 철도 안전모의 변신… 코레일, 안전우산 500개 기부 - 머니투데이",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:30:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "0995150b4c4d74fe2b3c02c1"
+        },
+        {
+          "id": "news-0995150b4c4d74fe2b3c02c1-2",
+          "url": "https://www.vegannews.co.kr/news/article.html?no=408989",
+          "title": "폐안전모 파쇄해 새 안전모 원료로 활용",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:30:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "0995150b4c4d74fe2b3c02c1"
         }
       ]
     },
@@ -49335,63 +49776,6 @@
           "observedAt": "2026-11-19T21:10:00Z",
           "fetchedAt": "2026-11-19T21:37:57Z",
           "observationId": "1f6f4c4992134f557283b5d0"
-        }
-      ]
-    },
-    {
-      "topicId": "topic-5ea872ac76e84c1c0110eb62",
-      "inputHash": "d0cb87aa463075225f1c8a8e549bda2626656d6c2387d9b7ca5fb89513d9093f",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-8b43f80fcf5f9c5d23cf201f",
-          "url": "https://trends.google.com/trending/rss?geo=GB",
-          "title": "snow weather forecast",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "8b43f80fcf5f9c5d23cf201f"
-        },
-        {
-          "id": "news-8b43f80fcf5f9c5d23cf201f-0",
-          "url": "https://www.dailystar.co.uk/news/latest-news/met-office-snow-verdict-uk-37813197",
-          "title": "Met Office snow verdict as UK polar vortex looms with 'significant snowfall' set to hit",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "8b43f80fcf5f9c5d23cf201f"
-        },
-        {
-          "id": "news-8b43f80fcf5f9c5d23cf201f-1",
-          "url": "https://www.independent.co.uk/news/uk/home-news/met-office-snow-weather-forecast-scottish-highlands-b3073910.html",
-          "title": "Mapped: Where in the UK will see snow this week as first flurries of winter predicted",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "8b43f80fcf5f9c5d23cf201f"
-        },
-        {
-          "id": "news-8b43f80fcf5f9c5d23cf201f-2",
-          "url": "https://www.aol.co.uk/articles/met-office-maps-show-snow-035900000.html",
-          "title": "Met Office maps show snow hitting 6 UK areas on Wednesday",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "8b43f80fcf5f9c5d23cf201f"
         }
       ]
     },
@@ -50010,6 +50394,63 @@
           "observedAt": "2026-11-04T19:50:00Z",
           "fetchedAt": "2026-11-04T20:26:39Z",
           "observationId": "ade3de917db52dadd7ba45dd"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-5fcdd7f41e2ba2edd6c268f7",
+      "inputHash": "60d5c96354c24d8f59781196f254cf9e12d7d1ec2607da1e5dfbcb1c893e64e2",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-415ced1ee0394b271e0f0c9b",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "上茶谷大河",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "415ced1ee0394b271e0f0c9b"
+        },
+        {
+          "id": "news-415ced1ee0394b271e0f0c9b-0",
+          "url": "https://news.yahoo.co.jp/articles/487d5dd3e660c8f3ae330b7e3b8433a389690f69",
+          "title": "【ソフトバンク】上茶谷大河が保留…津森宥紀に続いて２人目 中継ぎ→先発で自己最多８勝「歴史が変わるような評価」でも「後輩のためにも査定の基準を」時間をかけて話し合いへ（スポーツ報知）",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "415ced1ee0394b271e0f0c9b"
+        },
+        {
+          "id": "news-415ced1ee0394b271e0f0c9b-1",
+          "url": "https://newsdig.tbs.co.jp/articles/rkb/3117667",
+          "title": "【ソフトバンク】中継ぎ＆先発で活躍上茶谷が契約を『保留』「査定の基準をしっかり話しておきたい」",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "415ced1ee0394b271e0f0c9b"
+        },
+        {
+          "id": "news-415ced1ee0394b271e0f0c9b-2",
+          "url": "https://article.auone.jp/a31f1592-ea5b-4d20-8e72-962738ee4aef",
+          "title": "ソフトバンク上茶谷大河が保留 「査定の基準をしっかり話しておきたい」 今季は中継ぎと先発の「便利屋」でキャリアハイ8勝",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "415ced1ee0394b271e0f0c9b"
         }
       ]
     },
@@ -55411,63 +55852,6 @@
       ]
     },
     {
-      "topicId": "topic-6aebcc86b626593a2e9cf3f0",
-      "inputHash": "84c60d99f1ec51b8eb5ff6cc89db52d3fd7e1ea7d61522f20541da8b50ca12c1",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-a241f2156ed8ec2c7f1875e0",
-          "url": "https://trends.google.com/trending/rss?geo=US",
-          "title": "russell westbrook",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:50:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "a241f2156ed8ec2c7f1875e0"
-        },
-        {
-          "id": "news-a241f2156ed8ec2c7f1875e0-0",
-          "url": "https://bleacherreport.com/articles/25520782-russell-westbrook-thunder-reunion-addressed-sam-presti-after-jalen-williams-wallace-injuries",
-          "title": "Russell Westbrook, Thunder Reunion Addressed by Sam Presti After Jalen Williams, Wallace Injuries",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:50:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "a241f2156ed8ec2c7f1875e0"
-        },
-        {
-          "id": "news-a241f2156ed8ec2c7f1875e0-1",
-          "url": "https://thunderousintentions.com/okc-thunder-final-window-russell-westbrook-reunion-was-just-opened",
-          "title": "Final window for Russell Westbrook reunion was just opened for Thunder",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:50:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "a241f2156ed8ec2c7f1875e0"
-        },
-        {
-          "id": "news-a241f2156ed8ec2c7f1875e0-2",
-          "url": "https://sports.yahoo.com/articles/sam-presti-asked-russell-westbrook-091853219.html",
-          "title": "Sam Presti when asked about Russell Westbrook: 'I haven't thought about anything relative to the roster spot'",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:50:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "a241f2156ed8ec2c7f1875e0"
-        }
-      ]
-    },
-    {
       "topicId": "topic-6b3e45395b0e4eeb17a4523e",
       "inputHash": "46414e2f5f31114efadb37edddfec2c17127ab0e6d7489124286d40f9c2becca",
       "generatedAt": "",
@@ -55749,6 +56133,63 @@
           "observedAt": "2026-11-21T19:40:00Z",
           "fetchedAt": "2026-11-21T20:07:21Z",
           "observationId": "81f491c3d511e02e126dffca"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-6b7ce8e570803cdd7335e488",
+      "inputHash": "3422076f3b3c68de7ba4bb85739f4aba905e0b5dd971beb3f7ce620d5a4428ee",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-a5141bbdff05e4b6d4ae1d21",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "美容医療",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "a5141bbdff05e4b6d4ae1d21"
+        },
+        {
+          "id": "news-a5141bbdff05e4b6d4ae1d21-0",
+          "url": "https://www.asahi.com/articles/ASVCV3H17VCVUTIL010M.html",
+          "title": "「美容目的の再生医療で合併症」 男女11人が4医療法人を提訴",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "a5141bbdff05e4b6d4ae1d21"
+        },
+        {
+          "id": "news-a5141bbdff05e4b6d4ae1d21-1",
+          "url": "https://tver.jp/episodes/eppcmsg20r",
+          "title": "美容医療受けた患者11人 クリニックを集団提訴 “しこりなどの合併症を発症”“事前にリスクの十分な説明ない”",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "a5141bbdff05e4b6d4ae1d21"
+        },
+        {
+          "id": "news-a5141bbdff05e4b6d4ae1d21-2",
+          "url": "https://txbiz.tv-tokyo.co.jp/you/news/post_353228",
+          "title": "美容医療で後遺症 クリニックを男女11人が提訴",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "a5141bbdff05e4b6d4ae1d21"
         }
       ]
     },
@@ -59086,63 +59527,6 @@
       ]
     },
     {
-      "topicId": "topic-72285eedfb02443ebd2ad917",
-      "inputHash": "04dc18908f197cc92c87709a23af53434e3e264b41f2f7e08d5fe2943d583477",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-b0199e8fed8389486711a3ee",
-          "url": "https://trends.google.com/trending/rss?geo=US",
-          "title": "caitlin clark all wnba first team",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "b0199e8fed8389486711a3ee"
-        },
-        {
-          "id": "news-b0199e8fed8389486711a3ee-0",
-          "url": "https://www.espn.com/wnba/story/_/id/50266916/aja-wilson-breanna-stewart-headline-youth-infused-all-wnba",
-          "title": "A'ja Wilson, Breanna Stewart headline youth-infused All-WNBA teams",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "b0199e8fed8389486711a3ee"
-        },
-        {
-          "id": "news-b0199e8fed8389486711a3ee-1",
-          "url": "https://sports.yahoo.com/articles/wild-gives-people-platform-outrage-203101021.html",
-          "title": "‘This Is Wild,’ ‘Who Gives These People a Platform?’ – Outrage Erupts As Analyst Claims Jackie Young Deserved All-WNBA First-Team Over Caitlin Clark",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "b0199e8fed8389486711a3ee"
-        },
-        {
-          "id": "news-b0199e8fed8389486711a3ee-2",
-          "url": "https://fever.wnba.com/news/indiana-fever-guards-caitlin-clark-and-kelsey-mitchell-named-to-2026-all-wnba-first-team",
-          "title": "Indiana Fever Guards Caitlin Clark and Kelsey Mitchell Named to 2026 All-WNBA First Team",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "b0199e8fed8389486711a3ee"
-        }
-      ]
-    },
-    {
       "topicId": "topic-72932812b94a7985d969179a",
       "inputHash": "c681f33da09e1cc4e64bb02133832bdc15a104d9708bd2b7df79e1ef3ec70a1d",
       "generatedAt": "",
@@ -59196,6 +59580,63 @@
           "observedAt": "2026-11-12T20:20:00Z",
           "fetchedAt": "2026-11-12T20:50:29Z",
           "observationId": "c54ee4f0a42ddc12de1b48fa"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-729e81441b6e8c2ba2db0baa",
+      "inputHash": "11eb75bdb50c9e896fe9f0888294f6e12aef43bca1cf9a2637c5bcd56e6a7213",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-dac3a9d1770567f046a79efd",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "최민희",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "dac3a9d1770567f046a79efd"
+        },
+        {
+          "id": "news-dac3a9d1770567f046a79efd-0",
+          "url": "https://imnews.imbc.com/news/2026/politics/article/6869160_36911.html",
+          "title": "[단독] 민주 윤리심판원, 최민희 중징계 의결 '당원권 2년 정지'",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "dac3a9d1770567f046a79efd"
+        },
+        {
+          "id": "news-dac3a9d1770567f046a79efd-1",
+          "url": "https://www.khan.co.kr/article/202611271725001",
+          "title": "[속보] 민주당 윤리심판원 “최민희 일부 발언 당 품위 훼손…중징계 의결”",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "dac3a9d1770567f046a79efd"
+        },
+        {
+          "id": "news-dac3a9d1770567f046a79efd-2",
+          "url": "https://www.hani.co.kr/arti/politics/politics_general/1289477.html",
+          "title": "[속보] 민주 윤리심판원 “최민희 중징계 의결”…당직 자격 정지 이상",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "dac3a9d1770567f046a79efd"
         }
       ]
     },
@@ -59998,54 +60439,6 @@
       ]
     },
     {
-      "topicId": "topic-7428af1f9bd337e99558e54d",
-      "inputHash": "d0d4f3c3cf1204158678823cda8f862a9132512dcf60e0709455d49a68010b2d",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-9f4cf02f913258fa9627b7b2",
-          "url": "https://trends.google.com/trending/rss?geo=KR",
-          "title": "ott 서비스",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "9f4cf02f913258fa9627b7b2"
-        },
-        {
-          "id": "news-9f4cf02f913258fa9627b7b2-0",
-          "url": "https://www.yna.co.kr/view/AKR20261026148200017",
-          "title": "호텔서 OTT 이어 뉴스까지…엑세스·연합뉴스 손잡았다",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "9f4cf02f913258fa9627b7b2"
-        },
-        {
-          "id": "news-9f4cf02f913258fa9627b7b2-1",
-          "url": "https://news.jkn.co.kr/post/1051971",
-          "title": "엑세스 콘텐츠큐브 계약…호텔 6만 객실 뉴스 공급 : 영화",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "9f4cf02f913258fa9627b7b2"
-        }
-      ]
-    },
-    {
       "topicId": "topic-7478a12133cafb21e17d0fcf",
       "inputHash": "0a8334c7525449f44a44c380c1149c877202d1a9da526c4e06bd0dcf783a01f9",
       "generatedAt": "",
@@ -60099,63 +60492,6 @@
           "observedAt": "2026-11-26T08:40:00Z",
           "fetchedAt": "2026-11-26T09:33:12Z",
           "observationId": "f03e9800aa5fe3bb2b9e18f9"
-        }
-      ]
-    },
-    {
-      "topicId": "topic-74906087b56da276d10c803b",
-      "inputHash": "ad2a61f21321bf2949972eb1e27870465f1a732eedd36bc69aae2f786350382f",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-e014be266c0de65c89de6ee0",
-          "url": "https://trends.google.com/trending/rss?geo=GB",
-          "title": "ernest jones",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "e014be266c0de65c89de6ee0"
-        },
-        {
-          "id": "news-e014be266c0de65c89de6ee0-0",
-          "url": "https://www.cbssports.com/fantasy/football/news/seahawks-ernest-jones-leads-seattle-with-nine-stops-in-week-7-win/",
-          "title": "Seahawks' Ernest Jones: Leads Seattle with nine stops in Week 7 win",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "e014be266c0de65c89de6ee0"
-        },
-        {
-          "id": "news-e014be266c0de65c89de6ee0-1",
-          "url": "https://www.seasidejoe.com/p/ernest-jones-is-on-track-for-all",
-          "title": "Ernest Jones is on track for All-Pro season; FIRST team this time",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "e014be266c0de65c89de6ee0"
-        },
-        {
-          "id": "news-e014be266c0de65c89de6ee0-2",
-          "url": "https://www.fieldgulls.com/seattle-seahawks-news/178077/seahawks-news-ernest-jones-is-playing-out-of-his-gourd",
-          "title": "Pre-Snap Reads: Ernest Jones is playing out of his gourd",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "e014be266c0de65c89de6ee0"
         }
       ]
     },
@@ -60218,7 +60554,7 @@
     },
     {
       "topicId": "topic-74c85249b0b18922d4f7c4de",
-      "inputHash": "f35229962ae0bec17eb36cded882668f17d05168799667e2e8c9e6edf3ce318b",
+      "inputHash": "12df181fff35216ca93a1058f2955266afd79221c8e617cbd4eeccc11c27e520",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -60235,15 +60571,6 @@
         "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
       ],
       "evidence": [
-        {
-          "id": "obs-8c10faad0cb288a69b24b0c8",
-          "url": "https://trends.google.com/trending/rss?geo=US",
-          "title": "nba standings",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "8c10faad0cb288a69b24b0c8"
-        },
         {
           "id": "obs-e0a9750723b336b9be20c091",
           "url": "https://trends.google.com/trending/rss?geo=GB",
@@ -61354,6 +61681,36 @@
       ]
     },
     {
+      "topicId": "topic-773c27d6a1e666c89e7b5ac5",
+      "inputHash": "925efcfefe039d14e6c93d305369422877822eaafd590226ce3d014bf318abbe",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-3e7d9c925b7e985b3168ab8c",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "にじさんじ 新人",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "3e7d9c925b7e985b3168ab8c"
+        }
+      ]
+    },
+    {
       "topicId": "topic-77528608180accdf4b1ec84f",
       "inputHash": "f03c8330a4cd7116037db7e5549079d89bd47d1b2ff9588d83c03ce93ab9cb14",
       "generatedAt": "",
@@ -61407,6 +61764,63 @@
           "observedAt": "2026-11-12T20:20:00Z",
           "fetchedAt": "2026-11-12T20:50:29Z",
           "observationId": "8b337f273aa135683a352cd4"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-776eba98477e9afddafd7e39",
+      "inputHash": "8f605a43e5de382a9b26461149acddf047dc558c004c0a428007a92c7d6177da",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-920837724c4b4b0262264d11",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "extreme weather",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "920837724c4b4b0262264d11"
+        },
+        {
+          "id": "news-920837724c4b4b0262264d11-0",
+          "url": "https://www.telegraph.co.uk/news/2026/11/27/godzilla-el-nino-extreme-weather-britain-defence/",
+          "title": "The ‘Godzilla’ El Niño that experts say could devastate vulnerable Britain",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "920837724c4b4b0262264d11"
+        },
+        {
+          "id": "news-920837724c4b4b0262264d11-1",
+          "url": "https://time.com/article/2026/11/25/el-ni-o-is-strengthening-here-s-where-its-effects-are-already-showing-up/",
+          "title": "El Niño Is Strengthening. Here’s Where Its Effects Are Already Showing Up",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "920837724c4b4b0262264d11"
+        },
+        {
+          "id": "news-920837724c4b4b0262264d11-2",
+          "url": "https://www.dailymail.com/sciencetech/article-16314697/Super-El-Nino-MEGA-temperatures-skyrocket.html",
+          "title": "Super El Niño has morphed into a MEGA El Niño, scientists warn - as sea temperatures in the Pacific skyrocket",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "920837724c4b4b0262264d11"
         }
       ]
     },
@@ -61521,63 +61935,6 @@
           "observedAt": "2026-11-20T08:00:00Z",
           "fetchedAt": "2026-11-20T08:35:33Z",
           "observationId": "c81c02d19f5ddaa21af6316c"
-        }
-      ]
-    },
-    {
-      "topicId": "topic-77c277f8819ea2236fa94b55",
-      "inputHash": "273a39146d07ed97f93249ba00e1fc8c447b12df25f4261fd69f1c4105a2ad23",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-f84a1b7ae689924b1ea9149d",
-          "url": "https://trends.google.com/trending/rss?geo=US",
-          "title": "lanlana tararudee",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "f84a1b7ae689924b1ea9149d"
-        },
-        {
-          "id": "news-f84a1b7ae689924b1ea9149d-0",
-          "url": "https://www.skysports.com/tennis/watch/8855413429218133112/guangzhou-open-2026",
-          "title": "Sports News, Transfers, Scores | Watch Live Sport",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "f84a1b7ae689924b1ea9149d"
-        },
-        {
-          "id": "news-f84a1b7ae689924b1ea9149d-1",
-          "url": "https://lastwordonsports.com/tennis/2026/10/27/wta-guangzhou-day-3-predictions-badosa-kraus/",
-          "title": "WTA Guangzhou Day 3 Predictions Including Paula Badosa vs Sinja Kraus",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "f84a1b7ae689924b1ea9149d"
-        },
-        {
-          "id": "news-f84a1b7ae689924b1ea9149d-2",
-          "url": "https://www.mundodeportivo.com/en/20261026/1004243332/paula-badosa-defeats-carol-lee-and-cruises-into-the-round-of-16-in-guangzhou.html",
-          "title": "Paula Badosa defeats Carol Lee and cruises into the round of 16 in Guangzhou",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "f84a1b7ae689924b1ea9149d"
         }
       ]
     },
@@ -62709,63 +63066,6 @@
           "observedAt": "2026-11-22T07:50:00Z",
           "fetchedAt": "2026-11-22T08:00:35Z",
           "observationId": "d6023b0e8926e0cb5f6ced44"
-        }
-      ]
-    },
-    {
-      "topicId": "topic-7a39b2d809dc035490968362",
-      "inputHash": "20a5389ce288cd19654648dc87fbdb53eacf92f6cc8447cfcfcceea87526549b",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-b603f46793af81d5faf7a040",
-          "url": "https://trends.google.com/trending/rss?geo=KR",
-          "title": "잠수함",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:50:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "b603f46793af81d5faf7a040"
-        },
-        {
-          "id": "news-b603f46793af81d5faf7a040-0",
-          "url": "https://www.yna.co.kr/view/AKR20261028083800003",
-          "title": "실적 개선에 노사 갈등도 봉합…K조선, 호황 이어갈까",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:50:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "b603f46793af81d5faf7a040"
-        },
-        {
-          "id": "news-b603f46793af81d5faf7a040-1",
-          "url": "https://kr.investing.com/news/stock-market-news/article-2144661",
-          "title": "한화오션, 3분기 환율 하락·조업일수 감소로 실적 하회 By 알파경제 alphabiz",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:50:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "b603f46793af81d5faf7a040"
-        },
-        {
-          "id": "news-b603f46793af81d5faf7a040-2",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441387",
-          "title": "한화오션 \"신규 수주 환헤지 중…이익에 환율 영향 더 줄어들 것\"",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:50:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "b603f46793af81d5faf7a040"
         }
       ]
     },
@@ -64344,6 +64644,63 @@
           "observedAt": "2026-11-13T07:30:00Z",
           "fetchedAt": "2026-11-13T08:01:34Z",
           "observationId": "0d974f0cc8532b0e5a9a2713"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-7d9a34d377558b20f8d3180c",
+      "inputHash": "dea304a4a9dc8ba8b76f3bc2df8b660cea30395af62420273bd97259ca70b6dc",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-dcee1fa8b6648b9d55b139da",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "オービックシーガルズ",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "dcee1fa8b6648b9d55b139da"
+        },
+        {
+          "id": "news-dcee1fa8b6648b9d55b139da-0",
+          "url": "https://news.yahoo.co.jp/articles/ff15e250e1ff8753fa4c066e1b66b9ffec96f5a6",
+          "title": "【アメフト】富士通とパナソニックに挑み続けたクラブチームを23年支えたオービック、スポンサー契約を解除 両チームのヘッドコーチが一連の事案について話していたこと（スポーティングニュース日本版）",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "dcee1fa8b6648b9d55b139da"
+        },
+        {
+          "id": "news-dcee1fa8b6648b9d55b139da-1",
+          "url": "https://topics.smt.docomo.ne.jp/article/dailysports/sports/20261127127",
+          "title": "オービック　シーガルズとのスポンサー契約終了を発表　アメフトＸリーグの強豪",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "dcee1fa8b6648b9d55b139da"
+        },
+        {
+          "id": "news-dcee1fa8b6648b9d55b139da-2",
+          "url": "https://www.sportingnews.com/jp/tsn/news/20261127-obic-seagulls-sponsor-contract-terminated/7f7a82fab5eaeeeff3209501",
+          "title": "【アメフト】オービックがオービックシーガルズとのスポンサー契約を解除 「契約の目的を達することは困難」",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "dcee1fa8b6648b9d55b139da"
         }
       ]
     },
@@ -74911,63 +75268,6 @@
       ]
     },
     {
-      "topicId": "topic-8305b0b15b05d73780ceb392",
-      "inputHash": "57bc8311c0327cb1ee4af6af4ec2c471ba99dc41f18b994d4dbfa1e63f967992",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-9a3eb285b47bcd9c6b19cee6",
-          "url": "https://trends.google.com/trending/rss?geo=KR",
-          "title": "중수청",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "9a3eb285b47bcd9c6b19cee6"
-        },
-        {
-          "id": "news-9a3eb285b47bcd9c6b19cee6-0",
-          "url": "https://biz.chosun.com/topics/law_firm/2026/10/28/SLFVTGPURNAMVK5IRUHRPFDNGI/",
-          "title": "[단독] 전국 중수청 내부 도면 59장 나라장터에 노출… 청장실·서버·수사실까지",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "9a3eb285b47bcd9c6b19cee6"
-        },
-        {
-          "id": "news-9a3eb285b47bcd9c6b19cee6-1",
-          "url": "https://www.edaily.co.kr/News/Read?newsId=04450966645617184&mediaCodeNo=257",
-          "title": "중수청 '책임수사제' 논란…수사·기소 분리 책임 떠넘기나",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "9a3eb285b47bcd9c6b19cee6"
-        },
-        {
-          "id": "news-9a3eb285b47bcd9c6b19cee6-2",
-          "url": "https://www.nocutnews.co.kr/news/6597400",
-          "title": "수사관이 유죄까지 책임…\"중수청장의 책임수사제, 상벌에 초점 안 돼\"",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "9a3eb285b47bcd9c6b19cee6"
-        }
-      ]
-    },
-    {
       "topicId": "topic-83170d0323e1d73e03ec3566",
       "inputHash": "a32e14660ec2986a386a60b26135da948acfc5a489053bfa93a61712835b135b",
       "generatedAt": "",
@@ -79006,6 +79306,63 @@
       ]
     },
     {
+      "topicId": "topic-8a6fe6315e75ec36ad46ba74",
+      "inputHash": "0d4d276fdfb1ea9ee7832d591cf8403a208047d1cd0cc419e1e7b8880f884b53",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-99d086c8ec23374800449696",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "홍민기",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "99d086c8ec23374800449696"
+        },
+        {
+          "id": "news-99d086c8ec23374800449696-0",
+          "url": "https://sports.khan.co.kr/article/202611271742003",
+          "title": "‘홍민기 폭행 폭로’ 전 여자친구 실종…마지막 행적은 마포대교",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "99d086c8ec23374800449696"
+        },
+        {
+          "id": "news-99d086c8ec23374800449696-1",
+          "url": "https://www.fnnews.com/news/202611271650017461",
+          "title": "[단독] '사생활 논란' 홍민기 前 여자친구 실종…마포대교서 마지막 확인",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "99d086c8ec23374800449696"
+        },
+        {
+          "id": "news-99d086c8ec23374800449696-2",
+          "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1022287",
+          "title": "[속보]'홍민기 사생활 폭로' 前여친 실종…마포대교가 마지막 행적",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "99d086c8ec23374800449696"
+        }
+      ]
+    },
+    {
       "topicId": "topic-8aec76114b8e9dddbc544a43",
       "inputHash": "8848fb545889c3f63d41f6873a2f4059e7ee618a8985b2470068f09477a37f37",
       "generatedAt": "",
@@ -82291,63 +82648,6 @@
       ]
     },
     {
-      "topicId": "topic-91133f47f853ba6cff2f2a33",
-      "inputHash": "c60cc7d92170d7ad29c9190c03acacdad554f807e552aff567a0c073d97301f8",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-888d6c3a216b3fc620860835",
-          "url": "https://trends.google.com/trending/rss?geo=GB",
-          "title": "blackpool aston villa efl trophy",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "888d6c3a216b3fc620860835"
-        },
-        {
-          "id": "news-888d6c3a216b3fc620860835-0",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cmly0zyd15jqo",
-          "title": "EFL Trophy: Blackpool beat Aston Villa while Port Vale thrash Man City",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "888d6c3a216b3fc620860835"
-        },
-        {
-          "id": "news-888d6c3a216b3fc620860835-1",
-          "url": "https://www.mancity.com/news/eds-academy/port-vale-v-city-eds-efl-trophy-match-report-63928720",
-          "title": "City's EDS exit EFL Trophy after Port Vale defeat",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "888d6c3a216b3fc620860835"
-        },
-        {
-          "id": "news-888d6c3a216b3fc620860835-2",
-          "url": "https://www.bbc.co.uk/sport/football/live/cqze485r1079t",
-          "title": "Port Vale vs Manchester City U21: EFL Trophy stats & head-to-head",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "888d6c3a216b3fc620860835"
-        }
-      ]
-    },
-    {
       "topicId": "topic-911b754e0161141b5526992a",
       "inputHash": "6efaf18c234c2bf7160ba75a7a9504f1b375db494eaa201123514ef52881e2bd",
       "generatedAt": "",
@@ -83371,63 +83671,6 @@
       ]
     },
     {
-      "topicId": "topic-93778babd56ee0fe752b9d8c",
-      "inputHash": "8a81399a72713c220ab46c37ec6728da87bb0b13180399bd5fa3e883dbce6f48",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-f118469a9bf6bb5458076110",
-          "url": "https://trends.google.com/trending/rss?geo=JP",
-          "title": "リチャード 草間",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "f118469a9bf6bb5458076110"
-        },
-        {
-          "id": "news-f118469a9bf6bb5458076110-0",
-          "url": "https://news.yahoo.co.jp/pickup/6600359",
-          "title": "草間リチャード舞台復帰 頭下げる",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "f118469a9bf6bb5458076110"
-        },
-        {
-          "id": "news-f118469a9bf6bb5458076110-1",
-          "url": "https://topics.smt.docomo.ne.jp/article/theatertainment/entertainment/theatertainment-157113",
-          "title": "草間リチャード敬太出演 『THE RE:BORN CHASING DISCOTHEQUE LIVE』開幕",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "f118469a9bf6bb5458076110"
-        },
-        {
-          "id": "news-f118469a9bf6bb5458076110-2",
-          "url": "https://www.sponichi.co.jp/entertainment/news/2026/10/28/gazo/20261028s10041000223000p.html",
-          "title": "フォトセッションに応じる古川雄大（左）と鈴木京香（撮影・松尾 知香）",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "f118469a9bf6bb5458076110"
-        }
-      ]
-    },
-    {
       "topicId": "topic-9380cc3d76b5ac670000ce25",
       "inputHash": "4e17135141084c05f481f6d9924b998a53816851a8a89075cd86f0bc72d4a3ed",
       "generatedAt": "",
@@ -83796,6 +84039,36 @@
           "observedAt": "2026-11-20T20:50:00Z",
           "fetchedAt": "2026-11-20T21:08:09Z",
           "observationId": "2748214246973784d5040f0d"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-944752cbe3f3f26b526213af",
+      "inputHash": "82b569904de04a156acd74c983bcef0fe03564a2fa6d2fbd7e6b09ed1116ebd4",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-93a78526f6b79ea71dc48969",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "にじさんじ",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:30:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "93a78526f6b79ea71dc48969"
         }
       ]
     },
@@ -84732,6 +85005,45 @@
           "observedAt": "2026-11-04T07:10:00Z",
           "fetchedAt": "2026-11-04T07:30:23Z",
           "observationId": "0645973dad25ed4bbb7c438d"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-957acfc445dc300ef0551f49",
+      "inputHash": "6c898935824933835778f1dbb9690e59b07586e690b2f714e850e28c93e73f7c",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-d8618b5777b2aa8683a65918",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "manchester weather",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "d8618b5777b2aa8683a65918"
+        },
+        {
+          "id": "news-d8618b5777b2aa8683a65918-0",
+          "url": "https://www.wmur.com/article/portion-of-hooksett-road-closed-for-next-several-hours-due-to-crash/74544006",
+          "title": "Hooksett Road reopens after crash closes stretch for several hours",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "d8618b5777b2aa8683a65918"
         }
       ]
     },
@@ -88078,63 +88390,6 @@
       ]
     },
     {
-      "topicId": "topic-9a905cea95e6001764e00e3b",
-      "inputHash": "a342b93f3559e97a5a7aa5eea026bad0de0133509fbfc214cf7cc39c194e304e",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-e8856f242421a8600ef91427",
-          "url": "https://trends.google.com/trending/rss?geo=JP",
-          "title": "杉谷拳士",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "e8856f242421a8600ef91427"
-        },
-        {
-          "id": "news-e8856f242421a8600ef91427-0",
-          "url": "https://news.yahoo.co.jp/articles/c9a75b9eb0e773cc2b6388bb3418e6673a269a3a",
-          "title": "『明日、ご報告があります』 元日本ハム選手の宣言に憶測広がる 「トライアウト？」「監督ですか」「結婚おめでとう」（中日スポーツ）",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "e8856f242421a8600ef91427"
-        },
-        {
-          "id": "news-e8856f242421a8600ef91427-1",
-          "url": "https://topics.smt.docomo.ne.jp/article/nikkansports/sports/f-bb-tp0-261028-202610280000667",
-          "title": "元日本ハム杉谷拳士氏が発表予告「コーチ？」「巨人？」「別班員？」「吉本養成所？」",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "e8856f242421a8600ef91427"
-        },
-        {
-          "id": "news-e8856f242421a8600ef91427-2",
-          "url": "https://the-ans.jp/news/745745/",
-          "title": "午後1時…元プロ野球選手が壮大\"匂わせ\"に添えた1枚 「M1目指すんですか？」「寝れません！」ネット大喜利状態",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "e8856f242421a8600ef91427"
-        }
-      ]
-    },
-    {
       "topicId": "topic-9aa5fccc01146308fb0ebc33",
       "inputHash": "30c821b035d772721817fdc47812b048e7cde50f9683d84f81fcb79fa66bacc8",
       "generatedAt": "",
@@ -89662,63 +89917,6 @@
       ]
     },
     {
-      "topicId": "topic-9d846abdd5a1d3b834e3ff09",
-      "inputHash": "8605137319f808538ff925d5f5e621f5b07d7a82f5173a37d9f0b73f16251852",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-ffe6d26e3783a18d00ab0067",
-          "url": "https://trends.google.com/trending/rss?geo=US",
-          "title": "arby's",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "ffe6d26e3783a18d00ab0067"
-        },
-        {
-          "id": "news-ffe6d26e3783a18d00ab0067-0",
-          "url": "https://www.qsrmagazine.com/story/aes-restaurant-group-becomes-worlds-largest-arbys-franchisee/",
-          "title": "AES Restaurant Group Becomes World’s Largest Arby’s Franchisee",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "ffe6d26e3783a18d00ab0067"
-        },
-        {
-          "id": "news-ffe6d26e3783a18d00ab0067-1",
-          "url": "https://www.southernliving.com/arbys-brings-back-deep-fried-turkey-gobbler-12197050",
-          "title": "Arby’s Just Brought Back A Holiday Favorite That’s Basically Thanksgiving On A Bun",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "ffe6d26e3783a18d00ab0067"
-        },
-        {
-          "id": "news-ffe6d26e3783a18d00ab0067-2",
-          "url": "https://www.mlive.com/business/2026/10/popular-fast-food-chain-bringing-back-deep-fried-thanksgiving-sandwiches.html",
-          "title": "Popular fast-food chain bringing back deep-fried Thanksgiving sandwiches",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "ffe6d26e3783a18d00ab0067"
-        }
-      ]
-    },
-    {
       "topicId": "topic-9db016fb081c6a939a8b9ca7",
       "inputHash": "b42ffe66cc9b175616a3bbab7b16d3f5d0a3580c1bac8cfbc06c5dc47bd92093",
       "generatedAt": "",
@@ -91189,6 +91387,63 @@
       ]
     },
     {
+      "topicId": "topic-9f926b3264884888942b6509",
+      "inputHash": "4230c9cd71ffea129d014423c305fa1c25cfc60e724638f0fd89660963c5443e",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-718b94bc673322312ee28fa9",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "gta6 pc port",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:30:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "718b94bc673322312ee28fa9"
+        },
+        {
+          "id": "news-718b94bc673322312ee28fa9-0",
+          "url": "https://www.techpowerup.com/355160/rockstar-squashes-leonida-the-biggest-gta-6-pc-recompilation-effort",
+          "title": "Rockstar Squashes \"Leonida,\" the Biggest GTA 6 PC Recompilation Effort",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:30:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "718b94bc673322312ee28fa9"
+        },
+        {
+          "id": "news-718b94bc673322312ee28fa9-1",
+          "url": "https://www.ign.com/articles/gta-6-leaker-cyberleek-reportedly-releases-exe-file-for-xbox-build-sparking-concern-an-unofficial-pc-port-could-be-around-the-corner",
+          "title": "Cyberleek Reportedly Releases .exe File for Xbox Build",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:30:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "718b94bc673322312ee28fa9"
+        },
+        {
+          "id": "news-718b94bc673322312ee28fa9-2",
+          "url": "https://decrypt.co/384061/vibecoded-gta-6-pc-ports-are-now-rendering-in-game-graphics-despite-take-two-crackdown",
+          "title": "Vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:30:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "718b94bc673322312ee28fa9"
+        }
+      ]
+    },
+    {
       "topicId": "topic-9fa9690aeb8f828808248d49",
       "inputHash": "c5977cb08b6f347b039fac58ff0adb1027f745de1aa6563e65d032bb6516a495",
       "generatedAt": "",
@@ -91848,63 +92103,6 @@
           "observedAt": "2026-11-20T08:00:00Z",
           "fetchedAt": "2026-11-20T08:35:33Z",
           "observationId": "15c227653795e4a9383890ef"
-        }
-      ]
-    },
-    {
-      "topicId": "topic-a0705d8d30cdf4e44a63a12f",
-      "inputHash": "739feeaa2e2d94321a64ce70ffc05fffb96aeb6d79d0e47d7227c4d27d6a0f0c",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-23da7314d88a37613489cc9e",
-          "url": "https://trends.google.com/trending/rss?geo=KR",
-          "title": "최성안",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:50:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "23da7314d88a37613489cc9e"
-        },
-        {
-          "id": "news-23da7314d88a37613489cc9e-0",
-          "url": "https://www.metroseoul.co.kr/article/20261027500525",
-          "title": "[CEO와칭] 최성안 삼성중공업 부회장, FLNG·생산 혁신으로 성장 기반 다진다",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:50:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "23da7314d88a37613489cc9e"
-        },
-        {
-          "id": "news-23da7314d88a37613489cc9e-1",
-          "url": "https://www.news1.kr/it-science/cc-newmedia/6332356",
-          "title": "SKT 인사부터, KT 사업부터…AI 기업 변신 서두른다",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:50:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "23da7314d88a37613489cc9e"
-        },
-        {
-          "id": "news-23da7314d88a37613489cc9e-2",
-          "url": "https://kr.investing.com/news/stock-market-news/article-2140436",
-          "title": "SK그룹, 정기 인사 초읽기…쇄신보다 ’안정’에 무게 By EBN",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:50:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "23da7314d88a37613489cc9e"
         }
       ]
     },
@@ -94863,6 +95061,63 @@
           "observedAt": "2026-11-11T19:30:00Z",
           "fetchedAt": "2026-11-11T20:12:42Z",
           "observationId": "185d3499850e1a0a699838ab"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-a55bb3e2460fc661c9c1dab1",
+      "inputHash": "034552db6975a3a644a6e538f262b0109ccf796ce45b8017e244fc9189eabd6d",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-9505aa32095294d4c897ec50",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "boots black friday",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "9505aa32095294d4c897ec50"
+        },
+        {
+          "id": "news-9505aa32095294d4c897ec50-0",
+          "url": "https://www.cosmopolitan.com/uk/beauty-hair/a45893786/boots-black-friday-sale-november-2026/",
+          "title": "Boots’ Black Friday sale is here! Shop the best LIVE deals with up to 65% off makeup, perfume, hair tech & more",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "9505aa32095294d4c897ec50"
+        },
+        {
+          "id": "news-9505aa32095294d4c897ec50-1",
+          "url": "https://www.thesun.co.uk/shopping/41141584/liz-earle-ultimate-collection-gift-set-half-price-boots/",
+          "title": "Boots slashes five-star Liz Earle gift set worth £93 to just £38 – with 'incredible' FULL-SIZE skincare heroes inside",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "9505aa32095294d4c897ec50"
+        },
+        {
+          "id": "news-9505aa32095294d4c897ec50-2",
+          "url": "https://www.mirror.co.uk/money/shopping-deals/liz-earle-black-friday-deals-37909346",
+          "title": "Woman, 80, says 'nobody believes I'm that old' using cream 'for years' £13 in set",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T08:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "9505aa32095294d4c897ec50"
         }
       ]
     },
@@ -98950,63 +99205,6 @@
       ]
     },
     {
-      "topicId": "topic-ad55a1e091237e55585f95e3",
-      "inputHash": "e177617eea13eb57793a9c980d9781d10c17bb053fa9d79ab4ad609e94e7687f",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-87ed727c5518c2f38eb90895",
-          "url": "https://trends.google.com/trending/rss?geo=JP",
-          "title": "brotli",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "87ed727c5518c2f38eb90895"
-        },
-        {
-          "id": "news-87ed727c5518c2f38eb90895-0",
-          "url": "https://www.aikido.dev/blog/node2shell-nodejs-brotli-rce-cve-2026-111497",
-          "title": "Node2Shell: Node.js Brotli vulnerability allows remote code execution (CVE-2026-111497) and the fix",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "87ed727c5518c2f38eb90895"
-        },
-        {
-          "id": "news-87ed727c5518c2f38eb90895-1",
-          "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-          "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "87ed727c5518c2f38eb90895"
-        },
-        {
-          "id": "news-87ed727c5518c2f38eb90895-2",
-          "url": "https://www.forbes.com/sites/daveywinder/2026/10/27/microsoft-issues-emergency-patch-for-critical-google-algorithm-flaw/",
-          "title": "Microsoft Issues Emergency Patch For Critical Google Algorithm Flaw",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "87ed727c5518c2f38eb90895"
-        }
-      ]
-    },
-    {
       "topicId": "topic-add92b9cde2bdbf3daaf65a0",
       "inputHash": "c44f936f97121a855c9f22d91bdf5f30fc31f4bbe16278bcf923d1885e65f46b",
       "generatedAt": "",
@@ -99903,63 +100101,6 @@
           "observedAt": "2026-11-22T17:00:00Z",
           "fetchedAt": "2026-11-22T20:22:17Z",
           "observationId": "fe030155e7ce61f08e39a31a"
-        }
-      ]
-    },
-    {
-      "topicId": "topic-aef3d548e2dac28d476e17d6",
-      "inputHash": "b0d1c2ab4eec79baa6f957305c87ab2dd316e36c0eb79b55fea56873653c6b0a",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-90a3c3d94154de794d12b06d",
-          "url": "https://trends.google.com/trending/rss?geo=JP",
-          "title": "ネルソン・ベラスケス",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "90a3c3d94154de794d12b06d"
-        },
-        {
-          "id": "news-90a3c3d94154de794d12b06d-0",
-          "url": "https://news.yahoo.co.jp/articles/c916aa419c9daf8489c8e622093515e8d89ad34f",
-          "title": "通算37HRの強打者がアジア球団入りか アストロズ退団…米記者報じる、2023年に17発（Full-Count）",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "90a3c3d94154de794d12b06d"
-        },
-        {
-          "id": "news-90a3c3d94154de794d12b06d-1",
-          "url": "https://topics.smt.docomo.ne.jp/article/nikkansports/sports/f-bb-tp2-261028-202610280000344",
-          "title": "アストロズ、通算37本塁打のベラスケスを自由契約「アジアでプレーするため」と米記者",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "90a3c3d94154de794d12b06d"
-        },
-        {
-          "id": "news-90a3c3d94154de794d12b06d-2",
-          "url": "https://sportsbull.jp/p/2446235/",
-          "title": "アストロズ、通算37本塁打のベラスケスを自由契約「アジアでプレーするため」と米記者",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "90a3c3d94154de794d12b06d"
         }
       ]
     },
@@ -103311,6 +103452,63 @@
           "observedAt": "2026-11-02T07:20:00Z",
           "fetchedAt": "2026-11-02T07:41:40Z",
           "observationId": "17c237bf576d0439596a07d2"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-b4b5b973750756c7c0d995f3",
+      "inputHash": "928afacbc87772c96af46f50800eeeb3856f55cedf661cde11336cd84bbe592d",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-d19969cb0f57e3d273b88441",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "허은아",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "d19969cb0f57e3d273b88441"
+        },
+        {
+          "id": "news-d19969cb0f57e3d273b88441-0",
+          "url": "https://imnews.imbc.com/news/2026/politics/article/6869136_36911.html",
+          "title": "'보수 출신' 허은아 청와대 국민통합비서관 사직‥1년1개월 만에 퇴임",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "d19969cb0f57e3d273b88441"
+        },
+        {
+          "id": "news-d19969cb0f57e3d273b88441-1",
+          "url": "https://www.joongang.co.kr/article/25482584",
+          "title": "허은아 靑국민통합비서관 사표 수리…1년1개월 만에 퇴임",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "d19969cb0f57e3d273b88441"
+        },
+        {
+          "id": "news-d19969cb0f57e3d273b88441-2",
+          "url": "https://www.hani.co.kr/arti/politics/bluehouse/1289458.html",
+          "title": "청와대 2기 참모진 재편 가속…허은아·이동연·이주한 비서관 사표",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "d19969cb0f57e3d273b88441"
         }
       ]
     },
@@ -107353,63 +107551,6 @@
       ]
     },
     {
-      "topicId": "topic-b8b0474a39f6196bce343dd4",
-      "inputHash": "d9444e07e816c348aea71a134e55e415177e388d7830f4dc725973bdbb02ec49",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-450911b37a2599240970d4c6",
-          "url": "https://trends.google.com/trending/rss?geo=KR",
-          "title": "과천시",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "450911b37a2599240970d4c6"
-        },
-        {
-          "id": "news-450911b37a2599240970d4c6-0",
-          "url": "https://www.kyeonggi.com/article/20261028580196",
-          "title": "과천시 환경교육 3종, 기후부 '우수 프로그램' 지정…총 5종 운영",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "450911b37a2599240970d4c6"
-        },
-        {
-          "id": "news-450911b37a2599240970d4c6-1",
-          "url": "https://www.newspim.com/news/view/20261028000928",
-          "title": "과천시 자체 개발 환경교육 3종, 국가 '우수 환경교육 프로그램' 지정",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "450911b37a2599240970d4c6"
-        },
-        {
-          "id": "news-450911b37a2599240970d4c6-2",
-          "url": "https://news.tf.co.kr/read/releasecopy/2381850.htm",
-          "title": "과천시, ‘2026년 탄소중립 공유데이’ 개최…시민 실천 성과 공유 - 보도자료 | 기사",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "450911b37a2599240970d4c6"
-        }
-      ]
-    },
-    {
       "topicId": "topic-b8b7da4b7b78e29d3251e278",
       "inputHash": "62f416d9990374d850e661c60afa10bae594f1777d5d6bdd4511d129ff4652b0",
       "generatedAt": "",
@@ -110971,63 +111112,6 @@
       ]
     },
     {
-      "topicId": "topic-bfb0b65c47a4d1f7ec81c3ce",
-      "inputHash": "9486a34adfe863b367c9f554d9a3e303e507d6f7b6cb47ab3e0ced335e3d2c93",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-a1fb94091c4e1fd287a87353",
-          "url": "https://trends.google.com/trending/rss?geo=KR",
-          "title": "병무청",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "a1fb94091c4e1fd287a87353"
-        },
-        {
-          "id": "news-a1fb94091c4e1fd287a87353-0",
-          "url": "https://www.newsis.com/view/NISX20261027_0003843156",
-          "title": "대구경북병무청, 내년 2월 입영 현역병 모집",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "a1fb94091c4e1fd287a87353"
-        },
-        {
-          "id": "news-a1fb94091c4e1fd287a87353-1",
-          "url": "https://www.jemin.com/news/articleView.html?idxno=845355",
-          "title": "제주병무청, 2027년 2월 입영 현역병 모집",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "a1fb94091c4e1fd287a87353"
-        },
-        {
-          "id": "news-a1fb94091c4e1fd287a87353-2",
-          "url": "https://www.gukjenews.com/news/articleView.html?idxno=3734023",
-          "title": "부울병무청, 11월 각 軍 현역병 모집 접수",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "a1fb94091c4e1fd287a87353"
-        }
-      ]
-    },
-    {
       "topicId": "topic-c006c7e3ab14d686f6352413",
       "inputHash": "a05334b43bc319299a436e21e81249fa3c9d40aa6123126816f037e55b3f0c4d",
       "generatedAt": "",
@@ -112720,6 +112804,63 @@
       ]
     },
     {
+      "topicId": "topic-c3b3c971aaa1e84dcacfe015",
+      "inputHash": "762427203569b527eefbed9224e76e8641099ab6d72271bad6170bc2b1fe53a7",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-5b3277c56a3d435fbb1a40dd",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "清水町",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "5b3277c56a3d435fbb1a40dd"
+        },
+        {
+          "id": "news-5b3277c56a3d435fbb1a40dd-0",
+          "url": "https://newsdig.tbs.co.jp/articles/sbs/3117455",
+          "title": "【速報】車11台が絡む事故 けが人多数いる模様 119番通報では「暴走車がいた」という情報も＝静岡・清水町",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "5b3277c56a3d435fbb1a40dd"
+        },
+        {
+          "id": "news-5b3277c56a3d435fbb1a40dd-1",
+          "url": "https://news.ntv.co.jp/n/sdt/category/society/sda1b4b85bcc7b4c4ab5bca73680ef0fbb",
+          "title": "【速報】清水町の県道｢1台の車が暴走し複数車絡む事故…｣と通報…約10台関連事故で計10人が病院搬送か…いずれも意識あり(静岡)",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "5b3277c56a3d435fbb1a40dd"
+        },
+        {
+          "id": "news-5b3277c56a3d435fbb1a40dd-2",
+          "url": "https://news.at-s.com/article/2107741",
+          "title": "清水町玉川の県道で８台絡む多重事故",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "5b3277c56a3d435fbb1a40dd"
+        }
+      ]
+    },
+    {
       "topicId": "topic-c3bf3e99b401109b15fd7500",
       "inputHash": "206ca913482fd5568a71cd127284ced37580e2f4c3987828a07b2d2696cc925b",
       "generatedAt": "",
@@ -113151,63 +113292,6 @@
           "observedAt": "2026-11-02T06:20:00Z",
           "fetchedAt": "2026-11-02T07:41:40Z",
           "observationId": "32421a415aaa3e69e3a3a472"
-        }
-      ]
-    },
-    {
-      "topicId": "topic-c4158f7c0315121cd724727e",
-      "inputHash": "6c85745cdaf237afdf10d581fff38f82643b4529a58dd19c59e393287be3f31f",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-a17e790ccebd1c69a7548d98",
-          "url": "https://trends.google.com/trending/rss?geo=US",
-          "title": "katerina siniakova",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "a17e790ccebd1c69a7548d98"
-        },
-        {
-          "id": "news-a17e790ccebd1c69a7548d98-0",
-          "url": "https://sports.yahoo.com/articles/katerina-siniakova-now-guaranteed-surpass-110000988.html",
-          "title": "Katerina Siniakova now guaranteed to surpass Martina Navratilova’s all-time record after another outstanding year",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "a17e790ccebd1c69a7548d98"
-        },
-        {
-          "id": "news-a17e790ccebd1c69a7548d98-1",
-          "url": "https://www.skysports.com/tennis/watch/8855413429218133112/guangzhou-open-2026",
-          "title": "Sports News, Transfers, Scores | Watch Live Sport",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "a17e790ccebd1c69a7548d98"
-        },
-        {
-          "id": "news-a17e790ccebd1c69a7548d98-2",
-          "url": "https://lastwordonsports.com/tennis/2026/10/27/wta-guangzhou-day-3-predictions-badosa-kraus/",
-          "title": "WTA Guangzhou Day 3 Predictions Including Paula Badosa vs Sinja Kraus",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:00:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "a17e790ccebd1c69a7548d98"
         }
       ]
     },
@@ -113762,7 +113846,7 @@
     },
     {
       "topicId": "topic-c4cc2c7d2a86dcc65fad9a02",
-      "inputHash": "628d1fd50d4568231562c3657b446cf28c2a73d0ad93db88f6bb0e884f638195",
+      "inputHash": "2ce56ac5c672043f93518f353a74f9981bea83b892e295bb1adce5ad9c2a6145",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -113779,42 +113863,6 @@
         "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
       ],
       "evidence": [
-        {
-          "id": "obs-380faad893e3553c1539d79d",
-          "url": "https://trends.google.com/trending/rss?geo=KR",
-          "title": "예산",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "380faad893e3553c1539d79d"
-        },
-        {
-          "id": "news-380faad893e3553c1539d79d-0",
-          "url": "https://www.newsis.com/view/NISX20261028_0003844814",
-          "title": "사순문 장흥군수, 4개 부처 방문…국비·기본소득 선제 대응",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "380faad893e3553c1539d79d"
-        },
-        {
-          "id": "news-380faad893e3553c1539d79d-1",
-          "url": "https://www.greened.kr/news/articleView.html?idxno=353250",
-          "title": "장수군, 민주당과 예산간담회… \"양수발전·AI축산로봇 등 11개 현안 사수\"",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "380faad893e3553c1539d79d"
-        },
-        {
-          "id": "news-380faad893e3553c1539d79d-2",
-          "url": "https://www.joongdo.co.kr/web/view.php?key=20261028010008195",
-          "title": "‘사람에 투자’ 강조한 청양군수···공약은 수천억 시설·개발 사업",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "380faad893e3553c1539d79d"
-        },
         {
           "id": "obs-640d85334bb0a3e2229c4583",
           "url": "https://trends.google.com/trending/rss?geo=KR",
@@ -116436,63 +116484,6 @@
           "observedAt": "2026-10-29T06:20:00Z",
           "fetchedAt": "2026-10-29T07:09:04Z",
           "observationId": "e051a78fc18232f405eacc08"
-        }
-      ]
-    },
-    {
-      "topicId": "topic-c8ed23c0793a09c646faba56",
-      "inputHash": "53a484ed49e2ed985d622fa3fbf5eac1c55261b945d28ad0176c2c3d2fbd5275",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-3923a7bb3ec52e22eec27f52",
-          "url": "https://trends.google.com/trending/rss?geo=GB",
-          "title": "sean mcgovern",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "3923a7bb3ec52e22eec27f52"
-        },
-        {
-          "id": "news-3923a7bb3ec52e22eec27f52-0",
-          "url": "https://www.independent.ie/irish-news/courts/kinahan-gang-member-sean-mcgovern-says-solitary-confinement-has-taken-a-psychological-toll-and-is-damaging-his-mental-health/a/163706588.html",
-          "title": "Kinahan gang member Sean McGovern says solitary confinement has taken a ‘psychological toll’ and is damaging his mental health",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "3923a7bb3ec52e22eec27f52"
-        },
-        {
-          "id": "news-3923a7bb3ec52e22eec27f52-1",
-          "url": "https://www.thesun.ie/news/17830904/sean-mcgovern-claims-prison-segregation-ruining-mental-health/",
-          "title": "Kinahan cartel chief Sean McGovern alleges he's suffering from deteriorating mental health due to prison segregation",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "3923a7bb3ec52e22eec27f52"
-        },
-        {
-          "id": "news-3923a7bb3ec52e22eec27f52-2",
-          "url": "https://www.irishtimes.com/crime-law/courts/2026/10/27/kinahan-gang-member-sean-mcgovern-sues-over-deteriorating-mental-health-in-prison/",
-          "title": "Kinahan gang member Sean McGovern sues over deteriorating mental health in prison",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "3923a7bb3ec52e22eec27f52"
         }
       ]
     },
@@ -125458,36 +125449,6 @@
       ]
     },
     {
-      "topicId": "topic-dc61661f9c61a8e2f6ccb385",
-      "inputHash": "b9871939892adff0632b0884c6916efcad9dc4d5312e31800f4fc2797df761db",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-4de88dab450cf8f52509ae0d",
-          "url": "https://trends.google.com/trending/rss?geo=JP",
-          "title": "クルーズ",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "4de88dab450cf8f52509ae0d"
-        }
-      ]
-    },
-    {
       "topicId": "topic-dca3d101447ca58acfd3af44",
       "inputHash": "2e63250bb3e8447bbe23daa932cbeffe9e0b064b5a7f6e80ba559fcab726c866",
       "generatedAt": "",
@@ -126519,6 +126480,63 @@
           "observedAt": "2026-11-13T06:20:00Z",
           "fetchedAt": "2026-11-13T08:01:34Z",
           "observationId": "ea941d0d8a6fe2d956406dd5"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-defbfc0aaedf9b180c33be95",
+      "inputHash": "e313e5bf79f0a8ac04078363026f08decce4fe863a06eec51efc82f611abb6b8",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-4e76081f01a40e86c2d545ff",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "bbc sport cricket",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "4e76081f01a40e86c2d545ff"
+        },
+        {
+          "id": "news-4e76081f01a40e86c2d545ff-0",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/ckwy8gj013elo",
+          "title": "Motorcycle catch: Man who caught a cricket ball on a moving vehicle found",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "4e76081f01a40e86c2d545ff"
+        },
+        {
+          "id": "news-4e76081f01a40e86c2d545ff-1",
+          "url": "https://www.bbc.com/sport/cricket/videos/cwx2e0g93l3eo",
+          "title": "Passenger on motorbike makes remarkable one-handed catch in Pakistan",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "4e76081f01a40e86c2d545ff"
+        },
+        {
+          "id": "news-4e76081f01a40e86c2d545ff-2",
+          "url": "https://www.skysports.com/cricket/video/13616780/swat-premier-league-man-takes-incredible-catch-on-a-motorbike",
+          "title": "Swat Premier League: Man takes incredible catch... on a motorbike!",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:20:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "4e76081f01a40e86c2d545ff"
         }
       ]
     },
@@ -128106,63 +128124,6 @@
           "observedAt": "2026-11-15T07:00:00Z",
           "fetchedAt": "2026-11-15T07:52:58Z",
           "observationId": "87cc9e183e2014d81edfc854"
-        }
-      ]
-    },
-    {
-      "topicId": "topic-e1b752bea988494db2542801",
-      "inputHash": "b23fc31c3fab103a8a4d436de0877b646e5df53db35f9bb7a1a1426429b4318f",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-c33637882773f73f87d4aa47",
-          "url": "https://trends.google.com/trending/rss?geo=KR",
-          "title": "압구정동",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "c33637882773f73f87d4aa47"
-        },
-        {
-          "id": "news-c33637882773f73f87d4aa47-0",
-          "url": "https://www.news1.kr/realestate/general/6334804",
-          "title": "압구정 24억·은마 5억 낮게 팔렸다…강남3구 토허 신청 51%↑",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "c33637882773f73f87d4aa47"
-        },
-        {
-          "id": "news-c33637882773f73f87d4aa47-1",
-          "url": "https://www.donga.com/news/Economy/article/all/20261027/134920030/2",
-          "title": "압구정 재건축 20억 이상 하락 거래 잇따라",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "c33637882773f73f87d4aa47"
-        },
-        {
-          "id": "news-c33637882773f73f87d4aa47-2",
-          "url": "https://www.mk.co.kr/news/realestate/12188044",
-          "title": "반포자이 60억원·압구정 신현대9차 55억 9천만원… 서울 아파트 고가 거래 [MAI부동산]",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "c33637882773f73f87d4aa47"
         }
       ]
     },
@@ -134740,63 +134701,6 @@
       ]
     },
     {
-      "topicId": "topic-eef492797e2f90b898273be6",
-      "inputHash": "ad5b032f88a3952e6a44eb089afff4f02d15cd5c74330cdd42965f96d76565a8",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-8a43e6f217a090f5aa3f9fca",
-          "url": "https://trends.google.com/trending/rss?geo=JP",
-          "title": "大山悠輔",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "8a43e6f217a090f5aa3f9fca"
-        },
-        {
-          "id": "news-8a43e6f217a090f5aa3f9fca-0",
-          "url": "https://news.yahoo.co.jp/articles/54b5a091312c45b8ce2c8d5d3664db878f8fc845",
-          "title": "「超人」糸井嘉男さんが出身地の応援大使に「ここの水はプロテインもおいしくしてくれる」…地元特産・丹後ちりめんの着物姿で登場（読売新聞オンライン）",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "8a43e6f217a090f5aa3f9fca"
-        },
-        {
-          "id": "news-8a43e6f217a090f5aa3f9fca-1",
-          "url": "https://mainichi.jp/articles/20261027/k00/00m/310/026000c",
-          "title": "「超人」糸井嘉男さんがふるさと大使に 力士サイズの着物で登場",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "8a43e6f217a090f5aa3f9fca"
-        },
-        {
-          "id": "news-8a43e6f217a090f5aa3f9fca-2",
-          "url": "https://www.47news.jp/15147317.html",
-          "title": "元山飛優、米球界挑戦の同僚・佐藤輝明に本音をポロリ ファン感涙「こんなん泣くて」「ホンマそれ！！！」",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "8a43e6f217a090f5aa3f9fca"
-        }
-      ]
-    },
-    {
       "topicId": "topic-ef13afa3b1d5d9010c77bc99",
       "inputHash": "16685246b4db5376fe0917ac0a039b7b6568fd42a8aae33320a466fe7c93ed28",
       "generatedAt": "",
@@ -135253,63 +135157,6 @@
       ]
     },
     {
-      "topicId": "topic-eff785e101233e458baae17d",
-      "inputHash": "98576031b6c5be6e6992fdba693df349195f205b70b3df1701b641883447517c",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-077b5f5e50033fec0ff0d085",
-          "url": "https://trends.google.com/trending/rss?geo=JP",
-          "title": "空間 再現 ディスプレイ",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "077b5f5e50033fec0ff0d085"
-        },
-        {
-          "id": "news-077b5f5e50033fec0ff0d085-0",
-          "url": "https://www.famitsu.com/article/202610/92291",
-          "title": "ソニーが裸眼で楽しめる空間再現ディスプレイ“ELF-MN1”を発表。アクリルスタンド採用の小型6インチモデル5.4万円で12月11日発売",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "077b5f5e50033fec0ff0d085"
-        },
-        {
-          "id": "news-077b5f5e50033fec0ff0d085-1",
-          "url": "https://prtimes.jp/main/html/rd/p/000000386.000074603.html",
-          "title": "Gugenkaのデジタルフィギュアサービス「ホロモデル」、ソニーの空間再現ディスプレイ『ELF-MN1』に対応",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "077b5f5e50033fec0ff0d085"
-        },
-        {
-          "id": "news-077b5f5e50033fec0ff0d085-2",
-          "url": "https://www.nikkei.com/article/DGXZQOUC274LN0X21C26A0000000/",
-          "title": "ソニー、撮影物の3D再現サービス ゲームや映像制作を効率化",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "077b5f5e50033fec0ff0d085"
-        }
-      ]
-    },
-    {
       "topicId": "topic-f01f8f432e53f06f47532b37",
       "inputHash": "a4b2730ebbed0e3a2650a8a012d1b5483387558d9a8421fdfe0d8be9e42c3ace",
       "generatedAt": "",
@@ -135739,6 +135586,63 @@
       ]
     },
     {
+      "topicId": "topic-f0dc8adbbf3e73a725127036",
+      "inputHash": "2d9464ae3ca60cd7b6d0c42a2937f0f615607d0abef8f3d99046961cb7d118dc",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-1d87ce73bfbc13c242c8de64",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "박홍근",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T06:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "1d87ce73bfbc13c242c8de64"
+        },
+        {
+          "id": "news-1d87ce73bfbc13c242c8de64-0",
+          "url": "https://imnews.imbc.com/news/2026/politics/article/6869115_36911.html",
+          "title": "서영교·박홍근 뜻밖의 충돌‥\"답변 태도에 문제\" \"여기가 상원인가\"",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T06:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "1d87ce73bfbc13c242c8de64"
+        },
+        {
+          "id": "news-1d87ce73bfbc13c242c8de64-1",
+          "url": "https://www.donga.com/news/Politics/article/all/20261127/135103674/1",
+          "title": "서영교에 목청 높인 박홍근 “법사위 그동안 제대로 작동 안돼”",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T06:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "1d87ce73bfbc13c242c8de64"
+        },
+        {
+          "id": "news-1d87ce73bfbc13c242c8de64-2",
+          "url": "https://www.gukjenews.com/news/articleView.html?idxno=3765399",
+          "title": "의원 질의에 답변하는 형일 부총리 겸 재정경제부 장관",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T06:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "1d87ce73bfbc13c242c8de64"
+        }
+      ]
+    },
+    {
       "topicId": "topic-f11c75eb875fab2a8b855358",
       "inputHash": "25ae879322f83377118a10c5f2e14363aaa3402ecdbcbba29f8de6da247eea51",
       "generatedAt": "",
@@ -135885,6 +135789,111 @@
           "observedAt": "2026-11-19T08:10:00Z",
           "fetchedAt": "2026-11-19T08:49:46Z",
           "observationId": "7c046f5e6d6663c2b10608f0"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-f13ad1f5ce36688e96c526eb",
+      "inputHash": "7393b0af6c383f274290c0f70b3d88d07f5cea4506e562301aa868bfce0560c4",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-215d6f86f10b0d5ec5323362",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "jamie overton",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "215d6f86f10b0d5ec5323362"
+        },
+        {
+          "id": "news-215d6f86f10b0d5ec5323362-0",
+          "url": "https://www.theguardian.com/sport/live/2026/nov/27/australia-v-england-third-mens-twenty20-international-live?page=with:block-6b094c338f083b1cd83aa125",
+          "title": "Australia v England: third men’s Twenty20 international – live",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "215d6f86f10b0d5ec5323362"
+        },
+        {
+          "id": "news-215d6f86f10b0d5ec5323362-1",
+          "url": "https://www.telegraph.co.uk/cricket/2026/11/27/australia-v-england-score-and-updates-from-third-t20/",
+          "title": "Australia v England: Score and latest third T20 updates",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "215d6f86f10b0d5ec5323362"
+        },
+        {
+          "id": "news-215d6f86f10b0d5ec5323362-2",
+          "url": "https://www.wvnews.com/sports/pro/australia-england-cricket/image_096a9f01-bb26-52fe-8474-73ea50348c51.html",
+          "title": "Australia England Cricket",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "215d6f86f10b0d5ec5323362"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-f13bc282ba334efbf99b04d3",
+      "inputHash": "c5f5317edfcfef4b403ee12a0ef72f1a171886efb78064f5d0cd4d25c0ea97da",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-bc3b74ed678848f3a5d6b981",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "あちこちオードリーオンラインライブ",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "bc3b74ed678848f3a5d6b981"
+        },
+        {
+          "id": "news-bc3b74ed678848f3a5d6b981-0",
+          "url": "https://www.oricon.co.jp/news/2495469/embed/photo/?anc=148",
+          "title": "『あちこちオードリー』2年ぶりオンラインライブは“史上初”の漫才企画「むき身で作ることができる」 【オードリー&佐久間P独占インタビュー】",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "bc3b74ed678848f3a5d6b981"
+        },
+        {
+          "id": "news-bc3b74ed678848f3a5d6b981-1",
+          "url": "https://news.yahoo.co.jp/articles/44282062cdff33bf27becd9107e4289f09e6fd10?page=3",
+          "title": "『あちこちオードリー』2年ぶりオンラインライブは“史上初”の漫才企画「むき身で作ることができる」 【オードリー＆佐久間P独占インタビュー】（オリコン）",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "bc3b74ed678848f3a5d6b981"
         }
       ]
     },
@@ -137055,63 +137064,6 @@
           "observedAt": "2026-11-03T05:30:00Z",
           "fetchedAt": "2026-11-03T07:56:39Z",
           "observationId": "9258bd5bf52458c4f8a1d42b"
-        }
-      ]
-    },
-    {
-      "topicId": "topic-f3d3e2e2209274e7319c153c",
-      "inputHash": "c2e4f34142368fcec1e0643f0db7fad0bac52123c2bc2762bdbdf70df573671d",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-882fb824d0d7dd3632a9fc7e",
-          "url": "https://trends.google.com/trending/rss?geo=KR",
-          "title": "주호민",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "882fb824d0d7dd3632a9fc7e"
-        },
-        {
-          "id": "news-882fb824d0d7dd3632a9fc7e-0",
-          "url": "https://www.munhwa.com/article/11626957",
-          "title": "“감사함을 모르고 통수” 유튜버 상대 소송한 주호민, 패소",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "882fb824d0d7dd3632a9fc7e"
-        },
-        {
-          "id": "news-882fb824d0d7dd3632a9fc7e-1",
-          "url": "https://www.mt.co.kr/society/2026/10/28/2026102723360016284",
-          "title": "\"갑질 부부\" 뻑가에 3500만원 손배소…주호민 부부 패소 - 머니투데이",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "882fb824d0d7dd3632a9fc7e"
-        },
-        {
-          "id": "news-882fb824d0d7dd3632a9fc7e-2",
-          "url": "https://www.fnnews.com/news/202610272207130092",
-          "title": "\"3500만원 배상하라\"…주호민 부부, 유튜버 뻑가 상대 소송 패소",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T04:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "882fb824d0d7dd3632a9fc7e"
         }
       ]
     },
@@ -138455,7 +138407,7 @@
     },
     {
       "topicId": "topic-f78583023b02d56db3756e7b",
-      "inputHash": "1079a65e931f5a861b89404a54620bcead1d9dcc1c74855c05c0efea64dca429",
+      "inputHash": "3247a41324cd05cea4006675c909e020f14c2bfb55dff02decb1e9eedc5f9cdd",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -138570,6 +138522,42 @@
           "observedAt": "2026-11-21T08:00:00Z",
           "fetchedAt": "2026-11-21T08:18:16Z",
           "observationId": "2d23521af7d45e791d58cc84"
+        },
+        {
+          "id": "obs-ee452ffbd54b9f222373a83b",
+          "url": "https://trends.google.com/trending/rss?geo=US",
+          "title": "aus vs eng",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "ee452ffbd54b9f222373a83b"
+        },
+        {
+          "id": "news-ee452ffbd54b9f222373a83b-0",
+          "url": "https://www.bbc.co.uk/sport/cricket/live/cwylrwj2zd9t",
+          "title": "Australia vs England LIVE: Third T20, Brisbane - cricket score, commentary & updates",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "ee452ffbd54b9f222373a83b"
+        },
+        {
+          "id": "news-ee452ffbd54b9f222373a83b-1",
+          "url": "https://www.cricinfo.com/series/england-in-australia-2026-27-1528677/australia-vs-england-3rd-t20i-1528708/match-preview",
+          "title": "England return to the Gabbatoir with onus on Australia to bounce back",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "ee452ffbd54b9f222373a83b"
+        },
+        {
+          "id": "news-ee452ffbd54b9f222373a83b-2",
+          "url": "https://www.bbc.com/sport/cricket/articles/cw1mdzn9dzpzo",
+          "title": "The England opening batting pair made in Wales",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T07:50:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "ee452ffbd54b9f222373a83b"
         }
       ]
     },
@@ -138631,8 +138619,8 @@
       ]
     },
     {
-      "topicId": "topic-f7bb31ef1b0281d11f3550e3",
-      "inputHash": "97c61a04499434bec8218fe5aac6bbbbfd26a99c1eb7a581908dca28b89e3c6a",
+      "topicId": "topic-f7d1e43f5cc367b8cb61985b",
+      "inputHash": "a7e236811f506b2f9b3eaceccbc14de9e72dbe81961f264740314a29baf82dd8",
       "generatedAt": "",
       "provider": "none",
       "model": "",
@@ -138650,40 +138638,40 @@
       ],
       "evidence": [
         {
-          "id": "obs-db4e6de02526a91d11b8acba",
-          "url": "https://trends.google.com/trending/rss?geo=GB",
-          "title": "native hawaiians",
+          "id": "obs-10d0b148de9569692cc4ccc4",
+          "url": "https://trends.google.com/trending/rss?geo=KR",
+          "title": "최휘영",
           "source": "google-trends",
-          "observedAt": "2026-10-28T04:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "db4e6de02526a91d11b8acba"
+          "observedAt": "2026-11-27T06:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "10d0b148de9569692cc4ccc4"
         },
         {
-          "id": "news-db4e6de02526a91d11b8acba-0",
-          "url": "https://www.sciencealert.com/scientists-have-discovered-where-native-hawaiians-came-from-and-the-genetic-effect-of-their-long-voyage",
-          "title": "Scientists Have Discovered Where Native Hawaiians Came From, And The Genetic Effect of Their Long Voyage",
+          "id": "news-10d0b148de9569692cc4ccc4-0",
+          "url": "https://imnews.imbc.com/news/2026/politics/article/6869093_36911.html",
+          "title": "이 대통령, 최휘영 '교체 기습 통보' 보도에 정정 요구",
           "source": "google-trends",
-          "observedAt": "2026-10-28T04:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "db4e6de02526a91d11b8acba"
+          "observedAt": "2026-11-27T06:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "10d0b148de9569692cc4ccc4"
         },
         {
-          "id": "news-db4e6de02526a91d11b8acba-1",
-          "url": "https://www.civilbeat.org/2026/10/health-of-polynesians-overlooked-in-buzz-over-study/",
-          "title": "Makana Eyre: Polynesian Health Overlooked In Buzz Over Landmark Study",
+          "id": "news-10d0b148de9569692cc4ccc4-1",
+          "url": "https://news.jtbc.co.kr/article/NB12330170",
+          "title": "이 대통령, 최휘영 ‘기습 교체 통보’ 보도에 \"명예훼손 정정해야\"",
           "source": "google-trends",
-          "observedAt": "2026-10-28T04:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "db4e6de02526a91d11b8acba"
+          "observedAt": "2026-11-27T06:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "10d0b148de9569692cc4ccc4"
         },
         {
-          "id": "news-db4e6de02526a91d11b8acba-2",
-          "url": "https://scitechdaily.com/a-1000-year-old-dna-mystery-links-hawaii-and-easter-island-and-reveals-hidden-genetic-dangers/",
-          "title": "A 1,000-Year-Old DNA Mystery Links Hawaii and Easter Island and Reveals Hidden Genetic Dangers",
+          "id": "news-10d0b148de9569692cc4ccc4-2",
+          "url": "https://www.yna.co.kr/view/AKR20261127097000001",
+          "title": "李대통령, '문체장관에 교체 기습통보' 언론 보도에 \"정정해야\"",
           "source": "google-trends",
-          "observedAt": "2026-10-28T04:10:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "db4e6de02526a91d11b8acba"
+          "observedAt": "2026-11-27T06:40:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "10d0b148de9569692cc4ccc4"
         }
       ]
     },
@@ -139153,63 +139141,6 @@
       ]
     },
     {
-      "topicId": "topic-f9022ed90393ab47e53de97d",
-      "inputHash": "62f494bd93660b181e0e50a13a82a317405283c7aa38da67c2e01a86f5fea18d",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-b97c7b2a45f78403401ede36",
-          "url": "https://trends.google.com/trending/rss?geo=KR",
-          "title": "청주국제공항",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "b97c7b2a45f78403401ede36"
-        },
-        {
-          "id": "news-b97c7b2a45f78403401ede36-0",
-          "url": "https://www.traveltimes.co.kr/news/articleView.html?idxno=500620",
-          "title": "일본·중국만 웃는 동계 항공시장…증편 속 감편의 역설",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "b97c7b2a45f78403401ede36"
-        },
-        {
-          "id": "news-b97c7b2a45f78403401ede36-1",
-          "url": "https://www.jjan.kr/article/20261028500026",
-          "title": "군산~제주 항공편 줄었는데···전북도는 “편의 향상” 황당 발표",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "b97c7b2a45f78403401ede36"
-        },
-        {
-          "id": "news-b97c7b2a45f78403401ede36-2",
-          "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1335316",
-          "title": "한국공항공사, 올해 지방공항 국제선 ‘역대 최대’…여객실적 최대치도 경신",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:40:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "b97c7b2a45f78403401ede36"
-        }
-      ]
-    },
-    {
       "topicId": "topic-f91576ce19e14ecb130b12e1",
       "inputHash": "746d7647b63413a226b12df4f857638f0f90afafb9be5a76b7c159ae14232ae9",
       "generatedAt": "",
@@ -139578,63 +139509,6 @@
           "observedAt": "2026-11-12T20:10:00Z",
           "fetchedAt": "2026-11-12T20:50:29Z",
           "observationId": "5d9e391d71ba4a91b043cd68"
-        }
-      ]
-    },
-    {
-      "topicId": "topic-f99159452c75c35644ca8f1d",
-      "inputHash": "aa3cc1ec3cbfe8ae2e567e43d77a53564966dfbc3de2d21cfaacb194c7b8d89b",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-1dc6890a44dd3b79ba0d5283",
-          "url": "https://trends.google.com/trending/rss?geo=GB",
-          "title": "jools oliver",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "1dc6890a44dd3b79ba0d5283"
-        },
-        {
-          "id": "news-1dc6890a44dd3b79ba0d5283-0",
-          "url": "https://www.thetimes.com/life-style/health-fitness/article/late-adhd-diagnosis-ruined-my-life-rspqnn2s3",
-          "title": "Like Jools Oliver, a late ADHD diagnosis ruined my life. I was 36",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "1dc6890a44dd3b79ba0d5283"
-        },
-        {
-          "id": "news-1dc6890a44dd3b79ba0d5283-1",
-          "url": "https://www.independent.co.uk/arts-entertainment/tv/news/jamie-oliver-wife-jools-diagnosis-adhd-autism-b3073892.html",
-          "title": "Jamie Oliver’s wife Jools says not knowing she had ADHD ‘ruined’ life for 45 years",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "1dc6890a44dd3b79ba0d5283"
-        },
-        {
-          "id": "news-1dc6890a44dd3b79ba0d5283-2",
-          "url": "https://www.perthnow.com.au/lifestyle/jamie-olivers-wife-jools-reveals-autism-and-adhd-diagnosis-i-just-think-its-quite-draining-c-23076746",
-          "title": "Jamie Oliver’s wife makes shocking health revelation",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T05:30:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "1dc6890a44dd3b79ba0d5283"
         }
       ]
     },
@@ -140656,63 +140530,6 @@
       ]
     },
     {
-      "topicId": "topic-fbb881b4050e68fd7558600e",
-      "inputHash": "2130e0322d556295ff38eb5eefb6f1c77697246e945ba3f86d8e5c5852c6afe8",
-      "generatedAt": "",
-      "provider": "none",
-      "model": "",
-      "status": "unavailable",
-      "overview": {
-        "text": "この話題のAI解説はまだ生成されていません。",
-        "kind": "interpretation",
-        "evidenceIds": []
-      },
-      "contexts": [],
-      "attention": null,
-      "marketing": null,
-      "caveats": [
-        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
-      ],
-      "evidence": [
-        {
-          "id": "obs-00847046d40bea3e6dd28ab4",
-          "url": "https://trends.google.com/trending/rss?geo=US",
-          "title": "seth mcgowan",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "00847046d40bea3e6dd28ab4"
-        },
-        {
-          "id": "news-00847046d40bea3e6dd28ab4-0",
-          "url": "https://www.fantasylife.com/articles/fantasy/running-back-handcuffs-update-for-week-8",
-          "title": "Running Back Handcuffs Update for Week 8: Is Seth McGowan's Time Coming?",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "00847046d40bea3e6dd28ab4"
-        },
-        {
-          "id": "news-00847046d40bea3e6dd28ab4-1",
-          "url": "https://www.4for4.com/2026/w8/11-fantasy-football-stash-candidates-ahead-week-8",
-          "title": "11 Fantasy Football Stash Candidates Ahead of Week 8",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "00847046d40bea3e6dd28ab4"
-        },
-        {
-          "id": "news-00847046d40bea3e6dd28ab4-2",
-          "url": "https://www.fanduel.com/research/stash-list-4-players-to-stash-in-fantasy-football-entering-nfl-week-8",
-          "title": "Stash List: 4 Players to Stash in Fantasy Football Entering NFL Week 8",
-          "source": "google-trends",
-          "observedAt": "2026-10-28T06:20:00Z",
-          "fetchedAt": "2026-10-28T06:52:51Z",
-          "observationId": "00847046d40bea3e6dd28ab4"
-        }
-      ]
-    },
-    {
       "topicId": "topic-fbcd7a19c5e5df4438774dfb",
       "inputHash": "450f43a51dc5728ff01d5221863621e2472b537d36fa280070dcc34249f550ec",
       "generatedAt": "",
@@ -141718,6 +141535,63 @@
       ]
     },
     {
+      "topicId": "topic-fe703c6c09a1a8d73f01d561",
+      "inputHash": "c8bec0628debd67ff5c8ec43dec64aa1c5407ff34c66190e07f5ec1c824fc4c2",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-68dae6699e8358b51320f808",
+          "url": "https://trends.google.com/trending/rss?geo=JP",
+          "title": "27時間テレビ",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "68dae6699e8358b51320f808"
+        },
+        {
+          "id": "news-68dae6699e8358b51320f808-0",
+          "url": "https://news.yahoo.co.jp/pickup/6604207",
+          "title": "27時間テレビ 来夏に3年ぶり復活",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "68dae6699e8358b51320f808"
+        },
+        {
+          "id": "news-68dae6699e8358b51320f808-1",
+          "url": "https://mainichi.jp/articles/20261127/orc/00m/200/159000c",
+          "title": "オリコンニュース：フジ清水社長、来年夏の『FNS27時間テレビ』放送を明言 3年ぶりに復活へ…1987年の放送開始から40年の節目「フジテレビ復活の1つの起爆剤として」",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "68dae6699e8358b51320f808"
+        },
+        {
+          "id": "news-68dae6699e8358b51320f808-2",
+          "url": "https://www.sankei.com/article/20261127-IPTSUMVM3FN25H2266VGCR5GLQ/?outputType=asynd",
+          "title": "フジテレビ「FNS27時間テレビ」を来年夏に再開 40周年で清水賢治社長「復活の起爆剤」",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:10:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "68dae6699e8358b51320f808"
+        }
+      ]
+    },
+    {
       "topicId": "topic-fe8138deb76b856883be6d54",
       "inputHash": "ca4e2befa537a223cb7bf403b6da02fb5fabec2624789515b8a602276ac2958a",
       "generatedAt": "",
@@ -142056,6 +141930,63 @@
           "observedAt": "2026-11-22T07:10:00Z",
           "fetchedAt": "2026-11-22T08:00:35Z",
           "observationId": "b8ffbd784b1fe92619cc0fc1"
+        }
+      ]
+    },
+    {
+      "topicId": "topic-ffa7a6d7b4f56da0b7bda6f8",
+      "inputHash": "9be1b8d20d583e395bc5f11a997174da5383126df693e58aecc457fac2cbec17",
+      "generatedAt": "",
+      "provider": "none",
+      "model": "",
+      "status": "unavailable",
+      "overview": {
+        "text": "この話題のAI解説はまだ生成されていません。",
+        "kind": "interpretation",
+        "evidenceIds": []
+      },
+      "contexts": [],
+      "attention": null,
+      "marketing": null,
+      "caveats": [
+        "新しいAI解説の自動生成用LLMは未接続です。関連記事を直接確認できます。"
+      ],
+      "evidence": [
+        {
+          "id": "obs-95df16aae5e8ec77714de52f",
+          "url": "https://trends.google.com/trending/rss?geo=GB",
+          "title": "argos black friday",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:00:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "95df16aae5e8ec77714de52f"
+        },
+        {
+          "id": "news-95df16aae5e8ec77714de52f-0",
+          "url": "https://www.channel3000.com/video/keeping-an-eye-out-for-black-friday-discounts/video_33f6f136-6c00-5d1d-90e3-57f74a99700d.html",
+          "title": "Keeping an eye out for Black Friday discounts",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:00:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "95df16aae5e8ec77714de52f"
+        },
+        {
+          "id": "news-95df16aae5e8ec77714de52f-1",
+          "url": "https://www.worcesternews.co.uk/news/26767847.black-friday-deals-worcester-surrounding-areas/",
+          "title": "Black Friday deals Worcester shoppers can grab on holidays, tech, toys and beauty",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:00:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "95df16aae5e8ec77714de52f"
+        },
+        {
+          "id": "news-95df16aae5e8ec77714de52f-2",
+          "url": "https://www.techradar.com/live/news/argos-black-friday-2026-nov-26",
+          "title": "The Argos Black Friday sale is live — 25 best deals on Shark, Garmin, Sonos, Apple, Sony, Ninja, and more",
+          "source": "google-trends",
+          "observedAt": "2026-11-27T09:00:00Z",
+          "fetchedAt": "2026-11-27T09:41:56Z",
+          "observationId": "95df16aae5e8ec77714de52f"
         }
       ]
     },
